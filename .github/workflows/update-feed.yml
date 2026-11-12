@@ -9,6 +9,7 @@ on:
     paths: ['manual.json', 'channels.json', 'scripts/**', '.github/workflows/update-feed.yml']
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: update-feed
   cancel-in-progress: false
@@ -24,6 +25,8 @@ jobs:
       - run: npm install --no-audit --no-fund
       - run: npx playwright install --with-deps chromium
       - run: node scripts/build-feed.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if anything changed
         run: |
           git config user.name "asbh-feed-bot"

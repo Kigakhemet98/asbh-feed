@@ -303,7 +303,8 @@ async function azamtv() {
 
 /* ---------- fixtures (real kick-off times) used to confirm StarTimes / CANAL+ slots ---------- */
 const LEAGUES = [[47, 'Premier League'], [87, 'LaLiga'], [55, 'Serie A'], [54, 'Bundesliga'], [53, 'Ligue 1'], [42, 'UEFA Champions League'], [73, 'UEFA Europa League'],
-  [536, 'Saudi Pro League'], [132, 'FA Cup'], [133, 'EFL Cup'], [138, 'Copa del Rey'], [141, 'Coppa Italia'], [209, 'DFB Pokal'], [9806, 'UEFA Nations League']];
+  [536, 'Saudi Pro League'], [132, 'FA Cup'], [133, 'EFL Cup'], [138, 'Copa del Rey'], [141, 'Coppa Italia'], [209, 'DFB Pokal'], [9806, 'UEFA Nations League'],
+  [130, 'MLS'], [290, 'AFC Asian Cup']];
 async function fixtures() {
   const out = [];
   for (const [id, name] of LEAGUES) {
@@ -318,6 +319,87 @@ async function fixtures() {
   return { events: out };
 }
 
+/* ---------- Apple TV: every MLS match (2026 →), MLB Friday Night Baseball ---------- */
+async function mlbApple() {
+  const s = new Date(NOW).toISOString().slice(0, 10), e = new Date(NOW + DAYS * 864e5).toISOString().slice(0, 10);
+  const j = await get(`https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=${s}&endDate=${e}&hydrate=broadcasts(all),team`);
+  const out = [];
+  for (const d of j.dates || []) for (const g of d.games || []) {
+    const b = (g.broadcasts || []).map((x) => x.name || '').join(' | ');
+    if (!/apple/i.test(b)) continue;
+    const t = Date.parse(g.gameDate); if (!inWindow(t)) continue;
+    out.push({ start: iso(t), duration: 190, sport: 'mlb', comp: 'MLB · Friday Night Baseball', detail: `${g.teams.away.team.name} @ ${g.teams.home.team.name}`, channels: ['apple-tv'], status: 'L', via: 'MLB schedule (Apple TV)' });
+  }
+  return { events: out };
+}
+
+/* ---------- rights watch: African broadcasters on the MLB and AFC "where to watch" pages ----------
+ * Known broadcasters map onto the apps' providers; a broadcaster not seen before is added over the air
+ * (provider + "channel TBA" + rights rule) and a GitHub issue is opened so it can be checked. */
+const AFRICA = /algeria|angola|benin|botswana|burkina|burundi|cameroon|cape verde|cabo verde|central african|chad|comoros|congo|c[oô]te d.?ivoire|djibouti|egypt|equatorial guinea|eritrea|eswatini|swaziland|ethiopia|gabon|gambia|ghana|guinea|kenya|lesotho|liberia|libya|madagascar|malawi|mali\b|mauritania|mauritius|mayotte|morocco|mozambique|namibia|niger|nigeria|r[ée]union|rwanda|s[aã]o tom[ée]|senegal|seychelles|sierra leone|somalia|south africa|sudan|tanzania|togo|tunisia|uganda|zambia|zanzibar|zimbabwe|western sahara|pan africa|sub-saharan|africa\b/i;
+const KNOWN = [[/espn/i, 'espn'], [/bein.*france/i, 'beinfr'], [/bein/i, 'bein'], [/azam/i, 'azam'], [/startimes/i, 'startimes'], [/supersport|dstv|multichoice/i, 'supersport'],
+  [/canal\+?|canal plus/i, 'canalplus'], [/new world/i, 'nws'], [/apple/i, 'appletv'], [/dazn/i, 'dazn'], [/\bzap\b/i, 'zap'], [/sporty/i, 'sportytv']];
+const WATCH = [
+  { key: 'mlb', label: 'MLB', url: 'https://www.mlb.com/postseason/international-broadcasters', sport: 'mlb', comp: '^mlb\\b|major league baseball|world series', kind: 'mlb' },
+  { key: 'afc', label: 'AFC competitions', url: 'https://www.the-afc.com/en/more/content/2903007.html', sport: 'football', comp: 'afc asian cup|^asian cup|afc champions league|^acl\\b|afc cup', kind: 'afc' },
+  { key: 'afc-asian-cup', label: 'AFC Asian Cup', url: 'https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html', sport: 'football', comp: 'afc asian cup|^asian cup', kind: 'afc' }
+];
+const cell = (h) => strip(h || '');
+function parseRights(html, kind) {
+  const rows = [];
+  if (kind === 'mlb') {
+    for (const t of html.split(/<table/i).slice(1)) {
+      const region = cell((/<th[^>]*>([\s\S]*?)<\/th>/i.exec(t) || [])[1]);
+      for (const r of t.split(/<tr/i).slice(1)) {
+        const td = [...r.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map((m) => m[1]); if (td.length < 3) continue;
+        const terr = cell(td[2]); if (!AFRICA.test(region + ' ' + terr)) continue;
+        for (const name of cell(td[1]).split(/,| and | & /).map((x) => x.trim()).filter(Boolean)) rows.push({ name, url: '', territories: terr, region });
+      }
+    }
+  } else {
+    const africa = html.split(/<h2[^>]*>\s*Africa\s*<\/h2>/i)[1]; const scope = africa ? africa.split(/<h2/i)[0] : html;
+    for (const r of scope.split(/<tr/i).slice(1)) {
+      const td = [...r.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map((m) => m[1]); if (td.length < 2) continue;
+      const terr = cell(td[0]); if (!AFRICA.test(terr)) continue;
+      for (const a of td[1].matchAll(/<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)) { const alt = (/alt="([^"]*)"/i.exec(a[2]) || [])[1] || cell(a[2]) || a[1]; rows.push({ name: alt.trim(), url: a[1], territories: terr, region: 'Africa' }); }
+    }
+  }
+  return rows;
+}
+async function rightsWatch(prev) {
+  const watch = {}; const providers = []; const channels = []; const rights = []; const newOnes = [];
+  for (const w of WATCH) {
+    try {
+      const rows = parseRights(await get(w.url, { type: 'text' }), w.kind);
+      const list = rows.map((r) => ({ ...r, provider: (KNOWN.find(([re]) => re.test(r.name)) || [])[1] || null }));
+      for (const r of list) {
+        if (r.provider) continue;
+        const id = 'x-' + slug(r.name).replace(/ /g, '-').slice(0, 30); r.provider = id;
+        if (!providers.some((p) => p.id === id)) {
+          providers.push({ id, name: r.name, note: `${w.label} rights · ${r.territories.slice(0, 80)}`, bg: '#222222', fg: '#ffffff', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], url: r.url || w.url });
+          channels.push({ id: id + '-tbc', provider: id, name: `${r.name} (channel TBA)`, short: r.name });
+        }
+        rights.push({ label: `${w.label} – ${r.name}`, sport: w.sport, comp: w.comp, channels: [id + '-tbc'] });
+        const seenBefore = ((prev[w.key] || {}).rows || []).some((x) => x.name === r.name);
+        if (!seenBefore) newOnes.push(`${w.label}: **${r.name}** – ${r.territories}`);
+      }
+      watch[w.key] = { ok: true, checked: new Date().toISOString(), url: w.url, rows: list };
+    } catch (e) { watch[w.key] = Object.assign({}, prev[w.key] || {}, { ok: false, error: String(e.message || e).slice(0, 120), checked: new Date().toISOString() }); }
+  }
+  /* known providers that appear for the first time for a competition are reported too */
+  for (const w of WATCH) for (const r of (watch[w.key] || {}).rows || []) {
+    if (!((prev[w.key] || {}).rows || []).length) continue;
+    if (!((prev[w.key] || {}).rows || []).some((x) => x.name === r.name) && !newOnes.some((n) => n.includes(r.name))) newOnes.push(`${w.label}: **${r.name}** – ${r.territories}`);
+  }
+  if (newOnes.length && process.env.GITHUB_TOKEN && process.env.GITHUB_REPOSITORY) {
+    try {
+      await fetch(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/issues`, { method: 'POST', headers: { authorization: 'Bearer ' + process.env.GITHUB_TOKEN, accept: 'application/vnd.github+json', 'content-type': 'application/json', 'user-agent': 'asbh-feed' },
+        body: JSON.stringify({ title: 'New African broadcaster listed', body: 'The rights watch found broadcaster(s) not listed before:\n\n' + newOnes.map((n) => '- ' + n).join('\n') + '\n\nUnknown names were added to the apps automatically with a "channel TBA" badge. Add the real channel(s) in `manual.json` if needed.' }) });
+    } catch (e) { log('issue', e.message); }
+  }
+  return { watch, providers, channels, rights };
+}
+
 /* ---------- name matching ---------- */
 const DROP = /^(fc|afc|cf|sc|sfc|bc|cd|ud|sd|rc|rcd|ac|as|ss|sv|vfl|tsg|fk|sk|bk|if|club|1|the|de|w|women|sport|clube?)$/;
 const ALIAS = { 'man utd': 'manchester united', 'man united': 'manchester united', 'man city': 'manchester city', 'spurs': 'tottenham', 'wolves': 'wolverhampton', 'inter': 'internazionale', 'psg': 'paris saint germain',
@@ -330,7 +412,7 @@ const sides = (e) => { if (e.home && e.away) return [e.home, e.away]; const m = 
 const sameMatch = (a, b) => { const s = sides(a), o = sides(b); if (!s || !o) return false; return (sameTeam(s[0], o[0]) && sameTeam(s[1], o[1])) || (sameTeam(s[0], o[1]) && sameTeam(s[1], o[0])); };
 
 /* ---------- run ---------- */
-const SOURCES = { supersport, bein, nws, azam, startimes, canalplus, zap, azamtv };
+const SOURCES = { supersport, bein, nws, azam, startimes, canalplus, zap, azamtv, mlbApple };
 const prevParts = read('state/parts.json', {});
 const parts = {}; const status = {};
 for (const [name, fn] of Object.entries(SOURCES)) {
@@ -348,7 +430,7 @@ const fx = (await fixtures()).events; log('fixtures', fx.length);
 
 /* 1) live events from guides that mark live sport, merged by match */
 const events = [];
-for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws']) for (const e of parts[name].events || []) {
+for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws', 'mlbApple']) for (const e of parts[name].events || []) {
   const t = +new Date(e.start);
   /* same match = same two teams within 4 h (guides disagree on kick-off by up to an hour), or same title within 45 min.
      Sources run in trust order, so the first (SuperSport / beIN) keeps its kick-off time. */
@@ -357,6 +439,13 @@ for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws']) for (const e
     || (!sides(e) && !sides(x) && Math.abs(+new Date(x.start) - t) <= 90 * 60e3 && slug(x.comp || '').split(' ')[0] && slug(x.comp || '').split(' ')[0] === slug(e.comp || '').split(' ')[0])));
   if (twin) { twin.channels = [...new Set(twin.channels.concat(e.channels))]; if (!twin.comp && e.comp) twin.comp = e.comp; twin.via = [...new Set(String(twin.via).split(' · ').concat(e.via))].join(' · '); continue; }
   events.push({ ...e });
+}
+/* every MLS match is on Apple TV; AFC Asian Cup fixtures carry the rights holders' "channel TBA" badges in the apps */
+for (const f of fx.filter((x) => x.comp === 'MLS' || x.comp === 'AFC Asian Cup')) {
+  const tw = events.find((x) => Math.abs(+new Date(x.start) - +new Date(f.start)) <= 4 * 3600e3 && sameMatch(x, f));
+  const add = f.comp === 'MLS' ? ['apple-tv'] : [];
+  if (tw) { tw.channels = [...new Set(tw.channels.concat(add))]; continue; }
+  events.push({ ...f, channels: add, via: f.comp === 'MLS' ? 'MLS fixtures (Apple TV)' : 'AFC fixtures' });
 }
 /* an event without a competition takes it from the fixture list */
 for (const e of events) if (!e.comp) { const f = fx.find((x) => Math.abs(+new Date(x.start) - +new Date(e.start)) <= 45 * 60e3 && sameMatch(x, e)); e.comp = f ? f.comp : (e.sport === 'football' ? 'Football' : ''); }
@@ -407,6 +496,30 @@ const bySport = {}; finalEvents.forEach((e) => (bySport[e.sport] = bySport[e.spo
 for (const [s, l] of Object.entries(bySport)) fs.writeFileSync(path.join(ROOT, 'calendars', s + '.ics'), ics(l, 'Live ' + s + ' · African TV'));
 
 /* ---------- feed.json ---------- */
+const prevWatch = (read('feed.json', {}) || {}).rightsWatch || {};
+const rw = await rightsWatch(prevWatch);
+const RAW = 'https://raw.githubusercontent.com/' + (process.env.GITHUB_REPOSITORY || 'Kigakhemet98/asbh-feed') + '/main/logos/';
+const OTA = {
+  providers: [
+    { id: 'appletv', name: 'Apple TV', note: 'Streaming · every MLS match, Friday Night Baseball (in 100+ countries)', stream: true, bg: '#000000', fg: '#ffffff', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], url: 'https://tv.apple.com', links: [{ label: 'Apple TV', url: 'https://tv.apple.com' }, { label: 'MLS – how to watch', url: 'https://www.mlssoccer.com/how-to-watch/' }] },
+    { id: 'beinfr', abbr: 'beIN', name: 'beIN SPORTS France', note: 'Madagascar · Mauritius · Réunion · Mayotte', bg: '#5b2c8f', fg: '#ffffff', regions: ['indian'], url: 'https://www.beinsports.com/france/' }
+  ].concat(rw.providers),
+  channels: [
+    { id: 'apple-tv', provider: 'appletv', name: 'Apple TV', short: 'Apple TV', wide: true, logos: { light: RAW + 'apple-tv-on-light.png', dark: RAW + 'apple-tv-on-dark.png' } },
+    { id: 'st-tbc', provider: 'startimes', name: 'StarTimes Sports (channel TBA)', short: 'Sports', logo: RAW + 'startimes-star.png' },
+    { id: 'beinfr-tbc', provider: 'beinfr', name: 'beIN SPORTS France (channel TBA)', short: 'France', logo: RAW + 'bein-sports.png' }
+  ].concat(rw.channels),
+  rights: [
+    { label: 'AFC Asian Cup – StarTimes (Sub-Saharan Africa)', sport: 'football', comp: 'afc asian cup|^asian cup', channels: ['st-tbc'] },
+    { label: 'AFC Asian Cup – Azam (East & Southern Africa)', sport: 'football', comp: 'afc asian cup|^asian cup', channels: ['azam-tbc'] },
+    { label: 'AFC Asian Cup – beIN (North Africa)', sport: 'football', comp: 'afc asian cup|^asian cup', channels: ['bein-tbc'] },
+    { label: 'MLS – Apple TV', sport: 'football', comp: '^mls\\b|major league soccer|leagues cup', channels: ['apple-tv'] }
+  ].concat(rw.rights),
+  compLogos: [
+    { comp: '^mls\\b|major league soccer|^leagues cup', logo: { light: RAW + 'mls-on-light.png', dark: RAW + 'mls-on-dark.png' } },
+    { comp: 'afc asian cup|^asian cup', logo: { light: RAW + 'afc-asian-cup.png', dark: RAW + 'afc-asian-cup-on-dark.png' } }
+  ]
+};
 const feed = {
   version: 2,
   name: 'African Sports Broadcast Hub – live feed',
@@ -415,7 +528,12 @@ const feed = {
   sources: status,
   assignments: (manual.assignments || []).concat(auto),
   events: finalEvents.concat(manual.events || []),
-  overrides: manual.overrides || []
+  overrides: manual.overrides || [],
+  providers: OTA.providers.concat(manual.providers || []),
+  channels: OTA.channels.concat(manual.channels || []),
+  rights: OTA.rights.concat(manual.rights || []),
+  compLogos: OTA.compLogos.concat(manual.compLogos || []),
+  rightsWatch: rw.watch
 };
 fs.mkdirSync(path.join(ROOT, 'state'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'state', 'parts.json'), JSON.stringify(parts));
