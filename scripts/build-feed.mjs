@@ -264,7 +264,7 @@ async function canalplus() {
   got.forEach((j) => walk(j, null));
   await debug('canalplus', pg, 'json responses: ' + [...new Set(seenUrls)].join('\n'));
   await pg.context().close();
-  if (!slots.length) throw new Error(/Unexpected Request/.test(await Promise.resolve('')) ? '' : 'CANAL+ blocks automated visits from cloud servers ("Unexpected Request") – use announcements in manual.json');
+  if (!slots.length) throw new Error('CANAL+ blocks automated visits from cloud servers ("Unexpected Request") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list');
   return { slots };
 }
 
