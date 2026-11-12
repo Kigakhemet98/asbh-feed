@@ -1,51 +1,56 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-12T18:13:08.375Z",
+ "updated": "2026-11-12T19:09:07.118Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 357,
-   "at": "2026-11-12T18:11:23.473Z"
+   "at": "2026-11-12T19:07:02.069Z"
   },
   "bein": {
    "ok": true,
    "count": 101,
-   "at": "2026-11-12T18:11:24.932Z"
+   "at": "2026-11-12T19:07:04.597Z"
   },
   "nws": {
    "ok": true,
-   "count": 68,
-   "at": "2026-11-12T18:11:27.314Z"
+   "count": 67,
+   "at": "2026-11-12T19:07:07.186Z"
   },
   "azam": {
    "ok": true,
    "count": 2,
-   "at": "2026-11-12T18:11:34.354Z"
+   "at": "2026-11-12T19:07:16.752Z"
   },
   "startimes": {
    "ok": true,
-   "count": 160,
-   "at": "2026-11-12T18:12:45.600Z"
+   "count": 159,
+   "at": "2026-11-12T19:08:32.809Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-12T18:12:59.248Z"
+   "at": "2026-11-12T19:08:46.501Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-12T18:12:59.271Z"
+   "at": "2026-11-12T19:08:46.599Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-12T18:13:05.611Z"
+   "at": "2026-11-12T19:08:54.044Z"
+  },
+  "mlbApple": {
+   "ok": true,
+   "count": 0,
+   "at": "2026-11-12T19:08:54.223Z"
   }
  },
  "assignments": [
@@ -131,20 +136,6 @@
  ],
  "events": [
   {
-   "start": "2026-11-12T14:50:00.000Z",
-   "end": "2026-11-12T17:00:00.000Z",
-   "sport": "football",
-   "comp": "AFCON 2027 Qualifiers",
-   "detail": "Ghana v Somalia",
-   "channels": [
-    "ss-africa",
-    "ss-maximo-1",
-    "nws-4"
-   ],
-   "status": "L",
-   "via": "SuperSport guide · New World Sport guide (my.t)"
-  },
-  {
    "start": "2026-11-12T15:50:00.000Z",
    "end": "2026-11-12T18:00:00.000Z",
    "sport": "football",
@@ -196,6 +187,18 @@
    "via": "Azam TV Max guide · New World Sport guide (my.t)"
   },
   {
+   "start": "2026-11-12T16:00:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Guinea v Eritrea",
+   "channels": [
+    "nws-3"
+   ],
+   "status": "L",
+   "via": "New World Sport guide (my.t)"
+  },
+  {
    "start": "2026-11-12T16:50:00.000Z",
    "end": "2026-11-12T19:00:00.000Z",
    "sport": "football",
@@ -209,19 +212,6 @@
    ],
    "status": "L",
    "via": "SuperSport guide · New World Sport guide (my.t)"
-  },
-  {
-   "start": "2026-11-12T16:50:00.000Z",
-   "end": "2026-11-12T19:00:00.000Z",
-   "sport": "football",
-   "comp": "AFCON 2027 Qualifiers",
-   "detail": "Guinea v Eritrea",
-   "channels": [
-    "bein-xtra-2",
-    "nws-3"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · New World Sport guide (my.t)"
   },
   {
    "start": "2026-11-12T17:00:00.000Z",
@@ -271,6 +261,18 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
+  },
+  {
+   "start": "2026-11-12T18:00:00.000Z",
+   "end": "2026-11-12T19:35:00.000Z",
+   "sport": "other",
+   "comp": "Padel",
+   "detail": "Premier Padel",
+   "channels": [
+    "bein-8"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide"
   },
   {
    "start": "2026-11-12T18:30:00.000Z",
@@ -494,6 +496,18 @@
   },
   {
    "start": "2026-11-13T00:00:00.000Z",
+   "end": "2026-11-13T04:00:00.000Z",
+   "sport": "boxing",
+   "comp": "Boxing",
+   "detail": "One Friday Fights",
+   "channels": [
+    "bein-9"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide"
+  },
+  {
+   "start": "2026-11-13T00:00:00.000Z",
    "end": "2026-11-13T02:30:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
@@ -501,18 +515,6 @@
    "channels": [
     "bein-english-1",
     "bein-7"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
-   "start": "2026-11-13T00:00:00.000Z",
-   "end": "2026-11-13T04:00:00.000Z",
-   "sport": "boxing",
-   "comp": "Boxing",
-   "detail": "One Friday Fights",
-   "channels": [
-    "bein-9"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -972,18 +974,6 @@
   },
   {
    "start": "2026-11-13T19:00:00.000Z",
-   "end": "2026-11-13T20:50:00.000Z",
-   "sport": "football",
-   "comp": "Handball",
-   "detail": "Chambery v Nimes",
-   "channels": [
-    "bein-xtra-5"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
-   "start": "2026-11-13T19:00:00.000Z",
    "end": "2026-11-13T22:30:00.000Z",
    "sport": "football",
    "comp": "AFCON 2027 Qualifiers",
@@ -994,6 +984,18 @@
    ],
    "status": "L",
    "via": "beIN SPORTS guide · New World Sport guide (my.t)"
+  },
+  {
+   "start": "2026-11-13T19:00:00.000Z",
+   "end": "2026-11-13T20:50:00.000Z",
+   "sport": "football",
+   "comp": "Handball",
+   "detail": "Chambery v Nimes",
+   "channels": [
+    "bein-xtra-5"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide"
   },
   {
    "start": "2026-11-13T19:35:00.000Z",
@@ -1338,18 +1340,6 @@
   },
   {
    "start": "2026-11-14T12:00:00.000Z",
-   "end": "2026-11-14T13:30:00.000Z",
-   "sport": "other",
-   "comp": "Padel",
-   "detail": "Premier Padel",
-   "channels": [
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
-   "start": "2026-11-14T12:00:00.000Z",
    "end": "2026-11-14T14:45:00.000Z",
    "sport": "tennis",
    "comp": "ATP 250",
@@ -1361,14 +1351,26 @@
    "via": "beIN SPORTS guide"
   },
   {
+   "start": "2026-11-14T12:00:00.000Z",
+   "end": "2026-11-14T13:30:00.000Z",
+   "sport": "other",
+   "comp": "Padel",
+   "detail": "Premier Padel",
+   "channels": [
+    "bein-8"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide"
+  },
+  {
    "start": "2026-11-14T12:20:00.000Z",
-   "end": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T14:30:00.000Z",
    "sport": "football",
    "comp": "English League - League Two",
    "detail": "Exeter City v Cheltenham Town",
    "channels": [
-    "bein-english-1",
-    "bein-2"
+    "bein-2",
+    "bein-english-1"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -1575,13 +1577,13 @@
   },
   {
    "start": "2026-11-14T17:20:00.000Z",
-   "end": "2026-11-14T19:30:00.000Z",
+   "end": "2026-11-14T19:35:00.000Z",
    "sport": "football",
    "comp": "English League - League Two",
    "detail": "Fleetwood Town v Tranmere Rovers",
    "channels": [
-    "bein-english-2",
-    "bein-5"
+    "bein-5",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -2169,11 +2171,11 @@
   {
    "start": "2026-11-15T16:00:00.000Z",
    "end": "2026-11-15T18:00:00.000Z",
-   "sport": "other",
-   "comp": "Padel",
-   "detail": "Premier Padel",
+   "sport": "football",
+   "comp": "Handball",
+   "detail": "Aix v Paris",
    "channels": [
-    "bein-8"
+    "bein-sports"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -2181,11 +2183,11 @@
   {
    "start": "2026-11-15T16:00:00.000Z",
    "end": "2026-11-15T18:00:00.000Z",
-   "sport": "football",
-   "comp": "Handball",
-   "detail": "Aix v Paris",
+   "sport": "other",
+   "comp": "Padel",
+   "detail": "Premier Padel",
    "channels": [
-    "bein-sports"
+    "bein-8"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -2243,13 +2245,13 @@
   },
   {
    "start": "2026-11-15T18:00:00.000Z",
-   "end": "2026-11-15T21:25:00.000Z",
+   "end": "2026-11-15T21:15:00.000Z",
    "sport": "football",
    "comp": "NFL- National Football League",
    "detail": "TBC",
    "channels": [
-    "bein-english-2",
-    "bein-5"
+    "bein-5",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -2407,13 +2409,13 @@
   },
   {
    "start": "2026-11-15T21:25:00.000Z",
-   "end": "2026-11-16T00:30:00.000Z",
+   "end": "2026-11-16T00:25:00.000Z",
    "sport": "football",
    "comp": "NFL- National Football League",
    "detail": "TBC",
    "channels": [
-    "bein-8",
-    "bein-english-2"
+    "bein-english-2",
+    "bein-8"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -2838,13 +2840,13 @@
   },
   {
    "start": "2026-11-17T00:00:00.000Z",
-   "end": "2026-11-17T02:30:00.000Z",
+   "end": "2026-11-17T19:35:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
    "detail": "Orlando v Boston",
    "channels": [
-    "bein-english-1",
-    "bein-8"
+    "bein-8",
+    "bein-english-1"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -3024,13 +3026,13 @@
   },
   {
    "start": "2026-11-17T15:50:00.000Z",
-   "end": "2026-11-17T18:00:00.000Z",
+   "end": "2026-11-17T18:30:00.000Z",
    "sport": "football",
    "comp": "AFCON 2027 Qualifiers",
-   "detail": "Guinea-Bissau v Madagascar",
+   "detail": "Togo v Algeria",
    "channels": [
-    "bein-xtra-2",
-    "nws-6"
+    "bein-2",
+    "nws-1"
    ],
    "status": "L",
    "via": "beIN SPORTS guide · New World Sport guide (my.t)"
@@ -3050,13 +3052,26 @@
   },
   {
    "start": "2026-11-17T15:50:00.000Z",
-   "end": "2026-11-17T18:30:00.000Z",
+   "end": "2026-11-17T18:00:00.000Z",
    "sport": "football",
    "comp": "AFCON 2027 Qualifiers",
-   "detail": "Togo v Algeria",
+   "detail": "Sierra Leone v DR Congo",
    "channels": [
-    "bein-2",
-    "nws-1"
+    "bein-xtra-1",
+    "nws-3"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide · New World Sport guide (my.t)"
+  },
+  {
+   "start": "2026-11-17T15:50:00.000Z",
+   "end": "2026-11-17T18:00:00.000Z",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Guinea-Bissau v Madagascar",
+   "channels": [
+    "bein-xtra-2",
+    "nws-6"
    ],
    "status": "L",
    "via": "beIN SPORTS guide · New World Sport guide (my.t)"
@@ -3070,19 +3085,6 @@
    "channels": [
     "bein-1",
     "nws-7"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · New World Sport guide (my.t)"
-  },
-  {
-   "start": "2026-11-17T15:50:00.000Z",
-   "end": "2026-11-17T18:00:00.000Z",
-   "sport": "football",
-   "comp": "AFCON 2027 Qualifiers",
-   "detail": "Sierra Leone v DR Congo",
-   "channels": [
-    "bein-xtra-1",
-    "nws-3"
    ],
    "status": "L",
    "via": "beIN SPORTS guide · New World Sport guide (my.t)"
@@ -3116,13 +3118,13 @@
   },
   {
    "start": "2026-11-17T18:50:00.000Z",
-   "end": "2026-11-17T21:00:00.000Z",
+   "end": "2026-11-17T21:45:00.000Z",
    "sport": "football",
    "comp": "AFCON 2027 Qualifiers",
-   "detail": "Congo v Comoros",
+   "detail": "Mauritania v Burkina Faso",
    "channels": [
-    "bein-xtra-4",
-    "nws-4"
+    "bein-4",
+    "nws-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide · New World Sport guide (my.t)"
@@ -3142,13 +3144,13 @@
   },
   {
    "start": "2026-11-17T18:50:00.000Z",
-   "end": "2026-11-17T21:45:00.000Z",
+   "end": "2026-11-17T21:00:00.000Z",
    "sport": "football",
    "comp": "AFCON 2027 Qualifiers",
-   "detail": "Mauritania v Burkina Faso",
+   "detail": "Congo v Comoros",
    "channels": [
-    "bein-4",
-    "nws-2"
+    "bein-xtra-4",
+    "nws-4"
    ],
    "status": "L",
    "via": "beIN SPORTS guide · New World Sport guide (my.t)"
@@ -3344,8 +3346,8 @@
    "comp": "NBA",
    "detail": "Detroit v San Antonio",
    "channels": [
-    "bein-8",
-    "bein-english-1"
+    "bein-english-1",
+    "bein-8"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -3800,6 +3802,34 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
+  },
+  {
+   "start": "2026-11-20T00:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "MLS",
+   "detail": "Orlando City v FC Cincinnati",
+   "home": "Orlando City",
+   "away": "FC Cincinnati",
+   "channels": [
+    "apple-tv"
+   ],
+   "status": "L",
+   "via": "MLS fixtures (Apple TV)"
+  },
+  {
+   "start": "2026-11-20T03:00:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "MLS",
+   "detail": "Seattle Sounders FC v Real Salt Lake",
+   "home": "Seattle Sounders FC",
+   "away": "Real Salt Lake",
+   "channels": [
+    "apple-tv"
+   ],
+   "status": "L",
+   "via": "MLS fixtures (Apple TV)"
   },
   {
    "start": "2026-11-20T03:45:00.000Z",
@@ -4570,6 +4600,20 @@
    "via": "SuperSport guide"
   },
   {
+   "start": "2026-11-21T19:00:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "MLS",
+   "detail": "New England Revolution v Philadelphia Union",
+   "home": "New England Revolution",
+   "away": "Philadelphia Union",
+   "channels": [
+    "apple-tv"
+   ],
+   "status": "L",
+   "via": "MLS fixtures (Apple TV)"
+  },
+  {
    "start": "2026-11-21T19:30:00.000Z",
    "end": "2026-11-21T21:30:00.000Z",
    "sport": "tennis",
@@ -4666,6 +4710,20 @@
    "via": "SuperSport guide"
   },
   {
+   "start": "2026-11-21T21:00:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "MLS",
+   "detail": "FC Dallas v Portland Timbers",
+   "home": "FC Dallas",
+   "away": "Portland Timbers",
+   "channels": [
+    "apple-tv"
+   ],
+   "status": "L",
+   "via": "MLS fixtures (Apple TV)"
+  },
+  {
    "start": "2026-11-21T22:30:00.000Z",
    "end": "2026-11-22T02:30:00.000Z",
    "sport": "cricket",
@@ -4676,6 +4734,20 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
+  },
+  {
+   "start": "2026-11-21T23:00:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "MLS",
+   "detail": "Inter Miami CF v Columbus Crew",
+   "home": "Inter Miami CF",
+   "away": "Columbus Crew",
+   "channels": [
+    "apple-tv"
+   ],
+   "status": "L",
+   "via": "MLS fixtures (Apple TV)"
   },
   {
    "start": "2026-11-22T00:30:00.000Z",
@@ -5122,5 +5194,181 @@
    "via": "SuperSport guide"
   }
  ],
- "overrides": []
+ "overrides": [],
+ "providers": [
+  {
+   "id": "appletv",
+   "name": "Apple TV",
+   "note": "Streaming · every MLS match, Friday Night Baseball (in 100+ countries)",
+   "stream": true,
+   "bg": "#000000",
+   "fg": "#ffffff",
+   "regions": [
+    "east",
+    "south",
+    "west",
+    "franco",
+    "luso",
+    "mena",
+    "indian"
+   ],
+   "url": "https://tv.apple.com",
+   "links": [
+    {
+     "label": "Apple TV",
+     "url": "https://tv.apple.com"
+    },
+    {
+     "label": "MLS – how to watch",
+     "url": "https://www.mlssoccer.com/how-to-watch/"
+    }
+   ]
+  },
+  {
+   "id": "beinfr",
+   "abbr": "beIN",
+   "name": "beIN SPORTS France",
+   "note": "Madagascar · Mauritius · Réunion · Mayotte",
+   "bg": "#5b2c8f",
+   "fg": "#ffffff",
+   "regions": [
+    "indian"
+   ],
+   "url": "https://www.beinsports.com/france/"
+  }
+ ],
+ "channels": [
+  {
+   "id": "apple-tv",
+   "provider": "appletv",
+   "name": "Apple TV",
+   "short": "Apple TV",
+   "wide": true,
+   "logos": {
+    "light": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/apple-tv-on-light.png",
+    "dark": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/apple-tv-on-dark.png"
+   }
+  },
+  {
+   "id": "st-tbc",
+   "provider": "startimes",
+   "name": "StarTimes Sports (channel TBA)",
+   "short": "Sports",
+   "logo": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/startimes-star.png"
+  },
+  {
+   "id": "beinfr-tbc",
+   "provider": "beinfr",
+   "name": "beIN SPORTS France (channel TBA)",
+   "short": "France",
+   "logo": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/bein-sports.png"
+  }
+ ],
+ "rights": [
+  {
+   "label": "AFC Asian Cup – StarTimes (Sub-Saharan Africa)",
+   "sport": "football",
+   "comp": "afc asian cup|^asian cup",
+   "channels": [
+    "st-tbc"
+   ]
+  },
+  {
+   "label": "AFC Asian Cup – Azam (East & Southern Africa)",
+   "sport": "football",
+   "comp": "afc asian cup|^asian cup",
+   "channels": [
+    "azam-tbc"
+   ]
+  },
+  {
+   "label": "AFC Asian Cup – beIN (North Africa)",
+   "sport": "football",
+   "comp": "afc asian cup|^asian cup",
+   "channels": [
+    "bein-tbc"
+   ]
+  },
+  {
+   "label": "MLS – Apple TV",
+   "sport": "football",
+   "comp": "^mls\\b|major league soccer|leagues cup",
+   "channels": [
+    "apple-tv"
+   ]
+  }
+ ],
+ "compLogos": [
+  {
+   "comp": "^mls\\b|major league soccer|^leagues cup",
+   "logo": {
+    "light": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/mls-on-light.png",
+    "dark": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/mls-on-dark.png"
+   }
+  },
+  {
+   "comp": "afc asian cup|^asian cup",
+   "logo": {
+    "light": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/afc-asian-cup.png",
+    "dark": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/afc-asian-cup-on-dark.png"
+   }
+  }
+ ],
+ "rightsWatch": {
+  "mlb": {
+   "ok": true,
+   "checked": "2026-11-12T19:09:05.335Z",
+   "url": "https://www.mlb.com/postseason/international-broadcasters",
+   "rows": [
+    {
+     "name": "ESPN Africa",
+     "url": "",
+     "territories": "Angola, Benin, Botswana, Burkina Faso, Burundi, Cameroon, Cape Verde*, Central African Republic, Chad*, Comoros, Congo Republic, Cote d&#x27;Ivoire, Democratic Republic of Congo, Djibouti*, Equatorial Guinea, Eritrea, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea Bissau, Kenya, Lesotho, Liberia, Madagascar*, Malawi, Mali, Mauritius*, Mauritania*, Mayotte, Mozambique, Namibia, Niger, Nigeria, Reunion, Rwanda, Sao Tome & Principe, Senegal, Seychelles, Sierra Leone, Somalia*, South Africa, St. Helena, Sudan, South Sudan*, Swaziland, Tanzania, Togo, Uganda, Western Sahara, Zambia, Zanzibar, and Zimbabwe",
+     "region": "PAN AFRICA",
+     "provider": "espn"
+    },
+    {
+     "name": "beIN Sports France",
+     "url": "",
+     "territories": "Andorra*, France, Guadeloupe*, Madagascar*, Martinique*, Mauritius*, Mayotte*, Monaco, Réunion*",
+     "region": "FRANCE",
+     "provider": "beinfr"
+    },
+    {
+     "name": "beIN Sports MENA",
+     "url": "",
+     "territories": "Algeria, Andorra, Bahrain, Chad, Djibouti, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Monaco, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Somalia, South Sudan, Tunisia, United Arab Emirates and Yemen",
+     "region": "MENA",
+     "provider": "bein"
+    }
+   ]
+  },
+  "afc": {
+   "ok": true,
+   "checked": "2026-11-12T19:09:06.367Z",
+   "url": "https://www.the-afc.com/en/more/content/2903007.html",
+   "rows": [
+    {
+     "name": "beIN Sports",
+     "url": "https://www.beinsports.com/en/",
+     "territories": "Algeria, Chad, Djibouti, Egypt, Libya, Mauritania, Morocco, Somalia, Sudan, Tunisia",
+     "region": "Africa",
+     "provider": "bein"
+    },
+    {
+     "name": "Azam Media",
+     "url": "https://azamtv.co.tz/tan/",
+     "territories": "Burundi, Kenya, Malawi, Rwanda, Tanzania, Uganda, Zambia, Zimbabwe",
+     "region": "Africa",
+     "provider": "azam"
+    }
+   ]
+  },
+  "afc-asian-cup": {
+   "ok": true,
+   "checked": "2026-11-12T19:09:07.118Z",
+   "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
+   "rows": []
+  }
+ }
 }
