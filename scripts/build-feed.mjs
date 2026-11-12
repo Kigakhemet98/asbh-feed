@@ -275,12 +275,13 @@ async function zap() {
 }
 async function azamtv() {
   const pg = await page(); const got = [];
-  pg.on('response', async (r) => { const u = r.url(); if (!/\/api\//.test(u) || !/json/.test(r.headers()['content-type'] || '')) return; try { got.push({ u, j: await r.json() }); } catch { /* not json */ } });
+  pg.on('response', async (r) => { const u = r.url(); if (!/get_show_by_date_and_country/.test(u)) return; try { const q = r.request(); got.push({ u, m: q.method(), post: q.postData() || '', j: await r.json() }); } catch { /* not json */ } });
   await pg.goto('https://azamtv.com/program-guide', { waitUntil: 'domcontentloaded', timeout: 60000 });
   await pg.waitForTimeout(6000);
   try { await pg.getByText('Sports', { exact: true }).first().click(); await pg.waitForTimeout(5000); } catch (e) { log('azamtv sports tab', e.message); }
   const txt = await pg.innerText('body');
-  await debug('azamtv', pg, got.map((g) => g.u + '\n' + JSON.stringify(g.j).slice(0, 1500)).join('\n\n'));
+  const sp = got.flatMap((g) => ((g.j.message || {}).program_details || []).filter((x) => /azam sports|sports/i.test(x.channel_name || '')));
+  await debug('azamtv', pg, got.map((g) => `${g.m} ${g.u}\nPOST ${g.post}\nchannels: ${[...new Set(((g.j.message || {}).program_details || []).map((x) => x.channel_name))].join(' | ')}`).join('\n\n') + '\n\nSPORTS:\n' + sp.map((x) => `${x.since} ${x.Runtime} ${x.channel_name} | ${x.title}`).join('\n'));
   await pg.context().close();
   if (/No Channels List Found/i.test(txt)) throw new Error('azamtv.com publishes no channels at the moment (Azam TV Max guide is used)');
   throw new Error('azamtv.com guide captured for parsing (' + got.length + ' data responses)');
