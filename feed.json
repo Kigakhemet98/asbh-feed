@@ -1,51 +1,51 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-12T17:48:44.303Z",
+ "updated": "2026-11-12T17:54:03.394Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 357,
-   "at": "2026-11-12T17:44:31.518Z"
+   "at": "2026-11-12T17:51:41.038Z"
   },
   "bein": {
    "ok": true,
    "count": 105,
-   "at": "2026-11-12T17:44:32.996Z"
+   "at": "2026-11-12T17:51:42.722Z"
   },
   "nws": {
    "ok": true,
    "count": 68,
-   "at": "2026-11-12T17:44:35.366Z"
+   "at": "2026-11-12T17:51:45.004Z"
   },
   "azam": {
    "ok": true,
    "count": 2,
-   "at": "2026-11-12T17:44:45.307Z"
+   "at": "2026-11-12T17:51:51.975Z"
   },
   "startimes": {
    "ok": true,
-   "count": 128,
-   "at": "2026-11-12T17:48:16.873Z"
+   "count": 162,
+   "at": "2026-11-12T17:53:33.512Z"
   },
   "canalplus": {
    "ok": false,
    "error": "guide data not readable as a visitor (seen: https://www.canalplus.com/rw/programme-tv/)",
    "kept": 0,
-   "at": "2026-11-12T17:48:30.512Z"
+   "at": "2026-11-12T17:53:47.289Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-12T17:48:30.588Z"
+   "at": "2026-11-12T17:53:47.373Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com guide is back online – parser to be added",
    "kept": 0,
-   "at": "2026-11-12T17:48:37.293Z"
+   "at": "2026-11-12T17:53:58.592Z"
   }
  },
  "assignments": [
@@ -137,7 +137,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Ghana v Somalia",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "ss-maximo-1",
     "nws-4"
@@ -309,7 +308,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Cameroon v Namibia",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "bein-6",
     "nws-2",
@@ -804,7 +802,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Zambia v Burundi",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "bein-2",
     "nws-3"
@@ -897,7 +894,6 @@
    "comp": "Legends Cup Arsenal v Harambee",
    "detail": "Legends Cup '26 Arsenal v Harambee",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -1028,7 +1024,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Egypt v Malawi",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "bein-2"
    ],
@@ -1361,7 +1356,6 @@
    "comp": "DP World",
    "detail": "Tour Champs D3",
    "channels": [
-    "ss-tbc",
     "ss-grandstand"
    ],
    "status": "L",
@@ -1434,7 +1428,6 @@
    "comp": "CAF Women's Champions League",
    "detail": "Kawempe Muslim v Lekie",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -1632,7 +1625,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Uganda v Botswana",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "bein-xtra-1",
     "nws-1"
@@ -1795,7 +1787,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Angola v South Sudan",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "bein-7",
     "nws-2"
@@ -2215,7 +2206,6 @@
    "comp": "DStv Diski Challenge",
    "detail": "DC v GA",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -2228,7 +2218,6 @@
    "comp": "DStv Diski Challenge",
    "detail": "MIL v CHI",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -2340,7 +2329,6 @@
    "comp": "CAF Women's Champions League",
    "detail": "Sundowns v AS FAR",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -2640,7 +2628,6 @@
    "comp": "PGA Champions Charles Schwab D4",
    "detail": "PGA Champions '26 Charles Schwab D4",
    "channels": [
-    "ss-tbc",
     "ss-action"
    ],
    "status": "L",
@@ -2788,7 +2775,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Zimbabwe v Equatorial Guinea",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "ss-maximo-1",
     "bein-3",
@@ -2855,7 +2841,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Somalia v Ghana",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "bein-4",
     "nws-4"
@@ -3149,7 +3134,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Burundi v Zambia",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "bein-xtra-2",
     "nws-7"
@@ -3244,7 +3228,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Kenya v South Africa",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "ss-maximo-1",
     "ss-grandstand",
@@ -3326,7 +3309,6 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Botswana v Uganda",
    "channels": [
-    "ss-tbc",
     "ss-africa",
     "bein-xtra-5"
    ],
@@ -3980,7 +3962,6 @@
    "comp": "LPGA CME Group Tour Champs D1",
    "detail": "LPGA '26 CME Group Tour Champs D1",
    "channels": [
-    "ss-tbc",
     "ss-grandstand"
    ],
    "status": "L",
@@ -4313,7 +4294,6 @@
    "comp": "LPGA CME Group Tour Champs D2",
    "detail": "LPGA '26 CME Group Tour Champs D2",
    "channels": [
-    "ss-tbc",
     "ss-grandstand"
    ],
    "status": "L",
@@ -4422,7 +4402,6 @@
    "comp": "DStv Diski Challenge",
    "detail": "SUN v GA",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -4471,7 +4450,6 @@
    "comp": "DStv Diski Challenge",
    "detail": "PIR v DC",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -4809,7 +4787,6 @@
    "comp": "Ligue1",
    "detail": "Nice v PSG",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -5177,7 +5154,6 @@
    "comp": "DStv Diski Challenge",
    "detail": "MG v PC",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
@@ -5214,7 +5190,6 @@
    "comp": "DStv Diski Challenge",
    "detail": "STF v CHI",
    "channels": [
-    "ss-tbc",
     "ss-africa"
    ],
    "status": "L",
