@@ -198,6 +198,8 @@ async function azam() {
 
 /* ---------- Pages that only render in a browser (StarTimes, CANAL+, ZAP, azamtv.com) ---------- */
 let browser = null;
+const debug = async (name, pg, extra = '') => { try { fs.mkdirSync(path.join(ROOT, 'state', 'debug'), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, 'state', 'debug', name + '.txt'), `${new Date().toISOString()}\n${pg.url()}\n${extra}\n\n` + (await pg.innerText('body')).slice(0, 6000)); } catch { /* ignore */ } };
 async function page(tz = 'Africa/Nairobi') {
   if (!browser) { const { chromium } = await import('playwright'); browser = await chromium.launch(); }
   const ctx = await browser.newContext({ userAgent: UA, timezoneId: tz, locale: 'en-GB', viewport: { width: 480, height: 900 } });
@@ -217,8 +219,8 @@ async function startimes() {
   for (const [cid, ch] of Object.entries(ST_CHANNELS)) {
     if (!CHAN[ch]) continue;
     try {
-      await pg.goto(`https://m.startimestv.com/browser/liveDetail?channelId=${cid}`, { waitUntil: 'networkidle', timeout: 60000 });
-      await pg.waitForSelector('.tv-guide li', { timeout: 20000 });
+      await pg.goto(`https://m.startimestv.com/browser/liveDetail?channelId=${cid}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      await pg.waitForSelector('.tv-guide li', { timeout: 30000 });   // ads keep the network busy: wait for the guide itself
       const tabs = await pg.$$eval('.tv-guide li span', (s) => s.map((x) => x.textContent.trim()));
       const ti = tabs.indexOf('Today');
       for (let i = Math.max(0, ti); i < tabs.length; i++) {
@@ -243,7 +245,7 @@ async function startimes() {
 const CP = { 'canal+ sport 1': 'cp-sport-1', 'canal+ sport 2': 'cp-sport-2', 'canal+ sport 3': 'cp-sport-3', 'canal+ sport 4': 'cp-sport-4', 'canal+ sport 5': 'cp-sport-5' };
 async function canalplus() {
   const pg = await page(); const got = []; const seenUrls = [];
-  pg.on('response', async (r) => { const u = r.url(); if (!/hodor|epg|broadcast|programme|guide/i.test(u) || !/json/.test(r.headers()['content-type'] || '')) return; seenUrls.push(u.replace(/[?].*/, '').slice(0, 120)); try { got.push(await r.json()); } catch { /* not json */ } });
+  pg.on('response', async (r) => { const u = r.url(); if (!/json/.test(r.headers()['content-type'] || '')) return; seenUrls.push(u.replace(/[?].*/, '').slice(0, 120)); try { got.push(await r.json()); } catch { /* not json */ } });
   await pg.goto('https://www.canalplus.com/rw/programme-tv/', { waitUntil: 'networkidle', timeout: 90000 });
   for (const sel of ['button:has-text("Tout accepter")', 'button:has-text("Accepter")', '#didomi-notice-agree-button']) { try { await pg.click(sel, { timeout: 3000 }); break; } catch { /* no banner */ } }
   await pg.waitForTimeout(4000);
@@ -260,6 +262,7 @@ async function canalplus() {
     for (const v of Object.values(o)) walk(v, cn);
   };
   got.forEach((j) => walk(j, null));
+  await debug('canalplus', pg, 'json responses: ' + [...new Set(seenUrls)].join('\n'));
   await pg.context().close();
   if (!slots.length) throw new Error('guide data not readable as a visitor (seen: ' + [...new Set(seenUrls)].slice(0, 4).join(' , ') + ')');
   return { slots };
@@ -272,7 +275,7 @@ async function zap() {
 }
 async function azamtv() {
   const pg = await page(); await pg.goto('https://azamtv.com/program-guide', { waitUntil: 'networkidle', timeout: 60000 });
-  const txt = await pg.innerText('body'); await pg.context().close();
+  await pg.waitForTimeout(5000); const txt = await pg.innerText('body'); await debug('azamtv', pg); await pg.context().close();
   if (/No Channels List Found/i.test(txt)) throw new Error('azamtv.com publishes no channels at the moment (Azam TV Max guide is used)');
   throw new Error('azamtv.com guide is back online – parser to be added');
 }
@@ -353,6 +356,8 @@ for (const a of manual.assignments || []) {
   if (ev) ev.channels = [...new Set(ev.channels.concat(a.channels))];
 }
 events.sort((a, b) => a.start.localeCompare(b.start));
+/* a real channel from a broadcaster replaces its "channel TBA" placeholder */
+for (const e of events) { const real = new Set(e.channels.filter((c) => !/-tbc$/.test(c)).map((c) => (CHAN[c] || {}).provider)); e.channels = e.channels.filter((c) => !/-tbc$/.test(c) || !real.has((CHAN[c] || {}).provider)); }
 const finalEvents = events.filter((e) => +new Date(e.start) > NOW - 4 * 3600e3).map(({ lang, ...e }) => e);
 
 /* ---------- calendars (.ics) ---------- */
