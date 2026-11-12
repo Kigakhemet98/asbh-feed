@@ -274,17 +274,31 @@ async function zap() {
   throw new Error('guide server answered – parser to be added');
 }
 async function azamtv() {
-  const pg = await page(); const got = [];
-  pg.on('response', async (r) => { const u = r.url(); if (!/get_show_by_date_and_country/.test(u)) return; try { const q = r.request(); got.push({ u, m: q.method(), post: q.postData() || '', j: await r.json() }); } catch { /* not json */ } });
-  await pg.goto('https://azamtv.com/program-guide', { waitUntil: 'domcontentloaded', timeout: 60000 });
-  await pg.waitForTimeout(6000);
-  try { await pg.getByText('Sports', { exact: true }).first().click(); await pg.waitForTimeout(5000); } catch (e) { log('azamtv sports tab', e.message); }
-  const txt = await pg.innerText('body');
-  const sp = got.flatMap((g) => ((g.j.message || {}).program_details || []).filter((x) => /azam sports|sports/i.test(x.channel_name || '')));
-  await debug('azamtv', pg, got.map((g) => `${g.m} ${g.u}\nPOST ${g.post}\nchannels: ${[...new Set(((g.j.message || {}).program_details || []).map((x) => x.channel_name))].join(' | ')}`).join('\n\n') + '\n\nSPORTS:\n' + sp.map((x) => `${x.since} ${x.Runtime} ${x.channel_name} | ${x.title}`).join('\n'));
-  await pg.context().close();
-  if (/No Channels List Found/i.test(txt)) throw new Error('azamtv.com publishes no channels at the moment (Azam TV Max guide is used)');
-  throw new Error('azamtv.com guide captured for parsing (' + got.length + ' data responses)');
+  /* public guide service behind azamtv.com/program-guide (times are East Africa Time) */
+  const url = 'https://web1.azamtvltd.co.tz/api/method/azam_tv.azam_tv.api.get_show_by_date_and_country';
+  const out = []; const seen = new Set(); const chans = new Set();
+  for (let o = 0; o < 7; o++) {
+    const date = new Date(NOW + 3 * 3600e3 + o * 864e5).toISOString().slice(0, 10);
+    for (let pg = 1; pg <= 12; pg++) {
+      let rows;
+      try {
+        const r = await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json', 'user-agent': UA, origin: 'https://azamtv.com', referer: 'https://azamtv.com/' }, body: JSON.stringify({ date, category: 'All', country: 'TANZANIA', page_no: pg, page_size: 50 }) });
+        if (!r.ok) throw new Error(r.status); rows = ((await r.json()).message || {}).program_details || [];
+      } catch (e) { if (o === 0 && pg === 1) throw e; break; }
+      if (!rows.length) break;
+      for (const x of rows) {
+        chans.add(x.channel_name);
+        const m = /azam sports (\d)/i.exec(x.channel_name || ''); if (!m) continue; const id = 'azam-' + m[1]; if (!CHAN[id]) continue;
+        const t = x.title || ''; if (!/\bLIVE\b/i.test(t) || !/\sV\s/i.test(t)) continue;
+        const start = Date.parse(x.since + '+03:00'); const end = Date.parse(x.till + '+03:00'); if (!inWindow(start)) continue;
+        const p = t.replace(/\bLIVE\b/ig, '').replace(/\s+/g, ' ').trim().split(/\s+V\s+/i);
+        const detail = `${titleCase(p[0])} v ${titleCase(p.slice(1).join(' v '))}`; const k = start + detail; if (seen.has(k)) continue; seen.add(k);
+        out.push({ start: iso(start), end: iso(end), sport: 'football', comp: '', detail, channels: [id], status: 'L', via: 'Azam TV guide (azamtv.com)' });
+      }
+    }
+  }
+  if (![...chans].some((c) => /azam sports/i.test(c))) throw new Error(`azamtv.com lists ${chans.size} channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports`);
+  return { events: out };
 }
 
 /* ---------- fixtures (real kick-off times) used to confirm StarTimes / CANAL+ slots ---------- */
@@ -334,7 +348,7 @@ const fx = (await fixtures()).events; log('fixtures', fx.length);
 
 /* 1) live events from guides that mark live sport, merged by match */
 const events = [];
-for (const name of ['supersport', 'bein', 'azam', 'nws']) for (const e of parts[name].events || []) {
+for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws']) for (const e of parts[name].events || []) {
   const t = +new Date(e.start);
   /* same match = same two teams within 4 h (guides disagree on kick-off by up to an hour), or same title within 45 min.
      Sources run in trust order, so the first (SuperSport / beIN) keeps its kick-off time. */
