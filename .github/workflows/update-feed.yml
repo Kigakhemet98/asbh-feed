@@ -31,4 +31,5 @@ jobs:
           git add feed.json calendar.ics calendars state
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Live guides update $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git pull --rebase origin main && git push
+          # the files are rebuilt from scratch each run, so this run's copy wins any clash with a run that finished first
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1
