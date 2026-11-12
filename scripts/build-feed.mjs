@@ -74,7 +74,7 @@ const FIFA = { GHA: 'Ghana', SOM: 'Somalia', CMR: 'Cameroon', NAM: 'Namibia', ZA
   SVN: 'Slovenia', SUI: 'Switzerland', NIR: 'Northern Ireland', UKR: 'Ukraine', ITA: 'Italy', SCO: 'Scotland', GEO: 'Georgia', ALB: 'Albania', MKD: 'North Macedonia', HUN: 'Hungary',
   POL: 'Poland', ARM: 'Armenia', BLR: 'Belarus', EST: 'Estonia', BUL: 'Bulgaria', FRA: 'France', FRO: 'Faroe Islands', AUT: 'Austria', IRL: 'Republic of Ireland', LIE: 'Liechtenstein',
   AZE: 'Azerbaijan', NZL: 'New Zealand', IND: 'India', AUS: 'Australia', BAN: 'Bangladesh', ARG: 'Argentina', JPN: 'Japan', FIJ: 'Fiji', IRE: 'Ireland', PAK: 'Pakistan', SRI: 'Sri Lanka', WIN: 'West Indies' };
-const expand = (d) => d.replace(/\b([A-Z]{3})\b(?= v )|(?<= v )\b([A-Z]{3})\b/g, (x) => FIFA[x] || x);
+const expand = (d) => d.replace(/\b([A-Z]{3})\b(?= v )|(?<= v )\b([A-Z]{3})\b/g, (x) => FIFA[x] || x).replace(/^D(\d) M(\d)$/, 'Day $1 · Singles $2').replace(/^D(\d) Dbls (\d)$/, 'Day $1 · Doubles $2');   // same as the apps
 
 /* French (myt.mu / CANAL+) country names → the English names the apps use */
 const FR = { 'rd congo': 'DR Congo', 'rdc': 'DR Congo', 'gambie': 'The Gambia', 'guinée-bissau': 'Guinea-Bissau', 'guinee-bissau': 'Guinea-Bissau', 'cameroun': 'Cameroon', 'namibie': 'Namibia',
