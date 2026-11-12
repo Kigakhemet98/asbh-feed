@@ -207,7 +207,7 @@ async function page(tz = 'Africa/Nairobi') {
 }
 
 /* StarTimes: channel page → date tabs → rows "HH:MM  Competition-Home vs Away" (EAT, browser time zone) */
-const ST_CHANNELS = { 649: 'st-world-football', 302: 'st-sports-premium', 443: 'st-sports-life', 266: 'st-sports-focus', 1031981242: 'st-sports-arena', 2039167778: 'st-sanyuka', 150: 'espn', 151: 'espn2' };
+const ST_CHANNELS = { 649: 'st-world-football', 302: 'st-sports-premium', 443: 'st-sports-life', 266: 'st-sports-focus', 1031981242: 'st-sports-arena', 150: 'espn', 151: 'espn2' };   // Sanyuka Prime publishes no guide
 function splitSlot(title) {
   const t = title.replace(/\s+/g, ' ').trim(); if (!/ vs\.? /i.test(t)) return null;
   const m = /^(.*?(?:MD ?\d+|\)|\bR\d+|Round \d+|Matchday \d+|\d{4}(?:[-/]\d{2,4})?))\s*-\s*(.+ vs\.? .+)$/i.exec(t);
@@ -264,7 +264,7 @@ async function canalplus() {
   got.forEach((j) => walk(j, null));
   await debug('canalplus', pg, 'json responses: ' + [...new Set(seenUrls)].join('\n'));
   await pg.context().close();
-  if (!slots.length) throw new Error('guide data not readable as a visitor (seen: ' + [...new Set(seenUrls)].slice(0, 4).join(' , ') + ')');
+  if (!slots.length) throw new Error(/Unexpected Request/.test(await Promise.resolve('')) ? '' : 'CANAL+ blocks automated visits from cloud servers ("Unexpected Request") – use announcements in manual.json');
   return { slots };
 }
 
@@ -274,10 +274,16 @@ async function zap() {
   throw new Error('guide server answered – parser to be added');
 }
 async function azamtv() {
-  const pg = await page(); await pg.goto('https://azamtv.com/program-guide', { waitUntil: 'networkidle', timeout: 60000 });
-  await pg.waitForTimeout(5000); const txt = await pg.innerText('body'); await debug('azamtv', pg); await pg.context().close();
+  const pg = await page(); const got = [];
+  pg.on('response', async (r) => { const u = r.url(); if (!/\/api\//.test(u) || !/json/.test(r.headers()['content-type'] || '')) return; try { got.push({ u, j: await r.json() }); } catch { /* not json */ } });
+  await pg.goto('https://azamtv.com/program-guide', { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await pg.waitForTimeout(6000);
+  try { await pg.getByText('Sports', { exact: true }).first().click(); await pg.waitForTimeout(5000); } catch (e) { log('azamtv sports tab', e.message); }
+  const txt = await pg.innerText('body');
+  await debug('azamtv', pg, got.map((g) => g.u + '\n' + JSON.stringify(g.j).slice(0, 1500)).join('\n\n'));
+  await pg.context().close();
   if (/No Channels List Found/i.test(txt)) throw new Error('azamtv.com publishes no channels at the moment (Azam TV Max guide is used)');
-  throw new Error('azamtv.com guide is back online – parser to be added');
+  throw new Error('azamtv.com guide captured for parsing (' + got.length + ' data responses)');
 }
 
 /* ---------- fixtures (real kick-off times) used to confirm StarTimes / CANAL+ slots ---------- */
@@ -331,7 +337,9 @@ for (const name of ['supersport', 'bein', 'azam', 'nws']) for (const e of parts[
   const t = +new Date(e.start);
   /* same match = same two teams within 4 h (guides disagree on kick-off by up to an hour), or same title within 45 min.
      Sources run in trust order, so the first (SuperSport / beIN) keeps its kick-off time. */
-  const twin = events.find((x) => x.sport === e.sport && ((sides(e) && Math.abs(+new Date(x.start) - t) <= 4 * 3600e3 && sameMatch(x, e)) || (!sides(e) && Math.abs(+new Date(x.start) - t) <= 45 * 60e3 && x.detail === e.detail)));
+  const twin = events.find((x) => x.sport === e.sport && ((sides(e) && Math.abs(+new Date(x.start) - t) <= 4 * 3600e3 && sameMatch(x, e)) || (!sides(e) && Math.abs(+new Date(x.start) - t) <= 45 * 60e3 && x.detail === e.detail)
+    /* a generic session block ("WTA Finals - Indian Wells") joins the real session of that event starting within 90 min */
+    || (!sides(e) && !sides(x) && Math.abs(+new Date(x.start) - t) <= 90 * 60e3 && slug(x.comp || '').split(' ')[0] && slug(x.comp || '').split(' ')[0] === slug(e.comp || '').split(' ')[0])));
   if (twin) { twin.channels = [...new Set(twin.channels.concat(e.channels))]; if (!twin.comp && e.comp) twin.comp = e.comp; twin.via = [...new Set(String(twin.via).split(' · ').concat(e.via))].join(' · '); continue; }
   events.push({ ...e });
 }
