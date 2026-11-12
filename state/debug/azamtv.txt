@@ -1,6 +1,19 @@
-2026-11-12T17:53:58.587Z
+2026-11-12T17:58:23.929Z
 https://azamtv.com/program-guide
+https://web1.azamtvltd.co.tz/api/method/azam_tv.azam_tv.api.get_default_tournament_details
+{"message":{"tournament_id":47}}
 
+https://web1.azamtvltd.co.tz/api/method/azam_tv.azam_tv.api.get_default_tournament_details
+{"message":{"tournament_id":47}}
+
+https://web1.azamtvltd.co.tz/api/method/azam_tv.azam_tv.api.get_list
+{"message":[{"country_name":"TANZANIA","email":"info@azam-media.com","country_logo":"/files/tanzania.png","contact_us":"0764 700 222,\n0784 108 000,\n0225 508 080\n","address":"Plot 46/4 Nyerere Road,<br>\nPO Box 2517,<br>\nDar Es Salaam,<br>\nTanzania. ","youtube":"https://www.youtube.com/user/azamtv1","instagram":"https://www.instagram.com/azamtvtz/","linkedin":" https://www.linkedin.com/company/azam-media-ltd/","whatsapp":"https://wa.me/+255677996611","twitter":"https://twitter.com/i/flow/login?redirect_after_login=%2Fazamtvtz","facebook":"https://www.facebook.com/azamtvtz?_rdr=p"},{"country_name":"UGANDA","email":"info.uganda@azam-media.com","country_logo":"/files/Uganda.png","contact_us":"0417709900,\n0312308900, \n0200406500.","address":"Plot 19 Golf Course,<br>\nRoad  Lower Kololo,<br>\nP.O Box 2844,<br>\nKampala Uganda .","youtube":null,"instagram":"https://www.instagram.com/azamtvug/","linkedin":null,"whatsapp":"https://wa.me/+256782869072","twitter":"https://twitter.com/azamtvuganda","facebook":"https://www.facebook.com/Azamtvuganda"},{"country_name":"KENYA","email":"infokenya@azam-media.com","country_logo":"/files/kenya.png","contact_us":"0709844000 ","address":"Azam Media Kenya Limited,<br>\nThome Estate,<br>\nRidgeways Road,<br>\nLR/1330/614,<br>\nNairobi.\n","youtube":null,"instagram":"https://www.instagram.com/azamtvkenya","linkedin":null,"whatsapp":"https://wa.me/+254702273632","twitter":"https://twitter.com/azamtvkenya","facebook":"https://www.facebook.com/az
+
+https://web1.azamtvltd.co.tz/api/method/azam_tv.azam_tv.api.get_show_by_date_and_country
+{"message":{"program_details":[{"date":"12-11-2026","since":"2026-11-12T02:00:00","Runtime":"01:00:00","title":"DW SPESHO","id":"0e33ac54cc","country":"TANZANIA","channel_name":"97-Azam ONE-TANZANIA","image":"/files/Azam ONE.png","channelUuid":"97-Azam ONE-TANZANIA","type":"Channel","till":"2026-11-12T03:00:00"},{"date":"12-11-2026","since":"2026-11-12T05:00:00","Runtime":"00:30:00","title":"DW SPESHO","id":"0e8382fb0f","country":"TANZANIA","channel_name":"97-Azam ONE-TANZANIA","image":"/files/Azam ONE.png","channelUuid":"97-Azam ONE-TANZANIA","type":"Channel","till":"2026-11-12T05:30:00"},{"date":"12-11-2026","since":"2026-11-12T22:00:00","Runtime":"00:30:00","title":"24","id":"1054723332","country":"TANZANIA","channel_name":"97-Azam ONE-TANZANIA","image":"/files/Azam ONE.png","channelUuid":"97-Azam ONE-TANZANIA","type":"Channel","till":"2026-11-12T22:30:00"},{"date":"12-11-2026","since":"2026-11-12T01:00:00","Runtime":"01:00:00","title":"24","id":"143ba9c425","country":"TANZANIA","channel_name":"97-Azam ONE-TANZANIA","image":"/files/Azam ONE.png","channelUuid":"97-Azam ONE-TANZANIA","type":"Channel","till":"2026-11-12T02:00:00"},{"date":"12-11-2026","since":"2026-11-12T11:00:00","Runtime":"03:00:00","title":"24","id":"1c81de5c31","country":"TANZANIA","channel_name":"97-Azam ONE-TANZANIA","image":"/files/Azam ONE.png","channelUuid":"97-Azam ONE-TANZANIA","type":"Channel","till":"2026-11-12T14:00:00"},{"date":"12-11-2026","since":"2026-11-12T10:00:00","Runtime":"01:00:00","ti
+
+https://web1.azamtvltd.co.tz/api/method/azam_tv.azam_tv.api.get_show_by_date_and_country
+{"message":{"program_details":[{"date":"12-11-2026","since":"2026-11-12T04:20:00","Runtime":"00:10:00","title":"Top14 Rugby Highlights 26/27","id":"060cb1e52c","country":"TANZANIA","channel_name":"101-ESPN 2-TANZANIA","image":"/files/ESPN 23f8119.png","channelUuid":"101-ESPN 2-TANZANIA","type":"Channel","till":"2026-11-12T04:30:00"},{"date":"12-11-2026","since":"2026-11-12T15:55:00","Runtime":"01:30:00","title":"Pardon the Interruption 26-27","id":"0ea1178d14","country":"TANZANIA","channel_name":"101-ESPN 2-TANZANIA","image":"/files/ESPN 23f8119.png","channelUuid":"101-ESPN 2-TANZANIA","type":"Channel","till":"2026-11-12T17:25:00"},{"date":"12-11-2026","since":"2026-11-12T12:40:00","Runtime":"00:25:00","title":"SportsCenter 26-27","id":"238aaf345f","country":"TANZANIA","channel_name":"101-ESPN 2-TANZANIA","image":"/files/ESPN 23f8119.png","channelUuid":"101-ESPN 2-TANZANIA","type":"Channel","till":"2026-11-12T13:05:00"},{"date":"12-11-2026","since":"2026-11-12T15:30:00","Runtime":"01:30:00","title":"ESPN FC 26/27","id":"2bf2fc6dee","country":"TANZANIA","channel_name":"101-ESPN 2-TANZANIA","image":"/files/ESPN 23f8119.png","channelUuid":"101-ESPN 2-TANZANIA","type":"Channel","till":"2026-11-12T17:00:00"},{"date":"12-11-2026","since":"2026-11-12T12:15:00","Runtime":"02:15:00","title":"Pardon the Interruption 26-27","id":"2dffd8c337","country":"TANZANIA","channel_name":"101-ESPN 2-TANZANIA","image":"/files/ESPN 23f8119.png","channelUuid":"101-ESPN 2-TANZANIA","type":"Channel","t
 
 Channels
 All Channels in Azam TV
@@ -58,81 +71,21 @@ News
 10:00pm
 11:00pm
 
-24
+NBA Today 26-27
 
-1:00am - 2:00am
+1:10am - 1:35am
 
-AURORA
+Big Day with Peter Schrager
 
-12:00am - 12:30am
+12:00am - 12:55am
 
-UCHANGANUZI
+SPFL Highlights 26/27
 
-12:00am - 1:00am
+12:00am - 2:10am
 
-MAKABILA
+NBA Tip-Off 26-27
 
-1:30am - 2:00am
-
-CHINI YA KAPETI
-
-1:00am - 1:30am
-
-CHINI YA KAPETI
-
-1:30am - 3:15am
-
-TUFANI
-
-12:00am - 12:30am
-
-Voyagers: Exploring Pacific Waters
-
-12:00am - 12:30am
-
-Megastorm
-
-1:20am - 2:20am
-
-Tuu Juliet Jatt Di
-
-12:00am - 12:30am
-
-108 Base Hospital -Uri
-
-1:00am - 1:30am
-
-SpongeBob SquarePants
-
-1:25am - 1:50am
-
-Sam & Cat
-
-12:00am - 12:25am
-
-Tales of the Teenage Mutant Ninja Turtles
-
-1:00am - 1:25am
-
-Anupamaa
-
-1:30am - 2:00am
-
-Sayoneee
-
-1:00am - 1:30am
-
-Yeh Rishta Kya Kehlata Hai
-
-12:00am - 12:30am
-
-New Looney Tunes
-
-12:00am - 12:20am
-
-New Looney Tunes
-
-1:10am - 1:30am
+1:00am - 3:02am
 Plot 46/4 Nyerere Road,
 PO Box 2517,
 Dar Es Salaam,

@@ -1,51 +1,51 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-12T17:54:03.394Z",
+ "updated": "2026-11-12T17:58:30.981Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 357,
-   "at": "2026-11-12T17:51:41.038Z"
+   "at": "2026-11-12T17:56:32.297Z"
   },
   "bein": {
    "ok": true,
    "count": 105,
-   "at": "2026-11-12T17:51:42.722Z"
+   "at": "2026-11-12T17:56:34.328Z"
   },
   "nws": {
    "ok": true,
    "count": 68,
-   "at": "2026-11-12T17:51:45.004Z"
+   "at": "2026-11-12T17:56:37.054Z"
   },
   "azam": {
    "ok": true,
    "count": 2,
-   "at": "2026-11-12T17:51:51.975Z"
+   "at": "2026-11-12T17:56:44.520Z"
   },
   "startimes": {
    "ok": true,
    "count": 162,
-   "at": "2026-11-12T17:53:33.512Z"
+   "at": "2026-11-12T17:57:57.518Z"
   },
   "canalplus": {
    "ok": false,
-   "error": "guide data not readable as a visitor (seen: https://www.canalplus.com/rw/programme-tv/)",
+   "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") – use announcements in manual.json",
    "kept": 0,
-   "at": "2026-11-12T17:53:47.289Z"
+   "at": "2026-11-12T17:58:11.195Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-12T17:53:47.373Z"
+   "at": "2026-11-12T17:58:11.274Z"
   },
   "azamtv": {
    "ok": false,
-   "error": "azamtv.com guide is back online – parser to be added",
+   "error": "azamtv.com guide captured for parsing (5 data responses)",
    "kept": 0,
-   "at": "2026-11-12T17:53:58.592Z"
+   "at": "2026-11-12T17:58:23.937Z"
   }
  },
  "assignments": [
@@ -457,28 +457,17 @@
    "via": "beIN SPORTS guide"
   },
   {
-   "start": "2026-11-12T19:55:00.000Z",
-   "duration": 120,
-   "sport": "tennis",
-   "comp": "WTA",
-   "detail": "WTA Finals - Indians wells",
-   "channels": [
-    "nws-7"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)"
-  },
-  {
    "start": "2026-11-12T20:00:00.000Z",
    "end": "2026-11-12T22:00:00.000Z",
    "sport": "tennis",
    "comp": "WTA Finals",
    "detail": "D5 M1",
    "channels": [
-    "ss-tennis"
+    "ss-tennis",
+    "nws-7"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide · New World Sport guide (my.t)"
   },
   {
    "start": "2026-11-12T22:00:00.000Z",
@@ -550,7 +539,8 @@
    "comp": "NFL- National Football League",
    "detail": "Washington Commanders @ New York Giants2-",
    "channels": [
-    "bein-english-2"
+    "bein-english-2",
+    "bein-8"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -578,30 +568,6 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-13T01:15:00.000Z",
-   "end": "2026-11-13T04:15:00.000Z",
-   "sport": "nfl",
-   "comp": "NFL",
-   "detail": "Commanders @ Giants",
-   "channels": [
-    "espn"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-13T01:15:00.000Z",
-   "end": "2026-11-13T04:15:00.000Z",
-   "sport": "football",
-   "comp": "NFL- National Football League",
-   "detail": "Washington Commanders @ New York Giants2-",
-   "channels": [
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
   },
   {
    "start": "2026-11-13T02:00:00.000Z",
@@ -724,18 +690,6 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-13T09:30:00.000Z",
-   "end": "2026-11-13T11:00:00.000Z",
-   "sport": "other",
-   "comp": "Padel",
-   "detail": "Premier Padel",
-   "channels": [
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
    "start": "2026-11-13T09:45:00.000Z",
    "end": "2026-11-13T11:15:00.000Z",
    "sport": "other",
@@ -782,18 +736,6 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-13T12:30:00.000Z",
-   "end": "2026-11-13T14:00:00.000Z",
-   "sport": "other",
-   "comp": "Padel",
-   "detail": "Premier Padel",
-   "channels": [
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
   },
   {
    "start": "2026-11-13T12:50:00.000Z",
@@ -976,18 +918,6 @@
    "detail": "SF2",
    "channels": [
     "bein-7"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
-   "start": "2026-11-13T16:30:00.000Z",
-   "end": "2026-11-13T18:00:00.000Z",
-   "sport": "other",
-   "comp": "Padel",
-   "detail": "Premier Padel",
-   "channels": [
-    "bein-8"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -1203,18 +1133,6 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-13T19:55:00.000Z",
-   "duration": 120,
-   "sport": "tennis",
-   "comp": "WTA",
-   "detail": "WTA Finals - Indians wells",
-   "channels": [
-    "nws-7"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)"
-  },
-  {
    "start": "2026-11-13T20:00:00.000Z",
    "end": "2026-11-13T22:10:00.000Z",
    "sport": "rugby",
@@ -1233,10 +1151,11 @@
    "comp": "WTA Finals",
    "detail": "D6 M1",
    "channels": [
-    "ss-tennis"
+    "ss-tennis",
+    "nws-7"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide · New World Sport guide (my.t)"
   },
   {
    "start": "2026-11-13T22:00:00.000Z",
@@ -1264,19 +1183,6 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-14T00:00:00.000Z",
-   "end": "2026-11-14T02:00:00.000Z",
-   "sport": "tennis",
-   "comp": "WTA Finals",
-   "detail": "D6 Dbls 1",
-   "channels": [
-    "ss-grandstand",
-    "ss-tennis"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
    "start": "2026-11-14T02:00:00.000Z",
    "end": "2026-11-14T04:00:00.000Z",
    "sport": "tennis",
@@ -1296,7 +1202,7 @@
    "comp": "Asian Tour Philippine Open D3",
    "detail": "Asian Tour '26 Philippine Open D3",
    "channels": [
-    "ss-tbc"
+    "ss-grandstand"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -1309,18 +1215,6 @@
    "detail": "Predators @ Golden Knights",
    "channels": [
     "ss-tbc"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-14T04:00:00.000Z",
-   "end": "2026-11-14T06:30:00.000Z",
-   "sport": "golf",
-   "comp": "Asian Tour Philippine Open D3",
-   "detail": "Asian Tour '26 Philippine Open D3",
-   "channels": [
-    "ss-grandstand"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -1544,18 +1438,6 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-14T13:30:00.000Z",
-   "end": "2026-11-14T15:00:00.000Z",
-   "sport": "other",
-   "comp": "Padel",
-   "detail": "Premier Padel",
-   "channels": [
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
    "start": "2026-11-14T13:50:00.000Z",
    "end": "2026-11-14T16:00:00.000Z",
    "sport": "football",
@@ -1643,18 +1525,6 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-14T16:30:00.000Z",
-   "end": "2026-11-14T18:00:00.000Z",
-   "sport": "other",
-   "comp": "Padel",
-   "detail": "Premier Padel",
-   "channels": [
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
   },
   {
    "start": "2026-11-14T16:50:00.000Z",
@@ -1906,18 +1776,6 @@
    "via": "New World Sport guide (my.t)"
   },
   {
-   "start": "2026-11-14T19:55:00.000Z",
-   "duration": 120,
-   "sport": "tennis",
-   "comp": "WTA",
-   "detail": "WTA Finals - Indians wells",
-   "channels": [
-    "nws-7"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)"
-  },
-  {
    "start": "2026-11-14T20:00:00.000Z",
    "end": "2026-11-14T22:10:00.000Z",
    "sport": "rugby",
@@ -1936,10 +1794,11 @@
    "comp": "WTA Finals",
    "detail": "D7 M1",
    "channels": [
-    "ss-tennis"
+    "ss-tennis",
+    "nws-7"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide · New World Sport guide (my.t)"
   },
   {
    "start": "2026-11-14T20:30:00.000Z",
@@ -1954,25 +1813,13 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-14T21:00:00.000Z",
-   "end": "2026-11-15T00:00:00.000Z",
-   "sport": "golf",
-   "comp": "PGA Champions Charles Schwab D3",
-   "detail": "PGA Champions '26 Charles Schwab D3",
-   "channels": [
-    "ss-extra-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
    "start": "2026-11-14T22:00:00.000Z",
    "end": "2026-11-15T00:00:00.000Z",
    "sport": "golf",
    "comp": "PGA Champions Charles Schwab D3",
    "detail": "PGA Champions '26 Charles Schwab D3",
    "channels": [
-    "ss-tbc"
+    "ss-extra-1"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -2086,7 +1933,7 @@
    "comp": "Asian Tour Philippine Open D4",
    "detail": "Asian Tour '26 Philippine Open D4",
    "channels": [
-    "ss-tbc"
+    "ss-grandstand"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -2099,18 +1946,6 @@
    "detail": "Australia v England 2nd ODI",
    "channels": [
     "ss-extra-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-15T04:00:00.000Z",
-   "end": "2026-11-15T06:30:00.000Z",
-   "sport": "golf",
-   "comp": "Asian Tour Philippine Open D4",
-   "detail": "Asian Tour '26 Philippine Open D4",
-   "channels": [
-    "ss-grandstand"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -2537,18 +2372,6 @@
    "via": "SuperSport guide · New World Sport guide (my.t)"
   },
   {
-   "start": "2026-11-15T19:55:00.000Z",
-   "duration": 120,
-   "sport": "tennis",
-   "comp": "WTA",
-   "detail": "WTA Finals - Indians wells",
-   "channels": [
-    "nws-4"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)"
-  },
-  {
    "start": "2026-11-15T20:00:00.000Z",
    "end": "2026-11-15T22:00:00.000Z",
    "sport": "football",
@@ -2567,10 +2390,11 @@
    "comp": "WTA Finals",
    "detail": "Final",
    "channels": [
-    "ss-tennis"
+    "ss-tennis",
+    "nws-4"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide · New World Sport guide (my.t)"
   },
   {
    "start": "2026-11-15T21:00:00.000Z",
@@ -2616,7 +2440,8 @@
    "comp": "WTA Finals",
    "detail": "Final",
    "channels": [
-    "ss-grandstand"
+    "ss-grandstand",
+    "ss-tennis"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -2634,36 +2459,11 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-15T22:00:00.000Z",
-   "end": "2026-11-16T00:00:00.000Z",
-   "sport": "tennis",
-   "comp": "WTA Finals",
-   "detail": "Dbls Final",
-   "channels": [
-    "ss-grandstand",
-    "ss-tennis"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
    "start": "2026-11-16T00:30:00.000Z",
    "end": "2026-11-16T01:20:00.000Z",
    "sport": "nfl",
    "comp": "NFL Blitz",
    "detail": "NFL Blitz",
-   "channels": [
-    "espn"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-16T01:20:00.000Z",
-   "end": "2026-11-16T04:20:00.000Z",
-   "sport": "nfl",
-   "comp": "NFL",
-   "detail": "Steelers @ Bengals",
    "channels": [
     "espn"
    ],
@@ -3998,18 +3798,7 @@
    "comp": "Formula 1",
    "detail": "Las Vegas GP Treino Livre 1",
    "channels": [
-    "ss-maximo-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-20T00:25:00.000Z",
-   "end": "2026-11-20T02:00:00.000Z",
-   "sport": "f1",
-   "comp": "Formula 1",
-   "detail": "Las Vegas GP Practice 1",
-   "channels": [
+    "ss-maximo-1",
     "ss-motorsport"
    ],
    "status": "L",
@@ -4028,36 +3817,13 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-20T01:15:00.000Z",
-   "end": "2026-11-20T04:25:00.000Z",
-   "sport": "nfl",
-   "comp": "NFL",
-   "detail": "Colts @ Texans",
-   "channels": [
-    "espn"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
    "start": "2026-11-20T03:45:00.000Z",
    "end": "2026-11-20T05:25:00.000Z",
    "sport": "f1",
    "comp": "Formula 1",
    "detail": "Las Vegas GP Treino Livre 2",
    "channels": [
-    "ss-maximo-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-20T03:45:00.000Z",
-   "end": "2026-11-20T05:25:00.000Z",
-   "sport": "f1",
-   "comp": "Formula 1",
-   "detail": "Las Vegas GP Practice 2",
-   "channels": [
+    "ss-maximo-1",
     "ss-motorsport"
    ],
    "status": "L",
@@ -4126,19 +3892,6 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-20T09:45:00.000Z",
-   "end": "2026-11-20T10:40:00.000Z",
-   "sport": "motogp",
-   "comp": "MotoGP",
-   "detail": "Portugal Moto2 Practice 1",
-   "channels": [
-    "ss-grandstand",
-    "ss-motorsport"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
    "start": "2026-11-20T10:30:00.000Z",
    "end": "2026-11-20T11:00:00.000Z",
    "sport": "football",
@@ -4165,18 +3918,6 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-20T12:00:00.000Z",
-   "end": "2026-11-20T13:00:00.000Z",
-   "sport": "football",
-   "comp": "Premier League",
-   "detail": "Welcome To The Weekend",
-   "channels": [
-    "ss-premier-league"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
    "start": "2026-11-20T13:00:00.000Z",
    "end": "2026-11-20T15:00:00.000Z",
    "sport": "tennis",
@@ -4194,19 +3935,6 @@
    "sport": "motogp",
    "comp": "MotoGP",
    "detail": "Portugal Moto3 Practice",
-   "channels": [
-    "ss-grandstand",
-    "ss-motorsport"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-20T14:00:00.000Z",
-   "end": "2026-11-20T14:55:00.000Z",
-   "sport": "motogp",
-   "comp": "MotoGP",
-   "detail": "Portugal Moto2 Practice",
    "channels": [
     "ss-grandstand",
     "ss-motorsport"
@@ -4318,18 +4046,7 @@
    "comp": "Formula 1",
    "detail": "Las Vegas GP Treino Livre 3",
    "channels": [
-    "ss-maximo-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-21T00:15:00.000Z",
-   "end": "2026-11-21T02:00:00.000Z",
-   "sport": "f1",
-   "comp": "Formula 1",
-   "detail": "Las Vegas GP Practice 3",
-   "channels": [
+    "ss-maximo-1",
     "ss-motorsport"
    ],
    "status": "L",
@@ -4366,18 +4083,7 @@
    "comp": "Formula 1",
    "detail": "Las Vegas GP Qualificação",
    "channels": [
-    "ss-maximo-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-21T03:55:00.000Z",
-   "end": "2026-11-21T06:00:00.000Z",
-   "sport": "f1",
-   "comp": "Formula 1",
-   "detail": "Las Vegas GP Qualifying",
-   "channels": [
+    "ss-maximo-1",
     "ss-motorsport"
    ],
    "status": "L",
@@ -4432,18 +4138,6 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-21T09:20:00.000Z",
-   "end": "2026-11-21T10:00:00.000Z",
-   "sport": "motogp",
-   "comp": "MotoGP",
-   "detail": "Portugal Moto2 Practice 2",
-   "channels": [
-    "ss-motorsport"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
    "start": "2026-11-21T09:55:00.000Z",
    "end": "2026-11-21T12:00:00.000Z",
    "sport": "football",
@@ -4451,18 +4145,6 @@
    "detail": "PIR v DC",
    "channels": [
     "ss-africa"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-21T10:00:00.000Z",
-   "end": "2026-11-21T10:40:00.000Z",
-   "sport": "motogp",
-   "comp": "MotoGP",
-   "detail": "Portugal MotoGP Practice 2",
-   "channels": [
-    "ss-motorsport"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -4584,18 +4266,6 @@
    "detail": "SF1",
    "channels": [
     "ss-tennis"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-21T13:40:00.000Z",
-   "end": "2026-11-21T14:30:00.000Z",
-   "sport": "motogp",
-   "comp": "MotoGP",
-   "detail": "Portugal Moto2 Qualifying",
-   "channels": [
-    "ss-motorsport"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -5054,31 +4724,7 @@
    "detail": "Las Vegas",
    "channels": [
     "ss-grandstand",
-    "ss-motorsport"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-22T03:55:00.000Z",
-   "end": "2026-11-22T06:00:00.000Z",
-   "sport": "f1",
-   "comp": "Formula 1",
-   "detail": "Las Vegas GP",
-   "channels": [
-    "ss-grandstand",
-    "ss-motorsport"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-22T03:55:00.000Z",
-   "end": "2026-11-22T06:00:00.000Z",
-   "sport": "f1",
-   "comp": "Formula 1",
-   "detail": "Heineken Las Vegas GP",
-   "channels": [
+    "ss-motorsport",
     "ss-maximo-1"
    ],
    "status": "L",
@@ -5375,19 +5021,6 @@
    "detail": "PAR v Angola",
    "channels": [
     "ss-maximo-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-22T14:20:00.000Z",
-   "end": "2026-11-22T15:30:00.000Z",
-   "sport": "motogp",
-   "comp": "MotoGP",
-   "detail": "Portugal Moto3",
-   "channels": [
-    "ss-grandstand",
-    "ss-motorsport"
    ],
    "status": "L",
    "via": "SuperSport guide"
