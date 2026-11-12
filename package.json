@@ -1,0 +1,7 @@
+{
+  "name": "asbh-feed",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build-feed.mjs" },
+  "dependencies": { "playwright": "^1.48.0" }
+}

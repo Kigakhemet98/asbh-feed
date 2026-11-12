@@ -1,0 +1,34 @@
+name: Update live sport feed
+# Reads the broadcasters' live TV guides and rebuilds feed.json + the calendar files.
+# Runs every 3 hours (kick-off times and channel confirmations change during the day) and on demand.
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+  push:
+    paths: ['manual.json', 'channels.json', 'scripts/**', '.github/workflows/update-feed.yml']
+permissions:
+  contents: write
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/build-feed.mjs
+      - name: Commit if anything changed
+        run: |
+          git config user.name "asbh-feed-bot"
+          git config user.email "asbh-feed-bot@users.noreply.github.com"
+          git add feed.json calendar.ics calendars state
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Live guides update $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase origin main && git push

@@ -1,0 +1,62 @@
+{
+ "notes": "Hand-entered broadcaster announcements (e.g. a channel graphic). The daily job merges these on top of the live guides. Channel ids: CHANNEL-IDS.md",
+ "assignments": [
+  {
+   "date": "2026-11-12",
+   "teams": [
+    "DR Congo",
+    "Sierra Leone"
+   ],
+   "channels": [
+    "cp-sport-1"
+   ],
+   "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3"
+  },
+  {
+   "date": "2026-11-12",
+   "teams": [
+    "Senegal",
+    "Sudan"
+   ],
+   "channels": [
+    "cp-sport-1"
+   ],
+   "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3"
+  },
+  {
+   "date": "2026-11-12",
+   "teams": [
+    "Côte d'Ivoire",
+    "Gambia"
+   ],
+   "channels": [
+    "cp-sport-2"
+   ],
+   "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3"
+  },
+  {
+   "date": "2026-11-12",
+   "teams": [
+    "Cameroon",
+    "Namibia"
+   ],
+   "channels": [
+    "cp-sport-3"
+   ],
+   "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3"
+  },
+  {
+   "date": "2026-11-12",
+   "teams": [
+    "Benin",
+    "Central African Republic"
+   ],
+   "channels": [
+    "cp-sport-4"
+   ],
+   "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3"
+  }
+ ],
+ "events": [],
+ "overrides": []
+}
