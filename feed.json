@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "African Sports Broadcast Hub – live feed",
+  "updated": "2026-11-12T16:45:00Z",
+  "notes": "Read by the African Sports Broadcast Hub apps (Windows and Android) every refresh. 'assignments' set the exact channel a broadcaster has announced for a fixture (matched on both teams and the EAT date). Times are not needed: the match itself comes from the live guides.",
+  "assignments": [
+    { "date": "2026-11-12", "teams": ["DR Congo", "Sierra Leone"], "channels": ["cp-sport-1"], "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3" },
+    { "date": "2026-11-12", "teams": ["Senegal", "Sudan"], "channels": ["cp-sport-1"], "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3" },
+    { "date": "2026-11-12", "teams": ["Côte d'Ivoire", "Gambia"], "channels": ["cp-sport-2"], "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3" },
+    { "date": "2026-11-12", "teams": ["Cameroon", "Namibia"], "channels": ["cp-sport-3"], "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3" },
+    { "date": "2026-11-12", "teams": ["Benin", "Central African Republic"], "channels": ["cp-sport-4"], "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3" }
+  ],
+  "events": [],
+  "overrides": []
+}
