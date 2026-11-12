@@ -1,51 +1,51 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-12T17:58:30.981Z",
+ "updated": "2026-11-12T18:02:28.251Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 357,
-   "at": "2026-11-12T17:56:32.297Z"
+   "at": "2026-11-12T18:00:22.892Z"
   },
   "bein": {
    "ok": true,
-   "count": 105,
-   "at": "2026-11-12T17:56:34.328Z"
+   "count": 101,
+   "at": "2026-11-12T18:00:25.548Z"
   },
   "nws": {
    "ok": true,
    "count": 68,
-   "at": "2026-11-12T17:56:37.054Z"
+   "at": "2026-11-12T18:00:27.401Z"
   },
   "azam": {
    "ok": true,
    "count": 2,
-   "at": "2026-11-12T17:56:44.520Z"
+   "at": "2026-11-12T18:00:35.463Z"
   },
   "startimes": {
    "ok": true,
-   "count": 162,
-   "at": "2026-11-12T17:57:57.518Z"
+   "count": 161,
+   "at": "2026-11-12T18:01:51.917Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") – use announcements in manual.json",
    "kept": 0,
-   "at": "2026-11-12T17:58:11.195Z"
+   "at": "2026-11-12T18:02:05.591Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-12T17:58:11.274Z"
+   "at": "2026-11-12T18:02:05.611Z"
   },
   "azamtv": {
    "ok": false,
-   "error": "azamtv.com guide captured for parsing (5 data responses)",
+   "error": "azamtv.com guide captured for parsing (2 data responses)",
    "kept": 0,
-   "at": "2026-11-12T17:58:23.937Z"
+   "at": "2026-11-12T18:02:19.702Z"
   }
  },
  "assignments": [
@@ -151,40 +151,10 @@
    "comp": "AFCON 2027 Qualifiers",
    "detail": "Equatorial Guinea v Zimbabwe",
    "channels": [
-    "ss-kickoff",
-    "bein-5"
+    "ss-kickoff"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide"
-  },
-  {
-   "start": "2026-11-12T15:50:00.000Z",
-   "end": "2026-11-12T18:00:00.000Z",
-   "sport": "football",
-   "comp": "AFCON 2027 Qualifiers",
-   "detail": "DR Congo v Sierra Leone",
-   "channels": [
-    "bein-3",
-    "azam-1",
-    "nws-1",
-    "cp-sport-1"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · Azam TV Max guide · New World Sport guide (my.t)"
-  },
-  {
-   "start": "2026-11-12T15:50:00.000Z",
-   "end": "2026-11-12T18:00:00.000Z",
-   "sport": "football",
-   "comp": "AFCON 2027 Qualifiers",
-   "detail": "Madagascar v Guinea-Bissau",
-   "channels": [
-    "bein-xtra-3",
-    "azam-5",
-    "nws-2"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · Azam TV Max guide · New World Sport guide (my.t)"
+   "via": "SuperSport guide"
   },
   {
    "start": "2026-11-12T16:00:00.000Z",
@@ -199,16 +169,31 @@
    "via": "SuperSport guide"
   },
   {
-   "start": "2026-11-12T16:30:00.000Z",
+   "start": "2026-11-12T16:00:00.000Z",
    "end": "2026-11-12T18:00:00.000Z",
-   "sport": "other",
-   "comp": "Padel",
-   "detail": "Premier Padel",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Madagascar v Guinea-Bissau",
    "channels": [
-    "bein-8"
+    "azam-5",
+    "nws-2"
    ],
    "status": "L",
-   "via": "beIN SPORTS guide"
+   "via": "Azam TV Max guide · New World Sport guide (my.t)"
+  },
+  {
+   "start": "2026-11-12T16:00:00.000Z",
+   "end": "2026-11-12T18:00:00.000Z",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "DR Congo v Sierra Leone",
+   "channels": [
+    "azam-1",
+    "nws-1",
+    "cp-sport-1"
+   ],
+   "status": "L",
+   "via": "Azam TV Max guide · New World Sport guide (my.t)"
   },
   {
    "start": "2026-11-12T16:50:00.000Z",
