@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//African Sports Broadcast Hub//Live sport//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Live mma · African TV
+X-WR-TIMEZONE:Africa/Nairobi
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:e4cb31b662d641eea103@asbh
+DTSTAMP:20261112T174428Z
+DTSTART:20261114T140000Z
+DTEND:20261114T200000Z
+SUMMARY:Nemkov v Bilostenniy · PFL World Tournament
+DESCRIPTION:PFL World Tournament\nLIVE on: SuperSport Action (DStv 209)\, 
+ 
+ StarTimes Sports Arena (DTH 241 · DTT 257)\nSource: SuperSport guide 
+ · 
+ StarTimes guide
+LOCATION:SuperSport Action (DStv 209) · StarTimes Sports Arena (DTH 241 
+ 
+ · DTT 257)
+CATEGORIES:mma
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nemkov v Bilostenniy starts in 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
