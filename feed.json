@@ -1,51 +1,51 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-12T18:10:29.706Z",
+ "updated": "2026-11-12T18:13:08.375Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 357,
-   "at": "2026-11-12T18:08:49.138Z"
+   "at": "2026-11-12T18:11:23.473Z"
   },
   "bein": {
    "ok": true,
    "count": 101,
-   "at": "2026-11-12T18:08:50.635Z"
+   "at": "2026-11-12T18:11:24.932Z"
   },
   "nws": {
    "ok": true,
    "count": 68,
-   "at": "2026-11-12T18:08:53.056Z"
+   "at": "2026-11-12T18:11:27.314Z"
   },
   "azam": {
    "ok": true,
    "count": 2,
-   "at": "2026-11-12T18:08:53.853Z"
+   "at": "2026-11-12T18:11:34.354Z"
   },
   "startimes": {
    "ok": true,
-   "count": 161,
-   "at": "2026-11-12T18:10:04.241Z"
+   "count": 160,
+   "at": "2026-11-12T18:12:45.600Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-12T18:10:17.944Z"
+   "at": "2026-11-12T18:12:59.248Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-12T18:10:18.033Z"
+   "at": "2026-11-12T18:12:59.271Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-12T18:10:25.148Z"
+   "at": "2026-11-12T18:13:05.611Z"
   }
  },
  "assignments": [
