@@ -82,7 +82,7 @@ Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links g
 
 #### SuperSport on GOtv
 
-Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DTT sheet, Uganda numbering) and gotvafrica.com/en-ke. Kenya carries the same channels in the 500s (GOtv Kenya lists Blitz 560, KickOff 561, Africa 562, LaLiga 563). Packages from 5 November 2026: **Easy · Starter · Select · Sports** – the package shown is the lowest one that includes the channel.
+Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DTT sheet, Uganda numbering) and gotvafrica.com/en-ke. Kenya carries the same channels in the 500s ([GOtv Kenya](https://www.gotvafrica.com/en-ke/packages/gotv-starter/) lists Blitz 560, KickOff 561, Africa 562, LaLiga 563; Swahili is 570). Packages from 5 November 2026: **Easy · Starter · Select · Sports** – the package shown is the lowest one that includes the channel.
 
 | Logo | Channel | GOtv Uganda | GOtv Kenya | Package |
 |:---:|---|---|---|---|
@@ -302,7 +302,7 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 |:---:|---|---|---|
 | <img src="logos/readme/channels/sportytv.png" alt="SportyTV" height="28"> | SportyTV | 558 (Kenya) · 58 (Nigeria) · 36 (Ghana) | GOtv Starter and up |
 
-- 24/7 SportyTV channel on DStv and GOtv since 10 June 2026 (DStv 236 in South Africa and Nigeria, 237 in Kenya and Ghana; GOtv 558 in Kenya from GOtv Starter, 58 in Nigeria, 36 in Ghana), plus live video in the Sporty app. Shows selected Premier League, LaLiga, Bundesliga, Serie A, Carabao Cup and Women's FA Cup matches, Copa Libertadores, Brazil Série A, NBA and combat sports, plus Real Madrid TV, Arsenal TV, Chelsea TV and Man City TV content; in South Africa it carried the 2026 FIFA World Cup. No public TV guide, so matches are listed when announced.
+- 24/7 SportyTV channel on DStv and GOtv since 10 June 2026 (DStv 236 in South Africa and Nigeria, 237 in Kenya and Ghana; GOtv 558 in Kenya, 58 in Nigeria, 36 in Ghana – GOtv Starter and up in every region), plus live video in the Sporty app. Shows selected Premier League, LaLiga, Bundesliga, Serie A, Carabao Cup and Women's FA Cup matches, Copa Libertadores, Brazil Série A, NBA and combat sports, plus Real Madrid TV, Arsenal TV, Chelsea TV and Man City TV content; in South Africa it carried the 2026 FIFA World Cup. No public TV guide, so matches are listed when announced.
 
 ### ZAP
 
