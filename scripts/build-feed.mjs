@@ -14,6 +14,7 @@
  *   ZAP Angola      zap.co.ao/tv/guia-tv             guide data only served inside Angola: checked, logged
  *   Azam TV         azamtv.com/program-guide         currently publishes no channels: checked, logged
  *   Sport 24        sport24live.com/schedule         live flag (airlines and cruise ships) → events
+ *   NBA             nba.com/schedule (Pan-Africa 24, Pan-Middle East 25) intl TV broadcasters → events
  *   DAZN            dazn.com/en-KE/schedule          read by the apps themselves on the device (DAZN refuses servers outside Africa)
  *
  * A source that fails keeps its previous results (never wipes good data), and every run writes
@@ -415,6 +416,37 @@ async function dazn() {
   return { events: out };
 }
 
+/* ---------- NBA – official international broadcast schedule (nba.com/schedule → Broadcaster region:
+   Pan-Africa = scheduleLeagueV2_24.json, Pan-Middle East = scheduleLeagueV2_25.json). Every game a broadcaster in
+   those regions shows live becomes an event; the same game in a TV guide (SuperSport, beIN, Sport 24 …) merges into it. */
+const NBA_CH = [
+  [/^canal\+? ?afrique/i, 'cp-tbc'], [/^supersport action/i, 'ss-action'], [/^espn 2$/i, 'espn2'], [/^espn$/i, 'espn'],
+  [/^sporty ?tv/i, 'sportytv'], [/^bein/i, 'bein-tbc'],
+];
+async function nbaIntl() {
+  const out = new Map();
+  for (const region of [24, 25]) {
+    const j = await get(`https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_${region}.json`);
+    for (const d of (j.leagueSchedule && j.leagueSchedule.gameDates) || []) for (const g of d.games || []) {
+      const t = Date.parse(g.gameDateTimeUTC); if (!t || !inWindow(t)) continue;
+      const b = g.broadcasters || {}; const chans = [];
+      for (const x of [...(b.intlTvBroadcasters || []), ...(b.intlOttBroadcasters || [])]) {
+        if (x.regionId && x.regionId !== region) continue;
+        const hit = NBA_CH.find(([re]) => re.test(String(x.broadcasterDisplay || '').trim())); if (hit) chans.push(hit[1]);
+      }
+      if (!chans.length) continue;
+      const home = `${g.homeTeam.teamCity} ${g.homeTeam.teamName}`.trim(), away = `${g.awayTeam.teamCity} ${g.awayTeam.teamName}`.trim();
+      const cup = /nba cup/i.test(`${g.gameLabel || ''} ${g.gameSubLabel || ''}`);
+      const k = g.gameId;
+      const e = out.get(k) || { start: iso(t), duration: 150, sport: 'basketball', comp: cup ? 'NBA · Emirates NBA Cup' : (/playoff|play-in|finals/i.test(g.gameLabel || '') ? `NBA · ${g.gameLabel}` : 'NBA'),
+        detail: `${away} @ ${home}`, home, away, channels: [], status: 'L', via: 'NBA.com schedule (Pan-Africa / Pan-Middle East)' };
+      for (const c of chans) if (!e.channels.includes(c)) e.channels.push(c);
+      out.set(k, e);
+    }
+  }
+  return { events: [...out.values()] };
+}
+
 /* ---------- rights watch: African broadcasters on the MLB and AFC "where to watch" pages ----------
  * Known broadcasters map onto the apps' providers; a broadcaster not seen before is added over the air
  * (provider + "channel TBA" + rights rule) and a GitHub issue is opened so it can be checked. */
@@ -497,7 +529,7 @@ const NO_TEAMS = new Set(['golf', 'tennis', 'f1', 'motogp', 'wec', 'wrc', 'nasca
 const sameMatch = (a, b) => { const s = sides(a), o = sides(b); if (!s || !o) return false; return (sameTeam(s[0], o[0]) && sameTeam(s[1], o[1])) || (sameTeam(s[0], o[1]) && sameTeam(s[1], o[0])); };
 
 /* ---------- run ---------- */
-const SOURCES = { supersport, bein, nws, azam, startimes, canalplus, zap, azamtv, mlbApple, sport24 };   // dazn(): DAZN refuses servers outside Africa (403 on GitHub); the apps read its schedule on the device
+const SOURCES = { supersport, bein, nws, azam, startimes, canalplus, zap, azamtv, mlbApple, sport24, nbaIntl };   // dazn(): DAZN refuses servers outside Africa (403 on GitHub); the apps read its schedule on the device
 const prevParts = read('state/parts.json', {});
 const parts = {}; const status = {};
 for (const [name, fn] of Object.entries(SOURCES)) {
@@ -520,7 +552,7 @@ const fx = (await fixtures()).events; log('fixtures', fx.length);
 
 /* 1) live events from guides that mark live sport, merged by match */
 const events = [];
-for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws', 'mlbApple', 'sport24']) for (const e of (parts[name] || {}).events || []) {
+for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws', 'mlbApple', 'sport24', 'nbaIntl']) for (const e of (parts[name] || {}).events || []) {
   const t = +new Date(e.start);
   /* same match = same two teams within 4 h (guides disagree on kick-off by up to an hour), or same title within 45 min.
      Sources run in trust order, so the first (SuperSport / beIN) keeps its kick-off time. */
