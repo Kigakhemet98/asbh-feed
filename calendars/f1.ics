@@ -9,16 +9,18 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:6188cd5ab434c8134b21@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261120T002500Z
 DTEND:20261120T020000Z
 SUMMARY:Las Vegas GP Treino Livre 1 · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241)\, SuperSpo
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241 · Angola/M
  
- rt Motorsport (DStv 235)\nSource: SuperSport guide
-LOCATION:SuperSport Máximo 1 (DStv 241) · SuperSport Motorsport (DStv 23
+ oz 601)\, SuperSport Motorsport (DStv 235 · 215)\, Sport 24 Extra (In
+  fl
+ ight · At sea)\nSource: SuperSport guide · Sport 24 guide
+LOCATION:SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport M
  
- 5)
+ otorsport (DStv 235 · 215) · Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -28,16 +30,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4fdd5ffff744fed44fa5@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261120T034500Z
 DTEND:20261120T052500Z
 SUMMARY:Las Vegas GP Treino Livre 2 · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241)\, SuperSpo
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241 · Angola/M
  
- rt Motorsport (DStv 235)\nSource: SuperSport guide
-LOCATION:SuperSport Máximo 1 (DStv 241) · SuperSport Motorsport (DStv 23
+ oz 601)\, SuperSport Motorsport (DStv 235 · 215)\, Sport 24 Extra (In
+  fl
+ ight · At sea)\nSource: SuperSport guide · Sport 24 guide
+LOCATION:SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport M
  
- 5)
+ otorsport (DStv 235 · 215) · Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -47,14 +51,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3912fdddb390856a3e7d@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261120T061000Z
 DTEND:20261120T071000Z
 SUMMARY:Las Vegas · The F1 Show
-DESCRIPTION:The F1 Show\nLIVE on: SuperSport Motorsport (DStv 235)\nSource
+DESCRIPTION:The F1 Show\nLIVE on: SuperSport Motorsport (DStv 235 · 215)\
  
- : SuperSport guide
-LOCATION:SuperSport Motorsport (DStv 235)
+ nSource: SuperSport guide
+LOCATION:SuperSport Motorsport (DStv 235 · 215)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -63,17 +67,36 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:6e212faff10dbbcb29a0@asbh
+DTSTAMP:20261113T061851Z
+DTSTART:20261120T150000Z
+DTEND:20261120T160000Z
+SUMMARY:Portugal Practice · Motogp
+DESCRIPTION:Motogp\nLIVE on: Sport 24 Extra (In flight · At sea)\nSource:
+ 
+  Sport 24 guide
+LOCATION:Sport 24 Extra (In flight · At sea)
+CATEGORIES:f1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Portugal Practice starts in 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:4bc5a6b794e5e3f00825@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261121T001500Z
 DTEND:20261121T020000Z
 SUMMARY:Las Vegas GP Treino Livre 3 · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241)\, SuperSpo
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241 · Angola/M
  
- rt Motorsport (DStv 235)\nSource: SuperSport guide
-LOCATION:SuperSport Máximo 1 (DStv 241) · SuperSport Motorsport (DStv 23
+ oz 601)\, SuperSport Motorsport (DStv 235 · 215)\, Sport 24 Extra (In
+  fl
+ ight · At sea)\nSource: SuperSport guide · Sport 24 guide
+LOCATION:SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport M
  
- 5)
+ otorsport (DStv 235 · 215) · Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -83,16 +106,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:75b987b997bc85e31111@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261121T035500Z
 DTEND:20261121T060000Z
 SUMMARY:Las Vegas GP Qualificação · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241)\, SuperSpo
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241 · Angola/M
  
- rt Motorsport (DStv 235)\nSource: SuperSport guide
-LOCATION:SuperSport Máximo 1 (DStv 241) · SuperSport Motorsport (DStv 23
+ oz 601)\, SuperSport Motorsport (DStv 235 · 215)\, Sport 24 Extra (In
+  fl
+ ight · At sea)\nSource: SuperSport guide · Sport 24 guide
+LOCATION:SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport M
  
- 5)
+ otorsport (DStv 235 · 215) · Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -102,18 +127,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e96df40d5c0a06182b91@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261122T023000Z
 DTEND:20261122T035500Z
 SUMMARY:Las Vegas · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Grandstand (DStv 201)\, SuperSp
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Grandstand (DStv 221 · 201)\, 
  
- ort Motorsport (DStv 235)\, SuperSport Máximo 1 (DStv 241)\nSource: S
- upe
- rSport guide
-LOCATION:SuperSport Grandstand (DStv 201) · SuperSport Motorsport (DStv 2
+ SuperSport Motorsport (DStv 235 · 215)\, SuperSport Máximo 1 (DStv 2
+ 41 
+ · Angola/Moz 601)\, Sport 24 Extra (In flight · At sea)\nSource: 
+ SuperS
+ port guide · Sport 24 guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201) · SuperSport Motorsport 
  
- 35) · SuperSport Máximo 1 (DStv 241)
+ (DStv 235 · 215) · SuperSport Máximo 1 (DStv 241 · Angola/Moz 601)
+  ·
+  Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -123,20 +152,37 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c8ac7923c24754e79acf@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261122T060000Z
 DTEND:20261122T070000Z
 SUMMARY:F1 - Chequered Flag · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Grandstand (DStv 201)\, SuperSp
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Grandstand (DStv 221 · 201)\, 
  
- ort Motorsport (DStv 235)\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201) · SuperSport Motorsport (DStv 2
+ SuperSport Motorsport (DStv 235 · 215)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201) · SuperSport Motorsport 
  
- 35)
+ (DStv 235 · 215)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:F1 - Chequered Flag starts in 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6e8d395e190caf8fed34@asbh
+DTSTAMP:20261113T061851Z
+DTSTART:20261122T130000Z
+DTEND:20261122T143000Z
+SUMMARY:Portugal GP · Motogp
+DESCRIPTION:Motogp\nLIVE on: Sport 24 Extra (In flight · At sea)\nSource:
+ 
+  Sport 24 guide
+LOCATION:Sport 24 Extra (In flight · At sea)
+CATEGORIES:f1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Portugal GP starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT

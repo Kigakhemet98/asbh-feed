@@ -9,14 +9,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:92317fe8d3a701430891@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261113T200000Z
 DTEND:20261113T221000Z
 SUMMARY:France v South Africa · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -26,14 +26,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bb5562309ebf7cf827f5@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261114T113000Z
 DTEND:20261114T134000Z
 SUMMARY:Italy v Argentina · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -43,14 +43,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:84c3e70c4a39ad19e0f7@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261114T140000Z
 DTEND:20261114T161000Z
 SUMMARY:Wales v New Zealand · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -60,14 +60,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ac4a9930597583bf67df@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261114T163000Z
 DTEND:20261114T184000Z
 SUMMARY:England v Japan · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -77,14 +77,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6c2e1314ef5e620f5143@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261114T200000Z
 DTEND:20261114T221000Z
 SUMMARY:Ireland v Fiji · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -93,15 +93,32 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:58c0192e07c3b4ace824@asbh
+DTSTAMP:20261113T061851Z
+DTSTART:20261115T080000Z
+DTEND:20261115T110000Z
+SUMMARY:Australia v New Zealand · Rugby League World Cup 2026 · Final
+DESCRIPTION:Rugby League World Cup 2026 · Final\nLIVE on: Sport 24 Extra 
+ 
+ (In flight · At sea)\nSource: Sport 24 guide
+LOCATION:Sport 24 Extra (In flight · At sea)
+CATEGORIES:rugby
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Australia v New Zealand starts in 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:f74e27d4f69401f07596@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261115T160000Z
 DTEND:20261115T171000Z
 SUMMARY:Scotland v Australia · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -111,14 +128,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a59b1d311a7f14e8234b@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261121T140000Z
 DTEND:20261121T161000Z
 SUMMARY:England v New Zealand · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -128,14 +145,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3ea12fc0cabd63f3c491@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261121T163000Z
 DTEND:20261121T184000Z
 SUMMARY:Ireland v South Africa · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -145,14 +162,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ce2002df7fa3ec119d7d@asbh
-DTSTAMP:20261113T055811Z
+DTSTAMP:20261113T061851Z
 DTSTART:20261121T200000Z
 DTEND:20261121T221000Z
 SUMMARY:France v Argentina · Nations Championship
-DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 201
+DESCRIPTION:Nations Championship\nLIVE on: SuperSport Grandstand (DStv 221
  
- )\nSource: SuperSport guide
-LOCATION:SuperSport Grandstand (DStv 201)
+  · 201)\nSource: SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:rugby
 BEGIN:VALARM
 ACTION:DISPLAY
