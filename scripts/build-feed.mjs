@@ -14,7 +14,7 @@
  *   ZAP Angola      zap.co.ao/tv/guia-tv             guide data only served inside Angola: checked, logged
  *   Azam TV         azamtv.com/program-guide         currently publishes no channels: checked, logged
  *   Sport 24        sport24live.com/schedule         live flag (airlines and cruise ships) → events
- *   DAZN            dazn.com/en-KE/schedule          every scheduled event is live              → events
+ *   DAZN            dazn.com/en-KE/schedule          read by the apps themselves on the device (DAZN refuses servers outside Africa)
  *
  * A source that fails keeps its previous results (never wipes good data), and every run writes
  * per-source counts to feed.json → "sources", so problems are visible at a glance. */
@@ -497,7 +497,7 @@ const NO_TEAMS = new Set(['golf', 'tennis', 'f1', 'motogp', 'wec', 'wrc', 'nasca
 const sameMatch = (a, b) => { const s = sides(a), o = sides(b); if (!s || !o) return false; return (sameTeam(s[0], o[0]) && sameTeam(s[1], o[1])) || (sameTeam(s[0], o[1]) && sameTeam(s[1], o[0])); };
 
 /* ---------- run ---------- */
-const SOURCES = { supersport, bein, nws, azam, startimes, canalplus, zap, azamtv, mlbApple, sport24, dazn };
+const SOURCES = { supersport, bein, nws, azam, startimes, canalplus, zap, azamtv, mlbApple, sport24 };   // dazn(): DAZN refuses servers outside Africa (403 on GitHub); the apps read its schedule on the device
 const prevParts = read('state/parts.json', {});
 const parts = {}; const status = {};
 for (const [name, fn] of Object.entries(SOURCES)) {

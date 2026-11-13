@@ -6,7 +6,7 @@ The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they ref
 
 ## What's new in 2.2.3 (13 Nov 2026)
 
-- **DAZN schedule** added to the feed: its live events for the next 10 days reach both apps over the air.
+- **DAZN schedule** documented here: the apps read DAZN's live 10-day schedule on the device (DAZN blocks requests from GitHub's servers).
 - Broadcaster and channel logos in this README.
 
 - SuperSport's landing page is now **DStv Stream – [dstv.stream](https://dstv.stream/#/)** (DStv and SuperSport.com stay as extra links).
@@ -291,7 +291,7 @@ Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links g
 |:---:|---|---|
 | <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/dazn-on-dark.png"><img src="logos/readme/channels/dazn-on-light.png" alt="DAZN" height="28"></picture> | DAZN | — |
 
-- Streaming in Africa. Every live event on its schedule (dazn.com/en-KE/schedule – boxing, NHL, college sports, National League, LPB, T100, E1, OCEANMAN, Total Chess, RWS Muay Thai and more) is added automatically.
+- Streaming in Africa. Every live event on its schedule ([dazn.com/en-KE/schedule](https://www.dazn.com/en-KE/schedule) – boxing, National League, LPB, T100, E1, OCEANMAN, Total Chess, RWS Muay Thai, padel and more) is read by the apps on your device and added automatically.
 
 ### NBA League Pass
 
@@ -394,7 +394,7 @@ A GitHub job ([`.github/workflows/update-feed.yml`](.github/workflows/update-fee
 | Azam TV Max – web.azamtvmax.com/tv-guide | "LIVE" in the programme title | ✅ (Azam publishes one day at a time) |
 | StarTimes – m.startimestv.com | no live flag: a slot counts only if it starts within 30 minutes of the real kick-off (so replays never count) | ✅ |
 | Sport 24 / Sport 24 Extra – sport24live.com/schedule (airlines & cruise ships) | the schedule's own live flag | ✅ |
-| DAZN – dazn.com/en-KE/schedule (streaming, Africa) | every scheduled event is live; programmes and the Live TV channel are left out | ✅ |
+| DAZN – dazn.com/en-KE/schedule (streaming, Africa) | every scheduled event is live; programmes, the Live TV channel and add-on passes (NFL Game Pass, NHL.TV) are left out. DAZN refuses requests from servers outside Africa, so **the apps read its 10-day schedule directly on your phone or PC** each refresh | ✅ in the apps |
 | Azam TV – azamtv.com/program-guide | checked every run; its sports section currently lists ESPN only | ⚠️ |
 | CANAL+ Rwanda – canalplus.com/rw/programme-tv | blocks automated visits from cloud servers | ⚠️ use announcements |
 | ZAP Angola – zap.co.ao/tv/guia-tv | guide server only answers inside Angola | ⚠️ use announcements |
