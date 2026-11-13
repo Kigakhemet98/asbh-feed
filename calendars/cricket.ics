@@ -8,29 +8,29 @@ X-WR-TIMEZONE:Africa/Nairobi
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:384093b9280e489dfecc@asbh
-DTSTAMP:20261113T061851Z
+UID:953a7eaf2e554da1c9fb@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261113T032000Z
 DTEND:20261113T115500Z
-SUMMARY:Australia v England 1st ODI · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Extra (DStv 230 · 
+SUMMARY:Australia v England · International Cricket · 1st ODI
+DESCRIPTION:International Cricket · 1st ODI\nLIVE on: SuperSport Extra (D
  
- 210)\, Sport 24 Extra (In flight · At sea)\nSource: SuperSport guide 
- · 
- Sport 24 guide
+ Stv 230 · 210)\, Sport 24 Extra (In flight · At sea)\nSource: SuperS
+ por
+ t guide · Sport 24 guide
 LOCATION:SuperSport Extra (DStv 230 · 210) · Sport 24 Extra (In flight 
  
  · At sea)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Australia v England 1st ODI starts in 10 minutes
+DESCRIPTION:Australia v England starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:611389bb5d2e578ef1b9@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261113T045000Z
 DTEND:20261113T090000Z
 SUMMARY:UAE v Ireland · ICC (W) Nations Trophy
@@ -47,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2dd739252e66a9c2f3b5@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261113T045000Z
 DTEND:20261113T090000Z
 SUMMARY:Scotland v Sri Lanka · ICC (W) Nations Trophy
@@ -64,7 +64,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9e88b7e2c2f6f70343c0@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261113T090000Z
 DTEND:20261113T130000Z
 SUMMARY:Zimbabwe v Bangladesh · ICC (W) Nations Trophy
@@ -80,11 +80,11 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7e41b31bb62aa438260c@asbh
-DTSTAMP:20261113T061851Z
+UID:a0a8e624acaca8783800@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261113T090000Z
 DTEND:20261113T130000Z
-SUMMARY:THA v Pakistan · ICC (W) Nations Trophy
+SUMMARY:Thailand v Pakistan · ICC (W) Nations Trophy
 DESCRIPTION:ICC (W) Nations Trophy\nLIVE on: SuperSport Stream 245 (DStv S
  
  tream 245)\nSource: SuperSport guide
@@ -92,13 +92,13 @@ LOCATION:SuperSport Stream 245 (DStv Stream 245)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:THA v Pakistan starts in 10 minutes
+DESCRIPTION:Thailand v Pakistan starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:963525ee688eac204cbe@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261114T043500Z
 DTEND:20261114T080500Z
 SUMMARY:HBH v BRH · Women's Big Bash League
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:318898a9fbedb9ad6ce7@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261114T080500Z
 DTEND:20261114T115000Z
 SUMMARY:PRS v ADS · Women's Big Bash League
@@ -131,46 +131,46 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:41fd2af79db99b5b02aa@asbh
-DTSTAMP:20261113T061851Z
+UID:011ea63bd3c2f822c8ae@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261115T015500Z
 DTEND:20261115T103000Z
-SUMMARY:New Zealand v India 5th ODI · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: channel to be announced\nSourc
+SUMMARY:New Zealand v India · International Cricket · 5th ODI
+DESCRIPTION:International Cricket · 5th ODI\nLIVE on: channel to be annou
  
- e: SuperSport guide
+ nced\nSource: SuperSport guide
 LOCATION:TBA
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:New Zealand v India 5th ODI starts in 10 minutes
+DESCRIPTION:New Zealand v India starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:b52fb972c7717ed8ed40@asbh
-DTSTAMP:20261113T061851Z
+UID:7f6221bb7ce106cb55df@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261115T032000Z
 DTEND:20261115T115500Z
-SUMMARY:Australia v England 2nd ODI · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Extra (DStv 230 · 
+SUMMARY:Australia v England · International Cricket · 2nd ODI
+DESCRIPTION:International Cricket · 2nd ODI\nLIVE on: SuperSport Extra (D
  
- 210)\, Sport 24 Extra (In flight · At sea)\nSource: SuperSport guide 
- · 
- Sport 24 guide
+ Stv 230 · 210)\, Sport 24 Extra (In flight · At sea)\nSource: SuperS
+ por
+ t guide · Sport 24 guide
 LOCATION:SuperSport Extra (DStv 230 · 210) · Sport 24 Extra (In flight 
  
  · At sea)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Australia v England 2nd ODI starts in 10 minutes
+DESCRIPTION:Australia v England starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:40a678c1081ddc1f4cdb@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261115T045000Z
 DTEND:20261115T090000Z
 SUMMARY:Pakistan v Netherlands · ICC (W) Nations Trophy
@@ -186,11 +186,11 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:81d9c262ea7102fac6c9@asbh
-DTSTAMP:20261113T061851Z
+UID:3f3b50b27da61209ab4f@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261115T045000Z
 DTEND:20261115T090000Z
-SUMMARY:THA v Zimbabwe · ICC (W) Nations Trophy
+SUMMARY:Thailand v Zimbabwe · ICC (W) Nations Trophy
 DESCRIPTION:ICC (W) Nations Trophy\nLIVE on: SuperSport Stream 245 (DStv S
  
  tream 245)\nSource: SuperSport guide
@@ -198,33 +198,35 @@ LOCATION:SuperSport Stream 245 (DStv Stream 245)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:THA v Zimbabwe starts in 10 minutes
+DESCRIPTION:Thailand v Zimbabwe starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:02c0a908642b736a3167@asbh
-DTSTAMP:20261113T061851Z
+UID:abb29d9a02ecc37caf1d@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261115T075000Z
 DTEND:20261115T155500Z
-SUMMARY:South Africa v Bangladesh 1st Test D1 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:South Africa v Bangladesh · International Cricket · 1st Test Day
  
- 1 · 201)\nSource: SuperSport guide
+  1
+DESCRIPTION:International Cricket · 1st Test Day 1\nLIVE on: SuperSport G
+ 
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:South Africa v Bangladesh 1st Test D1 starts in 10 minutes
+DESCRIPTION:South Africa v Bangladesh starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:11b8798fcd1d377ebe0f@asbh
-DTSTAMP:20261113T061851Z
+UID:3f09bfe1fe19b2f54b20@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261115T090000Z
 DTEND:20261115T130000Z
-SUMMARY:Sri Lanka v PNG · ICC (W) Nations Trophy
+SUMMARY:Sri Lanka v Papua New Guinea · ICC (W) Nations Trophy
 DESCRIPTION:ICC (W) Nations Trophy\nLIVE on: SuperSport Stream 246 (DStv S
  
  tream 246)\nSource: SuperSport guide
@@ -232,13 +234,13 @@ LOCATION:SuperSport Stream 246 (DStv Stream 246)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Sri Lanka v PNG starts in 10 minutes
+DESCRIPTION:Sri Lanka v Papua New Guinea starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:30bcc650b3add0addf3a@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261115T090000Z
 DTEND:20261115T130000Z
 SUMMARY:Scotland v UAE · ICC (W) Nations Trophy
@@ -255,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:be3a7e3b93fb0a09274d@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261116T045000Z
 DTEND:20261116T090000Z
 SUMMARY:Zimbabwe v Pakistan · ICC (W) Nations Trophy
@@ -272,7 +274,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0bbc96e9f6a8e9ebafdc@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261116T045000Z
 DTEND:20261116T090000Z
 SUMMARY:Bangladesh v Netherlands · ICC (W) Nations Trophy
@@ -288,25 +290,27 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fb52ee94491824ebfe03@asbh
-DTSTAMP:20261113T061851Z
+UID:981eddd734540bc00f0d@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261116T075000Z
 DTEND:20261116T160000Z
-SUMMARY:South Africa v Bangladesh 1st Test D2 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:South Africa v Bangladesh · International Cricket · 1st Test Day
  
- 1 · 201)\nSource: SuperSport guide
+  2
+DESCRIPTION:International Cricket · 1st Test Day 2\nLIVE on: SuperSport G
+ 
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:South Africa v Bangladesh 1st Test D2 starts in 10 minutes
+DESCRIPTION:South Africa v Bangladesh starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b28c4315b283e22cff29@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261116T080500Z
 DTEND:20261116T115500Z
 SUMMARY:SYT v MLS · Women's Big Bash League
@@ -323,7 +327,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:069fc22cc291f763b7a2@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261116T090000Z
 DTEND:20261116T130000Z
 SUMMARY:UAE v Sri Lanka · ICC (W) Nations Trophy
@@ -339,11 +343,11 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ceaceccb79c74cf5a69b@asbh
-DTSTAMP:20261113T061851Z
+UID:e59e649e12d97ba5dfca@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261116T090000Z
 DTEND:20261116T130000Z
-SUMMARY:Ireland v PNG · ICC (W) Nations Trophy
+SUMMARY:Ireland v Papua New Guinea · ICC (W) Nations Trophy
 DESCRIPTION:ICC (W) Nations Trophy\nLIVE on: SuperSport Stream 245 (DStv S
  
  tream 245)\nSource: SuperSport guide
@@ -351,30 +355,32 @@ LOCATION:SuperSport Stream 245 (DStv Stream 245)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Ireland v PNG starts in 10 minutes
+DESCRIPTION:Ireland v Papua New Guinea starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d5cdf21793e75f7a02db@asbh
-DTSTAMP:20261113T061851Z
+UID:6caead56efb5b2d772d0@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261117T075000Z
 DTEND:20261117T160000Z
-SUMMARY:South Africa v Bangladesh 1st Test D3 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:South Africa v Bangladesh · International Cricket · 1st Test Day
  
- 1 · 201)\nSource: SuperSport guide
+  3
+DESCRIPTION:International Cricket · 1st Test Day 3\nLIVE on: SuperSport G
+ 
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:South Africa v Bangladesh 1st Test D3 starts in 10 minutes
+DESCRIPTION:South Africa v Bangladesh starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e6bc29dab4cdd6068cc1@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261117T080500Z
 DTEND:20261117T115500Z
 SUMMARY:ADS v SYS · Women's Big Bash League
@@ -390,29 +396,29 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:e1ff5ceb68a721b0d07e@asbh
-DTSTAMP:20261113T061851Z
+UID:c4c31c2cbc1b6ab9c835@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261118T032000Z
 DTEND:20261118T120000Z
-SUMMARY:Australia v England 3rd ODI · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Extra (DStv 230 · 
+SUMMARY:Australia v England · International Cricket · 3rd ODI
+DESCRIPTION:International Cricket · 3rd ODI\nLIVE on: SuperSport Extra (D
  
- 210)\, Sport 24 Extra (In flight · At sea)\nSource: SuperSport guide 
- · 
- Sport 24 guide
+ Stv 230 · 210)\, Sport 24 Extra (In flight · At sea)\nSource: SuperS
+ por
+ t guide · Sport 24 guide
 LOCATION:SuperSport Extra (DStv 230 · 210) · Sport 24 Extra (In flight 
  
  · At sea)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Australia v England 3rd ODI starts in 10 minutes
+DESCRIPTION:Australia v England starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:90f3cc344132a9e144af@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261118T045000Z
 DTEND:20261118T090000Z
 SUMMARY:Ireland v Scotland · ICC (W) Nations Trophy
@@ -428,11 +434,11 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0e4e95301317b7509d64@asbh
-DTSTAMP:20261113T061851Z
+UID:d511e6e3b64df40a0f2d@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261118T045000Z
 DTEND:20261118T090000Z
-SUMMARY:PNG v UAE · ICC (W) Nations Trophy
+SUMMARY:Papua New Guinea v UAE · ICC (W) Nations Trophy
 DESCRIPTION:ICC (W) Nations Trophy\nLIVE on: SuperSport Stream 245 (DStv S
  
  tream 245)\nSource: SuperSport guide
@@ -440,33 +446,35 @@ LOCATION:SuperSport Stream 245 (DStv Stream 245)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:PNG v UAE starts in 10 minutes
+DESCRIPTION:Papua New Guinea v UAE starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:589b65c86dcb2bf023c9@asbh
-DTSTAMP:20261113T061851Z
+UID:78497e9e427a493244e8@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261118T075000Z
 DTEND:20261118T160000Z
-SUMMARY:South Africa v Bangladesh 1st Test D4 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:South Africa v Bangladesh · International Cricket · 1st Test Day
  
- 1 · 201)\nSource: SuperSport guide
+  4
+DESCRIPTION:International Cricket · 1st Test Day 4\nLIVE on: SuperSport G
+ 
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:South Africa v Bangladesh 1st Test D4 starts in 10 minutes
+DESCRIPTION:South Africa v Bangladesh starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c6cbfd1989aa85c63574@asbh
-DTSTAMP:20261113T061851Z
+UID:40303e7da92d47eff735@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261118T090000Z
 DTEND:20261118T130000Z
-SUMMARY:Bangladesh v THA · ICC (W) Nations Trophy
+SUMMARY:Bangladesh v Thailand · ICC (W) Nations Trophy
 DESCRIPTION:ICC (W) Nations Trophy\nLIVE on: SuperSport Stream 246 (DStv S
  
  tream 246)\nSource: SuperSport guide
@@ -474,13 +482,13 @@ LOCATION:SuperSport Stream 246 (DStv Stream 246)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Bangladesh v THA starts in 10 minutes
+DESCRIPTION:Bangladesh v Thailand starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:249e68db2b803c416963@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261118T090000Z
 DTEND:20261118T130000Z
 SUMMARY:Netherlands v Zimbabwe · ICC (W) Nations Trophy
@@ -496,25 +504,25 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:35cd06d125234f5e1554@asbh
-DTSTAMP:20261113T061851Z
+UID:916cc5397ff353a91951@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261118T215000Z
 DTEND:20261119T053000Z
-SUMMARY:New Zealand v India 1st Test D1 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:New Zealand v India · International Cricket · 1st Test Day 1
+DESCRIPTION:International Cricket · 1st Test Day 1\nLIVE on: SuperSport G
  
- 1 · 201)\nSource: SuperSport guide
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:New Zealand v India 1st Test D1 starts in 10 minutes
+DESCRIPTION:New Zealand v India starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f9065435e2a33bf8e068@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261119T043000Z
 DTEND:20261119T080500Z
 SUMMARY:HBH v PRS · Women's Big Bash League
@@ -530,25 +538,27 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a7a205a767eb43d0544a@asbh
-DTSTAMP:20261113T061851Z
+UID:3a5e7eb4be9611b29c59@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261119T075000Z
 DTEND:20261119T160000Z
-SUMMARY:South Africa v Bangladesh 1st Test D5 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:South Africa v Bangladesh · International Cricket · 1st Test Day
  
- 1 · 201)\nSource: SuperSport guide
+  5
+DESCRIPTION:International Cricket · 1st Test Day 5\nLIVE on: SuperSport G
+ 
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:South Africa v Bangladesh 1st Test D5 starts in 10 minutes
+DESCRIPTION:South Africa v Bangladesh starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:11c6c400f55300cb8881@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261119T080500Z
 DTEND:20261119T120000Z
 SUMMARY:BRH v SYT · Women's Big Bash League
@@ -564,25 +574,25 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d6b1a8ee0193f5d1e639@asbh
-DTSTAMP:20261113T061851Z
+UID:f6de28200c103cce9359@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261119T220000Z
 DTEND:20261120T053000Z
-SUMMARY:New Zealand v India 1st Test D2 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:New Zealand v India · International Cricket · 1st Test Day 2
+DESCRIPTION:International Cricket · 1st Test Day 2\nLIVE on: SuperSport G
  
- 1 · 201)\nSource: SuperSport guide
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:New Zealand v India 1st Test D2 starts in 10 minutes
+DESCRIPTION:New Zealand v India starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:112739ad02eca678167a@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261120T045000Z
 DTEND:20261120T090000Z
 SUMMARY:Super 6 · ICC (W) Nations Trophy
@@ -603,7 +613,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:112739ad02eca678167a@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261120T090000Z
 DTEND:20261120T130000Z
 SUMMARY:Super 6 · ICC (W) Nations Trophy
@@ -619,25 +629,25 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:64ad8631cc59db312727@asbh
-DTSTAMP:20261113T061851Z
+UID:521e5e890d8908069c44@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261120T220000Z
 DTEND:20261121T053000Z
-SUMMARY:New Zealand v India 1st Test D3 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:New Zealand v India · International Cricket · 1st Test Day 3
+DESCRIPTION:International Cricket · 1st Test Day 3\nLIVE on: SuperSport G
  
- 1 · 201)\nSource: SuperSport guide
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:New Zealand v India 1st Test D3 starts in 10 minutes
+DESCRIPTION:New Zealand v India starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:93914fa726296ceacce3@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261121T005500Z
 DTEND:20261121T042500Z
 SUMMARY:HBH v SYT · Women's Big Bash League
@@ -654,7 +664,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:556357afda3e12dd96d1@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261121T042500Z
 DTEND:20261121T080000Z
 SUMMARY:SYS v PRS · Women's Big Bash League
@@ -670,46 +680,46 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:243772f2d34926ef6713@asbh
-DTSTAMP:20261113T061851Z
+UID:b29c00c0169eef48cc85@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261121T080500Z
 DTEND:20261121T121500Z
-SUMMARY:Australia v England 1st T20 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:Australia v England · International Cricket · 1st T20
+DESCRIPTION:International Cricket · 1st T20\nLIVE on: SuperSport Grandsta
  
- 1 · 201)\, Sport 24 Extra (In flight · At sea)\nSource: SuperSport g
- uid
- e · Sport 24 guide
+ nd (DStv 221 · 201)\, Sport 24 Extra (In flight · At sea)\nSource: S
+ upe
+ rSport guide · Sport 24 guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201) · Sport 24 Extra (In fli
  
  ght · At sea)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Australia v England 1st T20 starts in 10 minutes
+DESCRIPTION:Australia v England starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6b55d7852c9340dc9a68@asbh
-DTSTAMP:20261113T061851Z
+UID:54316061c1fbfe748357@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261121T223000Z
 DTEND:20261122T023000Z
-SUMMARY:New Zealand v India 1st Test D4 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:New Zealand v India · International Cricket · 1st Test Day 4
+DESCRIPTION:International Cricket · 1st Test Day 4\nLIVE on: SuperSport G
  
- 1 · 201)\nSource: SuperSport guide
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:New Zealand v India 1st Test D4 starts in 10 minutes
+DESCRIPTION:New Zealand v India starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8310570b30b4ac1ef163@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261122T045000Z
 DTEND:20261122T090000Z
 SUMMARY:Super 6 · ICC (W) Nations Trophy
@@ -730,7 +740,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d368f84fa2be99ce5bd4@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261122T070000Z
 DTEND:20261122T080500Z
 SUMMARY:BRH v ADS · Women's Big Bash League
@@ -751,7 +761,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c18bcdf18e88f87553@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261122T080500Z
 DTEND:20261122T110000Z
 SUMMARY:MLS v MLR · Women's Big Bash League
@@ -768,7 +778,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8310570b30b4ac1ef163@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261122T090000Z
 DTEND:20261122T130000Z
 SUMMARY:Super 6 · ICC (W) Nations Trophy
@@ -784,25 +794,25 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:49f871a228bf543a650d@asbh
-DTSTAMP:20261113T061851Z
+UID:449be6eb81f4bf7e80d5@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261122T215000Z
 DTEND:20261123T053000Z
-SUMMARY:New Zealand v India 1st Test D5 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:New Zealand v India · International Cricket · 1st Test Day 5
+DESCRIPTION:International Cricket · 1st Test Day 5\nLIVE on: SuperSport G
  
- 1 · 201)\nSource: SuperSport guide
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:New Zealand v India 1st Test D5 starts in 10 minutes
+DESCRIPTION:New Zealand v India starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e5ec9a6bc3018b36a549@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261123T045000Z
 DTEND:20261123T090000Z
 SUMMARY:Super 6 · ICC (W) Nations Trophy
@@ -818,25 +828,27 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:663495550e747f2340d3@asbh
-DTSTAMP:20261113T061851Z
+UID:41588ce8acd661453607@asbh
+DTSTAMP:20261113T062347Z
 DTSTART:20261123T075000Z
 DTEND:20261123T160000Z
-SUMMARY:South Africa v Bangladesh 2nd Test D1 · International Cricket
-DESCRIPTION:International Cricket\nLIVE on: SuperSport Grandstand (DStv 22
+SUMMARY:South Africa v Bangladesh · International Cricket · 2nd Test Day
  
- 1 · 201)\nSource: SuperSport guide
+  1
+DESCRIPTION:International Cricket · 2nd Test Day 1\nLIVE on: SuperSport G
+ 
+ randstand (DStv 221 · 201)\nSource: SuperSport guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201)
 CATEGORIES:cricket
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:South Africa v Bangladesh 2nd Test D1 starts in 10 minutes
+DESCRIPTION:South Africa v Bangladesh starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e5ec9a6bc3018b36a549@asbh
-DTSTAMP:20261113T061851Z
+DTSTAMP:20261113T062347Z
 DTSTART:20261123T090000Z
 DTEND:20261123T130000Z
 SUMMARY:Super 6 · ICC (W) Nations Trophy
