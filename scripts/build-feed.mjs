@@ -426,7 +426,7 @@ const NBA_CH = [
 async function nbaIntl() {
   const out = new Map();
   for (const region of [24, 25]) {
-    const j = await get(`https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_${region}.json`);
+    const j = await get(`https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_${region}.json`, { headers: { origin: 'https://www.nba.com', referer: 'https://www.nba.com/', 'accept-language': 'en-GB,en;q=0.9' } });   // NBA may refuse GitHub's servers: the apps also read this on the device
     for (const d of (j.leagueSchedule && j.leagueSchedule.gameDates) || []) for (const g of d.games || []) {
       const t = Date.parse(g.gameDateTimeUTC); if (!t || !inWindow(t)) continue;
       const b = g.broadcasters || {}; const chans = [];
