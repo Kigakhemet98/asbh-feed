@@ -1,61 +1,61 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-13T07:19:48.694Z",
+ "updated": "2026-11-13T07:23:02.945Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 350,
-   "at": "2026-11-13T07:17:45.041Z"
+   "at": "2026-11-13T07:20:27.520Z"
   },
   "bein": {
    "ok": true,
    "count": 100,
-   "at": "2026-11-13T07:17:46.729Z"
+   "at": "2026-11-13T07:20:29.539Z"
   },
   "nws": {
    "ok": true,
    "count": 57,
-   "at": "2026-11-13T07:17:49.476Z"
+   "at": "2026-11-13T07:20:32.110Z"
   },
   "azam": {
    "ok": true,
    "count": 4,
-   "at": "2026-11-13T07:17:59.609Z"
+   "at": "2026-11-13T07:20:40.017Z"
   },
   "startimes": {
    "ok": true,
    "count": 175,
-   "at": "2026-11-13T07:19:09.338Z"
+   "at": "2026-11-13T07:21:52.228Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-13T07:19:23.004Z"
+   "at": "2026-11-13T07:22:05.981Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-13T07:19:23.052Z"
+   "at": "2026-11-13T07:22:06.063Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-13T07:19:29.414Z"
+   "at": "2026-11-13T07:22:13.417Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T07:19:29.541Z"
+   "at": "2026-11-13T07:22:13.631Z"
   },
   "sport24": {
    "ok": true,
    "count": 91,
-   "at": "2026-11-13T07:19:42.233Z"
+   "at": "2026-11-13T07:22:53.303Z"
   }
  },
  "assignments": [
@@ -140,21 +140,6 @@
   }
  ],
  "events": [
-  {
-   "start": "2026-11-13T03:20:00.000Z",
-   "end": "2026-11-13T11:55:00.000Z",
-   "sport": "cricket",
-   "comp": "International Cricket · 1st ODI",
-   "detail": "Australia v England",
-   "channels": [
-    "ss-extra-1",
-    "s24-extra"
-   ],
-   "status": "L",
-   "via": "SuperSport guide · Sport 24 guide",
-   "home": "Australia",
-   "away": "England"
-  },
   {
    "start": "2026-11-13T04:30:00.000Z",
    "end": "2026-11-13T07:00:00.000Z",
@@ -6309,7 +6294,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-13T07:19:46.958Z",
+   "checked": "2026-11-13T07:23:00.783Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6337,7 +6322,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-13T07:19:47.932Z",
+   "checked": "2026-11-13T07:23:01.889Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6358,7 +6343,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-13T07:19:48.694Z",
+   "checked": "2026-11-13T07:23:02.944Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
