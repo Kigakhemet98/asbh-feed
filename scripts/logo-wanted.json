@@ -1156,5 +1156,23 @@
   "q": "ON Time Sports",
   "lang": "en",
   "site": null
+ },
+ {
+  "key": "plat-gotv",
+  "q": "GOtv",
+  "lang": "en",
+  "site": "https://www.gotvafrica.com"
+ },
+ {
+  "key": "plat-zap",
+  "q": "ZAP (Angola)",
+  "lang": "en",
+  "site": "https://www.zap.co.ao"
+ },
+ {
+  "key": "plat-azamtv",
+  "q": "Azam TV",
+  "lang": "en",
+  "site": "https://azamtv.co.tz"
  }
 ]
