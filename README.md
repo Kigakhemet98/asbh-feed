@@ -8,7 +8,7 @@ The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they ref
 
 - **DAZN schedule** documented here: the apps read DAZN's live 10-day schedule on the device (DAZN blocks requests from GitHub's servers).
 - Broadcaster and channel logos in this README.
-- SuperSport Swahili: **DStv 216** (East Africa – Kenya, Uganda; DStv Select in Tanzania). GOtv numbers for SuperSport now have their own table (*SuperSport on GOtv*).
+- SuperSport Swahili: **DStv 216** (East Africa – Kenya, Uganda; DStv Select in Tanzania). GOtv numbers for SuperSport now have their own table (*SuperSport on GOtv*), with GOtv's new packages from 5 Nov 2026 (Easy · Starter · Select · Sports).
 
 - SuperSport's landing page is now **DStv Stream – [dstv.stream](https://dstv.stream/#/)** (DStv and SuperSport.com stay as extra links).
 - EuroLeague 2026-27 club crests (all 20 teams, plus AS Monaco).
@@ -66,19 +66,19 @@ Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links g
 
 #### SuperSport on GOtv
 
-GOtv carries these SuperSport channels (Rest of Africa numbers; Uganda uses the 360s and Ghana the 160s for the same channels).
+GOtv carries these SuperSport channels. Numbers are the Rest of Africa ones (Uganda uses the 360s and Ghana the 160s; Kenya's new line-up may differ, e.g. SuperSport Swahili is 570). Packages are GOtv's new line-up from 5 November 2026: **Easy · Starter · Select · Sports** (Expect More). Easy has 2 sports channels, Starter 6, Select 7; Sports adds Premier League and Champions League.
 
-| Logo | Channel | GOtv | Package |
+| Logo | Channel | GOtv | Package (from 5 Nov 2026) |
 |:---:|---|---|---|
-| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | 60 | GOtv Lite |
-| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | 61 | GOtv Plus |
-| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | 62 | GOtv Max |
-| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | 63 | GOtv Value |
-| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | 64 | GOtv Max |
-| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | 65 | GOtv Supa Plus |
-| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | 66 | GOtv Supa Plus |
-| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | 67 | GOtv Supa |
-| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili | 570 or 370 | GOtv Sports (Kenya, Uganda) |
+| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | 60 | Starter, Select or Sports – not yet published per channel |
+| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | 61 | GOtv Easy |
+| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | 62 | Starter, Select or Sports – not yet published per channel |
+| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | 63 | GOtv Easy |
+| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | 64 | Starter, Select or Sports – not yet published per channel |
+| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | 65 | GOtv Sports |
+| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | 66 | Starter, Select or Sports – not yet published per channel |
+| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | 67 | Starter, Select or Sports – not yet published per channel |
+| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili | 570 (Kenya) · 370 (Uganda) | GOtv Sports |
 
 - **Rights tracked:** AFCON PAMOJA 2027 qualifiers – channel TBA; ATP & WTA tennis – SuperSport Tennis; Premier League – SuperSport Premier League; LaLiga (every match) – SuperSport LaLiga
 - Everything SuperSport marks LIVE in its own guide (football, rugby, cricket, golf, motorsport, WWE, schools sport and more) is added automatically.
