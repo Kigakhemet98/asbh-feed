@@ -7,6 +7,7 @@ The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they ref
 ## What's new in 2.2.3 (13 Nov 2026)
 
 - SuperSport's landing page is now **DStv Stream – [dstv.stream](https://dstv.stream/#/)** (DStv and SuperSport.com stay as extra links).
+- EuroLeague 2026-27 club crests (all 20 teams, plus AS Monaco).
 
 ## What's new in 2.2.2 (13 Nov 2026)
 
