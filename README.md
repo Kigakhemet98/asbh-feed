@@ -8,7 +8,7 @@ The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they ref
 
 - **DAZN schedule** documented here: the apps read DAZN's live 10-day schedule on the device (DAZN blocks requests from GitHub's servers).
 - Broadcaster and channel logos in this README.
-- SuperSport Swahili: **DStv 216** (East Africa – Kenya, Uganda; DStv Select in Tanzania). GOtv numbers for SuperSport now have their own table (*SuperSport on GOtv*), with GOtv's new packages from 5 Nov 2026 (Easy · Starter · Select · Sports).
+- SuperSport Swahili: **DStv 216** (East Africa – Kenya, Uganda; DStv Select in Tanzania). GOtv numbers for SuperSport now have their own table (*SuperSport on GOtv*), with GOtv's new packages from 5 Nov 2026 (Easy · Starter · Select · Sports), and each SuperSport channel's DStv package (Starter · Select · Sports · Ultimate) – from MultiChoice's November 2026 package channel list.
 
 - SuperSport's landing page is now **DStv Stream – [dstv.stream](https://dstv.stream/#/)** (DStv and SuperSport.com stay as extra links).
 - EuroLeague 2026-27 club crests (all 20 teams, plus AS Monaco).
@@ -32,53 +32,55 @@ Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links g
 
 - **Watch:** [DStv Stream](https://dstv.stream/#/) · [DStv](https://www.dstv.com) · [SuperSport](https://supersport.com)
 
-| Logo | Channel | Number |
-|:---:|---|---|
-| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | DStv 128 · ROA 226 |
-| <img src="logos/readme/channels/ss-events.png" alt="SuperSport Events" height="28"> | SuperSport Events | DStv 199 |
-| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili (East Africa – Kenya · Uganda · Tanzania) | DStv 216 |
-| <img src="logos/readme/channels/ss-extra-2.png" alt="SuperSport Extra 2" height="28"> | SuperSport Extra 2 | DStv 217 · South Africa only |
-| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | DStv 220 · 200 |
-| <img src="logos/readme/channels/ss-grandstand.png" alt="SuperSport Grandstand" height="28"> | SuperSport Grandstand | DStv 221 · 201 |
-| <img src="logos/readme/channels/ss-football-plus.png" alt="SuperSport Football Plus" height="28"> | SuperSport Football Plus | DStv 222 · 206 |
-| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | DStv 223 · 203 |
-| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | DStv 224 · 204 |
-| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | DStv 225 · 205 |
-| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | DStv 227 · 207 |
-| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | DStv 228 · 208 |
-| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | DStv 229 · 209 |
-| <img src="logos/readme/channels/ss-extra-1.png" alt="SuperSport Extra" height="28"> | SuperSport Extra | DStv 230 · 210 |
-| <img src="logos/readme/channels/ss-rugby.png" alt="SuperSport Rugby" height="28"> | SuperSport Rugby | DStv 231 · 211 |
-| <img src="logos/readme/channels/ss-cricket.png" alt="SuperSport Cricket" height="28"> | SuperSport Cricket | DStv 232 · 212 |
-| <img src="logos/readme/channels/ss-golf.png" alt="SuperSport Golf" height="28"> | SuperSport Golf | DStv 233 · 213 |
-| <img src="logos/readme/channels/ss-tennis.png" alt="SuperSport Tennis" height="28"> | SuperSport Tennis | DStv 234 · 214 |
-| <img src="logos/readme/channels/ss-motorsport.png" alt="SuperSport Motorsport" height="28"> | SuperSport Motorsport | DStv 235 · 215 |
-| <img src="logos/readme/channels/ss-maximo-1.png" alt="SuperSport Máximo 1" height="28"> | SuperSport Máximo 1 | DStv 241 · Angola/Moz 601 |
-| <img src="logos/readme/channels/ss-maximo-2.png" alt="SuperSport Máximo 2" height="28"> | SuperSport Máximo 2 | DStv 242 · Angola/Moz 602 |
-| <img src="logos/readme/channels/ss-stream-244.png" alt="SuperSport AWSN" height="28"> | SuperSport AWSN | DStv Stream 244 |
-| <img src="logos/readme/channels/ss-stream-245.png" alt="SuperSport Stream 245" height="28"> | SuperSport Stream 245 | DStv Stream 245 |
-| <img src="logos/readme/channels/ss-stream-246.png" alt="SuperSport Stream 246" height="28"> | SuperSport Stream 246 | DStv Stream 246 |
-| <img src="logos/readme/channels/ss-stream-247.png" alt="SuperSport Stream 247" height="28"> | SuperSport Stream 247 | DStv Stream 247 |
-| <img src="logos/readme/channels/ss-stream-248.png" alt="SuperSport Stream 248" height="28"> | SuperSport Stream 248 | DStv Stream 248 |
-| <img src="logos/readme/channels/ss-stream-950.png" alt="SuperSport Stream 950" height="28"> | SuperSport Stream 950 | DStv Stream 950 |
-| <img src="logos/readme/channels/ss-stream-951.png" alt="SuperSport Stream 951" height="28"> | SuperSport Stream 951 | DStv Stream 951 |
-| <img src="logos/readme/channels/ss-stream-952.png" alt="SuperSport Stream 952" height="28"> | SuperSport Stream 952 | DStv Stream 952 |
+| Logo | Channel | Number | DStv package (from 5 Nov 2026) |
+|:---:|---|---|---|
+| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | DStv 128 · ROA 226 | DStv Select and up |
+| <img src="logos/readme/channels/ss-events.png" alt="SuperSport Events" height="28"> | SuperSport Events | DStv 199 | DStv Sports and up |
+| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili (East Africa – Kenya · Uganda · Tanzania) | DStv 216 | DStv Sports and up |
+| <img src="logos/readme/channels/ss-extra-2.png" alt="SuperSport Extra 2" height="28"> | SuperSport Extra 2 | DStv 217 · South Africa only | DStv Ultimate |
+| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | DStv 220 · 200 | DStv Starter and up |
+| <img src="logos/readme/channels/ss-grandstand.png" alt="SuperSport Grandstand" height="28"> | SuperSport Grandstand | DStv 221 · 201 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-football-plus.png" alt="SuperSport Football Plus" height="28"> | SuperSport Football Plus | DStv 222 · 206 | DStv Sports and up |
+| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | DStv 223 · 203 | DStv Sports and up |
+| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | DStv 224 · 204 | DStv Starter and up |
+| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | DStv 225 · 205 | DStv Select and up |
+| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | DStv 227 · 207 | DStv Starter and up |
+| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | DStv 228 · 208 | DStv Starter and up |
+| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | DStv 229 · 209 | DStv Sports and up |
+| <img src="logos/readme/channels/ss-extra-1.png" alt="SuperSport Extra" height="28"> | SuperSport Extra | DStv 230 · 210 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-rugby.png" alt="SuperSport Rugby" height="28"> | SuperSport Rugby | DStv 231 · 211 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-cricket.png" alt="SuperSport Cricket" height="28"> | SuperSport Cricket | DStv 232 · 212 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-golf.png" alt="SuperSport Golf" height="28"> | SuperSport Golf | DStv 233 · 213 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-tennis.png" alt="SuperSport Tennis" height="28"> | SuperSport Tennis | DStv 234 · 214 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-motorsport.png" alt="SuperSport Motorsport" height="28"> | SuperSport Motorsport | DStv 235 · 215 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-maximo-1.png" alt="SuperSport Máximo 1" height="28"> | SuperSport Máximo 1 | DStv 241 · Angola/Moz 601 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-maximo-2.png" alt="SuperSport Máximo 2" height="28"> | SuperSport Máximo 2 | DStv 242 · Angola/Moz 602 | DStv Ultimate |
+| <img src="logos/readme/channels/ss-stream-244.png" alt="SuperSport AWSN" height="28"> | SuperSport AWSN | DStv Stream 244 | DStv App |
+| <img src="logos/readme/channels/ss-stream-245.png" alt="SuperSport Stream 245" height="28"> | SuperSport Stream 245 | DStv Stream 245 | DStv App |
+| <img src="logos/readme/channels/ss-stream-246.png" alt="SuperSport Stream 246" height="28"> | SuperSport Stream 246 | DStv Stream 246 | DStv App |
+| <img src="logos/readme/channels/ss-stream-247.png" alt="SuperSport Stream 247" height="28"> | SuperSport Stream 247 | DStv Stream 247 | DStv App |
+| <img src="logos/readme/channels/ss-stream-248.png" alt="SuperSport Stream 248" height="28"> | SuperSport Stream 248 | DStv Stream 248 | DStv App |
+| <img src="logos/readme/channels/ss-stream-950.png" alt="SuperSport Stream 950" height="28"> | SuperSport Stream 950 | DStv Stream 950 | DStv App |
+| <img src="logos/readme/channels/ss-stream-951.png" alt="SuperSport Stream 951" height="28"> | SuperSport Stream 951 | DStv Stream 951 | DStv App |
+| <img src="logos/readme/channels/ss-stream-952.png" alt="SuperSport Stream 952" height="28"> | SuperSport Stream 952 | DStv Stream 952 | DStv App |
 
 #### SuperSport on GOtv
 
-GOtv carries these SuperSport channels. Numbers are the Rest of Africa ones (Uganda uses the 360s and Ghana the 160s; Kenya's new line-up may differ, e.g. SuperSport Swahili is 570). Packages are GOtv's new line-up from 5 November 2026: **Easy · Starter · Select · Sports** (Expect More). Easy has 2 sports channels, Starter 6, Select 7; Sports adds Premier League and Champions League.
+Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DTT sheet, Uganda numbering). Kenya carries the same channels in the 500s (e.g. SuperSport Swahili 570, KickOff 561). Packages from 5 November 2026: **Easy · Starter · Select · Sports** – the package shown is the lowest one that includes the channel.
 
-| Logo | Channel | GOtv | Package (from 5 Nov 2026) |
+| Logo | Channel | GOtv | Package |
 |:---:|---|---|---|
-| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | 60 | Starter, Select or Sports – not yet published per channel |
-| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | 61 | GOtv Easy |
-| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | 62 | Starter, Select or Sports – not yet published per channel |
-| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | 63 | GOtv Easy |
-| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | 64 | Starter, Select or Sports – not yet published per channel |
-| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | 65 | GOtv Sports |
-| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | 66 | Starter, Select or Sports – not yet published per channel |
-| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | 67 | Starter, Select or Sports – not yet published per channel |
-| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili | 570 (Kenya) · 370 (Uganda) | GOtv Sports |
+| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | 360 | GOtv Easy and up |
+| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | 361 | GOtv Starter and up |
+| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | 362 | GOtv Easy and up |
+| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | 363 | GOtv Starter and up |
+| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | 364 | GOtv Sports |
+| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | 365 | GOtv Select and up |
+| <img src="logos/readme/channels/ss-football-plus.png" alt="SuperSport Football Plus" height="28"> | SuperSport Football Plus | 366 | GOtv Sports |
+| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | 367 | GOtv Sports |
+| <img src="logos/readme/channels/ss-extra-1.png" alt="SuperSport Extra" height="28"> | SuperSport Extra | 368 | GOtv Sports |
+| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | 369 | GOtv Select and up |
+| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili | 370 | GOtv Sports |
 
 - **Rights tracked:** AFCON PAMOJA 2027 qualifiers – channel TBA; ATP & WTA tennis – SuperSport Tennis; Premier League – SuperSport Premier League; LaLiga (every match) – SuperSport LaLiga
 - Everything SuperSport marks LIVE in its own guide (football, rugby, cricket, golf, motorsport, WWE, schools sport and more) is added automatically.
