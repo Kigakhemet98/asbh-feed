@@ -19,6 +19,7 @@ The Windows installer is split in two because GitHub limits repository files to 
 
 - **SportyTV** linear channel on DStv (236 South Africa & Nigeria, 237 Kenya & Ghana) and GOtv (558 Kenya, 58 Nigeria, 36 Ghana – GOtv Starter and up), launched 10 June 2026 – in both apps and over the air.
 - SuperSport Swahili DStv 216; GOtv and DStv package lists (November 2026).
+- Azam Sports 1–5 HD channel numbers: Azam TV 111–115 (satellite and DTT).
 
 ## What's new in 2.2.3 (13 Nov 2026)
 
@@ -150,11 +151,11 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 
 | Logo | Channel | Number |
 |:---:|---|---|
-| <img src="logos/readme/channels/azam-sports-1.png" alt="Azam Sports 1 HD" height="28"> | Azam Sports 1 HD | — |
-| <img src="logos/readme/channels/azam-sports-2.png" alt="Azam Sports 2 HD" height="28"> | Azam Sports 2 HD | — |
-| <img src="logos/readme/channels/azam-sports-3.png" alt="Azam Sports 3 HD" height="28"> | Azam Sports 3 HD | — |
-| <img src="logos/readme/channels/azam-sports-4.png" alt="Azam Sports 4 HD" height="28"> | Azam Sports 4 HD | — |
-| <img src="logos/readme/channels/azam-sports-5.png" alt="Azam Sports 5 HD" height="28"> | Azam Sports 5 HD | — |
+| <img src="logos/readme/channels/azam-sports-1.png" alt="Azam Sports 1 HD" height="28"> | Azam Sports 1 HD | Azam TV 111 |
+| <img src="logos/readme/channels/azam-sports-2.png" alt="Azam Sports 2 HD" height="28"> | Azam Sports 2 HD | Azam TV 112 |
+| <img src="logos/readme/channels/azam-sports-3.png" alt="Azam Sports 3 HD" height="28"> | Azam Sports 3 HD | Azam TV 113 |
+| <img src="logos/readme/channels/azam-sports-4.png" alt="Azam Sports 4 HD" height="28"> | Azam Sports 4 HD | Azam TV 114 |
+| <img src="logos/readme/channels/azam-sports-5.png" alt="Azam Sports 5 HD" height="28"> | Azam Sports 5 HD | Azam TV 115 |
 
 - **Rights tracked:** LaLiga – Azam Sports 4 HD; Bundesliga – Azam Sports 2 HD; Serie A – Azam Sports 3 HD; Carabao Cup – Azam Sports 1 HD; Women's Super League – Azam Sports 1 HD; CAF Women's Champions League – Azam Sports 1 HD; AFCON 2027 Qualifiers – Azam Sports 2 HD; AFC Asian Cup – channel TBA
 - Live matches from the Azam TV Max guide (titles marked LIVE).
