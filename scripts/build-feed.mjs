@@ -379,11 +379,21 @@ const DAZN_SPORT = { 'football': 'football', 'basketball': 'basketball', 'baseba
   'kickboxing': 'mma', 'motorsport': 'other', 'tennis': 'tennis', 'golf': 'golf', 'padel': 'padel', 'cycling road': 'cycling', 'cycling': 'cycling', 'triathlon': 'other',
   'swimming': 'aquatics', 'wrestling': 'wwe', 'sport entertainment': 'wwe', 'volleyball': 'volleyball', 'handball': 'handball', 'rugby': 'rugby', 'cricket': 'cricket', 'netball': 'netball', 'athletics': 'athletics' };
 const DAZN_COMP = { 'NHL.TV': 'NHL', 'Enterprise National League': 'National League' };
+let daznPage = null;
+async function daznGet(url) {
+  const H = { origin: 'https://www.dazn.com', referer: 'https://www.dazn.com/', 'accept-language': 'en-GB,en;q=0.9' };
+  try { return await get(url, { headers: H }); } catch (e) { log('dazn direct', e.message); }
+  /* the schedule service refuses plain server requests: ask from inside dazn.com in a real browser, as the website does */
+  if (!daznPage) { daznPage = await page(); await daznPage.goto('https://www.dazn.com/en-KE/schedule', { waitUntil: 'domcontentloaded', timeout: 60000 }); await daznPage.waitForTimeout(4000); }
+  const r = await daznPage.evaluate(async (u) => { const x = await fetch(u); return { s: x.status, j: x.ok ? await x.json() : null }; }, url);
+  if (!r.j) throw new Error('DAZN schedule ' + r.s + ' (also from inside dazn.com)');
+  return r.j;
+}
 async function dazn() {
   const out = []; const seen = new Set();
   for (const [a, b] of [[0, 6], [7, DAYS - 1]]) {
     const d = (i) => new Date(NOW + i * 864e5).toISOString().slice(0, 10);
-    const j = await get(`https://epg.discovery.indazn.com/eu/v5/epgWithDatesRange?country=ke&languageCode=en&openBrowse=true&timeZoneOffset=0&startDate=${d(a)}&endDate=${d(b)}&brand=dazn`);
+    const j = await daznGet(`https://epg.discovery.indazn.com/eu/v5/epgWithDatesRange?country=ke&languageCode=en&openBrowse=true&timeZoneOffset=0&startDate=${d(a)}&endDate=${d(b)}&brand=dazn`);
     for (const x of j.Tiles || []) {
       if (x.IsLinear || x.VideoType === 'Linear') continue;
       const t = Date.parse(x.EventStartTime || x.Start); if (!t || !inWindow(t)) continue;
