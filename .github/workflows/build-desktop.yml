@@ -56,7 +56,12 @@ jobs:
       - name: flatpak (x64)
         continue-on-error: true
         run: npx electron-builder --linux flatpak --x64 --publish never
-      - run: mkdir -p out && cp dist/*.deb dist/*.rpm dist/*.pacman dist/*.tar.xz dist/*.snap dist/*.flatpak out/ 2>/dev/null; ls -la out
+      - name: Collect the packages
+        run: |
+          mkdir -p out; shopt -s nullglob
+          for f in dist/*.deb dist/*.rpm dist/*.tar.xz dist/*.snap dist/*.flatpak; do cp "$f" out/; done
+          for f in dist/*.pacman; do b=$(basename "$f" .pacman); cp "$f" "out/$b.pkg.tar.zst"; done   # Arch Linux package
+          ls -la out
       - uses: actions/upload-artifact@v4
         with: { name: linux, path: out/* }
 
