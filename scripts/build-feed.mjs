@@ -624,8 +624,11 @@ const OTA = {
     { comp: 'afc asian cup|^asian cup', logo: { light: RAW + 'afc-asian-cup.png', dark: RAW + 'afc-asian-cup-on-dark.png' } }
   ]
 };
+/* newest app version – apps from 2.2.9 show a "New version available" banner (once a day) when this is newer than them */
+const APP = { latest: '2.2.9', downloads: 'https://github.com/Kigakhemet98/asbh-feed#download-the-apps', notes: 'now on Mac (Apple Silicon), Linux and Windows on ARM' };
 const feed = {
   version: 2,
+  app: APP,
   name: 'African Sports Broadcast Hub – live feed',
   updated: new Date().toISOString(),
   notes: 'Built automatically from the broadcasters\' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.',

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" width="100" height="120">
+  <defs><mask id="bite"><rect width="100" height="120" fill="#fff"/><circle cx="98" cy="58" r="17" fill="#000"/></mask></defs>
+  <g fill="#A2AAAD" mask="url(#bite)">
+    <path d="M50 38 C38 30 16 30 10 52 C4 74 16 104 30 112 C38 117 44 112 50 112 C56 112 62 117 70 112 C84 104 96 74 90 52 C84 30 62 30 50 38 Z"/>
+  </g>
+  <path fill="#A2AAAD" d="M51 32 C50 18 58 8 70 6 C71 19 63 30 51 32 Z"/>
+</svg>
