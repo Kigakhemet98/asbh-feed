@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>African Sports Broadcast Hub</title>
+<meta name="description" content="Find which channel or stream shows the sport you love, anywhere in Africa.">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#000" stroke="#333"/><path d="M22 17v30l25-15z" fill="#e10a17"/><path d="M49 13a27 27 0 0 1 0 38" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+    <div><strong>African Sports Broadcast Hub</strong><small>Find where to watch the sports you love</small></div>
+  </div>
+  <div class="top-actions">
+    <span class="tzchip" title="All times are East Africa Time">EAT · GMT+3</span>
+    <button id="btn-live" class="pill live-btn" type="button"><span class="dot"></span>Live now</button>
+    <button id="btn-export" class="pill primary" type="button">Export poster</button>
+    <button id="btn-settings" class="pill" type="button" aria-label="Settings">⚙</button>
+  </div>
+</header>
+
+<nav class="sports" id="sports" aria-label="Sports"></nav>
+
+<main class="wrap">
+  <aside class="filters" id="filters">
+    <button class="filters-toggle" id="filters-toggle" type="button" aria-expanded="false">Filters <span id="filter-count"></span></button>
+    <form id="filter-form" class="filter-body" onsubmit="return false">
+      <div class="row2">
+        <label>From<input type="date" id="f-from"></label>
+        <label>+ Days<select id="f-days"><option>1</option><option>2</option><option>3</option><option selected>7</option><option>14</option><option>30</option></select></label>
+      </div>
+      <div class="quick"><button type="button" data-q="today">Today</button><button type="button" data-q="tomorrow">Tomorrow</button><button type="button" data-q="weekend">Weekend</button><button type="button" data-q="week">This week</button></div>
+      <label>Type<select id="f-type"><option value="">All</option><option value="L">Live</option><option value="D">Delayed</option><option value="P">Premiere</option><option value="R">Repeat</option><option value="H">Highlights</option></select></label>
+      <label>Region<select id="f-region"><option value="">All regions</option></select></label>
+      <label>Broadcaster<select id="f-provider" multiple size="6"></select></label>
+      <label>Channel<select id="f-channel" multiple size="6"></select></label>
+      <label>Platform (TV or streaming)<select id="f-platform"><option value="">Any platform</option></select></label>
+      <label>Competition / league<select id="f-comp"><option value="">All competitions</option></select></label>
+      <label>Search<input type="search" id="f-q" placeholder="Team, league, session…"></label>
+      <button type="button" id="f-reset" class="link">Reset filters</button>
+      <p class="hint">On desktop, hold Ctrl (⌘ on Mac) to pick several broadcasters or channels.</p>
+    </form>
+  </aside>
+
+  <section class="results">
+    <div class="bar">
+      <div class="tabs" role="tablist">
+        <button role="tab" data-view="list" type="button">List</button>
+        <button role="tab" data-view="table" type="button">Table</button>
+        <button role="tab" data-view="channels" type="button">Channels</button>
+        <button role="tab" data-view="live" type="button">Live now</button>
+      </div>
+      <div class="prints">
+        <button type="button" data-print="table">Print table</button>
+        <button type="button" data-print="list">Print list</button>
+        <button type="button" data-print="channels">Print channel view</button>
+      </div>
+    </div>
+    <p class="summary" id="summary"></p>
+    <div id="out" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span id="updated"></span>
+  <span>Open source · MIT · Times shown in your chosen time zone. Always check with your broadcaster: rights and schedules change.</span>
+</footer>
+
+<!-- Export dialog -->
+<dialog id="dlg-export" class="dlg">
+  <form method="dialog" class="dlg-in">
+    <header><h3>Export poster</h3><button value="close" class="x" aria-label="Close">✕</button></header>
+    <div class="grid2">
+      <label>What to export<select id="x-scope">
+        <option value="results">Current results (all filters)</option>
+        <option value="day">One day</option>
+        <option value="week">One week (7 days)</option>
+        <option value="month">One month</option>
+        <option value="sport">One sport</option>
+        <option value="comp">One competition / league</option>
+        <option value="match">One match / session</option>
+      </select></label>
+      <label id="x-day-l">Day<input type="date" id="x-day"></label>
+      <label id="x-sport-l">Sport<select id="x-sport"></select></label>
+      <label id="x-comp-l">Competition<select id="x-comp"></select></label>
+      <label id="x-match-l">Match<select id="x-match"></select></label>
+      <label>Style<select id="x-style"><option value="cards">Cards – crests & logos</option><option value="compact">Compact list</option><option value="featured">Featured match</option><option value="week">Weekly highlights (grid)</option><option value="month">Monthly highlights (grid)</option><option value="clean">Clean list (white logos)</option></select></label>
+      <label id="x-bg-l">Background photo (clean style, optional)<input type="file" id="x-bg" accept="image/*"></label>
+      <label>Size<select id="x-size"></select></label>
+      <label>Broadcaster (optional)<select id="x-prov"></select></label>
+      <label>Day names<select id="x-lang"></select></label>
+      <label>Right-hand columns (optional)<select id="x-cols" multiple size="4"></select></label>
+      <label>Footer text<input id="x-footer" placeholder="your page or handle"></label>
+      <label>Background<select id="x-theme"><option value="black">Black</option><option value="white">White</option></select></label>
+      <label>Logo version<select id="x-logobg"><option value="">Auto (matches background)</option><option value="light">For light backgrounds (dark logos)</option><option value="dark">For dark backgrounds (white logos)</option></select></label>
+      <label class="chk"><span><input type="checkbox" id="x-trim" checked> Trim empty space on short posters</span></label>
+    </div>
+    <div class="x-actions"><button type="button" id="x-render" class="pill primary">Preview</button><button type="button" id="x-dl" class="pill" disabled>Download PNG</button><button type="button" id="x-share" class="pill" hidden>Share</button></div>
+    <div id="x-preview" class="x-preview"></div>
+  </form>
+</dialog>
+
+<!-- Settings dialog -->
+<dialog id="dlg-settings" class="dlg">
+  <form method="dialog" class="dlg-in">
+    <header><h3>Settings, updates &amp; plugins</h3><button value="close" class="x" aria-label="Close">✕</button></header>
+    <h4>Schedule feeds</h4>
+    <p class="hint">One URL per line (JSON, CSV or ICS). The project's GitHub Action publishes <code>data/schedule.json</code> every few hours.</p>
+    <textarea id="s-feeds" rows="3" spellcheck="false"></textarea>
+    <div class="grid2">
+      <label>Check for updates every<select id="s-refresh"><option value="5">5 minutes</option><option value="15">15 minutes</option><option value="60">hour</option><option value="0">never (manual)</option></select></label>
+      <label>Import a file<input type="file" id="s-import" accept=".json,.csv,.ics"></label>
+    </div>
+    <div class="x-actions"><button type="button" id="s-save" class="pill primary">Save &amp; update now</button><button type="button" id="s-clear" class="pill">Clear imported</button><button type="button" id="s-ics" class="pill">Download results as calendar (.ics)</button></div>
+    <h4>Plugins</h4>
+    <ul id="s-plugins" class="plugins"></ul>
+    <div class="row2"><input id="s-plugin-url" placeholder="https://…/my-plugin.js"><button type="button" id="s-plugin-add" class="pill">Load plugin</button></div>
+    <p id="s-errors" class="err"></p>
+  </form>
+</dialog>
+
+<div id="toast" class="toast" role="status"></div>
+
+<script src="js/core.js"></script>
+<script src="js/data-channels.js"></script>
+<script src="js/data-sports.js"></script>
+<script src="js/data-seed.js"></script>
+<script src="js/data-countries.js"></script>
+<script src="js/clean.js"></script>
+<script src="js/logos.js"></script>
+<script src="js/data-teams.js"></script>
+<script src="js/plugins.js"></script>
+  <script src="js/live-guides.js"></script>
+<script src="js/views.js"></script>
+<script src="js/export.js"></script>
+<script src="js/export-highlights.js"></script>
+<script src="js/platform.js"></script>
+<script src="js/calendar-reminders.js"></script>
+<script src="plugins/index.js"></script>
+<script src="js/app.js"></script>
+  <script src="js/mobile.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+{
+  "name": "african-sports-broadcast-hub",
+  "productName": "African Sports Broadcast Hub",
+  "version": "2.2.9",
+  "description": "Find which channel or stream shows the sport you love, anywhere in Africa.",
+  "author": {
+    "name": "African Sports Broadcast Hub contributors",
+    "email": "asbh@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win nsis --x64 && electron-builder --win nsis --arm64",
+    "dist:mac": "electron-builder --mac dir --arm64",
+    "dist:linux": "electron-builder --linux"
+  },
+  "devDependencies": {
+    "electron": "33.2.1",
+    "electron-builder": "25.1.8"
+  },
+  "build": {
+    "appId": "org.africansports.hub",
+    "productName": "African Sports Broadcast Hub",
+    "files": [
+      "main.js",
+      "preload.js",
+      "app/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "icon.png",
+      "signAndEditExecutable": false,
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Sports Hub",
+      "artifactName": "ASBH-Setup-${version}-${arch}.${ext}"
+    },
+    "compression": "maximum",
+    "mac": {
+      "icon": "icon.png",
+      "category": "public.app-category.sports",
+      "identity": null,
+      "target": [
+        {
+          "target": "dir",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ],
+      "artifactName": "ASBH-${version}-mac-${arch}.${ext}"
+    },
+    "linux": {
+      "icon": "icon.png",
+      "category": "Sports",
+      "synopsis": "Where to watch live sport in Africa",
+      "maintainer": "African Sports Broadcast Hub contributors <asbh@users.noreply.github.com>",
+      "executableName": "african-sports-broadcast-hub",
+      "artifactName": "african-sports-broadcast-hub-${version}-${arch}.${ext}",
+      "target": [
+        "deb",
+        "rpm",
+        "pacman",
+        "tar.xz",
+        "snap",
+        "flatpak"
+      ]
+    },
+    "snap": {
+      "grade": "stable",
+      "confinement": "strict",
+      "summary": "Where to watch live sport in Africa",
+      "plugs": [
+        "default"
+      ]
+    },
+    "flatpak": {
+      "runtimeVersion": "23.08",
+      "baseVersion": "23.08",
+      "license": "MIT",
+      "finishArgs": [
+        "--share=network",
+        "--share=ipc",
+        "--socket=x11",
+        "--socket=wayland",
+        "--device=dri",
+        "--talk-name=org.freedesktop.Notifications"
+      ]
+    }
+  },
+  "homepage": "https://github.com/Kigakhemet98/asbh-feed"
+}

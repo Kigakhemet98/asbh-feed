@@ -1,0 +1,7303 @@
+{
+ "version": 1,
+ "updated": "2026-11-09T08:50:34.869Z",
+ "source": "bundled seed",
+ "events": [
+  {
+   "id": "2026-10-28-17-00-dfb-pokal-paderborn-v-stuttgart",
+   "sport": "football",
+   "comp": "DFB-Pokal",
+   "detail": "Paderborn v Stuttgart",
+   "start": "2026-10-28T17:00:00.000Z",
+   "end": "2026-10-28T19:00:00.000Z",
+   "channels": [
+    "espn",
+    "bein-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Paderborn",
+   "away": "Stuttgart"
+  },
+  {
+   "id": "2026-10-28-17-30-serie-a-ac-milan-v-bologna",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "AC Milan v Bologna",
+   "start": "2026-10-28T17:30:00.000Z",
+   "end": "2026-10-28T19:25:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "AC Milan",
+   "away": "Bologna"
+  },
+  {
+   "id": "2026-10-28-19-30-carabao-cup-manchester-city-v-brighton",
+   "sport": "football",
+   "comp": "Carabao Cup",
+   "detail": "Manchester City v Brighton",
+   "start": "2026-10-28T19:30:00.000Z",
+   "end": "2026-10-28T21:25:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "ss-laliga",
+    "st-sports-premium",
+    "bein-4",
+    "azam-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Manchester City",
+   "away": "Brighton"
+  },
+  {
+   "id": "2026-10-28-19-45-carabao-cup-bournemouth-v-aston-villa",
+   "sport": "football",
+   "comp": "Carabao Cup",
+   "detail": "Bournemouth v Aston Villa",
+   "start": "2026-10-28T19:45:00.000Z",
+   "end": "2026-10-28T21:40:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "st-sports-arena",
+    "bein-7",
+    "azam-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bournemouth",
+   "away": "Aston Villa"
+  },
+  {
+   "id": "2026-10-28-19-45-serie-a-genoa-v-juventus",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Genoa v Juventus",
+   "start": "2026-10-28T19:45:00.000Z",
+   "end": "2026-10-28T21:40:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Genoa",
+   "away": "Juventus"
+  },
+  {
+   "id": "2026-10-28-20-00-carabao-cup-liverpool-v-chelsea",
+   "sport": "football",
+   "comp": "Carabao Cup",
+   "detail": "Liverpool v Chelsea",
+   "start": "2026-10-28T20:00:00.000Z",
+   "end": "2026-10-28T21:55:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-grandstand",
+    "ss-maximo-2",
+    "st-world-football",
+    "bein-1",
+    "bein-english-1",
+    "cp-sport-3",
+    "azam-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Liverpool",
+   "away": "Chelsea"
+  },
+  {
+   "id": "2026-10-31-06-55-motogp-malaysia-gp-sprint-race",
+   "sport": "motogp",
+   "comp": "MotoGP · Malaysia GP",
+   "detail": "Sprint Race",
+   "start": "2026-10-31T06:55:00.000Z",
+   "end": "2026-10-31T07:40:00.000Z",
+   "channels": [
+    "cp-sport-1",
+    "ss-motorsport",
+    "videopass"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-10-31-15-00-premier-league-manchester-city-v-brighton",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Manchester City v Brighton",
+   "start": "2026-10-31T15:00:00.000Z",
+   "end": "2026-10-31T16:55:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "ss-premier-league",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Manchester City",
+   "away": "Brighton"
+  },
+  {
+   "id": "2026-11-01-06-57-motogp-malaysia-gp-race",
+   "sport": "motogp",
+   "comp": "MotoGP · Malaysia GP",
+   "detail": "Race",
+   "start": "2026-11-01T06:57:00.000Z",
+   "end": "2026-11-01T07:57:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "ss-motorsport",
+    "videopass",
+    "bein-8",
+    "bein-english-1"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-03-17-45-uefa-champions-league-galatasaray-v-vfb-stuttgart",
+   "sport": "football",
+   "comp": "UEFA Champions League",
+   "detail": "Galatasaray v VfB Stuttgart",
+   "start": "2026-11-03T17:45:00.000Z",
+   "end": "2026-11-03T19:40:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-2",
+    "nws-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Galatasaray",
+   "away": "VfB Stuttgart"
+  },
+  {
+   "id": "2026-11-03-20-00-uefa-champions-league-barcelona-v-aston-villa",
+   "sport": "football",
+   "comp": "UEFA Champions League",
+   "detail": "Barcelona v Aston Villa",
+   "start": "2026-11-03T20:00:00.000Z",
+   "end": "2026-11-03T21:55:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-1",
+    "nws-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Barcelona",
+   "away": "Aston Villa"
+  },
+  {
+   "id": "2026-11-03-20-00-uefa-champions-league-atletico-madrid-v-bayern-munich",
+   "sport": "football",
+   "comp": "UEFA Champions League",
+   "detail": "Atletico Madrid v Bayern Munich",
+   "start": "2026-11-03T20:00:00.000Z",
+   "end": "2026-11-03T21:55:00.000Z",
+   "channels": [
+    "ss-action",
+    "ss-grandstand",
+    "nws-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Atletico Madrid",
+   "away": "Bayern Munich"
+  },
+  {
+   "id": "2026-11-03-20-00-uefa-champions-league-villarreal-v-paris-sg",
+   "sport": "football",
+   "comp": "UEFA Champions League",
+   "detail": "Villarreal v Paris SG",
+   "start": "2026-11-03T20:00:00.000Z",
+   "end": "2026-11-03T21:55:00.000Z",
+   "channels": [
+    "ss-football",
+    "nws-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Villarreal",
+   "away": "Paris SG"
+  },
+  {
+   "id": "2026-11-06-15-15-formula-1-brazil-gp-free-practice-1",
+   "sport": "f1",
+   "comp": "Formula 1 · Brazil GP",
+   "detail": "Free Practice 1",
+   "start": "2026-11-06T15:15:00.000Z",
+   "end": "2026-11-06T16:15:00.000Z",
+   "channels": [
+    "cp-sport-1",
+    "ss-motorsport",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-06-18-45-formula-1-brazil-gp-free-practice-2",
+   "sport": "f1",
+   "comp": "Formula 1 · Brazil GP",
+   "detail": "Free Practice 2",
+   "start": "2026-11-06T18:45:00.000Z",
+   "end": "2026-11-06T19:45:00.000Z",
+   "channels": [
+    "ss-motorsport",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-06-20-00-premier-league-everton-v-coventry-city",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Everton v Coventry City",
+   "start": "2026-11-06T20:00:00.000Z",
+   "end": "2026-11-06T21:55:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-2",
+    "cp-sport-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Everton",
+   "away": "Coventry City"
+  },
+  {
+   "id": "2026-11-07-12-00-2-bundesliga-nuremberg-v-darmstadt",
+   "sport": "football",
+   "comp": "2. Bundesliga",
+   "detail": "Nuremberg v Darmstadt",
+   "start": "2026-11-07T12:00:00.000Z",
+   "end": "2026-11-07T13:55:00.000Z",
+   "channels": [
+    "bein-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Nuremberg",
+   "away": "Darmstadt"
+  },
+  {
+   "id": "2026-11-07-12-30-premier-league-leeds-united-v-tottenham",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Leeds United v Tottenham",
+   "start": "2026-11-07T12:30:00.000Z",
+   "end": "2026-11-07T14:25:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2",
+    "cp-sport-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Leeds United",
+   "away": "Tottenham"
+  },
+  {
+   "id": "2026-11-07-12-30-efl-championship-wrexham-v-wolverhampton",
+   "sport": "football",
+   "comp": "EFL Championship",
+   "detail": "Wrexham v Wolverhampton",
+   "start": "2026-11-07T12:30:00.000Z",
+   "end": "2026-11-07T14:25:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "espn",
+    "bein-9"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Wrexham",
+   "away": "Wolverhampton"
+  },
+  {
+   "id": "2026-11-07-13-00-ligue-2-clermont-v-rodez",
+   "sport": "football",
+   "comp": "Ligue 2",
+   "detail": "Clermont v Rodez",
+   "start": "2026-11-07T13:00:00.000Z",
+   "end": "2026-11-07T14:55:00.000Z",
+   "channels": [
+    "bein-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Clermont",
+   "away": "Rodez"
+  },
+  {
+   "id": "2026-11-07-13-00-laliga-malaga-v-racing-santander",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Malaga v Racing Santander",
+   "start": "2026-11-07T13:00:00.000Z",
+   "end": "2026-11-07T14:55:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "st-sports-premium",
+    "nws-3",
+    "dazn",
+    "azam-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Malaga",
+   "away": "Racing Santander"
+  },
+  {
+   "id": "2026-11-07-13-00-carling-knockout-orlando-pirates-v-sekhukhune",
+   "sport": "football",
+   "comp": "Carling Knockout",
+   "detail": "Orlando Pirates v Sekhukhune",
+   "start": "2026-11-07T13:00:00.000Z",
+   "end": "2026-11-07T14:55:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Orlando Pirates",
+   "away": "Sekhukhune"
+  },
+  {
+   "id": "2026-11-07-14-00-serie-a-cagliari-v-frosinone",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Cagliari v Frosinone",
+   "start": "2026-11-07T14:00:00.000Z",
+   "end": "2026-11-07T15:55:00.000Z",
+   "channels": [
+    "ss-football",
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Cagliari",
+   "away": "Frosinone"
+  },
+  {
+   "id": "2026-11-07-14-15-formula-1-brazil-gp-free-practice-3",
+   "sport": "f1",
+   "comp": "Formula 1 · Brazil GP",
+   "detail": "Free Practice 3",
+   "start": "2026-11-07T14:15:00.000Z",
+   "end": "2026-11-07T15:15:00.000Z",
+   "channels": [
+    "cp-sport-2",
+    "ss-motorsport",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-07-14-30-bundesliga-mainz-v-bayern-munich",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Mainz v Bayern Munich",
+   "start": "2026-11-07T14:30:00.000Z",
+   "end": "2026-11-07T16:25:00.000Z",
+   "channels": [
+    "st-world-football",
+    "cp-sport-1",
+    "bein-4",
+    "azam-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Mainz",
+   "away": "Bayern Munich"
+  },
+  {
+   "id": "2026-11-07-14-30-bundesliga-dortmund-v-elversberg",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Dortmund v Elversberg",
+   "start": "2026-11-07T14:30:00.000Z",
+   "end": "2026-11-07T16:25:00.000Z",
+   "channels": [
+    "st-sports-arena",
+    "bein-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Dortmund",
+   "away": "Elversberg"
+  },
+  {
+   "id": "2026-11-07-14-30-bundesliga-leipzig-v-augsburg",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Leipzig v Augsburg",
+   "start": "2026-11-07T14:30:00.000Z",
+   "end": "2026-11-07T16:25:00.000Z",
+   "channels": [
+    "st-sports-focus",
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Leipzig",
+   "away": "Augsburg"
+  },
+  {
+   "id": "2026-11-07-14-30-saudi-pro-league-al-ettifaq-v-al-hilal",
+   "sport": "football",
+   "comp": "Saudi Pro League",
+   "detail": "Al Ettifaq v Al Hilal",
+   "start": "2026-11-07T14:30:00.000Z",
+   "end": "2026-11-07T16:25:00.000Z",
+   "channels": [
+    "nws-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Al Ettifaq",
+   "away": "Al Hilal"
+  },
+  {
+   "id": "2026-11-07-15-00-premier-league-arsenal-v-hull-city",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Arsenal v Hull City",
+   "start": "2026-11-07T15:00:00.000Z",
+   "end": "2026-11-07T16:55:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-kickoff",
+    "ss-maximo-1",
+    "cp-sport-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Arsenal",
+   "away": "Hull City"
+  },
+  {
+   "id": "2026-11-07-15-00-premier-league-fulham-v-newcastle-united",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Fulham v Newcastle United",
+   "start": "2026-11-07T15:00:00.000Z",
+   "end": "2026-11-07T16:55:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-2",
+    "cp-sport-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Fulham",
+   "away": "Newcastle United"
+  },
+  {
+   "id": "2026-11-07-15-00-efl-championship-birmingham-city-v-swansea",
+   "sport": "football",
+   "comp": "EFL Championship",
+   "detail": "Birmingham City v Swansea",
+   "start": "2026-11-07T15:00:00.000Z",
+   "end": "2026-11-07T16:55:00.000Z",
+   "channels": [
+    "espn",
+    "bein-9"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Birmingham City",
+   "away": "Swansea"
+  },
+  {
+   "id": "2026-11-07-15-15-laliga-espanyol-v-deportivo-la-coruna",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Espanyol v Deportivo La Coruna",
+   "start": "2026-11-07T15:15:00.000Z",
+   "end": "2026-11-07T17:10:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "st-sports-life",
+    "nws-3",
+    "dazn",
+    "azam-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Espanyol",
+   "away": "Deportivo La Coruna"
+  },
+  {
+   "id": "2026-11-07-16-00-super-lig-galatasaray-v-amedspor",
+   "sport": "football",
+   "comp": "Süper Lig",
+   "detail": "Galatasaray v Amedspor",
+   "start": "2026-11-07T16:00:00.000Z",
+   "end": "2026-11-07T17:55:00.000Z",
+   "channels": [
+    "espn2",
+    "bein-10"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Galatasaray",
+   "away": "Amedspor"
+  },
+  {
+   "id": "2026-11-07-16-15-ligue-1-auxerre-v-paris-fc",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Auxerre v Paris FC",
+   "start": "2026-11-07T16:15:00.000Z",
+   "end": "2026-11-07T18:10:00.000Z",
+   "channels": [
+    "cp-sport-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Auxerre",
+   "away": "Paris FC"
+  },
+  {
+   "id": "2026-11-07-17-00-serie-a-parma-v-bologna",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Parma v Bologna",
+   "start": "2026-11-07T17:00:00.000Z",
+   "end": "2026-11-07T18:55:00.000Z",
+   "channels": [
+    "ss-football",
+    "ss-kickoff",
+    "dazn",
+    "azam-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Parma",
+   "away": "Bologna"
+  },
+  {
+   "id": "2026-11-07-17-30-premier-league-nottingham-forest-v-manchester-city",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Nottingham Forest v Manchester City",
+   "start": "2026-11-07T17:30:00.000Z",
+   "end": "2026-11-07T19:25:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-2",
+    "cp-sport-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Nottingham Forest",
+   "away": "Manchester City"
+  },
+  {
+   "id": "2026-11-07-17-30-laliga-osasuna-v-athletic-bilbao",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Osasuna v Athletic Bilbao",
+   "start": "2026-11-07T17:30:00.000Z",
+   "end": "2026-11-07T19:25:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "st-sports-premium",
+    "nws-3",
+    "nws-5",
+    "dazn",
+    "azam-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Osasuna",
+   "away": "Athletic Bilbao"
+  },
+  {
+   "id": "2026-11-07-17-30-bundesliga-stuttgart-v-werder-bremen",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Stuttgart v Werder Bremen",
+   "start": "2026-11-07T17:30:00.000Z",
+   "end": "2026-11-07T19:25:00.000Z",
+   "channels": [
+    "st-world-football",
+    "cp-sport-1",
+    "bein-4",
+    "azam-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Stuttgart",
+   "away": "Werder Bremen"
+  },
+  {
+   "id": "2026-11-07-17-40-formula-1-brazil-gp-qualifying",
+   "sport": "f1",
+   "comp": "Formula 1 · Brazil GP",
+   "detail": "Qualifying",
+   "start": "2026-11-07T17:40:00.000Z",
+   "end": "2026-11-07T19:00:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "ss-motorsport",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-07-17-45-scottish-premiership-aberdeen-v-hibernian",
+   "sport": "football",
+   "comp": "Scottish Premiership",
+   "detail": "Aberdeen v Hibernian",
+   "start": "2026-11-07T17:45:00.000Z",
+   "end": "2026-11-07T19:40:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Aberdeen",
+   "away": "Hibernian"
+  },
+  {
+   "id": "2026-11-07-19-00-ligue-2-saint-etienne-v-laval",
+   "sport": "football",
+   "comp": "Ligue 2",
+   "detail": "Saint-Etienne v Laval",
+   "start": "2026-11-07T19:00:00.000Z",
+   "end": "2026-11-07T20:55:00.000Z",
+   "channels": [
+    "bein-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Saint-Etienne",
+   "away": "Laval"
+  },
+  {
+   "id": "2026-11-07-19-30-2-bundesliga-hertha-berlin-v-wolfsburg",
+   "sport": "football",
+   "comp": "2. Bundesliga",
+   "detail": "Hertha Berlin v Wolfsburg",
+   "start": "2026-11-07T19:30:00.000Z",
+   "end": "2026-11-07T21:25:00.000Z",
+   "channels": [
+    "bein-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hertha Berlin",
+   "away": "Wolfsburg"
+  },
+  {
+   "id": "2026-11-07-19-45-serie-a-roma-v-sassuolo",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Roma v Sassuolo",
+   "start": "2026-11-07T19:45:00.000Z",
+   "end": "2026-11-07T21:40:00.000Z",
+   "channels": [
+    "ss-football",
+    "dazn",
+    "azam-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Roma",
+   "away": "Sassuolo"
+  },
+  {
+   "id": "2026-11-07-20-00-ligue-1-paris-saint-germain-v-troyes",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Paris Saint-Germain v Troyes",
+   "start": "2026-11-07T20:00:00.000Z",
+   "end": "2026-11-07T21:55:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-kickoff",
+    "ss-maximo-2",
+    "cp-sport-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Paris Saint-Germain",
+   "away": "Troyes"
+  },
+  {
+   "id": "2026-11-07-20-00-scottish-premiership-st-mirren-v-rangers",
+   "sport": "football",
+   "comp": "Scottish Premiership",
+   "detail": "St Mirren v Rangers",
+   "start": "2026-11-07T20:00:00.000Z",
+   "end": "2026-11-07T21:55:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "St Mirren",
+   "away": "Rangers"
+  },
+  {
+   "id": "2026-11-07-20-00-laliga-valencia-v-real-madrid",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Valencia v Real Madrid",
+   "start": "2026-11-07T20:00:00.000Z",
+   "end": "2026-11-07T21:55:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "st-sports-life",
+    "st-sports-premium",
+    "nws-3",
+    "nws-5",
+    "cp-sport-4",
+    "dazn",
+    "azam-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Valencia",
+   "away": "Real Madrid"
+  },
+  {
+   "id": "2026-11-07-20-30-liga-portugal-sporting-cp-v-moreirense",
+   "sport": "football",
+   "comp": "Liga Portugal",
+   "detail": "Sporting CP v Moreirense",
+   "start": "2026-11-07T20:30:00.000Z",
+   "end": "2026-11-07T22:25:00.000Z",
+   "channels": [
+    "bein-4"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sporting CP",
+   "away": "Moreirense"
+  },
+  {
+   "id": "2026-11-08-01-30-nba-orlando-magic-v-golden-state-warriors",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Orlando Magic v Golden State Warriors",
+   "start": "2026-11-08T01:30:00.000Z",
+   "end": "2026-11-08T04:00:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "nba-lp"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Orlando Magic",
+   "away": "Golden State Warriors"
+  },
+  {
+   "id": "2026-11-08-14-00-premier-league-crystal-palace-v-liverpool",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Crystal Palace v Liverpool",
+   "start": "2026-11-08T14:00:00.000Z",
+   "end": "2026-11-08T15:55:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-2",
+    "cp-sport-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Crystal Palace",
+   "away": "Liverpool"
+  },
+  {
+   "id": "2026-11-08-14-00-premier-league-sunderland-v-chelsea",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Sunderland v Chelsea",
+   "start": "2026-11-08T14:00:00.000Z",
+   "end": "2026-11-08T15:55:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sunderland",
+   "away": "Chelsea"
+  },
+  {
+   "id": "2026-11-08-14-00-premier-league-brighton-v-brentford",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Brighton v Brentford",
+   "start": "2026-11-08T14:00:00.000Z",
+   "end": "2026-11-08T15:55:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Brighton",
+   "away": "Brentford"
+  },
+  {
+   "id": "2026-11-08-14-00-premier-league-ipswich-town-v-bournemouth",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Ipswich Town v Bournemouth",
+   "start": "2026-11-08T14:00:00.000Z",
+   "end": "2026-11-08T15:55:00.000Z",
+   "channels": [
+    "ss-events"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Ipswich Town",
+   "away": "Bournemouth"
+  },
+  {
+   "id": "2026-11-08-15-55-formula-1-brazil-gp-the-grid",
+   "sport": "f1",
+   "comp": "Formula 1 · Brazil GP",
+   "detail": "The Grid",
+   "start": "2026-11-08T15:55:00.000Z",
+   "end": "2026-11-08T17:00:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "ss-motorsport",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-08-16-30-premier-league-manchester-united-v-aston-villa",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Manchester United v Aston Villa",
+   "start": "2026-11-08T16:30:00.000Z",
+   "end": "2026-11-08T18:25:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-2",
+    "cp-sport-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Manchester United",
+   "away": "Aston Villa"
+  },
+  {
+   "id": "2026-11-08-17-00-formula-1-brazil-gp-the-race",
+   "sport": "f1",
+   "comp": "Formula 1 · Brazil GP",
+   "detail": "The Race",
+   "start": "2026-11-08T17:00:00.000Z",
+   "end": "2026-11-08T18:45:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "ss-motorsport",
+    "f1tv",
+    "bein-4k",
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-08-18-00-ncaa-basketball-arkansas-razorbacks-v-virginia-cavaliers",
+   "sport": "basketball",
+   "comp": "NCAA Basketball",
+   "detail": "Arkansas Razorbacks v Virginia Cavaliers",
+   "start": "2026-11-08T18:00:00.000Z",
+   "end": "2026-11-08T20:00:00.000Z",
+   "channels": [
+    "bein-9"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Arkansas Razorbacks",
+   "away": "Virginia Cavaliers"
+  },
+  {
+   "id": "2026-11-08-18-45-formula-1-brazil-gp-the-podium",
+   "sport": "f1",
+   "comp": "Formula 1 · Brazil GP",
+   "detail": "The Podium",
+   "start": "2026-11-08T18:45:00.000Z",
+   "end": "2026-11-08T19:15:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "ss-motorsport",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-08-20-30-nba-philadelphia-76ers-v-chicago-bulls",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Philadelphia 76ers v Chicago Bulls",
+   "start": "2026-11-08T20:30:00.000Z",
+   "end": "2026-11-08T23:00:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "nba-lp"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Philadelphia 76ers",
+   "away": "Chicago Bulls"
+  },
+  {
+   "id": "2026-11-08-22-00-nba-denver-nuggets-v-indiana-pacers",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Denver Nuggets v Indiana Pacers",
+   "start": "2026-11-08T22:00:00.000Z",
+   "end": "2026-11-09T00:30:00.000Z",
+   "channels": [
+    "espn",
+    "bein-1",
+    "nba-lp"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Denver Nuggets",
+   "away": "Indiana Pacers"
+  },
+  {
+   "id": "2026-11-08-18-00-nfl-week-10-kansas-city-chiefs-v-denver-broncos",
+   "sport": "nfl",
+   "comp": "NFL · Week 10",
+   "detail": "Kansas City Chiefs v Denver Broncos",
+   "start": "2026-11-08T18:00:00.000Z",
+   "end": "2026-11-08T21:15:00.000Z",
+   "channels": [
+    "espn",
+    "gamepass"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Kansas City Chiefs",
+   "away": "Denver Broncos"
+  },
+  {
+   "id": "2026-10-28-19-45-carabao-cup-sunderland-v-brentford",
+   "sport": "football",
+   "comp": "Carabao Cup",
+   "detail": "Sunderland v Brentford",
+   "start": "2026-10-28T19:45:00.000Z",
+   "end": "2026-10-28T21:40:00.000Z",
+   "channels": [
+    "azam-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sunderland",
+   "away": "Brentford"
+  },
+  {
+   "id": "2026-10-28-19-45-carabao-cup-fulham-v-crystal-palace",
+   "sport": "football",
+   "comp": "Carabao Cup",
+   "detail": "Fulham v Crystal Palace",
+   "start": "2026-10-28T19:45:00.000Z",
+   "end": "2026-10-28T21:40:00.000Z",
+   "channels": [
+    "zbc2",
+    "st-sports-focus"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Fulham",
+   "away": "Crystal Palace"
+  },
+  {
+   "id": "2026-10-29-19-45-carabao-cup-everton-v-newcastle-united",
+   "sport": "football",
+   "comp": "Carabao Cup",
+   "detail": "Everton v Newcastle United",
+   "start": "2026-10-29T19:45:00.000Z",
+   "end": "2026-10-29T21:40:00.000Z",
+   "channels": [
+    "azam-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Everton",
+   "away": "Newcastle United"
+  },
+  {
+   "id": "2026-10-31-14-30-bundesliga-bayer-leverkusen-v-vfb-stuttgart",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Bayer Leverkusen v VfB Stuttgart",
+   "start": "2026-10-31T14:30:00.000Z",
+   "end": "2026-10-31T16:25:00.000Z",
+   "channels": [
+    "azam-2",
+    "st-world-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bayer Leverkusen",
+   "away": "VfB Stuttgart"
+  },
+  {
+   "id": "2026-10-31-17-30-bundesliga-bayern-munich-v-borussia-dortmund",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Bayern Munich v Borussia Dortmund",
+   "start": "2026-10-31T17:30:00.000Z",
+   "end": "2026-10-31T19:25:00.000Z",
+   "channels": [
+    "azam-2",
+    "st-world-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bayern Munich",
+   "away": "Borussia Dortmund"
+  },
+  {
+   "id": "2026-11-01-16-30-bundesliga-eintracht-frankfurt-v-hamburger-sv",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Eintracht Frankfurt v Hamburger SV",
+   "start": "2026-11-01T16:30:00.000Z",
+   "end": "2026-11-01T18:25:00.000Z",
+   "channels": [
+    "azam-2",
+    "st-world-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Eintracht Frankfurt",
+   "away": "Hamburger SV"
+  },
+  {
+   "id": "2026-11-07-12-00-caf-women-s-champions-league-lekie-football-girls-v-fc-masar",
+   "sport": "football",
+   "comp": "CAF Women's Champions League",
+   "detail": "Lekie Football Girls v FC Masar",
+   "start": "2026-11-07T12:00:00.000Z",
+   "end": "2026-11-07T13:55:00.000Z",
+   "channels": [
+    "azam-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Lekie Football Girls",
+   "away": "FC Masar"
+  },
+  {
+   "id": "2026-11-07-12-45-women-s-super-league-manchester-city-v-west-ham-united",
+   "sport": "football",
+   "comp": "Women's Super League",
+   "detail": "Manchester City v West Ham United",
+   "start": "2026-11-07T12:45:00.000Z",
+   "end": "2026-11-07T14:40:00.000Z",
+   "channels": [
+    "azam-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Manchester City",
+   "away": "West Ham United"
+  },
+  {
+   "id": "2026-11-07-15-00-caf-women-s-champions-league-mamelodi-sundowns-v-fus-rabat",
+   "sport": "football",
+   "comp": "CAF Women's Champions League",
+   "detail": "Mamelodi Sundowns v FUS Rabat",
+   "start": "2026-11-07T15:00:00.000Z",
+   "end": "2026-11-07T16:55:00.000Z",
+   "channels": [
+    "azam-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Mamelodi Sundowns",
+   "away": "FUS Rabat"
+  },
+  {
+   "id": "2026-11-08-12-00-women-s-super-league-liverpool-v-arsenal",
+   "sport": "football",
+   "comp": "Women's Super League",
+   "detail": "Liverpool v Arsenal",
+   "start": "2026-11-08T12:00:00.000Z",
+   "end": "2026-11-08T13:55:00.000Z",
+   "channels": [
+    "azam-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Liverpool",
+   "away": "Arsenal"
+  },
+  {
+   "id": "2026-11-08-14-30-bundesliga-koln-v-bayer-leverkusen",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Koln v Bayer Leverkusen",
+   "start": "2026-11-08T14:30:00.000Z",
+   "end": "2026-11-08T16:25:00.000Z",
+   "channels": [
+    "azam-2",
+    "st-world-football",
+    "cp-sport-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Koln",
+   "away": "Bayer Leverkusen"
+  },
+  {
+   "id": "2026-11-08-15-00-caf-women-s-champions-league-kawempe-muslim-ladies-v-usfas-bamako",
+   "sport": "football",
+   "comp": "CAF Women's Champions League",
+   "detail": "Kawempe Muslim Ladies v USFAS Bamako",
+   "start": "2026-11-08T15:00:00.000Z",
+   "end": "2026-11-08T16:55:00.000Z",
+   "channels": [
+    "zbc2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Kawempe Muslim Ladies",
+   "away": "USFAS Bamako"
+  },
+  {
+   "id": "2026-11-08-16-30-bundesliga-freiburg-v-union-berlin",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Freiburg v Union Berlin",
+   "start": "2026-11-08T16:30:00.000Z",
+   "end": "2026-11-08T18:25:00.000Z",
+   "channels": [
+    "azam-2",
+    "st-world-football",
+    "cp-sport-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Freiburg",
+   "away": "Union Berlin"
+  },
+  {
+   "id": "2026-11-08-20-00-laliga-atletico-madrid-v-barcelona",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Atletico Madrid v Barcelona",
+   "start": "2026-11-08T20:00:00.000Z",
+   "end": "2026-11-08T21:55:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "cp-sport-3",
+    "azam-4",
+    "st-sports-premium",
+    "st-sports-life"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Atletico Madrid",
+   "away": "Barcelona"
+  },
+  {
+   "id": "2026-10-28-13-00-uganda-premier-league-mbarara-city-v-vipers",
+   "sport": "football",
+   "comp": "Uganda Premier League",
+   "detail": "Mbarara City v Vipers",
+   "start": "2026-10-28T13:00:00.000Z",
+   "end": "2026-10-28T14:55:00.000Z",
+   "channels": [
+    "st-sanyuka"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Mbarara City",
+   "away": "Vipers"
+  },
+  {
+   "id": "2026-10-29-18-00-saudi-pro-league-al-nassr-v-al-kholood",
+   "sport": "football",
+   "comp": "Saudi Pro League",
+   "detail": "Al Nassr v Al Kholood",
+   "start": "2026-10-29T18:00:00.000Z",
+   "end": "2026-10-29T19:55:00.000Z",
+   "channels": [
+    "st-sports-premium"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Al Nassr",
+   "away": "Al Kholood"
+  },
+  {
+   "id": "2026-10-30-18-00-saudi-pro-league-al-shabab-v-al-ahli",
+   "sport": "football",
+   "comp": "Saudi Pro League",
+   "detail": "Al Shabab v Al Ahli",
+   "start": "2026-10-30T18:00:00.000Z",
+   "end": "2026-10-30T19:55:00.000Z",
+   "channels": [
+    "st-sports-life"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Al Shabab",
+   "away": "Al Ahli"
+  },
+  {
+   "id": "2026-10-30-19-30-bundesliga-elversberg-v-mainz",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Elversberg v Mainz",
+   "start": "2026-10-30T19:30:00.000Z",
+   "end": "2026-10-30T21:25:00.000Z",
+   "channels": [
+    "st-world-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Elversberg",
+   "away": "Mainz"
+  },
+  {
+   "id": "2026-10-31-11-30-aew-dynamite-aew-dynamite",
+   "sport": "wwe",
+   "comp": "AEW Dynamite",
+   "detail": "AEW Dynamite",
+   "start": "2026-10-31T11:30:00.000Z",
+   "end": "2026-10-31T13:30:00.000Z",
+   "channels": [
+    "st-sports-arena"
+   ],
+   "status": "D",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-10-31-14-30-bundesliga-schalke-v-rb-leipzig",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Schalke v RB Leipzig",
+   "start": "2026-10-31T14:30:00.000Z",
+   "end": "2026-10-31T16:25:00.000Z",
+   "channels": [
+    "st-sports-arena"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Schalke",
+   "away": "RB Leipzig"
+  },
+  {
+   "id": "2026-10-31-14-30-bundesliga-augsburg-v-freiburg",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Augsburg v Freiburg",
+   "start": "2026-10-31T14:30:00.000Z",
+   "end": "2026-10-31T16:25:00.000Z",
+   "channels": [
+    "st-sports-focus"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Augsburg",
+   "away": "Freiburg"
+  },
+  {
+   "id": "2026-10-31-17-00-bundesliga-werder-bremen-v-hoffenheim",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Werder Bremen v Hoffenheim",
+   "start": "2026-10-31T17:00:00.000Z",
+   "end": "2026-10-31T18:55:00.000Z",
+   "channels": [
+    "st-sports-arena"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Werder Bremen",
+   "away": "Hoffenheim"
+  },
+  {
+   "id": "2026-10-31-17-00-bundesliga-borussia-monchengladbach-v-paderborn",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Borussia Monchengladbach v Paderborn",
+   "start": "2026-10-31T17:00:00.000Z",
+   "end": "2026-10-31T18:55:00.000Z",
+   "channels": [
+    "st-sports-focus"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Borussia Monchengladbach",
+   "away": "Paderborn"
+  },
+  {
+   "id": "2026-10-31-17-00-uganda-premier-league-ura-v-vipers",
+   "sport": "football",
+   "comp": "Uganda Premier League",
+   "detail": "URA v Vipers",
+   "start": "2026-10-31T17:00:00.000Z",
+   "end": "2026-10-31T18:55:00.000Z",
+   "channels": [
+    "st-sanyuka"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "URA",
+   "away": "Vipers"
+  },
+  {
+   "id": "2026-10-31-18-00-saudi-pro-league-al-hilal-v-al-fateh",
+   "sport": "football",
+   "comp": "Saudi Pro League",
+   "detail": "Al Hilal v Al Fateh",
+   "start": "2026-10-31T18:00:00.000Z",
+   "end": "2026-10-31T19:55:00.000Z",
+   "channels": [
+    "st-sports-life"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Al Hilal",
+   "away": "Al Fateh"
+  },
+  {
+   "id": "2026-10-31-20-00-laliga-barcelona-v-alaves",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Barcelona v Alaves",
+   "start": "2026-10-31T20:00:00.000Z",
+   "end": "2026-10-31T21:55:00.000Z",
+   "channels": [
+    "st-sports-premium"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Barcelona",
+   "away": "Alaves"
+  },
+  {
+   "id": "2026-11-01-14-30-bundesliga-union-berlin-v-koln",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Union Berlin v Koln",
+   "start": "2026-11-01T14:30:00.000Z",
+   "end": "2026-11-01T16:25:00.000Z",
+   "channels": [
+    "st-world-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Union Berlin",
+   "away": "Koln"
+  },
+  {
+   "id": "2026-11-01-15-15-laliga-racing-santander-v-real-madrid",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Racing Santander v Real Madrid",
+   "start": "2026-11-01T15:15:00.000Z",
+   "end": "2026-11-01T17:10:00.000Z",
+   "channels": [
+    "st-sports-premium"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Racing Santander",
+   "away": "Real Madrid"
+  },
+  {
+   "id": "2026-11-06-20-00-laliga-sevilla-v-alaves",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Sevilla v Alaves",
+   "start": "2026-11-06T20:00:00.000Z",
+   "end": "2026-11-06T21:55:00.000Z",
+   "channels": [
+    "st-sports-premium",
+    "st-sports-life"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sevilla",
+   "away": "Alaves"
+  },
+  {
+   "id": "2026-11-08-13-00-laliga-elche-v-real-betis",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Elche v Real Betis",
+   "start": "2026-11-08T13:00:00.000Z",
+   "end": "2026-11-08T14:55:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "st-sports-premium"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Elche",
+   "away": "Real Betis"
+  },
+  {
+   "id": "2026-11-08-15-15-laliga-real-sociedad-v-rayo-vallecano",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Real Sociedad v Rayo Vallecano",
+   "start": "2026-11-08T15:15:00.000Z",
+   "end": "2026-11-08T17:10:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "st-sports-life"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Real Sociedad",
+   "away": "Rayo Vallecano"
+  },
+  {
+   "id": "2026-11-08-19-30-laliga-villarreal-v-getafe",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Villarreal v Getafe",
+   "start": "2026-11-08T19:30:00.000Z",
+   "end": "2026-11-08T21:25:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "st-sports-premium"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Villarreal",
+   "away": "Getafe"
+  },
+  {
+   "id": "2026-11-08-17-30-laliga-celta-vigo-v-levante",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Celta Vigo v Levante",
+   "start": "2026-11-08T17:30:00.000Z",
+   "end": "2026-11-08T19:25:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "st-sports-life"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Celta Vigo",
+   "away": "Levante"
+  },
+  {
+   "id": "2026-11-04-20-00-uefa-champions-league-rb-leipzig-v-manchester-city",
+   "sport": "football",
+   "comp": "UEFA Champions League",
+   "detail": "RB Leipzig v Manchester City",
+   "start": "2026-11-04T20:00:00.000Z",
+   "end": "2026-11-04T21:55:00.000Z",
+   "channels": [
+    "cp-sport-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "RB Leipzig",
+   "away": "Manchester City"
+  },
+  {
+   "id": "2026-11-08-19-45-ligue-1-lens-v-marseille",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Lens v Marseille",
+   "start": "2026-11-08T19:45:00.000Z",
+   "end": "2026-11-08T21:40:00.000Z",
+   "channels": [
+    "cp-sport-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Lens",
+   "away": "Marseille"
+  },
+  {
+   "id": "2026-11-02-12-00-atp-masters-1000-paris-day-1",
+   "sport": "tennis",
+   "comp": "ATP Masters 1000 · Paris",
+   "detail": "Day 1",
+   "start": "2026-11-02T12:00:00.000Z",
+   "end": "2026-11-02T22:00:00.000Z",
+   "channels": [
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-03-12-00-atp-masters-1000-paris-day-2",
+   "sport": "tennis",
+   "comp": "ATP Masters 1000 · Paris",
+   "detail": "Day 2",
+   "start": "2026-11-03T12:00:00.000Z",
+   "end": "2026-11-03T22:00:00.000Z",
+   "channels": [
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-04-12-00-atp-masters-1000-paris-day-3",
+   "sport": "tennis",
+   "comp": "ATP Masters 1000 · Paris",
+   "detail": "Day 3",
+   "start": "2026-11-04T12:00:00.000Z",
+   "end": "2026-11-04T22:00:00.000Z",
+   "channels": [
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-05-12-00-atp-masters-1000-paris-day-4-round-of-16",
+   "sport": "tennis",
+   "comp": "ATP Masters 1000 · Paris",
+   "detail": "Day 4 · Round of 16",
+   "start": "2026-11-05T12:00:00.000Z",
+   "end": "2026-11-05T22:00:00.000Z",
+   "channels": [
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-06-12-00-atp-masters-1000-paris-quarter-finals",
+   "sport": "tennis",
+   "comp": "ATP Masters 1000 · Paris",
+   "detail": "Quarter-finals",
+   "start": "2026-11-06T12:00:00.000Z",
+   "end": "2026-11-06T22:00:00.000Z",
+   "channels": [
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-07-12-00-atp-masters-1000-paris-semi-finals",
+   "sport": "tennis",
+   "comp": "ATP Masters 1000 · Paris",
+   "detail": "Semi-finals",
+   "start": "2026-11-07T12:00:00.000Z",
+   "end": "2026-11-07T22:00:00.000Z",
+   "channels": [
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-08-12-00-atp-masters-1000-paris-final",
+   "sport": "tennis",
+   "comp": "ATP Masters 1000 · Paris",
+   "detail": "Final",
+   "start": "2026-11-08T12:00:00.000Z",
+   "end": "2026-11-08T22:00:00.000Z",
+   "channels": [
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-08-18-30-bundesliga-hoffenheim-v-schalke",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Hoffenheim v Schalke",
+   "start": "2026-11-08T18:30:00.000Z",
+   "end": "2026-11-08T20:25:00.000Z",
+   "channels": [
+    "azam-2",
+    "st-world-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hoffenheim",
+   "away": "Schalke"
+  },
+  {
+   "id": "2026-11-09-01-00-nba-boston-celtics-v-milwaukee-bucks",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Boston Celtics v Milwaukee Bucks",
+   "start": "2026-11-09T01:00:00.000Z",
+   "end": "2026-11-09T03:30:00.000Z",
+   "channels": [
+    "cp-sport-4",
+    "nba-lp"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Boston Celtics",
+   "away": "Milwaukee Bucks"
+  },
+  {
+   "id": "2026-11-09-08-45-afc-women-s-champions-league-bam-khatoon-v-ayeyawady",
+   "sport": "football",
+   "comp": "AFC Women's Champions League",
+   "detail": "Bam Khatoon v Ayeyawady",
+   "start": "2026-11-09T08:45:00.000Z",
+   "end": "2026-11-09T10:45:00.000Z",
+   "channels": [
+    "bein-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bam Khatoon",
+   "away": "Ayeyawady"
+  },
+  {
+   "id": "2026-11-09-12-00-atp-250-stockholm-open-duckworth-v-norrie",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Duckworth v Norrie",
+   "start": "2026-11-09T12:00:00.000Z",
+   "end": "2026-11-09T14:00:00.000Z",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Duckworth",
+   "away": "Norrie"
+  },
+  {
+   "id": "2026-11-09-14-00-atp-250-stockholm-open-vallejo-v-humbert",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Vallejo v Humbert",
+   "start": "2026-11-09T14:00:00.000Z",
+   "end": "2026-11-09T16:30:00.000Z",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Vallejo",
+   "away": "Humbert"
+  },
+  {
+   "id": "2026-11-09-17-00-atp-250-stockholm-open-etcheverry-v-dahlin",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Etcheverry v Dahlin",
+   "start": "2026-11-09T17:00:00.000Z",
+   "end": "2026-11-09T19:00:00.000Z",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Etcheverry",
+   "away": "Dahlin"
+  },
+  {
+   "id": "2026-11-09-19-00-atp-250-stockholm-open-borg-v-samuel",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Borg v Samuel",
+   "start": "2026-11-09T19:00:00.000Z",
+   "end": "2026-11-09T21:00:00.000Z",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Borg",
+   "away": "Samuel"
+  },
+  {
+   "id": "2026-11-09-20-00-wta-finals-day-2-singles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 2 · Singles 1",
+   "start": "2026-11-09T20:00:00.000Z",
+   "end": "2026-11-09T22:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-09-22-00-wta-finals-day-2-singles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 2 · Singles 2",
+   "start": "2026-11-09T22:00:00.000Z",
+   "end": "2026-11-10T00:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-09-23-55-nba-pistons-v-wizards",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Pistons v Wizards",
+   "start": "2026-11-09T23:55:00.000Z",
+   "end": "2026-11-10T02:40:00.000Z",
+   "channels": [
+    "ss-action",
+    "ss-maximo-1",
+    "bein-8",
+    "bein-english-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Pistons",
+   "away": "Wizards"
+  },
+  {
+   "id": "2026-11-10-00-00-wta-finals-day-2-doubles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 2 · Doubles 1",
+   "start": "2026-11-10T00:00:00.000Z",
+   "end": "2026-11-10T02:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-10-01-00-wwe-raw",
+   "sport": "wwe",
+   "comp": "WWE",
+   "detail": "RAW",
+   "start": "2026-11-10T01:00:00.000Z",
+   "end": "2026-11-10T04:00:00.000Z",
+   "channels": [
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-10-01-15-nfl-bills-vikings",
+   "sport": "nfl",
+   "comp": "NFL",
+   "detail": "Bills @ Vikings",
+   "start": "2026-11-10T01:15:00.000Z",
+   "end": "2026-11-10T04:15:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-10-02-00-international-cricket-3rd-odi-new-zealand-v-india",
+   "sport": "cricket",
+   "comp": "International Cricket · 3rd ODI",
+   "detail": "New Zealand v India",
+   "start": "2026-11-10T02:00:00.000Z",
+   "end": "2026-11-10T10:30:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "New Zealand",
+   "away": "India"
+  },
+  {
+   "id": "2026-11-10-02-00-wta-finals-day-2-doubles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 2 · Doubles 2",
+   "start": "2026-11-10T02:00:00.000Z",
+   "end": "2026-11-10T04:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-10-08-00-premier-padel-dubai-p1-day-sessions",
+   "sport": "other",
+   "comp": "Premier Padel · Dubai P1",
+   "detail": "Day sessions",
+   "start": "2026-11-10T08:00:00.000Z",
+   "end": "2026-11-10T15:30:00.000Z",
+   "channels": [
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-10-08-05-women-s-big-bash-league-hbh-v-ads",
+   "sport": "cricket",
+   "comp": "Women's Big Bash League",
+   "detail": "HBH v ADS",
+   "start": "2026-11-10T08:05:00.000Z",
+   "end": "2026-11-10T11:50:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "HBH",
+   "away": "ADS"
+  },
+  {
+   "id": "2026-11-10-12-00-atp-250-stockholm-open-day-session-m1-m4",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Day session (M1–M4)",
+   "start": "2026-11-10T12:00:00.000Z",
+   "end": "2026-11-10T19:00:00.000Z",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-10-15-50-csa-pro20-cup-cobras-v-badgers",
+   "sport": "cricket",
+   "comp": "CSA Pro20 Cup",
+   "detail": "Cobras v Badgers",
+   "start": "2026-11-10T15:50:00.000Z",
+   "end": "2026-11-10T20:00:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Cobras",
+   "away": "Badgers"
+  },
+  {
+   "id": "2026-11-10-16-00-basketball-champions-league-sabah-v-trabzonspor",
+   "sport": "basketball",
+   "comp": "Basketball Champions League",
+   "detail": "Sabah v Trabzonspor",
+   "start": "2026-11-10T16:00:00.000Z",
+   "end": "2026-11-10T17:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sabah",
+   "away": "Trabzonspor"
+  },
+  {
+   "id": "2026-11-10-17-30-basketball-champions-league-hapoel-holon-v-rasta-vechta",
+   "sport": "basketball",
+   "comp": "Basketball Champions League",
+   "detail": "Hapoel Holon v Rasta Vechta",
+   "start": "2026-11-10T17:30:00.000Z",
+   "end": "2026-11-10T19:20:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hapoel Holon",
+   "away": "Rasta Vechta"
+  },
+  {
+   "id": "2026-11-10-17-35-uefa-women-s-champions-league-hacken-v-chelsea",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Hacken v Chelsea",
+   "start": "2026-11-10T17:35:00.000Z",
+   "end": "2026-11-10T19:45:00.000Z",
+   "channels": [
+    "bein-xtra-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hacken",
+   "away": "Chelsea"
+  },
+  {
+   "id": "2026-11-10-17-40-uefa-women-s-champions-league-real-madrid-v-paris-fc",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Real Madrid v Paris FC",
+   "start": "2026-11-10T17:40:00.000Z",
+   "end": "2026-11-10T19:40:00.000Z",
+   "channels": [
+    "espn",
+    "bein-xtra-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Real Madrid",
+   "away": "Paris FC"
+  },
+  {
+   "id": "2026-11-10-19-00-basketball-champions-league-bilbao-v-berlin",
+   "sport": "basketball",
+   "comp": "Basketball Champions League",
+   "detail": "Bilbao v Berlin",
+   "start": "2026-11-10T19:00:00.000Z",
+   "end": "2026-11-10T20:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bilbao",
+   "away": "Berlin"
+  },
+  {
+   "id": "2026-11-10-19-00-basketball-champions-league-spartak-subotica-v-cholet",
+   "sport": "basketball",
+   "comp": "Basketball Champions League",
+   "detail": "Spartak Subotica v Cholet",
+   "start": "2026-11-10T19:00:00.000Z",
+   "end": "2026-11-10T20:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Spartak Subotica",
+   "away": "Cholet"
+  },
+  {
+   "id": "2026-11-10-19-50-uefa-women-s-champions-league-inter-v-man-city",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Inter v Man City",
+   "start": "2026-11-10T19:50:00.000Z",
+   "end": "2026-11-10T22:00:00.000Z",
+   "channels": [
+    "bein-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Inter",
+   "away": "Man City"
+  },
+  {
+   "id": "2026-11-10-19-50-uefa-women-s-champions-league-roma-v-servette",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Roma v Servette",
+   "start": "2026-11-10T19:50:00.000Z",
+   "end": "2026-11-10T22:00:00.000Z",
+   "channels": [
+    "bein-english-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Roma",
+   "away": "Servette"
+  },
+  {
+   "id": "2026-11-10-19-55-uefa-women-s-champions-league-paris-sg-v-bayern",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Paris SG v Bayern",
+   "start": "2026-11-10T19:55:00.000Z",
+   "end": "2026-11-10T22:00:00.000Z",
+   "channels": [
+    "espn",
+    "bein-english-2",
+    "bein-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Paris SG",
+   "away": "Bayern"
+  },
+  {
+   "id": "2026-11-10-20-00-wta-finals-day-3-singles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 3 · Singles 1",
+   "start": "2026-11-10T20:00:00.000Z",
+   "end": "2026-11-10T22:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-10-22-00-wta-finals-day-3-singles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 3 · Singles 2",
+   "start": "2026-11-10T22:00:00.000Z",
+   "end": "2026-11-11T00:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-00-00-ncaa-basketball-michigan-state-duke",
+   "sport": "basketball",
+   "comp": "NCAA Basketball",
+   "detail": "Michigan State @ Duke",
+   "start": "2026-11-11T00:00:00.000Z",
+   "end": "2026-11-11T02:00:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-00-00-wta-finals-day-3-doubles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 3 · Doubles 1",
+   "start": "2026-11-11T00:00:00.000Z",
+   "end": "2026-11-11T02:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-00-05-nhl-wild-canadiens",
+   "sport": "hockey",
+   "comp": "NHL",
+   "detail": "Wild @ Canadiens",
+   "start": "2026-11-11T00:05:00.000Z",
+   "end": "2026-11-11T02:30:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-00-55-nba-76ers-v-celtics",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "76ers v Celtics",
+   "start": "2026-11-11T00:55:00.000Z",
+   "end": "2026-11-11T03:40:00.000Z",
+   "channels": [
+    "ss-action",
+    "ss-maximo-1",
+    "bein-8",
+    "bein-english-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "76ers",
+   "away": "Celtics"
+  },
+  {
+   "id": "2026-11-11-01-00-wwe-nxt",
+   "sport": "wwe",
+   "comp": "WWE",
+   "detail": "NXT",
+   "start": "2026-11-11T01:00:00.000Z",
+   "end": "2026-11-11T03:00:00.000Z",
+   "channels": [
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-02-00-wta-finals-day-3-doubles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 3 · Doubles 2",
+   "start": "2026-11-11T02:00:00.000Z",
+   "end": "2026-11-11T04:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-02-30-ncaa-basketball-kansas-kentucky",
+   "sport": "basketball",
+   "comp": "NCAA Basketball",
+   "detail": "Kansas @ Kentucky",
+   "start": "2026-11-11T02:30:00.000Z",
+   "end": "2026-11-11T04:30:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-04-00-nba-blazers-v-thunder",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Blazers v Thunder",
+   "start": "2026-11-11T04:00:00.000Z",
+   "end": "2026-11-11T06:40:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-action",
+    "ss-maximo-1",
+    "bein-english-1",
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Blazers",
+   "away": "Thunder"
+  },
+  {
+   "id": "2026-11-11-08-00-premier-padel-dubai-p1-day-sessions",
+   "sport": "other",
+   "comp": "Premier Padel · Dubai P1",
+   "detail": "Day sessions",
+   "start": "2026-11-11T08:00:00.000Z",
+   "end": "2026-11-11T15:30:00.000Z",
+   "channels": [
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-08-05-women-s-big-bash-league-prs-v-syt",
+   "sport": "cricket",
+   "comp": "Women's Big Bash League",
+   "detail": "PRS v SYT",
+   "start": "2026-11-11T08:05:00.000Z",
+   "end": "2026-11-11T11:50:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "PRS",
+   "away": "SYT"
+  },
+  {
+   "id": "2026-11-11-10-50-csa-pro20-cup-boland-v-lions",
+   "sport": "cricket",
+   "comp": "CSA Pro20 Cup",
+   "detail": "Boland v Lions",
+   "start": "2026-11-11T10:50:00.000Z",
+   "end": "2026-11-11T15:00:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Boland",
+   "away": "Lions"
+  },
+  {
+   "id": "2026-11-11-11-50-caf-women-s-champions-league-semi-final-2",
+   "sport": "football",
+   "comp": "CAF Women's Champions League",
+   "detail": "Semi-final 2",
+   "start": "2026-11-11T11:50:00.000Z",
+   "end": "2026-11-11T14:30:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-12-00-atp-250-stockholm-open-day-session-m1-m4",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Day session (M1–M4)",
+   "start": "2026-11-11T12:00:00.000Z",
+   "end": "2026-11-11T19:00:00.000Z",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-13-00-french-volleyball-super-cup-montpellier-v-paris-men",
+   "sport": "volleyball",
+   "comp": "French Volleyball Super Cup",
+   "detail": "Montpellier v Paris (Men)",
+   "start": "2026-11-11T13:00:00.000Z",
+   "end": "2026-11-11T15:00:00.000Z",
+   "channels": [
+    "bein-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Montpellier",
+   "away": "Paris (Men)"
+  },
+  {
+   "id": "2026-11-11-14-50-caf-women-s-champions-league-semi-final-1",
+   "sport": "football",
+   "comp": "CAF Women's Champions League",
+   "detail": "Semi-final 1",
+   "start": "2026-11-11T14:50:00.000Z",
+   "end": "2026-11-11T17:30:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-17-00-basketball-champions-league-slavia-prague-v-igokea",
+   "sport": "basketball",
+   "comp": "Basketball Champions League",
+   "detail": "Slavia Prague v Igokea",
+   "start": "2026-11-11T17:00:00.000Z",
+   "end": "2026-11-11T18:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Slavia Prague",
+   "away": "Igokea"
+  },
+  {
+   "id": "2026-11-11-17-00-french-volleyball-super-cup-vand-uvre-nancy-v-mulhouse-women",
+   "sport": "volleyball",
+   "comp": "French Volleyball Super Cup",
+   "detail": "Vandœuvre Nancy v Mulhouse (Women)",
+   "start": "2026-11-11T17:00:00.000Z",
+   "end": "2026-11-11T19:00:00.000Z",
+   "channels": [
+    "bein-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Vandœuvre Nancy",
+   "away": "Mulhouse (Women)"
+  },
+  {
+   "id": "2026-11-11-17-30-basketball-champions-league-peristeri-v-varese",
+   "sport": "basketball",
+   "comp": "Basketball Champions League",
+   "detail": "Peristeri v Varese",
+   "start": "2026-11-11T17:30:00.000Z",
+   "end": "2026-11-11T19:20:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Peristeri",
+   "away": "Varese"
+  },
+  {
+   "id": "2026-11-11-17-30-basketball-champions-league-rytas-vilnius-v-nanterre-92",
+   "sport": "basketball",
+   "comp": "Basketball Champions League",
+   "detail": "Rytas Vilnius v Nanterre 92",
+   "start": "2026-11-11T17:30:00.000Z",
+   "end": "2026-11-11T19:20:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Rytas Vilnius",
+   "away": "Nanterre 92"
+  },
+  {
+   "id": "2026-11-11-17-35-uefa-women-s-champions-league-oh-leuven-v-hb-k-ge",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "OH Leuven v HB Køge",
+   "start": "2026-11-11T17:35:00.000Z",
+   "end": "2026-11-11T19:50:00.000Z",
+   "channels": [
+    "bein-english-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "OH Leuven",
+   "away": "HB Køge"
+  },
+  {
+   "id": "2026-11-11-19-30-basketball-champions-league-ucam-murcia-v-bamberg",
+   "sport": "basketball",
+   "comp": "Basketball Champions League",
+   "detail": "UCAM Murcia v Bamberg",
+   "start": "2026-11-11T19:30:00.000Z",
+   "end": "2026-11-11T21:20:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "UCAM Murcia",
+   "away": "Bamberg"
+  },
+  {
+   "id": "2026-11-11-19-50-uefa-women-s-champions-league-benfica-v-austria-wien",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Benfica v Austria Wien",
+   "start": "2026-11-11T19:50:00.000Z",
+   "end": "2026-11-11T22:00:00.000Z",
+   "channels": [
+    "bein-english-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Benfica",
+   "away": "Austria Wien"
+  },
+  {
+   "id": "2026-11-11-19-55-uefa-women-s-champions-league-juventus-v-ol-lyonnes",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Juventus v OL Lyonnes",
+   "start": "2026-11-11T19:55:00.000Z",
+   "end": "2026-11-11T22:00:00.000Z",
+   "channels": [
+    "espn",
+    "bein-2",
+    "bein-english-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Juventus",
+   "away": "OL Lyonnes"
+  },
+  {
+   "id": "2026-11-11-20-00-wta-finals-day-4-singles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 4 · Singles 1",
+   "start": "2026-11-11T20:00:00.000Z",
+   "end": "2026-11-11T22:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-11-22-00-wta-finals-day-4-singles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 4 · Singles 2",
+   "start": "2026-11-11T22:00:00.000Z",
+   "end": "2026-11-12T00:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-00-00-wta-finals-day-4-doubles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 4 · Doubles 1",
+   "start": "2026-11-12T00:00:00.000Z",
+   "end": "2026-11-12T02:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-00-12-nba-cavaliers-knicks",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Cavaliers @ Knicks",
+   "start": "2026-11-12T00:12:00.000Z",
+   "end": "2026-11-12T02:35:00.000Z",
+   "channels": [
+    "espn",
+    "bein-english-1",
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-02-00-wta-finals-day-4-doubles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 4 · Doubles 2",
+   "start": "2026-11-12T02:00:00.000Z",
+   "end": "2026-11-12T04:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-02-35-nba-warriors-rockets",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Warriors @ Rockets",
+   "start": "2026-11-12T02:35:00.000Z",
+   "end": "2026-11-12T05:05:00.000Z",
+   "channels": [
+    "espn",
+    "bein-english-1",
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-04-30-asian-tour-philippine-open-round-1",
+   "sport": "golf",
+   "comp": "Asian Tour · Philippine Open",
+   "detail": "Round 1",
+   "start": "2026-11-12T04:30:00.000Z",
+   "end": "2026-11-12T07:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-07-00-dp-world-tour-championship-round-1",
+   "sport": "golf",
+   "comp": "DP World Tour Championship",
+   "detail": "Round 1",
+   "start": "2026-11-12T07:00:00.000Z",
+   "end": "2026-11-12T13:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-08-00-premier-padel-dubai-p1-day-sessions",
+   "sport": "other",
+   "comp": "Premier Padel · Dubai P1",
+   "detail": "Day sessions",
+   "start": "2026-11-12T08:00:00.000Z",
+   "end": "2026-11-12T15:30:00.000Z",
+   "channels": [
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-12-00-atp-250-stockholm-open-quarter-finals",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Quarter-finals",
+   "start": "2026-11-12T12:00:00.000Z",
+   "end": "2026-11-12T19:30:00.000Z",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-14-50-afcon-2027-qualifiers-ghana-v-somalia",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Ghana v Somalia",
+   "start": "2026-11-12T14:50:00.000Z",
+   "end": "2026-11-12T17:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "ss-maximo-1",
+    "bein-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Ghana",
+   "away": "Somalia"
+  },
+  {
+   "id": "2026-11-12-15-50-afcon-2027-qualifiers-dr-congo-v-sierra-leone",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "DR Congo v Sierra Leone",
+   "start": "2026-11-12T15:50:00.000Z",
+   "end": "2026-11-12T18:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-3",
+    "cp-tbc",
+    "fta-rtnc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "DR Congo",
+   "away": "Sierra Leone"
+  },
+  {
+   "id": "2026-11-12-15-50-afcon-2027-qualifiers-equatorial-guinea-v-zimbabwe",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Equatorial Guinea v Zimbabwe",
+   "start": "2026-11-12T15:50:00.000Z",
+   "end": "2026-11-12T18:00:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "bein-5",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Equatorial Guinea",
+   "away": "Zimbabwe"
+  },
+  {
+   "id": "2026-11-12-15-50-afcon-2027-qualifiers-madagascar-v-guinea-bissau",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Madagascar v Guinea-Bissau",
+   "start": "2026-11-12T15:50:00.000Z",
+   "end": "2026-11-12T18:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-xtra-3",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Madagascar",
+   "away": "Guinea-Bissau"
+  },
+  {
+   "id": "2026-11-12-16-00-lpga-the-annika-pelican-round-1",
+   "sport": "golf",
+   "comp": "LPGA · The ANNIKA Pelican",
+   "detail": "Round 1",
+   "start": "2026-11-12T16:00:00.000Z",
+   "end": "2026-11-12T19:00:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-16-30-e1-series-miami-qualifying",
+   "sport": "other",
+   "comp": "E1 Series",
+   "detail": "Miami · Qualifying",
+   "start": "2026-11-12T16:30:00.000Z",
+   "end": "2026-11-12T18:30:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-16-50-afcon-2027-qualifiers-guinea-v-eritrea",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Guinea v Eritrea",
+   "start": "2026-11-12T16:50:00.000Z",
+   "end": "2026-11-12T19:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-xtra-2",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Guinea",
+   "away": "Eritrea"
+  },
+  {
+   "id": "2026-11-12-16-50-uefa-nations-league-turkey-v-belgium",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Turkey v Belgium",
+   "start": "2026-11-12T16:50:00.000Z",
+   "end": "2026-11-12T19:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-premier-league",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Turkey",
+   "away": "Belgium"
+  },
+  {
+   "id": "2026-11-12-17-00-nhl-hurricanes-kraken",
+   "sport": "hockey",
+   "comp": "NHL",
+   "detail": "Hurricanes @ Kraken",
+   "start": "2026-11-12T17:00:00.000Z",
+   "end": "2026-11-12T19:30:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-17-40-uefa-women-s-champions-league-barcelona-v-arsenal",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Barcelona v Arsenal",
+   "start": "2026-11-12T17:40:00.000Z",
+   "end": "2026-11-12T19:45:00.000Z",
+   "channels": [
+    "espn",
+    "bein-9"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Barcelona",
+   "away": "Arsenal"
+  },
+  {
+   "id": "2026-11-12-18-50-afcon-2027-qualifiers-benin-v-central-african-republic",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Benin v Central African Republic",
+   "start": "2026-11-12T18:50:00.000Z",
+   "end": "2026-11-12T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-xtra-3",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Benin",
+   "away": "Central African Republic"
+  },
+  {
+   "id": "2026-11-12-18-50-afcon-2027-qualifiers-cameroon-v-namibia",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Cameroon v Namibia",
+   "start": "2026-11-12T18:50:00.000Z",
+   "end": "2026-11-12T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "bein-6",
+    "cp-tbc",
+    "fta-crtv"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Cameroon",
+   "away": "Namibia"
+  },
+  {
+   "id": "2026-11-12-18-50-afcon-2027-qualifiers-cote-d-ivoire-v-the-gambia",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Cote d'Ivoire v The Gambia",
+   "start": "2026-11-12T18:50:00.000Z",
+   "end": "2026-11-12T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-5",
+    "cp-tbc",
+    "fta-rti"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Cote d'Ivoire",
+   "away": "The Gambia"
+  },
+  {
+   "id": "2026-11-12-18-50-afcon-2027-qualifiers-senegal-v-sudan",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Senegal v Sudan",
+   "start": "2026-11-12T18:50:00.000Z",
+   "end": "2026-11-12T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-2",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Senegal",
+   "away": "Sudan"
+  },
+  {
+   "id": "2026-11-12-19-00-french-volleyball-league-chaumont-v-toulouse",
+   "sport": "volleyball",
+   "comp": "French Volleyball League",
+   "detail": "Chaumont v Toulouse",
+   "start": "2026-11-12T19:00:00.000Z",
+   "end": "2026-11-12T21:00:00.000Z",
+   "channels": [
+    "bein-sports"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Chaumont",
+   "away": "Toulouse"
+  },
+  {
+   "id": "2026-11-12-19-00-pga-tour-austin-champs-round-1",
+   "sport": "golf",
+   "comp": "PGA Tour · Austin Champs",
+   "detail": "Round 1",
+   "start": "2026-11-12T19:00:00.000Z",
+   "end": "2026-11-12T22:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-19-35-uefa-nations-league-albania-v-finland",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Albania v Finland",
+   "start": "2026-11-12T19:35:00.000Z",
+   "end": "2026-11-12T21:45:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Albania",
+   "away": "Finland"
+  },
+  {
+   "id": "2026-11-12-19-35-uefa-nations-league-czechia-v-spain",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Czechia v Spain",
+   "start": "2026-11-12T19:35:00.000Z",
+   "end": "2026-11-12T21:45:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Czechia",
+   "away": "Spain"
+  },
+  {
+   "id": "2026-11-12-19-35-uefa-nations-league-england-v-croatia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "England v Croatia",
+   "start": "2026-11-12T19:35:00.000Z",
+   "end": "2026-11-12T21:45:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "England",
+   "away": "Croatia"
+  },
+  {
+   "id": "2026-11-12-19-35-uefa-nations-league-italy-v-france",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Italy v France",
+   "start": "2026-11-12T19:35:00.000Z",
+   "end": "2026-11-12T21:45:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Italy",
+   "away": "France"
+  },
+  {
+   "id": "2026-11-12-19-35-uefa-nations-league-montenegro-v-latvia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Montenegro v Latvia",
+   "start": "2026-11-12T19:35:00.000Z",
+   "end": "2026-11-12T21:45:00.000Z",
+   "channels": [
+    "ss-laliga"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Montenegro",
+   "away": "Latvia"
+  },
+  {
+   "id": "2026-11-12-20-00-wta-finals-day-5-singles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 5 · Singles 1",
+   "start": "2026-11-12T20:00:00.000Z",
+   "end": "2026-11-12T22:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-22-00-pga-tour-champions-charles-schwab-round-1",
+   "sport": "golf",
+   "comp": "PGA Tour Champions · Charles Schwab",
+   "detail": "Round 1",
+   "start": "2026-11-12T22:00:00.000Z",
+   "end": "2026-11-13T00:00:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-22-00-wta-finals-day-5-singles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 5 · Singles 2",
+   "start": "2026-11-12T22:00:00.000Z",
+   "end": "2026-11-13T00:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-12-23-30-eye-of-the-tiger-orobio-v-cedeno",
+   "sport": "boxing",
+   "comp": "Eye of the Tiger",
+   "detail": "Orobio v Cedeño",
+   "start": "2026-11-12T23:30:00.000Z",
+   "end": "2026-11-13T02:30:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Orobio",
+   "away": "Cedeño"
+  },
+  {
+   "id": "2026-11-13-00-00-nba-raptors-v-76ers",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Raptors v 76ers",
+   "start": "2026-11-13T00:00:00.000Z",
+   "end": "2026-11-13T02:30:00.000Z",
+   "channels": [
+    "bein-english-1",
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Raptors",
+   "away": "76ers"
+  },
+  {
+   "id": "2026-11-13-00-00-one-friday-fights-one-friday-fights-178",
+   "sport": "boxing",
+   "comp": "ONE Friday Fights",
+   "detail": "ONE Friday Fights 178",
+   "start": "2026-11-13T00:00:00.000Z",
+   "end": "2026-11-13T10:00:00.000Z",
+   "channels": [
+    "bein-9"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-00-00-wta-finals-day-5-doubles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 5 · Doubles 1",
+   "start": "2026-11-13T00:00:00.000Z",
+   "end": "2026-11-13T02:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-01-00-nhl-jets-stars",
+   "sport": "hockey",
+   "comp": "NHL",
+   "detail": "Jets @ Stars",
+   "start": "2026-11-13T01:00:00.000Z",
+   "end": "2026-11-13T03:30:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-01-15-nfl-commanders-giants",
+   "sport": "nfl",
+   "comp": "NFL",
+   "detail": "Commanders @ Giants",
+   "start": "2026-11-13T01:15:00.000Z",
+   "end": "2026-11-13T04:20:00.000Z",
+   "channels": [
+    "espn",
+    "bein-8",
+    "bein-english-2"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-02-00-international-cricket-4th-odi-new-zealand-v-india",
+   "sport": "cricket",
+   "comp": "International Cricket · 4th ODI",
+   "detail": "New Zealand v India",
+   "start": "2026-11-13T02:00:00.000Z",
+   "end": "2026-11-13T10:30:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "New Zealand",
+   "away": "India"
+  },
+  {
+   "id": "2026-11-13-02-00-wta-finals-day-5-doubles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 5 · Doubles 2",
+   "start": "2026-11-13T02:00:00.000Z",
+   "end": "2026-11-13T04:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-03-20-international-cricket-1st-odi-australia-v-england",
+   "sport": "cricket",
+   "comp": "International Cricket · 1st ODI",
+   "detail": "Australia v England",
+   "start": "2026-11-13T03:20:00.000Z",
+   "end": "2026-11-13T12:00:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Australia",
+   "away": "England"
+  },
+  {
+   "id": "2026-11-13-04-30-asian-tour-philippine-open-round-2",
+   "sport": "golf",
+   "comp": "Asian Tour · Philippine Open",
+   "detail": "Round 2",
+   "start": "2026-11-13T04:30:00.000Z",
+   "end": "2026-11-13T07:00:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-07-00-dp-world-tour-championship-round-2",
+   "sport": "golf",
+   "comp": "DP World Tour Championship",
+   "detail": "Round 2",
+   "start": "2026-11-13T07:00:00.000Z",
+   "end": "2026-11-13T13:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-08-00-premier-padel-dubai-p1-day-sessions",
+   "sport": "other",
+   "comp": "Premier Padel · Dubai P1",
+   "detail": "Day sessions",
+   "start": "2026-11-13T08:00:00.000Z",
+   "end": "2026-11-13T15:30:00.000Z",
+   "channels": [
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-09-45-world-triathlon-championship-series-abu-dhabi-women-s-race",
+   "sport": "other",
+   "comp": "World Triathlon Championship Series",
+   "detail": "Abu Dhabi · Women's race",
+   "start": "2026-11-13T09:45:00.000Z",
+   "end": "2026-11-13T11:15:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-11-45-world-triathlon-championship-series-abu-dhabi-men-s-race",
+   "sport": "other",
+   "comp": "World Triathlon Championship Series",
+   "detail": "Abu Dhabi · Men's race",
+   "start": "2026-11-13T11:45:00.000Z",
+   "end": "2026-11-13T13:15:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-12-15-riyadh-season-horse-racing-prince-mohammed-bin-saud-alkabeer-cup",
+   "sport": "other",
+   "comp": "Riyadh Season Horse Racing",
+   "detail": "Prince Mohammed Bin Saud Alkabeer Cup",
+   "start": "2026-11-13T12:15:00.000Z",
+   "end": "2026-11-13T15:15:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-12-50-afcon-2027-qualifiers-comoros-v-congo",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Comoros v Congo",
+   "start": "2026-11-13T12:50:00.000Z",
+   "end": "2026-11-13T15:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-3",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Comoros",
+   "away": "Congo"
+  },
+  {
+   "id": "2026-11-13-12-50-afcon-2027-qualifiers-mozambique-v-ethiopia",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Mozambique v Ethiopia",
+   "start": "2026-11-13T12:50:00.000Z",
+   "end": "2026-11-13T15:00:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "bein-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Mozambique",
+   "away": "Ethiopia"
+  },
+  {
+   "id": "2026-11-13-12-50-afcon-2027-qualifiers-zambia-v-burundi",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Zambia v Burundi",
+   "start": "2026-11-13T12:50:00.000Z",
+   "end": "2026-11-13T15:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "ss-maximo-1",
+    "bein-2",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Zambia",
+   "away": "Burundi"
+  },
+  {
+   "id": "2026-11-13-13-00-atp-250-stockholm-open-semi-finals",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Semi-finals",
+   "start": "2026-11-13T13:00:00.000Z",
+   "end": "2026-11-13T20:00:00.000Z",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-15-50-afcon-2027-qualifiers-burkina-faso-v-mauritania",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Burkina Faso v Mauritania",
+   "start": "2026-11-13T15:50:00.000Z",
+   "end": "2026-11-13T18:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-2",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Burkina Faso",
+   "away": "Mauritania"
+  },
+  {
+   "id": "2026-11-13-15-50-afcon-2027-qualifiers-cape-verde-v-liberia",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Cape Verde v Liberia",
+   "start": "2026-11-13T15:50:00.000Z",
+   "end": "2026-11-13T18:00:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "bein-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Cape Verde",
+   "away": "Liberia"
+  },
+  {
+   "id": "2026-11-13-15-50-afcon-2027-qualifiers-gabon-v-lesotho",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Gabon v Lesotho",
+   "start": "2026-11-13T15:50:00.000Z",
+   "end": "2026-11-13T18:00:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-1",
+    "bein-xtra-1",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Gabon",
+   "away": "Lesotho"
+  },
+  {
+   "id": "2026-11-13-15-50-afcon-2027-qualifiers-nigeria-v-tanzania",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Nigeria v Tanzania",
+   "start": "2026-11-13T15:50:00.000Z",
+   "end": "2026-11-13T18:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-football",
+    "bein-3",
+    "azam-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Nigeria",
+   "away": "Tanzania"
+  },
+  {
+   "id": "2026-11-13-15-50-afcon-2027-qualifiers-south-africa-v-kenya",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "South Africa v Kenya",
+   "start": "2026-11-13T15:50:00.000Z",
+   "end": "2026-11-13T18:00:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "bein-4",
+    "fta-sabc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "South Africa",
+   "away": "Kenya"
+  },
+  {
+   "id": "2026-11-13-15-50-afcon-2027-qualifiers-tunisia-v-libya",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Tunisia v Libya",
+   "start": "2026-11-13T15:50:00.000Z",
+   "end": "2026-11-13T18:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Tunisia",
+   "away": "Libya"
+  },
+  {
+   "id": "2026-11-13-15-50-legends-cup-arsenal-legends-v-harambee-stars-legends",
+   "sport": "football",
+   "comp": "Legends Cup",
+   "detail": "Arsenal Legends v Harambee Stars Legends",
+   "start": "2026-11-13T15:50:00.000Z",
+   "end": "2026-11-13T18:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Arsenal Legends",
+   "away": "Harambee Stars Legends"
+  },
+  {
+   "id": "2026-11-13-16-00-lpga-the-annika-pelican-round-2",
+   "sport": "golf",
+   "comp": "LPGA · The ANNIKA Pelican",
+   "detail": "Round 2",
+   "start": "2026-11-13T16:00:00.000Z",
+   "end": "2026-11-13T19:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-16-30-e1-series-miami-round-6-race-off-finals",
+   "sport": "other",
+   "comp": "E1 Series",
+   "detail": "Miami · Round 6 race-off & finals",
+   "start": "2026-11-13T16:30:00.000Z",
+   "end": "2026-11-13T19:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-16-50-uefa-nations-league-moldova-v-kazakhstan",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Moldova v Kazakhstan",
+   "start": "2026-11-13T16:50:00.000Z",
+   "end": "2026-11-13T19:00:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Moldova",
+   "away": "Kazakhstan"
+  },
+  {
+   "id": "2026-11-13-18-50-afcon-2027-qualifiers-egypt-v-malawi",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Egypt v Malawi",
+   "start": "2026-11-13T18:50:00.000Z",
+   "end": "2026-11-13T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "bein-1",
+    "fta-ontime"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Egypt",
+   "away": "Malawi"
+  },
+  {
+   "id": "2026-11-13-18-50-afcon-2027-qualifiers-mali-v-rwanda",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Mali v Rwanda",
+   "start": "2026-11-13T18:50:00.000Z",
+   "end": "2026-11-13T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-9",
+    "cp-tbc",
+    "fta-rba"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Mali",
+   "away": "Rwanda"
+  },
+  {
+   "id": "2026-11-13-19-00-french-handball-starligue-chambery-v-nimes",
+   "sport": "other",
+   "comp": "French Handball · StarLigue",
+   "detail": "Chambéry v Nîmes",
+   "start": "2026-11-13T19:00:00.000Z",
+   "end": "2026-11-13T20:50:00.000Z",
+   "channels": [
+    "bein-xtra-5"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Chambéry",
+   "away": "Nîmes"
+  },
+  {
+   "id": "2026-11-13-19-00-pga-tour-austin-champs-round-2",
+   "sport": "golf",
+   "comp": "PGA Tour · Austin Champs",
+   "detail": "Round 2",
+   "start": "2026-11-13T19:00:00.000Z",
+   "end": "2026-11-13T22:00:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-19-30-super-league-basketball-london-lions-v-surrey-89ers",
+   "sport": "basketball",
+   "comp": "Super League Basketball",
+   "detail": "London Lions v Surrey 89ers",
+   "start": "2026-11-13T19:30:00.000Z",
+   "end": "2026-11-13T21:30:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "London Lions",
+   "away": "Surrey 89ers"
+  },
+  {
+   "id": "2026-11-13-19-35-uefa-nations-league-bulgaria-v-iceland",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Bulgaria v Iceland",
+   "start": "2026-11-13T19:35:00.000Z",
+   "end": "2026-11-13T21:45:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bulgaria",
+   "away": "Iceland"
+  },
+  {
+   "id": "2026-11-13-19-35-uefa-nations-league-liechtenstein-v-azerbaijan",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Liechtenstein v Azerbaijan",
+   "start": "2026-11-13T19:35:00.000Z",
+   "end": "2026-11-13T21:45:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Liechtenstein",
+   "away": "Azerbaijan"
+  },
+  {
+   "id": "2026-11-13-19-35-uefa-nations-league-luxembourg-v-estonia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Luxembourg v Estonia",
+   "start": "2026-11-13T19:35:00.000Z",
+   "end": "2026-11-13T21:45:00.000Z",
+   "channels": [
+    "ss-stream-952"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Luxembourg",
+   "away": "Estonia"
+  },
+  {
+   "id": "2026-11-13-19-35-uefa-nations-league-netherlands-v-greece",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Netherlands v Greece",
+   "start": "2026-11-13T19:35:00.000Z",
+   "end": "2026-11-13T21:45:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Netherlands",
+   "away": "Greece"
+  },
+  {
+   "id": "2026-11-13-19-35-uefa-nations-league-scotland-v-north-macedonia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Scotland v North Macedonia",
+   "start": "2026-11-13T19:35:00.000Z",
+   "end": "2026-11-13T21:45:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Scotland",
+   "away": "North Macedonia"
+  },
+  {
+   "id": "2026-11-13-19-35-uefa-nations-league-serbia-v-germany",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Serbia v Germany",
+   "start": "2026-11-13T19:35:00.000Z",
+   "end": "2026-11-13T21:45:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Serbia",
+   "away": "Germany"
+  },
+  {
+   "id": "2026-11-13-19-35-uefa-nations-league-slovakia-v-faroe-islands",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Slovakia v Faroe Islands",
+   "start": "2026-11-13T19:35:00.000Z",
+   "end": "2026-11-13T21:45:00.000Z",
+   "channels": [
+    "ss-kickoff"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Slovakia",
+   "away": "Faroe Islands"
+  },
+  {
+   "id": "2026-11-13-19-35-uefa-nations-league-slovenia-v-switzerland",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Slovenia v Switzerland",
+   "start": "2026-11-13T19:35:00.000Z",
+   "end": "2026-11-13T21:45:00.000Z",
+   "channels": [
+    "ss-laliga"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Slovenia",
+   "away": "Switzerland"
+  },
+  {
+   "id": "2026-11-13-19-50-afcon-2027-qualifiers-morocco-v-niger",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Morocco v Niger",
+   "start": "2026-11-13T19:50:00.000Z",
+   "end": "2026-11-13T22:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-2",
+    "cp-tbc",
+    "fta-snrt"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Morocco",
+   "away": "Niger"
+  },
+  {
+   "id": "2026-11-13-20-00-nations-championship-france-v-south-africa",
+   "sport": "rugby",
+   "comp": "Nations Championship",
+   "detail": "France v South Africa",
+   "start": "2026-11-13T20:00:00.000Z",
+   "end": "2026-11-13T22:10:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "France",
+   "away": "South Africa"
+  },
+  {
+   "id": "2026-11-13-20-00-wta-finals-day-6-singles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 6 · Singles 1",
+   "start": "2026-11-13T20:00:00.000Z",
+   "end": "2026-11-13T22:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-22-00-pga-tour-champions-charles-schwab-round-2",
+   "sport": "golf",
+   "comp": "PGA Tour Champions · Charles Schwab",
+   "detail": "Round 2",
+   "start": "2026-11-13T22:00:00.000Z",
+   "end": "2026-11-14T00:00:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-13-22-00-wta-finals-day-6-singles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 6 · Singles 2",
+   "start": "2026-11-13T22:00:00.000Z",
+   "end": "2026-11-14T00:00:00.000Z",
+   "channels": [
+    "ss-tennis",
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-00-00-wta-finals-day-6-doubles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 6 · Doubles 1",
+   "start": "2026-11-14T00:00:00.000Z",
+   "end": "2026-11-14T02:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-01-00-wwe-smackdown",
+   "sport": "wwe",
+   "comp": "WWE",
+   "detail": "SmackDown",
+   "start": "2026-11-14T01:00:00.000Z",
+   "end": "2026-11-14T03:00:00.000Z",
+   "channels": [
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-02-00-wta-finals-day-6-doubles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 6 · Doubles 2",
+   "start": "2026-11-14T02:00:00.000Z",
+   "end": "2026-11-14T04:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-03-05-nhl-predators-golden-knights",
+   "sport": "hockey",
+   "comp": "NHL",
+   "detail": "Predators @ Golden Knights",
+   "start": "2026-11-14T03:05:00.000Z",
+   "end": "2026-11-14T05:35:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-04-00-asian-tour-philippine-open-round-3",
+   "sport": "golf",
+   "comp": "Asian Tour · Philippine Open",
+   "detail": "Round 3",
+   "start": "2026-11-14T04:00:00.000Z",
+   "end": "2026-11-14T07:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-04-35-women-s-big-bash-league-hbh-v-brh",
+   "sport": "cricket",
+   "comp": "Women's Big Bash League",
+   "detail": "HBH v BRH",
+   "start": "2026-11-14T04:35:00.000Z",
+   "end": "2026-11-14T08:05:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "HBH",
+   "away": "BRH"
+  },
+  {
+   "id": "2026-11-14-07-00-dp-world-tour-championship-round-3",
+   "sport": "golf",
+   "comp": "DP World Tour Championship",
+   "detail": "Round 3",
+   "start": "2026-11-14T07:00:00.000Z",
+   "end": "2026-11-14T10:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-08-05-women-s-big-bash-league-prs-v-ads",
+   "sport": "cricket",
+   "comp": "Women's Big Bash League",
+   "detail": "PRS v ADS",
+   "start": "2026-11-14T08:05:00.000Z",
+   "end": "2026-11-14T11:50:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "PRS",
+   "away": "ADS"
+  },
+  {
+   "id": "2026-11-14-10-00-sunshine-tour-hyundai-open-round-3",
+   "sport": "golf",
+   "comp": "Sunshine Tour · Hyundai Open",
+   "detail": "Round 3",
+   "start": "2026-11-14T10:00:00.000Z",
+   "end": "2026-11-14T15:00:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-10-00-t100-triathlon-world-tour-dubai-t100",
+   "sport": "other",
+   "comp": "T100 Triathlon World Tour",
+   "detail": "Dubai T100",
+   "start": "2026-11-14T10:00:00.000Z",
+   "end": "2026-11-14T13:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-10-55-dstv-diski-challenge-ama-v-sun",
+   "sport": "football",
+   "comp": "DStv Diski Challenge",
+   "detail": "AMA v SUN",
+   "start": "2026-11-14T10:55:00.000Z",
+   "end": "2026-11-14T12:55:00.000Z",
+   "channels": [
+    "ss-kickoff"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "AMA",
+   "away": "SUN"
+  },
+  {
+   "id": "2026-11-14-11-30-nations-championship-italy-v-argentina",
+   "sport": "rugby",
+   "comp": "Nations Championship",
+   "detail": "Italy v Argentina",
+   "start": "2026-11-14T11:30:00.000Z",
+   "end": "2026-11-14T13:40:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Italy",
+   "away": "Argentina"
+  },
+  {
+   "id": "2026-11-14-11-50-caf-women-s-champions-league-third-place-play-off",
+   "sport": "football",
+   "comp": "CAF Women's Champions League",
+   "detail": "Third-place play-off",
+   "start": "2026-11-14T11:50:00.000Z",
+   "end": "2026-11-14T14:30:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-12-00-atp-250-stockholm-open-final",
+   "sport": "tennis",
+   "comp": "ATP 250 · Stockholm Open",
+   "detail": "Final",
+   "start": "2026-11-14T12:00:00.000Z",
+   "end": "2026-11-14T15:00:00.000Z",
+   "channels": [
+    "ss-tennis",
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-12-00-premier-padel-dubai-p1-semi-finals",
+   "sport": "other",
+   "comp": "Premier Padel · Dubai P1",
+   "detail": "Semi-finals",
+   "start": "2026-11-14T12:00:00.000Z",
+   "end": "2026-11-14T18:00:00.000Z",
+   "channels": [
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-12-00-world-triathlon-championship-series-abu-dhabi-mixed-relay",
+   "sport": "other",
+   "comp": "World Triathlon Championship Series",
+   "detail": "Abu Dhabi · Mixed relay",
+   "start": "2026-11-14T12:00:00.000Z",
+   "end": "2026-11-14T14:00:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-12-10-rws-muay-thai-singhasurat-v-knotmai",
+   "sport": "mma",
+   "comp": "RWS Muay Thai",
+   "detail": "Singhasurat v Knotmai",
+   "start": "2026-11-14T12:10:00.000Z",
+   "end": "2026-11-14T15:10:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Singhasurat",
+   "away": "Knotmai"
+  },
+  {
+   "id": "2026-11-14-12-15-riyadh-season-horse-racing-saud-bin-salman-cup",
+   "sport": "other",
+   "comp": "Riyadh Season Horse Racing",
+   "detail": "Saud Bin Salman Cup",
+   "start": "2026-11-14T12:15:00.000Z",
+   "end": "2026-11-14T15:15:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-12-20-efl-league-two-exeter-city-v-cheltenham-town",
+   "sport": "football",
+   "comp": "EFL League Two",
+   "detail": "Exeter City v Cheltenham Town",
+   "start": "2026-11-14T12:20:00.000Z",
+   "end": "2026-11-14T14:35:00.000Z",
+   "channels": [
+    "bein-english-1",
+    "bein-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Exeter City",
+   "away": "Cheltenham Town"
+  },
+  {
+   "id": "2026-11-14-12-50-laliga-hypermotion-valladolid-v-castellon",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Valladolid v Castellón",
+   "start": "2026-11-14T12:50:00.000Z",
+   "end": "2026-11-14T15:15:00.000Z",
+   "channels": [
+    "bein-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Valladolid",
+   "away": "Castellón"
+  },
+  {
+   "id": "2026-11-14-12-55-dstv-diski-challenge-rbfc-v-pir",
+   "sport": "football",
+   "comp": "DStv Diski Challenge",
+   "detail": "RBFC v PIR",
+   "start": "2026-11-14T12:55:00.000Z",
+   "end": "2026-11-14T15:00:00.000Z",
+   "channels": [
+    "ss-kickoff"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "RBFC",
+   "away": "PIR"
+  },
+  {
+   "id": "2026-11-14-13-25-women-s-super-league-chelsea-v-man-city",
+   "sport": "football",
+   "comp": "Women's Super League",
+   "detail": "Chelsea v Man City",
+   "start": "2026-11-14T13:25:00.000Z",
+   "end": "2026-11-14T15:30:00.000Z",
+   "channels": [
+    "ss-laliga"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Chelsea",
+   "away": "Man City"
+  },
+  {
+   "id": "2026-11-14-13-50-uefa-nations-league-kosovo-v-israel",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Kosovo v Israel",
+   "start": "2026-11-14T13:50:00.000Z",
+   "end": "2026-11-14T16:00:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Kosovo",
+   "away": "Israel"
+  },
+  {
+   "id": "2026-11-14-14-00-e1-series-miami-round-7-group-stages-race-off",
+   "sport": "other",
+   "comp": "E1 Series",
+   "detail": "Miami · Round 7 group stages & race-off",
+   "start": "2026-11-14T14:00:00.000Z",
+   "end": "2026-11-14T18:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-14-00-nations-championship-wales-v-new-zealand",
+   "sport": "rugby",
+   "comp": "Nations Championship",
+   "detail": "Wales v New Zealand",
+   "start": "2026-11-14T14:00:00.000Z",
+   "end": "2026-11-14T16:10:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Wales",
+   "away": "New Zealand"
+  },
+  {
+   "id": "2026-11-14-14-00-pfl-world-tournament-nemkov-v-bilostenniy",
+   "sport": "mma",
+   "comp": "PFL World Tournament",
+   "detail": "Nemkov v Bilostenniy",
+   "start": "2026-11-14T14:00:00.000Z",
+   "end": "2026-11-14T20:00:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Nemkov",
+   "away": "Bilostenniy"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-carlisle-united-v-boston-united",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Carlisle United v Boston United",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Carlisle United",
+   "away": "Boston United"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-eastleigh-v-afc-fylde",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Eastleigh v AFC Fylde",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Eastleigh",
+   "away": "AFC Fylde"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-gateshead-v-barrow",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Gateshead v Barrow",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Gateshead",
+   "away": "Barrow"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-harrogate-town-v-altrincham",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Harrogate Town v Altrincham",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Harrogate Town",
+   "away": "Altrincham"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-hartlepool-united-v-wealdstone",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Hartlepool United v Wealdstone",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hartlepool United",
+   "away": "Wealdstone"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-hornchurch-v-tamworth",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Hornchurch v Tamworth",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hornchurch",
+   "away": "Tamworth"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-kidderminster-harriers-v-fc-halifax-town",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Kidderminster Harriers v FC Halifax Town",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Kidderminster Harriers",
+   "away": "FC Halifax Town"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-scunthorpe-united-v-worthing",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Scunthorpe United v Worthing",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Scunthorpe United",
+   "away": "Worthing"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-southend-united-v-aldershot-town",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Southend United v Aldershot Town",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Southend United",
+   "away": "Aldershot Town"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-sutton-united-v-solihull-moors",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Sutton United v Solihull Moors",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sutton United",
+   "away": "Solihull Moors"
+  },
+  {
+   "id": "2026-11-14-15-00-national-league-yeovil-town-v-boreham-wood",
+   "sport": "football",
+   "comp": "National League",
+   "detail": "Yeovil Town v Boreham Wood",
+   "start": "2026-11-14T15:00:00.000Z",
+   "end": "2026-11-14T16:55:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Yeovil Town",
+   "away": "Boreham Wood"
+  },
+  {
+   "id": "2026-11-14-15-50-afcon-2027-qualifiers-uganda-v-botswana",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Uganda v Botswana",
+   "start": "2026-11-14T15:50:00.000Z",
+   "end": "2026-11-14T18:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "azam-2",
+    "bein-xtra-1",
+    "fta-btv"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Uganda",
+   "away": "Botswana"
+  },
+  {
+   "id": "2026-11-14-16-30-mf-pro-riley-v-coupe-prelims",
+   "sport": "boxing",
+   "comp": "MF Pro",
+   "detail": "Riley v Coupe · Prelims",
+   "start": "2026-11-14T16:30:00.000Z",
+   "end": "2026-11-14T19:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Riley",
+   "away": "Coupe · Prelims"
+  },
+  {
+   "id": "2026-11-14-16-30-nations-championship-england-v-japan",
+   "sport": "rugby",
+   "comp": "Nations Championship",
+   "detail": "England v Japan",
+   "start": "2026-11-14T16:30:00.000Z",
+   "end": "2026-11-14T18:40:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "England",
+   "away": "Japan"
+  },
+  {
+   "id": "2026-11-14-16-50-uefa-nations-league-georgia-v-hungary",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Georgia v Hungary",
+   "start": "2026-11-14T16:50:00.000Z",
+   "end": "2026-11-14T19:00:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Georgia",
+   "away": "Hungary"
+  },
+  {
+   "id": "2026-11-14-16-50-uefa-nations-league-norway-v-wales",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Norway v Wales",
+   "start": "2026-11-14T16:50:00.000Z",
+   "end": "2026-11-14T19:00:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Norway",
+   "away": "Wales"
+  },
+  {
+   "id": "2026-11-14-17-00-liga-acb-breogan-v-san-pablo-burgos",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Breogán v San Pablo Burgos",
+   "start": "2026-11-14T17:00:00.000Z",
+   "end": "2026-11-14T18:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Breogán",
+   "away": "San Pablo Burgos"
+  },
+  {
+   "id": "2026-11-14-17-20-efl-league-two-fleetwood-town-v-tranmere-rovers",
+   "sport": "football",
+   "comp": "EFL League Two",
+   "detail": "Fleetwood Town v Tranmere Rovers",
+   "start": "2026-11-14T17:20:00.000Z",
+   "end": "2026-11-14T19:35:00.000Z",
+   "channels": [
+    "bein-english-2",
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Fleetwood Town",
+   "away": "Tranmere Rovers"
+  },
+  {
+   "id": "2026-11-14-17-20-laliga-hypermotion-almeria-v-andorra",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Almería v Andorra",
+   "start": "2026-11-14T17:20:00.000Z",
+   "end": "2026-11-14T19:35:00.000Z",
+   "channels": [
+    "bein-3"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Almería",
+   "away": "Andorra"
+  },
+  {
+   "id": "2026-11-14-17-30-e1-series-miami",
+   "sport": "other",
+   "comp": "E1 Series",
+   "detail": "Miami",
+   "start": "2026-11-14T17:30:00.000Z",
+   "end": "2026-11-14T19:00:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-18-00-french-handball-starligue-nantes-v-saint-raphael",
+   "sport": "other",
+   "comp": "French Handball · StarLigue",
+   "detail": "Nantes v Saint-Raphaël",
+   "start": "2026-11-14T18:00:00.000Z",
+   "end": "2026-11-14T20:00:00.000Z",
+   "channels": [
+    "bein-sports"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Nantes",
+   "away": "Saint-Raphaël"
+  },
+  {
+   "id": "2026-11-14-18-30-liga-acb-andorra-v-tenerife",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Andorra v Tenerife",
+   "start": "2026-11-14T18:30:00.000Z",
+   "end": "2026-11-14T20:20:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Andorra",
+   "away": "Tenerife"
+  },
+  {
+   "id": "2026-11-14-18-50-afcon-2027-qualifiers-algeria-v-togo",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Algeria v Togo",
+   "start": "2026-11-14T18:50:00.000Z",
+   "end": "2026-11-14T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-1",
+    "cp-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Algeria",
+   "away": "Togo"
+  },
+  {
+   "id": "2026-11-14-18-50-afcon-2027-qualifiers-angola-v-south-sudan",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Angola v South Sudan",
+   "start": "2026-11-14T18:50:00.000Z",
+   "end": "2026-11-14T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "bein-9"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Angola",
+   "away": "South Sudan"
+  },
+  {
+   "id": "2026-11-14-19-00-mf-pro-riley-v-coupe",
+   "sport": "boxing",
+   "comp": "MF Pro",
+   "detail": "Riley v Coupe",
+   "start": "2026-11-14T19:00:00.000Z",
+   "end": "2026-11-14T22:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Riley",
+   "away": "Coupe"
+  },
+  {
+   "id": "2026-11-14-19-00-nhl-kraken-hurricanes",
+   "sport": "hockey",
+   "comp": "NHL",
+   "detail": "Kraken @ Hurricanes",
+   "start": "2026-11-14T19:00:00.000Z",
+   "end": "2026-11-14T20:30:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-19-00-pga-tour-austin-champs-round-3",
+   "sport": "golf",
+   "comp": "PGA Tour · Austin Champs",
+   "detail": "Round 3",
+   "start": "2026-11-14T19:00:00.000Z",
+   "end": "2026-11-14T22:00:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-19-35-uefa-nations-league-austria-v-republic-of-ireland",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Austria v Republic of Ireland",
+   "start": "2026-11-14T19:35:00.000Z",
+   "end": "2026-11-14T21:45:00.000Z",
+   "channels": [
+    "ss-kickoff"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Austria",
+   "away": "Republic of Ireland"
+  },
+  {
+   "id": "2026-11-14-19-35-uefa-nations-league-northern-ireland-v-ukraine",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Northern Ireland v Ukraine",
+   "start": "2026-11-14T19:35:00.000Z",
+   "end": "2026-11-14T21:45:00.000Z",
+   "channels": [
+    "ss-laliga"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Northern Ireland",
+   "away": "Ukraine"
+  },
+  {
+   "id": "2026-11-14-19-35-uefa-nations-league-portugal-v-denmark",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Portugal v Denmark",
+   "start": "2026-11-14T19:35:00.000Z",
+   "end": "2026-11-14T21:45:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Portugal",
+   "away": "Denmark"
+  },
+  {
+   "id": "2026-11-14-19-35-uefa-nations-league-romania-v-poland",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Romania v Poland",
+   "start": "2026-11-14T19:35:00.000Z",
+   "end": "2026-11-14T21:45:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Romania",
+   "away": "Poland"
+  },
+  {
+   "id": "2026-11-14-19-35-uefa-nations-league-sweden-v-bosnia-and-herzegovina",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Sweden v Bosnia and Herzegovina",
+   "start": "2026-11-14T19:35:00.000Z",
+   "end": "2026-11-14T21:45:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sweden",
+   "away": "Bosnia and Herzegovina"
+  },
+  {
+   "id": "2026-11-14-20-00-liga-acb-joventut-v-zaragoza",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Joventut v Zaragoza",
+   "start": "2026-11-14T20:00:00.000Z",
+   "end": "2026-11-14T21:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Joventut",
+   "away": "Zaragoza"
+  },
+  {
+   "id": "2026-11-14-20-00-nations-championship-ireland-v-fiji",
+   "sport": "rugby",
+   "comp": "Nations Championship",
+   "detail": "Ireland v Fiji",
+   "start": "2026-11-14T20:00:00.000Z",
+   "end": "2026-11-14T22:10:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Ireland",
+   "away": "Fiji"
+  },
+  {
+   "id": "2026-11-14-20-00-wta-finals-day-7-singles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 7 · Singles 1",
+   "start": "2026-11-14T20:00:00.000Z",
+   "end": "2026-11-14T22:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-21-00-pga-tour-champions-charles-schwab-round-3",
+   "sport": "golf",
+   "comp": "PGA Tour Champions · Charles Schwab",
+   "detail": "Round 3",
+   "start": "2026-11-14T21:00:00.000Z",
+   "end": "2026-11-15T00:00:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-14-21-15-matchroom-boxing-pacheco-v-fulghum-prelims",
+   "sport": "boxing",
+   "comp": "Matchroom Boxing",
+   "detail": "Pacheco v Fulghum · Prelims",
+   "start": "2026-11-14T21:15:00.000Z",
+   "end": "2026-11-15T01:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Pacheco",
+   "away": "Fulghum · Prelims"
+  },
+  {
+   "id": "2026-11-14-22-00-wta-finals-day-7-singles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 7 · Singles 2",
+   "start": "2026-11-14T22:00:00.000Z",
+   "end": "2026-11-15T00:00:00.000Z",
+   "channels": [
+    "ss-tennis",
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-00-00-aew-full-gear-2026-buy-in",
+   "sport": "wwe",
+   "comp": "AEW",
+   "detail": "Full Gear 2026 · Buy-In",
+   "start": "2026-11-15T00:00:00.000Z",
+   "end": "2026-11-15T01:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-00-00-ufc-334-prelims-thompson-v-radtke",
+   "sport": "ufc",
+   "comp": "UFC 334",
+   "detail": "Prelims: Thompson v Radtke",
+   "start": "2026-11-15T00:00:00.000Z",
+   "end": "2026-11-15T02:00:00.000Z",
+   "channels": [
+    "ss-action",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Prelims: Thompson",
+   "away": "Radtke"
+  },
+  {
+   "id": "2026-11-15-00-00-wta-finals-day-7-doubles-1",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 7 · Doubles 1",
+   "start": "2026-11-15T00:00:00.000Z",
+   "end": "2026-11-15T02:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-00-30-nba-mavericks-v-cavaliers",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Mavericks v Cavaliers",
+   "start": "2026-11-15T00:30:00.000Z",
+   "end": "2026-11-15T03:00:00.000Z",
+   "channels": [
+    "bein-english-1",
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Mavericks",
+   "away": "Cavaliers"
+  },
+  {
+   "id": "2026-11-15-01-00-aew-full-gear-2026",
+   "sport": "wwe",
+   "comp": "AEW",
+   "detail": "Full Gear 2026",
+   "start": "2026-11-15T01:00:00.000Z",
+   "end": "2026-11-15T05:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-01-00-matchroom-boxing-pacheco-v-fulghum",
+   "sport": "boxing",
+   "comp": "Matchroom Boxing",
+   "detail": "Pacheco v Fulghum",
+   "start": "2026-11-15T01:00:00.000Z",
+   "end": "2026-11-15T05:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Pacheco",
+   "away": "Fulghum"
+  },
+  {
+   "id": "2026-11-15-01-55-international-cricket-5th-odi-new-zealand-v-india",
+   "sport": "cricket",
+   "comp": "International Cricket · 5th ODI",
+   "detail": "New Zealand v India",
+   "start": "2026-11-15T01:55:00.000Z",
+   "end": "2026-11-15T10:30:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "New Zealand",
+   "away": "India"
+  },
+  {
+   "id": "2026-11-15-02-00-ufc-334-main-card-gane-v-hokit",
+   "sport": "ufc",
+   "comp": "UFC 334",
+   "detail": "Main card: Gane v Hokit",
+   "start": "2026-11-15T02:00:00.000Z",
+   "end": "2026-11-15T05:00:00.000Z",
+   "channels": [
+    "ss-action",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Main card: Gane",
+   "away": "Hokit"
+  },
+  {
+   "id": "2026-11-15-02-00-wta-finals-day-7-doubles-2",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Day 7 · Doubles 2",
+   "start": "2026-11-15T02:00:00.000Z",
+   "end": "2026-11-15T04:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-03-20-international-cricket-2nd-odi-australia-v-england",
+   "sport": "cricket",
+   "comp": "International Cricket · 2nd ODI",
+   "detail": "Australia v England",
+   "start": "2026-11-15T03:20:00.000Z",
+   "end": "2026-11-15T12:00:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Australia",
+   "away": "England"
+  },
+  {
+   "id": "2026-11-15-04-00-asian-tour-philippine-open-final-round",
+   "sport": "golf",
+   "comp": "Asian Tour · Philippine Open",
+   "detail": "Final round",
+   "start": "2026-11-15T04:00:00.000Z",
+   "end": "2026-11-15T08:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-05-40-tour-de-france-criterium-saitama",
+   "sport": "cycling",
+   "comp": "Tour de France Criterium",
+   "detail": "Saitama",
+   "start": "2026-11-15T05:40:00.000Z",
+   "end": "2026-11-15T08:10:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-07-50-international-cricket-1st-test-day-1-south-africa-v-bangladesh",
+   "sport": "cricket",
+   "comp": "International Cricket · 1st Test · Day 1",
+   "detail": "South Africa v Bangladesh",
+   "start": "2026-11-15T07:50:00.000Z",
+   "end": "2026-11-15T16:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "South Africa",
+   "away": "Bangladesh"
+  },
+  {
+   "id": "2026-11-15-09-00-sunshine-tour-hyundai-open-final-round",
+   "sport": "golf",
+   "comp": "Sunshine Tour · Hyundai Open",
+   "detail": "Final round",
+   "start": "2026-11-15T09:00:00.000Z",
+   "end": "2026-11-15T14:00:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-10-55-dstv-diski-challenge-su-v-sfc",
+   "sport": "football",
+   "comp": "DStv Diski Challenge",
+   "detail": "SU v SFC",
+   "start": "2026-11-15T10:55:00.000Z",
+   "end": "2026-11-15T12:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "SU",
+   "away": "SFC"
+  },
+  {
+   "id": "2026-11-15-11-00-liga-acb-forca-lleida-v-manresa",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Força Lleida v Manresa",
+   "start": "2026-11-15T11:00:00.000Z",
+   "end": "2026-11-15T12:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Força Lleida",
+   "away": "Manresa"
+  },
+  {
+   "id": "2026-11-15-11-00-liga-acb-valencia-v-coruna",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Valencia v Coruña",
+   "start": "2026-11-15T11:00:00.000Z",
+   "end": "2026-11-15T12:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Valencia",
+   "away": "Coruña"
+  },
+  {
+   "id": "2026-11-15-11-30-liga-acb-malaga-v-girona",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Málaga v Girona",
+   "start": "2026-11-15T11:30:00.000Z",
+   "end": "2026-11-15T13:20:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Málaga",
+   "away": "Girona"
+  },
+  {
+   "id": "2026-11-15-12-55-dstv-diski-challenge-mil-v-chi",
+   "sport": "football",
+   "comp": "DStv Diski Challenge",
+   "detail": "MIL v CHI",
+   "start": "2026-11-15T12:55:00.000Z",
+   "end": "2026-11-15T14:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "MIL",
+   "away": "CHI"
+  },
+  {
+   "id": "2026-11-15-13-00-atp-finals-day-1-singles-1",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 1 · Singles 1",
+   "start": "2026-11-15T13:00:00.000Z",
+   "end": "2026-11-15T15:00:00.000Z",
+   "channels": [
+    "ss-tennis",
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-13-50-uefa-nations-league-cyprus-v-montenegro",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Cyprus v Montenegro",
+   "start": "2026-11-15T13:50:00.000Z",
+   "end": "2026-11-15T16:00:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Cyprus",
+   "away": "Montenegro"
+  },
+  {
+   "id": "2026-11-15-13-50-uefa-nations-league-latvia-v-armenia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Latvia v Armenia",
+   "start": "2026-11-15T13:50:00.000Z",
+   "end": "2026-11-15T16:00:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Latvia",
+   "away": "Armenia"
+  },
+  {
+   "id": "2026-11-15-14-00-premier-padel-dubai-p1-finals",
+   "sport": "other",
+   "comp": "Premier Padel · Dubai P1",
+   "detail": "Finals",
+   "start": "2026-11-15T14:00:00.000Z",
+   "end": "2026-11-15T21:00:00.000Z",
+   "channels": [
+    "bein-8"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-14-30-nfl-patriots-lions-munich-game",
+   "sport": "nfl",
+   "comp": "NFL",
+   "detail": "Patriots @ Lions (Munich Game)",
+   "start": "2026-11-15T14:30:00.000Z",
+   "end": "2026-11-15T17:30:00.000Z",
+   "channels": [
+    "espn",
+    "bein-6",
+    "bein-english-2"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-14-55-caf-women-s-champions-league-final",
+   "sport": "football",
+   "comp": "CAF Women's Champions League",
+   "detail": "Final",
+   "start": "2026-11-15T14:55:00.000Z",
+   "end": "2026-11-15T17:30:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-15-00-super-league-basketball-manchester-v-bristol-flyers",
+   "sport": "basketball",
+   "comp": "Super League Basketball",
+   "detail": "Manchester v Bristol Flyers",
+   "start": "2026-11-15T15:00:00.000Z",
+   "end": "2026-11-15T17:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Manchester",
+   "away": "Bristol Flyers"
+  },
+  {
+   "id": "2026-11-15-16-00-french-handball-starligue-aix-v-paris",
+   "sport": "other",
+   "comp": "French Handball · StarLigue",
+   "detail": "Aix v Paris",
+   "start": "2026-11-15T16:00:00.000Z",
+   "end": "2026-11-15T18:00:00.000Z",
+   "channels": [
+    "bein-sports"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Aix",
+   "away": "Paris"
+  },
+  {
+   "id": "2026-11-15-16-00-liga-acb-barcelona-v-obradoiro",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Barcelona v Obradoiro",
+   "start": "2026-11-15T16:00:00.000Z",
+   "end": "2026-11-15T17:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Barcelona",
+   "away": "Obradoiro"
+  },
+  {
+   "id": "2026-11-15-16-00-nations-championship-scotland-v-australia",
+   "sport": "rugby",
+   "comp": "Nations Championship",
+   "detail": "Scotland v Australia",
+   "start": "2026-11-15T16:00:00.000Z",
+   "end": "2026-11-15T17:10:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Scotland",
+   "away": "Australia"
+  },
+  {
+   "id": "2026-11-15-16-25-women-s-super-league-arsenal-v-london-city",
+   "sport": "football",
+   "comp": "Women's Super League",
+   "detail": "Arsenal v London City",
+   "start": "2026-11-15T16:25:00.000Z",
+   "end": "2026-11-15T18:30:00.000Z",
+   "channels": [
+    "ss-kickoff"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Arsenal",
+   "away": "London City"
+  },
+  {
+   "id": "2026-11-15-16-50-uefa-nations-league-belarus-v-albania",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Belarus v Albania",
+   "start": "2026-11-15T16:50:00.000Z",
+   "end": "2026-11-15T19:00:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Belarus",
+   "away": "Albania"
+  },
+  {
+   "id": "2026-11-15-16-50-uefa-nations-league-finland-v-san-marino",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Finland v San Marino",
+   "start": "2026-11-15T16:50:00.000Z",
+   "end": "2026-11-15T19:00:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Finland",
+   "away": "San Marino"
+  },
+  {
+   "id": "2026-11-15-17-00-liga-acb-bilbao-v-ucam-murcia",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Bilbao v UCAM Murcia",
+   "start": "2026-11-15T17:00:00.000Z",
+   "end": "2026-11-15T18:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bilbao",
+   "away": "UCAM Murcia"
+  },
+  {
+   "id": "2026-11-15-18-00-liga-acb-baskonia-v-real-madrid",
+   "sport": "basketball",
+   "comp": "Liga ACB",
+   "detail": "Baskonia v Real Madrid",
+   "start": "2026-11-15T18:00:00.000Z",
+   "end": "2026-11-15T19:50:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Baskonia",
+   "away": "Real Madrid"
+  },
+  {
+   "id": "2026-11-15-18-30-lpga-the-annika-pelican-final-round",
+   "sport": "golf",
+   "comp": "LPGA · The ANNIKA Pelican",
+   "detail": "Final round",
+   "start": "2026-11-15T18:30:00.000Z",
+   "end": "2026-11-15T21:30:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-19-00-pga-tour-austin-champs-final-round",
+   "sport": "golf",
+   "comp": "PGA Tour · Austin Champs",
+   "detail": "Final round",
+   "start": "2026-11-15T19:00:00.000Z",
+   "end": "2026-11-15T22:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-19-30-atp-finals-day-1-singles-2",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 1 · Singles 2",
+   "start": "2026-11-15T19:30:00.000Z",
+   "end": "2026-11-15T21:30:00.000Z",
+   "channels": [
+    "ss-tennis",
+    "bein-7"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-19-35-uefa-nations-league-belgium-v-italy",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Belgium v Italy",
+   "start": "2026-11-15T19:35:00.000Z",
+   "end": "2026-11-15T21:45:00.000Z",
+   "channels": [
+    "ss-laliga"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Belgium",
+   "away": "Italy"
+  },
+  {
+   "id": "2026-11-15-19-35-uefa-nations-league-croatia-v-czechia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Croatia v Czechia",
+   "start": "2026-11-15T19:35:00.000Z",
+   "end": "2026-11-15T21:45:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Croatia",
+   "away": "Czechia"
+  },
+  {
+   "id": "2026-11-15-19-35-uefa-nations-league-france-v-turkey",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "France v Turkey",
+   "start": "2026-11-15T19:35:00.000Z",
+   "end": "2026-11-15T21:45:00.000Z",
+   "channels": [
+    "ss-kickoff"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "France",
+   "away": "Turkey"
+  },
+  {
+   "id": "2026-11-15-19-35-uefa-nations-league-spain-v-england",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Spain v England",
+   "start": "2026-11-15T19:35:00.000Z",
+   "end": "2026-11-15T21:45:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Spain",
+   "away": "England"
+  },
+  {
+   "id": "2026-11-15-20-00-wta-finals-singles-final",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Singles final",
+   "start": "2026-11-15T20:00:00.000Z",
+   "end": "2026-11-15T22:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-21-30-pga-tour-champions-charles-schwab-final-round",
+   "sport": "golf",
+   "comp": "PGA Tour Champions · Charles Schwab",
+   "detail": "Final round",
+   "start": "2026-11-15T21:30:00.000Z",
+   "end": "2026-11-16T00:00:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-15-22-00-wta-finals-doubles-final",
+   "sport": "tennis",
+   "comp": "WTA Finals",
+   "detail": "Doubles final",
+   "start": "2026-11-15T22:00:00.000Z",
+   "end": "2026-11-16T00:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-16-01-20-nfl-steelers-bengals",
+   "sport": "nfl",
+   "comp": "NFL",
+   "detail": "Steelers @ Bengals",
+   "start": "2026-11-16T01:20:00.000Z",
+   "end": "2026-11-16T04:00:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-16-07-50-international-cricket-1st-test-day-2-south-africa-v-bangladesh",
+   "sport": "cricket",
+   "comp": "International Cricket · 1st Test · Day 2",
+   "detail": "South Africa v Bangladesh",
+   "start": "2026-11-16T07:50:00.000Z",
+   "end": "2026-11-16T16:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "South Africa",
+   "away": "Bangladesh"
+  },
+  {
+   "id": "2026-11-16-08-05-women-s-big-bash-league-syt-v-mls",
+   "sport": "cricket",
+   "comp": "Women's Big Bash League",
+   "detail": "SYT v MLS",
+   "start": "2026-11-16T08:05:00.000Z",
+   "end": "2026-11-16T11:55:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "SYT",
+   "away": "MLS"
+  },
+  {
+   "id": "2026-11-16-12-50-afcon-2027-qualifiers-namibia-v-cameroon",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Namibia v Cameroon",
+   "start": "2026-11-16T12:50:00.000Z",
+   "end": "2026-11-16T15:00:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "cp-tbc",
+    "bein-tbc",
+    "fta-crtv"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Namibia",
+   "away": "Cameroon"
+  },
+  {
+   "id": "2026-11-16-12-50-afcon-2027-qualifiers-zimbabwe-v-equatorial-guinea",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Zimbabwe v Equatorial Guinea",
+   "start": "2026-11-16T12:50:00.000Z",
+   "end": "2026-11-16T14:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "ss-maximo-1",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Zimbabwe",
+   "away": "Equatorial Guinea"
+  },
+  {
+   "id": "2026-11-16-13-00-afcon-2027-qualifiers-sudan-v-senegal",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Sudan v Senegal",
+   "start": "2026-11-16T13:00:00.000Z",
+   "end": "2026-11-16T14:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sudan",
+   "away": "Senegal"
+  },
+  {
+   "id": "2026-11-16-13-00-atp-finals-day-2-singles-1",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 2 · Singles 1",
+   "start": "2026-11-16T13:00:00.000Z",
+   "end": "2026-11-16T15:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-16-14-50-uefa-nations-league-kazakhstan-v-slovakia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Kazakhstan v Slovakia",
+   "start": "2026-11-16T14:50:00.000Z",
+   "end": "2026-11-16T16:55:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Kazakhstan",
+   "away": "Slovakia"
+  },
+  {
+   "id": "2026-11-16-14-55-afcon-2027-qualifiers-somalia-v-ghana",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Somalia v Ghana",
+   "start": "2026-11-16T14:55:00.000Z",
+   "end": "2026-11-16T17:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Somalia",
+   "away": "Ghana"
+  },
+  {
+   "id": "2026-11-16-16-00-afcon-2027-qualifiers-central-african-republic-v-benin",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Central African Republic v Benin",
+   "start": "2026-11-16T16:00:00.000Z",
+   "end": "2026-11-16T17:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Central African Republic",
+   "away": "Benin"
+  },
+  {
+   "id": "2026-11-16-16-00-afcon-2027-qualifiers-eritrea-v-guinea",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Eritrea v Guinea",
+   "start": "2026-11-16T16:00:00.000Z",
+   "end": "2026-11-16T17:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Eritrea",
+   "away": "Guinea"
+  },
+  {
+   "id": "2026-11-16-16-50-uefa-nations-league-estonia-v-bulgaria",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Estonia v Bulgaria",
+   "start": "2026-11-16T16:50:00.000Z",
+   "end": "2026-11-16T19:35:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Estonia",
+   "away": "Bulgaria"
+  },
+  {
+   "id": "2026-11-16-16-55-uefa-nations-league-iceland-v-luxembourg",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Iceland v Luxembourg",
+   "start": "2026-11-16T16:55:00.000Z",
+   "end": "2026-11-16T19:00:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Iceland",
+   "away": "Luxembourg"
+  },
+  {
+   "id": "2026-11-16-19-30-atp-finals-day-2-singles-2",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 2 · Singles 2",
+   "start": "2026-11-16T19:30:00.000Z",
+   "end": "2026-11-16T21:30:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-16-19-35-uefa-nations-league-germany-v-netherlands",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Germany v Netherlands",
+   "start": "2026-11-16T19:35:00.000Z",
+   "end": "2026-11-16T21:45:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Germany",
+   "away": "Netherlands"
+  },
+  {
+   "id": "2026-11-16-19-35-uefa-nations-league-greece-v-serbia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Greece v Serbia",
+   "start": "2026-11-16T19:35:00.000Z",
+   "end": "2026-11-16T21:45:00.000Z",
+   "channels": [
+    "ss-kickoff"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Greece",
+   "away": "Serbia"
+  },
+  {
+   "id": "2026-11-16-19-35-uefa-nations-league-north-macedonia-v-slovenia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "North Macedonia v Slovenia",
+   "start": "2026-11-16T19:35:00.000Z",
+   "end": "2026-11-16T21:45:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "North Macedonia",
+   "away": "Slovenia"
+  },
+  {
+   "id": "2026-11-16-19-35-uefa-nations-league-switzerland-v-scotland",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Switzerland v Scotland",
+   "start": "2026-11-16T19:35:00.000Z",
+   "end": "2026-11-16T21:45:00.000Z",
+   "channels": [
+    "ss-laliga"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Switzerland",
+   "away": "Scotland"
+  },
+  {
+   "id": "2026-11-16-23-55-nba-celtics-v-magic",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Celtics v Magic",
+   "start": "2026-11-16T23:55:00.000Z",
+   "end": "2026-11-17T02:40:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-action",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Celtics",
+   "away": "Magic"
+  },
+  {
+   "id": "2026-11-17-01-15-nfl-chargers-ravens",
+   "sport": "nfl",
+   "comp": "NFL",
+   "detail": "Chargers @ Ravens",
+   "start": "2026-11-17T01:15:00.000Z",
+   "end": "2026-11-17T04:20:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-17-07-50-international-cricket-1st-test-day-3-south-africa-v-bangladesh",
+   "sport": "cricket",
+   "comp": "International Cricket · 1st Test · Day 3",
+   "detail": "South Africa v Bangladesh",
+   "start": "2026-11-17T07:50:00.000Z",
+   "end": "2026-11-17T16:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "South Africa",
+   "away": "Bangladesh"
+  },
+  {
+   "id": "2026-11-17-08-05-women-s-big-bash-league-ads-v-sys",
+   "sport": "cricket",
+   "comp": "Women's Big Bash League",
+   "detail": "ADS v SYS",
+   "start": "2026-11-17T08:05:00.000Z",
+   "end": "2026-11-17T11:55:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "ADS",
+   "away": "SYS"
+  },
+  {
+   "id": "2026-11-17-12-50-afcon-2027-qualifiers-burundi-v-zambia",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Burundi v Zambia",
+   "start": "2026-11-17T12:50:00.000Z",
+   "end": "2026-11-17T15:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Burundi",
+   "away": "Zambia"
+  },
+  {
+   "id": "2026-11-17-12-50-afcon-2027-qualifiers-ethiopia-v-mozambique",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Ethiopia v Mozambique",
+   "start": "2026-11-17T12:50:00.000Z",
+   "end": "2026-11-17T15:00:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Ethiopia",
+   "away": "Mozambique"
+  },
+  {
+   "id": "2026-11-17-12-50-afcon-2027-qualifiers-lesotho-v-gabon",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Lesotho v Gabon",
+   "start": "2026-11-17T12:50:00.000Z",
+   "end": "2026-11-17T15:00:00.000Z",
+   "channels": [
+    "ss-action",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Lesotho",
+   "away": "Gabon"
+  },
+  {
+   "id": "2026-11-17-12-50-afcon-2027-qualifiers-malawi-v-egypt",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Malawi v Egypt",
+   "start": "2026-11-17T12:50:00.000Z",
+   "end": "2026-11-17T15:00:00.000Z",
+   "channels": [
+    "ss-laliga",
+    "bein-tbc",
+    "fta-ontime"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Malawi",
+   "away": "Egypt"
+  },
+  {
+   "id": "2026-11-17-12-50-afcon-2027-qualifiers-south-sudan-v-angola",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "South Sudan v Angola",
+   "start": "2026-11-17T12:50:00.000Z",
+   "end": "2026-11-17T15:00:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-1",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "South Sudan",
+   "away": "Angola"
+  },
+  {
+   "id": "2026-11-17-12-50-afcon-2027-qualifiers-tanzania-v-nigeria",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Tanzania v Nigeria",
+   "start": "2026-11-17T12:50:00.000Z",
+   "end": "2026-11-17T15:00:00.000Z",
+   "channels": [
+    "ss-football",
+    "bein-tbc",
+    "azam-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Tanzania",
+   "away": "Nigeria"
+  },
+  {
+   "id": "2026-11-17-13-00-atp-finals-day-3-singles-1",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 3 · Singles 1",
+   "start": "2026-11-17T13:00:00.000Z",
+   "end": "2026-11-17T15:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-17-15-50-afcon-2027-qualifiers-kenya-v-south-africa",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Kenya v South Africa",
+   "start": "2026-11-17T15:50:00.000Z",
+   "end": "2026-11-17T18:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "ss-grandstand",
+    "ss-maximo-1",
+    "bein-tbc",
+    "fta-sabc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Kenya",
+   "away": "South Africa"
+  },
+  {
+   "id": "2026-11-17-16-00-afcon-2027-qualifiers-guinea-bissau-v-madagascar",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Guinea-Bissau v Madagascar",
+   "start": "2026-11-17T16:00:00.000Z",
+   "end": "2026-11-17T17:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Guinea-Bissau",
+   "away": "Madagascar"
+  },
+  {
+   "id": "2026-11-17-16-00-afcon-2027-qualifiers-libya-v-tunisia",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Libya v Tunisia",
+   "start": "2026-11-17T16:00:00.000Z",
+   "end": "2026-11-17T17:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Libya",
+   "away": "Tunisia"
+  },
+  {
+   "id": "2026-11-17-16-00-afcon-2027-qualifiers-sierra-leone-v-dr-congo",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Sierra Leone v DR Congo",
+   "start": "2026-11-17T16:00:00.000Z",
+   "end": "2026-11-17T17:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc",
+    "fta-rtnc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sierra Leone",
+   "away": "DR Congo"
+  },
+  {
+   "id": "2026-11-17-16-00-afcon-2027-qualifiers-the-gambia-v-cote-d-ivoire",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "The Gambia v Cote d'Ivoire",
+   "start": "2026-11-17T16:00:00.000Z",
+   "end": "2026-11-17T17:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc",
+    "fta-rti"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "The Gambia",
+   "away": "Cote d'Ivoire"
+  },
+  {
+   "id": "2026-11-17-16-00-afcon-2027-qualifiers-togo-v-algeria",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Togo v Algeria",
+   "start": "2026-11-17T16:00:00.000Z",
+   "end": "2026-11-17T17:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Togo",
+   "away": "Algeria"
+  },
+  {
+   "id": "2026-11-17-18-50-afcon-2027-qualifiers-botswana-v-uganda",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Botswana v Uganda",
+   "start": "2026-11-17T18:50:00.000Z",
+   "end": "2026-11-17T21:00:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "ss-africa",
+    "bein-tbc",
+    "fta-btv"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Botswana",
+   "away": "Uganda"
+  },
+  {
+   "id": "2026-11-17-18-50-afcon-2027-qualifiers-liberia-v-cape-verde",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Liberia v Cape Verde",
+   "start": "2026-11-17T18:50:00.000Z",
+   "end": "2026-11-17T21:00:00.000Z",
+   "channels": [
+    "ss-kickoff",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Liberia",
+   "away": "Cape Verde"
+  },
+  {
+   "id": "2026-11-17-19-00-afcon-2027-qualifiers-congo-v-comoros",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Congo v Comoros",
+   "start": "2026-11-17T19:00:00.000Z",
+   "end": "2026-11-17T20:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Congo",
+   "away": "Comoros"
+  },
+  {
+   "id": "2026-11-17-19-00-afcon-2027-qualifiers-mauritania-v-burkina-faso",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Mauritania v Burkina Faso",
+   "start": "2026-11-17T19:00:00.000Z",
+   "end": "2026-11-17T20:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Mauritania",
+   "away": "Burkina Faso"
+  },
+  {
+   "id": "2026-11-17-19-00-afcon-2027-qualifiers-rwanda-v-mali",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Rwanda v Mali",
+   "start": "2026-11-17T19:00:00.000Z",
+   "end": "2026-11-17T20:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc",
+    "fta-rba"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Rwanda",
+   "away": "Mali"
+  },
+  {
+   "id": "2026-11-17-19-30-atp-finals-day-3-singles-2",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 3 · Singles 2",
+   "start": "2026-11-17T19:30:00.000Z",
+   "end": "2026-11-17T21:30:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-17-19-35-uefa-nations-league-bosnia-and-herzegovina-v-romania",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Bosnia and Herzegovina v Romania",
+   "start": "2026-11-17T19:35:00.000Z",
+   "end": "2026-11-17T21:45:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bosnia and Herzegovina",
+   "away": "Romania"
+  },
+  {
+   "id": "2026-11-17-19-35-uefa-nations-league-denmark-v-norway",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Denmark v Norway",
+   "start": "2026-11-17T19:35:00.000Z",
+   "end": "2026-11-17T21:45:00.000Z",
+   "channels": [
+    "ss-football-plus",
+    "ss-maximo-2"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Denmark",
+   "away": "Norway"
+  },
+  {
+   "id": "2026-11-17-19-35-uefa-nations-league-hungary-v-northern-ireland",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Hungary v Northern Ireland",
+   "start": "2026-11-17T19:35:00.000Z",
+   "end": "2026-11-17T21:45:00.000Z",
+   "channels": [
+    "ss-action"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hungary",
+   "away": "Northern Ireland"
+  },
+  {
+   "id": "2026-11-17-19-35-uefa-nations-league-poland-v-sweden",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Poland v Sweden",
+   "start": "2026-11-17T19:35:00.000Z",
+   "end": "2026-11-17T21:45:00.000Z",
+   "channels": [
+    "ss-football"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Poland",
+   "away": "Sweden"
+  },
+  {
+   "id": "2026-11-17-19-35-uefa-nations-league-republic-of-ireland-v-kosovo",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Republic of Ireland v Kosovo",
+   "start": "2026-11-17T19:35:00.000Z",
+   "end": "2026-11-17T21:45:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Republic of Ireland",
+   "away": "Kosovo"
+  },
+  {
+   "id": "2026-11-17-19-35-uefa-nations-league-ukraine-v-georgia",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Ukraine v Georgia",
+   "start": "2026-11-17T19:35:00.000Z",
+   "end": "2026-11-17T22:00:00.000Z",
+   "channels": [
+    "ss-laliga"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Ukraine",
+   "away": "Georgia"
+  },
+  {
+   "id": "2026-11-17-19-35-uefa-nations-league-wales-v-portugal",
+   "sport": "football",
+   "comp": "UEFA Nations League",
+   "detail": "Wales v Portugal",
+   "start": "2026-11-17T19:35:00.000Z",
+   "end": "2026-11-17T21:45:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Wales",
+   "away": "Portugal"
+  },
+  {
+   "id": "2026-11-17-20-00-afcon-2027-qualifiers-niger-v-morocco",
+   "sport": "football",
+   "comp": "AFCON 2027 Qualifiers",
+   "detail": "Niger v Morocco",
+   "start": "2026-11-17T20:00:00.000Z",
+   "end": "2026-11-17T21:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc",
+    "fta-snrt"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Niger",
+   "away": "Morocco"
+  },
+  {
+   "id": "2026-11-18-00-05-nhl-oilers-panthers",
+   "sport": "hockey",
+   "comp": "NHL",
+   "detail": "Oilers @ Panthers",
+   "start": "2026-11-18T00:05:00.000Z",
+   "end": "2026-11-18T02:30:00.000Z",
+   "channels": [
+    "ss-tbc"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-18-00-55-nba-spurs-v-pistons",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Spurs v Pistons",
+   "start": "2026-11-18T00:55:00.000Z",
+   "end": "2026-11-18T04:00:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-action",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Spurs",
+   "away": "Pistons"
+  },
+  {
+   "id": "2026-11-18-03-20-international-cricket-3rd-odi-australia-v-england",
+   "sport": "cricket",
+   "comp": "International Cricket · 3rd ODI",
+   "detail": "Australia v England",
+   "start": "2026-11-18T03:20:00.000Z",
+   "end": "2026-11-18T12:00:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Australia",
+   "away": "England"
+  },
+  {
+   "id": "2026-11-18-03-55-nba-clippers-v-jazz",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Clippers v Jazz",
+   "start": "2026-11-18T03:55:00.000Z",
+   "end": "2026-11-18T06:40:00.000Z",
+   "channels": [
+    "ss-action",
+    "ss-maximo-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Clippers",
+   "away": "Jazz"
+  },
+  {
+   "id": "2026-11-18-07-50-international-cricket-1st-test-day-4-south-africa-v-bangladesh",
+   "sport": "cricket",
+   "comp": "International Cricket · 1st Test · Day 4",
+   "detail": "South Africa v Bangladesh",
+   "start": "2026-11-18T07:50:00.000Z",
+   "end": "2026-11-18T16:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "South Africa",
+   "away": "Bangladesh"
+  },
+  {
+   "id": "2026-11-18-08-00-matchroom-boxing-teremoana-v-ahio",
+   "sport": "boxing",
+   "comp": "Matchroom Boxing",
+   "detail": "Teremoana v Ahio",
+   "start": "2026-11-18T08:00:00.000Z",
+   "end": "2026-11-18T11:00:00.000Z",
+   "channels": [
+    "dazn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Teremoana",
+   "away": "Ahio"
+  },
+  {
+   "id": "2026-11-18-13-00-atp-finals-day-4-singles-1",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 4 · Singles 1",
+   "start": "2026-11-18T13:00:00.000Z",
+   "end": "2026-11-18T15:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-18-17-40-uefa-women-s-champions-league-real-madrid-v-inter",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Real Madrid v Inter",
+   "start": "2026-11-18T17:40:00.000Z",
+   "end": "2026-11-18T19:55:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Real Madrid",
+   "away": "Inter"
+  },
+  {
+   "id": "2026-11-18-19-30-atp-finals-day-4-singles-2",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 4 · Singles 2",
+   "start": "2026-11-18T19:30:00.000Z",
+   "end": "2026-11-18T21:30:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-18-19-55-uefa-women-s-champions-league-chelsea-v-paris-sg",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Chelsea v Paris SG",
+   "start": "2026-11-18T19:55:00.000Z",
+   "end": "2026-11-18T22:00:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Chelsea",
+   "away": "Paris SG"
+  },
+  {
+   "id": "2026-11-18-21-50-international-cricket-1st-test-day-1-new-zealand-v-india",
+   "sport": "cricket",
+   "comp": "International Cricket · 1st Test · Day 1",
+   "detail": "New Zealand v India",
+   "start": "2026-11-18T21:50:00.000Z",
+   "end": "2026-11-19T05:30:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "New Zealand",
+   "away": "India"
+  },
+  {
+   "id": "2026-11-19-00-12-nba-bucks-heat",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Bucks @ Heat",
+   "start": "2026-11-19T00:12:00.000Z",
+   "end": "2026-11-19T02:35:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-19-02-35-nba-warriors-mavericks",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Warriors @ Mavericks",
+   "start": "2026-11-19T02:35:00.000Z",
+   "end": "2026-11-19T04:30:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-19-04-30-women-s-big-bash-league-hbh-v-prs",
+   "sport": "cricket",
+   "comp": "Women's Big Bash League",
+   "detail": "HBH v PRS",
+   "start": "2026-11-19T04:30:00.000Z",
+   "end": "2026-11-19T08:05:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "HBH",
+   "away": "PRS"
+  },
+  {
+   "id": "2026-11-19-07-50-international-cricket-1st-test-day-5-south-africa-v-bangladesh",
+   "sport": "cricket",
+   "comp": "International Cricket · 1st Test · Day 5",
+   "detail": "South Africa v Bangladesh",
+   "start": "2026-11-19T07:50:00.000Z",
+   "end": "2026-11-19T16:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "South Africa",
+   "away": "Bangladesh"
+  },
+  {
+   "id": "2026-11-19-08-05-women-s-big-bash-league-brh-v-syt",
+   "sport": "cricket",
+   "comp": "Women's Big Bash League",
+   "detail": "BRH v SYT",
+   "start": "2026-11-19T08:05:00.000Z",
+   "end": "2026-11-19T12:00:00.000Z",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "BRH",
+   "away": "SYT"
+  },
+  {
+   "id": "2026-11-19-13-00-atp-finals-day-5-singles-1",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Day 5 · Singles 1",
+   "start": "2026-11-19T13:00:00.000Z",
+   "end": "2026-11-19T15:00:00.000Z",
+   "channels": [
+    "ss-tennis"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-19-17-00-pga-tour-the-rsm-classic-round-1",
+   "sport": "golf",
+   "comp": "PGA Tour · The RSM Classic",
+   "detail": "Round 1",
+   "start": "2026-11-19T17:00:00.000Z",
+   "end": "2026-11-19T20:00:00.000Z",
+   "channels": [
+    "ss-grandstand"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-19-17-40-uefa-women-s-champions-league-paris-fc-v-hb-k-ge",
+   "sport": "football",
+   "comp": "UEFA Women's Champions League",
+   "detail": "Paris FC v HB Køge",
+   "start": "2026-11-19T17:40:00.000Z",
+   "end": "2026-11-19T19:55:00.000Z",
+   "channels": [
+    "espn"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Paris FC",
+   "away": "HB Køge"
+  },
+  {
+   "id": "2026-11-21-04-00-formula-1-las-vegas-gp-qualifying",
+   "sport": "f1",
+   "comp": "Formula 1 · Las Vegas GP",
+   "detail": "Qualifying",
+   "start": "2026-11-21T04:00:00.000Z",
+   "end": "2026-11-21T05:00:00.000Z",
+   "channels": [
+    "ss-motorsport",
+    "cp-tbc",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-21-12-30-premier-league-manchester-city-v-fulham",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Manchester City v Fulham",
+   "start": "2026-11-21T12:30:00.000Z",
+   "end": "2026-11-21T14:25:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Manchester City",
+   "away": "Fulham"
+  },
+  {
+   "id": "2026-11-21-13-00-atp-finals-semi-final-1",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Semi-final 1",
+   "start": "2026-11-21T13:00:00.000Z",
+   "end": "2026-11-21T15:30:00.000Z",
+   "channels": [
+    "ss-tennis",
+    "bein-tbc",
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-aston-villa-v-sunderland",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Aston Villa v Sunderland",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Aston Villa",
+   "away": "Sunderland"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-bournemouth-v-nottingham-forest",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Bournemouth v Nottingham Forest",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bournemouth",
+   "away": "Nottingham Forest"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-chelsea-v-leeds-united",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Chelsea v Leeds United",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Chelsea",
+   "away": "Leeds United"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-tottenham-v-ipswich-town",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Tottenham v Ipswich Town",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Tottenham",
+   "away": "Ipswich Town"
+  },
+  {
+   "id": "2026-11-21-16-40-nations-championship-ireland-v-south-africa",
+   "sport": "rugby",
+   "comp": "Nations Championship",
+   "detail": "Ireland v South Africa",
+   "start": "2026-11-21T16:40:00.000Z",
+   "end": "2026-11-21T18:40:00.000Z",
+   "channels": [
+    "ss-grandstand",
+    "ss-rugby"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Ireland",
+   "away": "South Africa"
+  },
+  {
+   "id": "2026-11-21-17-30-premier-league-newcastle-united-v-arsenal",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Newcastle United v Arsenal",
+   "start": "2026-11-21T17:30:00.000Z",
+   "end": "2026-11-21T19:25:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Newcastle United",
+   "away": "Arsenal"
+  },
+  {
+   "id": "2026-11-21-19-00-atp-finals-semi-final-2",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Semi-final 2",
+   "start": "2026-11-21T19:00:00.000Z",
+   "end": "2026-11-21T21:30:00.000Z",
+   "channels": [
+    "ss-tennis",
+    "bein-tbc",
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-22-04-00-formula-1-las-vegas-gp-the-race",
+   "sport": "f1",
+   "comp": "Formula 1 · Las Vegas GP",
+   "detail": "The Race",
+   "start": "2026-11-22T04:00:00.000Z",
+   "end": "2026-11-22T06:00:00.000Z",
+   "channels": [
+    "ss-motorsport",
+    "cp-tbc",
+    "bein-tbc",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-22-13-00-motogp-portuguese-gp-race",
+   "sport": "motogp",
+   "comp": "MotoGP · Portuguese GP",
+   "detail": "Race",
+   "start": "2026-11-22T13:00:00.000Z",
+   "end": "2026-11-22T14:00:00.000Z",
+   "channels": [
+    "ss-motorsport",
+    "cp-tbc",
+    "videopass"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-22-14-00-premier-league-hull-city-v-brighton",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Hull City v Brighton",
+   "start": "2026-11-22T14:00:00.000Z",
+   "end": "2026-11-22T15:55:00.000Z",
+   "channels": [
+    "ss-tbc",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hull City",
+   "away": "Brighton"
+  },
+  {
+   "id": "2026-11-22-16-30-premier-league-liverpool-v-manchester-united",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Liverpool v Manchester United",
+   "start": "2026-11-22T16:30:00.000Z",
+   "end": "2026-11-22T18:25:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Liverpool",
+   "away": "Manchester United"
+  },
+  {
+   "id": "2026-11-22-17-00-atp-finals-final",
+   "sport": "tennis",
+   "comp": "ATP Finals",
+   "detail": "Final",
+   "start": "2026-11-22T17:00:00.000Z",
+   "end": "2026-11-22T20:00:00.000Z",
+   "channels": [
+    "ss-tennis",
+    "ss-grandstand",
+    "bein-tbc",
+    "cp-sport-5"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-23-20-00-premier-league-brentford-v-everton",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Brentford v Everton",
+   "start": "2026-11-23T20:00:00.000Z",
+   "end": "2026-11-23T21:55:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Brentford",
+   "away": "Everton"
+  },
+  {
+   "id": "2026-11-27-20-00-premier-league-nottingham-forest-v-chelsea",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Nottingham Forest v Chelsea",
+   "start": "2026-11-27T20:00:00.000Z",
+   "end": "2026-11-27T21:55:00.000Z",
+   "channels": [
+    "ss-premier-league",
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "src": "bundled",
+   "home": "Nottingham Forest",
+   "away": "Chelsea"
+  },
+  {
+   "id": "2026-11-28-18-00-formula-1-qatar-gp-qualifying",
+   "sport": "f1",
+   "comp": "Formula 1 · Qatar GP",
+   "detail": "Qualifying",
+   "start": "2026-11-28T18:00:00.000Z",
+   "end": "2026-11-28T19:00:00.000Z",
+   "channels": [
+    "ss-motorsport",
+    "cp-tbc",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-29-13-00-motogp-valencia-gp-race",
+   "sport": "motogp",
+   "comp": "MotoGP · Valencia GP",
+   "detail": "Race",
+   "start": "2026-11-29T13:00:00.000Z",
+   "end": "2026-11-29T14:00:00.000Z",
+   "channels": [
+    "ss-motorsport",
+    "cp-tbc",
+    "videopass"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-29-16-00-formula-1-qatar-gp-the-race",
+   "sport": "f1",
+   "comp": "Formula 1 · Qatar GP",
+   "detail": "The Race",
+   "start": "2026-11-29T16:00:00.000Z",
+   "end": "2026-11-29T18:00:00.000Z",
+   "channels": [
+    "ss-motorsport",
+    "cp-tbc",
+    "bein-tbc",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-12-06-13-00-formula-1-abu-dhabi-gp-the-race",
+   "sport": "f1",
+   "comp": "Formula 1 · Abu Dhabi GP",
+   "detail": "The Race",
+   "start": "2026-12-06T13:00:00.000Z",
+   "end": "2026-12-06T15:00:00.000Z",
+   "channels": [
+    "ss-motorsport",
+    "cp-tbc",
+    "bein-tbc",
+    "f1tv"
+   ],
+   "status": "L",
+   "src": "bundled"
+  },
+  {
+   "id": "2026-11-21-12-30-premier-league-manchester-city-v-fulham",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Manchester City v Fulham",
+   "start": "2026-11-21T12:30:00.000Z",
+   "end": "2026-11-21T14:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Manchester City",
+   "away": "Fulham"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-afc-bournemouth-v-nottingham-forest",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "AFC Bournemouth v Nottingham Forest",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "AFC Bournemouth",
+   "away": "Nottingham Forest"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-aston-villa-v-sunderland",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Aston Villa v Sunderland",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Aston Villa",
+   "away": "Sunderland"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-chelsea-v-leeds-united",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Chelsea v Leeds United",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Chelsea",
+   "away": "Leeds United"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-coventry-city-v-crystal-palace",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Coventry City v Crystal Palace",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Coventry City",
+   "away": "Crystal Palace"
+  },
+  {
+   "id": "2026-11-21-15-00-premier-league-tottenham-hotspur-v-ipswich-town",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Tottenham Hotspur v Ipswich Town",
+   "start": "2026-11-21T15:00:00.000Z",
+   "end": "2026-11-21T16:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Tottenham Hotspur",
+   "away": "Ipswich Town"
+  },
+  {
+   "id": "2026-11-21-17-30-premier-league-newcastle-united-v-arsenal",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Newcastle United v Arsenal",
+   "start": "2026-11-21T17:30:00.000Z",
+   "end": "2026-11-21T19:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Newcastle United",
+   "away": "Arsenal"
+  },
+  {
+   "id": "2026-11-22-14-00-premier-league-hull-city-v-brighton-hove-albion",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Hull City v Brighton & Hove Albion",
+   "start": "2026-11-22T14:00:00.000Z",
+   "end": "2026-11-22T15:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Hull City",
+   "away": "Brighton & Hove Albion"
+  },
+  {
+   "id": "2026-11-22-16-30-premier-league-liverpool-v-manchester-united",
+   "sport": "football",
+   "comp": "Premier League",
+   "detail": "Liverpool v Manchester United",
+   "start": "2026-11-22T16:30:00.000Z",
+   "end": "2026-11-22T18:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Liverpool",
+   "away": "Manchester United"
+  },
+  {
+   "id": "2026-11-20-20-00-laliga-athletic-club-v-espanyol",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Athletic Club v Espanyol",
+   "start": "2026-11-20T20:00:00.000Z",
+   "end": "2026-11-20T21:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Athletic Club",
+   "away": "Espanyol"
+  },
+  {
+   "id": "2026-11-21-13-00-laliga-deportivo-alaves-v-deportivo-a-coruna",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Deportivo Alavés v Deportivo A Coruña",
+   "start": "2026-11-21T13:00:00.000Z",
+   "end": "2026-11-21T14:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Deportivo Alavés",
+   "away": "Deportivo A Coruña"
+  },
+  {
+   "id": "2026-11-21-15-15-laliga-rayo-vallecano-v-valencia",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Rayo Vallecano v Valencia",
+   "start": "2026-11-21T15:15:00.000Z",
+   "end": "2026-11-21T17:10:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Rayo Vallecano",
+   "away": "Valencia"
+  },
+  {
+   "id": "2026-11-21-17-30-laliga-sevilla-v-real-betis",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Sevilla v Real Betis",
+   "start": "2026-11-21T17:30:00.000Z",
+   "end": "2026-11-21T19:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sevilla",
+   "away": "Real Betis"
+  },
+  {
+   "id": "2026-11-21-20-00-laliga-real-madrid-v-celta-vigo",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Real Madrid v Celta Vigo",
+   "start": "2026-11-21T20:00:00.000Z",
+   "end": "2026-11-21T21:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Real Madrid",
+   "away": "Celta Vigo"
+  },
+  {
+   "id": "2026-11-22-13-00-laliga-barcelona-v-villarreal",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Barcelona v Villarreal",
+   "start": "2026-11-22T13:00:00.000Z",
+   "end": "2026-11-22T14:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Barcelona",
+   "away": "Villarreal"
+  },
+  {
+   "id": "2026-11-22-15-15-laliga-racing-santander-v-real-sociedad",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Racing Santander v Real Sociedad",
+   "start": "2026-11-22T15:15:00.000Z",
+   "end": "2026-11-22T17:10:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Racing Santander",
+   "away": "Real Sociedad"
+  },
+  {
+   "id": "2026-11-22-17-30-laliga-osasuna-v-malaga",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Osasuna v Málaga",
+   "start": "2026-11-22T17:30:00.000Z",
+   "end": "2026-11-22T19:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Osasuna",
+   "away": "Málaga"
+  },
+  {
+   "id": "2026-11-22-20-00-laliga-getafe-v-atletico-madrid",
+   "sport": "football",
+   "comp": "LaLiga",
+   "detail": "Getafe v Atlético Madrid",
+   "start": "2026-11-22T20:00:00.000Z",
+   "end": "2026-11-22T21:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Getafe",
+   "away": "Atlético Madrid"
+  },
+  {
+   "id": "2026-11-21-14-00-serie-a-como-v-cagliari",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Como v Cagliari",
+   "start": "2026-11-21T14:00:00.000Z",
+   "end": "2026-11-21T15:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Como",
+   "away": "Cagliari"
+  },
+  {
+   "id": "2026-11-21-14-00-serie-a-lazio-v-lecce",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Lazio v Lecce",
+   "start": "2026-11-21T14:00:00.000Z",
+   "end": "2026-11-21T15:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Lazio",
+   "away": "Lecce"
+  },
+  {
+   "id": "2026-11-21-17-00-serie-a-parma-v-roma",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Parma v Roma",
+   "start": "2026-11-21T17:00:00.000Z",
+   "end": "2026-11-21T18:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Parma",
+   "away": "Roma"
+  },
+  {
+   "id": "2026-11-21-19-45-serie-a-napoli-v-torino",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Napoli v Torino",
+   "start": "2026-11-21T19:45:00.000Z",
+   "end": "2026-11-21T21:40:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Napoli",
+   "away": "Torino"
+  },
+  {
+   "id": "2026-11-22-11-30-serie-a-juventus-v-venezia",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Juventus v Venezia",
+   "start": "2026-11-22T11:30:00.000Z",
+   "end": "2026-11-22T13:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Juventus",
+   "away": "Venezia"
+  },
+  {
+   "id": "2026-11-22-14-00-serie-a-bologna-v-udinese",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Bologna v Udinese",
+   "start": "2026-11-22T14:00:00.000Z",
+   "end": "2026-11-22T15:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bologna",
+   "away": "Udinese"
+  },
+  {
+   "id": "2026-11-22-14-00-serie-a-sassuolo-v-genoa",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Sassuolo v Genoa",
+   "start": "2026-11-22T14:00:00.000Z",
+   "end": "2026-11-22T15:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Sassuolo",
+   "away": "Genoa"
+  },
+  {
+   "id": "2026-11-22-17-00-serie-a-milan-v-frosinone",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Milan v Frosinone",
+   "start": "2026-11-22T17:00:00.000Z",
+   "end": "2026-11-22T18:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Milan",
+   "away": "Frosinone"
+  },
+  {
+   "id": "2026-11-22-19-45-serie-a-atalanta-v-inter",
+   "sport": "football",
+   "comp": "Serie A",
+   "detail": "Atalanta v Inter",
+   "start": "2026-11-22T19:45:00.000Z",
+   "end": "2026-11-22T21:40:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Atalanta",
+   "away": "Inter"
+  },
+  {
+   "id": "2026-11-20-19-30-bundesliga-bayern-munchen-v-1-fc-koln",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Bayern München v 1. FC Köln",
+   "start": "2026-11-20T19:30:00.000Z",
+   "end": "2026-11-20T21:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bayern München",
+   "away": "1. FC Köln"
+  },
+  {
+   "id": "2026-11-21-14-30-bundesliga-bayer-leverkusen-v-paderborn",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Bayer Leverkusen v Paderborn",
+   "start": "2026-11-21T14:30:00.000Z",
+   "end": "2026-11-21T16:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Bayer Leverkusen",
+   "away": "Paderborn"
+  },
+  {
+   "id": "2026-11-21-14-30-bundesliga-borussia-monchengladbach-v-borussia-dortmund",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Borussia Mönchengladbach v Borussia Dortmund",
+   "start": "2026-11-21T14:30:00.000Z",
+   "end": "2026-11-21T16:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Borussia Mönchengladbach",
+   "away": "Borussia Dortmund"
+  },
+  {
+   "id": "2026-11-21-14-30-bundesliga-eintracht-frankfurt-v-hoffenheim",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Eintracht Frankfurt v Hoffenheim",
+   "start": "2026-11-21T14:30:00.000Z",
+   "end": "2026-11-21T16:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Eintracht Frankfurt",
+   "away": "Hoffenheim"
+  },
+  {
+   "id": "2026-11-21-14-30-bundesliga-elversberg-v-freiburg",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Elversberg v Freiburg",
+   "start": "2026-11-21T14:30:00.000Z",
+   "end": "2026-11-21T16:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Elversberg",
+   "away": "Freiburg"
+  },
+  {
+   "id": "2026-11-21-14-30-bundesliga-union-berlin-v-rb-leipzig",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Union Berlin v RB Leipzig",
+   "start": "2026-11-21T14:30:00.000Z",
+   "end": "2026-11-21T16:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Union Berlin",
+   "away": "RB Leipzig"
+  },
+  {
+   "id": "2026-11-21-17-30-bundesliga-schalke-04-v-vfb-stuttgart",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Schalke 04 v VfB Stuttgart",
+   "start": "2026-11-21T17:30:00.000Z",
+   "end": "2026-11-21T19:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Schalke 04",
+   "away": "VfB Stuttgart"
+  },
+  {
+   "id": "2026-11-22-14-30-bundesliga-augsburg-v-mainz-05",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Augsburg v Mainz 05",
+   "start": "2026-11-22T14:30:00.000Z",
+   "end": "2026-11-22T16:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Augsburg",
+   "away": "Mainz 05"
+  },
+  {
+   "id": "2026-11-22-16-30-bundesliga-werder-bremen-v-hamburger-sv",
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Werder Bremen v Hamburger SV",
+   "start": "2026-11-22T16:30:00.000Z",
+   "end": "2026-11-22T18:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Werder Bremen",
+   "away": "Hamburger SV"
+  },
+  {
+   "id": "2026-11-20-19-45-ligue-1-troyes-v-le-havre",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Troyes v Le Havre",
+   "start": "2026-11-20T19:45:00.000Z",
+   "end": "2026-11-20T21:40:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Troyes",
+   "away": "Le Havre"
+  },
+  {
+   "id": "2026-11-21-16-15-ligue-1-nice-v-paris-saint-germain",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Nice v Paris Saint-Germain",
+   "start": "2026-11-21T16:15:00.000Z",
+   "end": "2026-11-21T18:10:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Nice",
+   "away": "Paris Saint-Germain"
+  },
+  {
+   "id": "2026-11-21-19-45-ligue-1-lens-v-toulouse",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Lens v Toulouse",
+   "start": "2026-11-21T19:45:00.000Z",
+   "end": "2026-11-21T21:40:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Lens",
+   "away": "Toulouse"
+  },
+  {
+   "id": "2026-11-21-19-45-ligue-1-lille-v-lyon",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Lille v Lyon",
+   "start": "2026-11-21T19:45:00.000Z",
+   "end": "2026-11-21T21:40:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Lille",
+   "away": "Lyon"
+  },
+  {
+   "id": "2026-11-21-19-45-ligue-1-monaco-v-auxerre",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Monaco v Auxerre",
+   "start": "2026-11-21T19:45:00.000Z",
+   "end": "2026-11-21T21:40:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Monaco",
+   "away": "Auxerre"
+  },
+  {
+   "id": "2026-11-21-19-45-ligue-1-strasbourg-v-brest",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Strasbourg v Brest",
+   "start": "2026-11-21T19:45:00.000Z",
+   "end": "2026-11-21T21:40:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Strasbourg",
+   "away": "Brest"
+  },
+  {
+   "id": "2026-11-22-14-00-ligue-1-paris-fc-v-angers",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Paris FC v Angers",
+   "start": "2026-11-22T14:00:00.000Z",
+   "end": "2026-11-22T15:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Paris FC",
+   "away": "Angers"
+  },
+  {
+   "id": "2026-11-22-16-15-ligue-1-lorient-v-rennes",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Lorient v Rennes",
+   "start": "2026-11-22T16:15:00.000Z",
+   "end": "2026-11-22T18:10:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Lorient",
+   "away": "Rennes"
+  },
+  {
+   "id": "2026-11-22-19-45-ligue-1-marseille-v-le-mans",
+   "sport": "football",
+   "comp": "Ligue 1",
+   "detail": "Marseille v Le Mans",
+   "start": "2026-11-22T19:45:00.000Z",
+   "end": "2026-11-22T21:40:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Marseille",
+   "away": "Le Mans"
+  },
+  {
+   "id": "2026-11-13-19-30-laliga-hypermotion-leganes-v-burgos-cf",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Leganés v Burgos CF",
+   "start": "2026-11-13T19:30:00.000Z",
+   "end": "2026-11-13T21:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Leganés",
+   "away": "Burgos CF"
+  },
+  {
+   "id": "2026-11-14-13-00-laliga-hypermotion-real-valladolid-v-castellon",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Real Valladolid v Castellón",
+   "start": "2026-11-14T13:00:00.000Z",
+   "end": "2026-11-14T14:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Real Valladolid",
+   "away": "Castellón"
+  },
+  {
+   "id": "2026-11-14-17-30-laliga-hypermotion-almeria-v-fc-andorra",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Almería v FC Andorra",
+   "start": "2026-11-14T17:30:00.000Z",
+   "end": "2026-11-14T19:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Almería",
+   "away": "FC Andorra"
+  },
+  {
+   "id": "2026-11-14-17-30-laliga-hypermotion-mallorca-v-cordoba",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Mallorca v Córdoba",
+   "start": "2026-11-14T17:30:00.000Z",
+   "end": "2026-11-14T19:25:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Mallorca",
+   "away": "Córdoba"
+  },
+  {
+   "id": "2026-11-14-20-00-laliga-hypermotion-real-oviedo-v-girona",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Real Oviedo v Girona",
+   "start": "2026-11-14T20:00:00.000Z",
+   "end": "2026-11-14T21:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Real Oviedo",
+   "away": "Girona"
+  },
+  {
+   "id": "2026-11-21-20-00-laliga-hypermotion-tenerife-v-mallorca",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Tenerife v Mallorca",
+   "start": "2026-11-21T20:00:00.000Z",
+   "end": "2026-11-21T21:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Tenerife",
+   "away": "Mallorca"
+  },
+  {
+   "id": "2026-11-22-20-00-laliga-hypermotion-burgos-cf-v-albacete",
+   "sport": "football",
+   "comp": "LaLiga Hypermotion",
+   "detail": "Burgos CF v Albacete",
+   "start": "2026-11-22T20:00:00.000Z",
+   "end": "2026-11-22T21:55:00.000Z",
+   "channels": [],
+   "status": "L",
+   "src": "bundled",
+   "home": "Burgos CF",
+   "away": "Albacete"
+  }
+ ],
+ "overrides": []
+}
