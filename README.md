@@ -4,16 +4,20 @@ The live data feed for **African Sports Broadcast Hub**, the Windows and Android
 
 The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they refresh (about every 15 minutes), so changes reach every installed app over the air, with no reinstall.
 
-## ⬇️ Download the apps (latest: 2.2.6)
+## ⬇️ Download the apps (latest: 2.2.7)
 
 Free and non-commercial, with no ads. Please download, test and **send feedback by opening an [Issue](https://github.com/Kigakhemet98/asbh-feed/issues)**.
 
 | Platform | Download | How to install |
 |---|---|---|
-| **Android** | [AfricanSportsBroadcastHub-2.2.6.apk](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/AfricanSportsBroadcastHub-2.2.6.apk) (48 MB) | Open it on your phone and allow *Install unknown apps* when asked. It installs over older versions and keeps your reminders. |
-| **Windows 10/11** | [part 0](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.6.exe.part0) · [part 1](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.6.exe.part1) · [join-windows-2.2.6.bat](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/join-windows-2.2.6.bat) (128 MB in total) | Put all three files in one folder and double-click **join-windows-2.2.6.bat**. It rebuilds `ASBH-Setup-2.2.6.exe`, checks it and starts the installer. If SmartScreen appears, choose *More info → Run anyway* (the installer isn't code-signed). |
+| **Android** | [AfricanSportsBroadcastHub-2.2.7.apk](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/AfricanSportsBroadcastHub-2.2.7.apk) (48 MB) | Open it on your phone and allow *Install unknown apps* when asked. It installs over older versions and keeps your reminders. |
+| **Windows 10/11** | [part 0](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.7.exe.part0) · [part 1](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.7.exe.part1) · [join-windows-2.2.7.bat](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/join-windows-2.2.7.bat) (128 MB in total) | Put all three files in one folder and double-click **join-windows-2.2.7.bat**. It rebuilds `ASBH-Setup-2.2.7.exe`, checks it and starts the installer. If SmartScreen appears, choose *More info → Run anyway* (the installer isn't code-signed). |
 
 The Windows installer is split in two because GitHub limits repository files to 100 MB. Checksums are in [`downloads/SHA256SUMS.txt`](downloads/SHA256SUMS.txt). Matches, channels and numbers update **over the air** from `feed.json`, so a reinstall is only needed for new app features.
+
+## What's new in 2.2.7 (13 Nov 2026)
+
+- ESPN Africa channel numbers on every platform (DStv, Azam, StarTimes, Zuku, ZAP, GOtv) and landing pages, incl. Disney+ South Africa.
 
 ## What's new in 2.2.6 (13 Nov 2026)
 
