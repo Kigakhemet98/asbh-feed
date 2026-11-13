@@ -1,0 +1,1314 @@
+[
+ {
+  "key": "hb-psg",
+  "q": "Paris Saint-Germain Handball",
+  "title": "Paris Saint-Germain (handball)",
+  "file": "hb-psg.png",
+  "image": "Paris_Saint-Germain_Handball_logo.png"
+ },
+ {
+  "key": "hb-montpellier",
+  "q": "Montpellier Handball",
+  "title": "Montpellier Handball",
+  "file": "hb-montpellier.png",
+  "image": "Montpellier_Méditerranée_Métropole_Handball_logo_2018.svg"
+ },
+ {
+  "key": "hb-nantes",
+  "q": "HBC Nantes",
+  "title": "Handball Club de Nantes",
+  "file": "hb-nantes.png",
+  "image": "HBC_Nantes_2011_logo.svg"
+ },
+ {
+  "key": "hb-toulouse",
+  "q": "Fenix Toulouse Handball",
+  "title": "Fenix Toulouse Handball",
+  "file": "hb-toulouse.png",
+  "image": "Fénix_Toulouse_Handball_2016_logo.svg"
+ },
+ {
+  "key": "hb-nimes",
+  "q": "USAM Nîmes Gard",
+  "title": "USAM Nîmes Gard",
+  "file": "hb-nimes.png",
+  "image": "USAM_Nîmes_Gard_logo.svg"
+ },
+ {
+  "key": "hb-chambery",
+  "q": "Chambéry Savoie Mont-Blanc Handball",
+  "title": "Chambéry Savoie Mont Blanc Handball",
+  "file": "hb-chambery.png",
+  "image": "Chambéry_Savoie_Mont-Blanc_handball_logo.svg"
+ },
+ {
+  "key": "hb-aix",
+  "q": "Pays d'Aix Université Club handball",
+  "title": "Provence Aix Université Club handball",
+  "file": "hb-aix.png",
+  "image": "Pays_d'Aix_Université_Club_Handball_2017_logo.svg"
+ },
+ {
+  "key": "hb-saint-raphael",
+  "q": "Saint-Raphaël Var Handball",
+  "title": "Saint-Raphaël (Var)",
+  "file": "hb-saint-raphael.jpg",
+  "image": "Vue_du_vieux_port_de_Saint-Raphaël_depuis_la_grande_roue.jpg"
+ },
+ {
+  "key": "hb-dunkerque",
+  "q": "Dunkerque Handball Grand Littoral",
+  "title": "Dunkerque Handball Grand Littoral",
+  "file": "hb-dunkerque.png",
+  "image": "Logo_du_USDK.png"
+ },
+ {
+  "key": "hb-chartres",
+  "q": "C' Chartres Métropole handball",
+  "title": "C' Chartres Métropole handball",
+  "file": "hb-chartres.jpg",
+  "image": "Blason_CCMHB_(2).jpg"
+ },
+ {
+  "key": "hb-limoges",
+  "q": "Limoges Handball",
+  "title": "Limoges Handball",
+  "file": "hb-limoges.png",
+  "image": "Logo_Limoges_Handball.png"
+ },
+ {
+  "key": "hb-ivry",
+  "q": "US Ivry Handball",
+  "title": "Union sportive d'Ivry (handball)",
+  "file": "hb-ivry.png",
+  "image": "US_Ivry_Handball_logo_2016.svg"
+ },
+ {
+  "key": "hb-cesson",
+  "q": "Cesson Rennes Métropole Handball",
+  "title": "Cesson Rennes Métropole Handball",
+  "file": "hb-cesson.png",
+  "image": "Logo_du_Cesson-Rennes_Métropole_HB.png"
+ },
+ {
+  "key": "hb-istres",
+  "q": "Istres Provence Handball",
+  "title": "Istres Provence Handball",
+  "file": "hb-istres.png",
+  "image": "Istres_Provence_handball.svg"
+ },
+ {
+  "key": "hb-selestat",
+  "q": "Sélestat Alsace Handball",
+  "title": "Sélestat Alsace Handball",
+  "file": "hb-selestat.png",
+  "image": "Sélestat_Alsace_handball_2017.svg"
+ },
+ {
+  "key": "hb-tremblay",
+  "q": "Tremblay-en-France Handball",
+  "title": "Tremblay Handball",
+  "file": "hb-tremblay.png",
+  "image": "Logo_du_Tremblay_Handball.png"
+ },
+ {
+  "key": "hb-saran",
+  "q": "Saran Loiret Handball",
+  "title": "Saran Loiret Handball",
+  "file": "hb-saran.png",
+  "image": "Logo_2019_Saran_Loiret_Handball.png"
+ },
+ {
+  "key": "hb-creteil",
+  "q": "US Créteil Handball",
+  "title": "Union sportive de Créteil handball",
+  "file": "hb-creteil.png",
+  "image": "US_Créteil_handball_logo_2015.svg"
+ },
+ {
+  "key": "afl-adelaide",
+  "q": "Adelaide Football Club",
+  "title": "Adelaide Football Club",
+  "file": "afl-adelaide.png",
+  "image": "Adelaide_Crows_Logo_2024.svg"
+ },
+ {
+  "key": "afl-brisbane",
+  "q": "Brisbane Lions",
+  "title": "Brisbane Lions",
+  "file": "afl-brisbane.png",
+  "image": "Brisbane_Lions_logo_2010.svg"
+ },
+ {
+  "key": "afl-carlton",
+  "q": "Carlton Football Club",
+  "title": "Carlton Football Club",
+  "file": "afl-carlton.png",
+  "image": "Carlton_FC_Logo_2020.svg"
+ },
+ {
+  "key": "afl-collingwood",
+  "q": "Collingwood Football Club",
+  "title": "Collingwood Football Club",
+  "file": "afl-collingwood.png",
+  "image": "Collingwood_Football_Club_Logo_(2017–present).svg"
+ },
+ {
+  "key": "afl-essendon",
+  "q": "Essendon Football Club",
+  "title": "Essendon Football Club",
+  "file": "afl-essendon.png",
+  "image": "Essendon_FC_logo.svg"
+ },
+ {
+  "key": "afl-fremantle",
+  "q": "Fremantle Football Club",
+  "title": "Fremantle Football Club",
+  "file": "afl-fremantle.png",
+  "image": "Fremantle_FC_logo.svg"
+ },
+ {
+  "key": "afl-geelong",
+  "q": "Geelong Football Club",
+  "title": "Geelong Football Club",
+  "file": "afl-geelong.png",
+  "image": "Geelong_Cats_logo.svg"
+ },
+ {
+  "key": "afl-gold-coast",
+  "q": "Gold Coast Suns",
+  "title": "Gold Coast Suns",
+  "file": "afl-gold-coast.png",
+  "image": "Gold_Coast_Suns_logo_(introduced_late_2024).svg"
+ },
+ {
+  "key": "afl-gws",
+  "q": "Greater Western Sydney Giants",
+  "title": "Greater Western Sydney Giants",
+  "file": "afl-gws.png",
+  "image": "GWS_Giants_logo.svg"
+ },
+ {
+  "key": "afl-hawthorn",
+  "q": "Hawthorn Football Club",
+  "title": "Hawthorn Football Club",
+  "file": "afl-hawthorn.png",
+  "image": "Hawthorn-football-club-brand.svg"
+ },
+ {
+  "key": "afl-melbourne",
+  "q": "Melbourne Football Club",
+  "title": "Melbourne Football Club",
+  "file": "afl-melbourne.png",
+  "image": "Melbournefc.svg"
+ },
+ {
+  "key": "afl-north-melbourne",
+  "q": "North Melbourne Football Club",
+  "title": "North Melbourne Football Club",
+  "file": "afl-north-melbourne.png",
+  "image": "North_Melbourne_FC_logo.svg"
+ },
+ {
+  "key": "afl-port-adelaide",
+  "q": "Port Adelaide Football Club",
+  "title": "Port Adelaide Football Club",
+  "file": "afl-port-adelaide.png",
+  "image": "Port_Adelaide_Football_Club_logo.svg"
+ },
+ {
+  "key": "afl-richmond",
+  "q": "Richmond Football Club",
+  "title": "Richmond Football Club",
+  "file": "afl-richmond.png",
+  "image": "Richmond_Tigers_logo.svg"
+ },
+ {
+  "key": "afl-st-kilda",
+  "q": "St Kilda Football Club",
+  "title": "St Kilda Football Club",
+  "file": "afl-st-kilda.png",
+  "image": "St_Kilda_Football_Club_logo_2024.svg"
+ },
+ {
+  "key": "afl-sydney",
+  "q": "Sydney Swans",
+  "title": "Sydney Swans",
+  "file": "afl-sydney.png",
+  "image": "Sydney_Swans_Logo_2020.svg"
+ },
+ {
+  "key": "afl-west-coast",
+  "q": "West Coast Eagles",
+  "title": "West Coast Eagles",
+  "file": "afl-west-coast.png",
+  "image": "West_Coast_Eagles_logo_2017.svg"
+ },
+ {
+  "key": "afl-western-bulldogs",
+  "q": "Western Bulldogs",
+  "title": "Western Bulldogs",
+  "file": "afl-western-bulldogs.png",
+  "image": "Western_Bulldogs_logo.svg"
+ },
+ {
+  "key": "nwsl-angel-city",
+  "q": "Angel City FC",
+  "title": "Angel City FC",
+  "file": "nwsl-angel-city.png",
+  "image": "Angel_City_FC_logo.svg"
+ },
+ {
+  "key": "nwsl-bay",
+  "q": "Bay FC",
+  "title": "Bay FC",
+  "file": "nwsl-bay.png",
+  "image": "Bay_FC_logo.svg"
+ },
+ {
+  "key": "nwsl-chicago",
+  "q": "Chicago Stars FC",
+  "title": "Chicago Stars FC",
+  "file": "nwsl-chicago.png",
+  "image": "Logo_of_Chicago_Stars_FC.svg"
+ },
+ {
+  "key": "nwsl-houston",
+  "q": "Houston Dash",
+  "title": "Houston Dash",
+  "file": "nwsl-houston.png",
+  "image": "Houston_Dash_(2020)_logo.svg"
+ },
+ {
+  "key": "nwsl-kc",
+  "q": "Kansas City Current",
+  "title": "Kansas City Current",
+  "file": "nwsl-kc.png",
+  "image": "Kansas_City_Current_2022_logo.svg"
+ },
+ {
+  "key": "nwsl-gotham",
+  "q": "Gotham FC",
+  "title": "Gotham FC",
+  "file": "nwsl-gotham.png",
+  "image": "NJ_NY_Gotham_FC_logo.svg"
+ },
+ {
+  "key": "nwsl-nc-courage",
+  "q": "North Carolina Courage",
+  "title": "North Carolina Courage",
+  "file": "nwsl-nc-courage.png",
+  "image": "North_Carolina_Courage_logo.svg"
+ },
+ {
+  "key": "nwsl-orlando",
+  "q": "Orlando Pride",
+  "title": "Orlando Pride",
+  "file": "nwsl-orlando.png",
+  "image": "Orlando_Pride_logo.svg"
+ },
+ {
+  "key": "nwsl-portland",
+  "q": "Portland Thorns FC",
+  "title": "Portland Thorns FC",
+  "file": "nwsl-portland.png",
+  "image": "Portland_Thorns_logo.svg"
+ },
+ {
+  "key": "nwsl-louisville",
+  "q": "Racing Louisville FC",
+  "title": "Racing Louisville FC",
+  "file": "nwsl-louisville.png",
+  "image": "Racing_Louisville_FC_(2020).svg"
+ },
+ {
+  "key": "nwsl-san-diego",
+  "q": "San Diego Wave FC",
+  "title": "San Diego Wave FC",
+  "file": "nwsl-san-diego.png",
+  "image": "San_Diego_Wave_FC_logo.svg"
+ },
+ {
+  "key": "nwsl-seattle",
+  "q": "Seattle Reign FC",
+  "title": "Seattle Reign FC",
+  "file": "nwsl-seattle.png",
+  "image": "Seattle_Reign_logo.svg"
+ },
+ {
+  "key": "nwsl-utah",
+  "q": "Utah Royals",
+  "title": "Utah Royals",
+  "file": "nwsl-utah.png",
+  "image": "Utah_Royals_logo.svg"
+ },
+ {
+  "key": "nwsl-washington",
+  "q": "Washington Spirit",
+  "title": "Washington Spirit",
+  "file": "nwsl-washington.png",
+  "image": "Washington_Spirit_logo.svg"
+ },
+ {
+  "key": "nwsl-boston",
+  "q": "Boston Legacy FC",
+  "title": "Boston Legacy FC",
+  "file": "nwsl-boston.png",
+  "image": "Boston_Legacy_FC.svg"
+ },
+ {
+  "key": "nwsl-denver",
+  "q": "Denver Summit FC",
+  "title": "Denver Summit FC",
+  "file": "nwsl-denver.png",
+  "image": "Denver_Summit_FC.svg"
+ },
+ {
+  "key": "cfb-duke-blue-devils",
+  "q": "Duke Blue Devils football",
+  "title": "Duke Blue Devils football",
+  "file": "cfb-duke-blue-devils.png",
+  "image": "Duke_Athletics_logo.svg"
+ },
+ {
+  "key": "cfb-lsu-tigers",
+  "q": "LSU Tigers football",
+  "title": "LSU Tigers football",
+  "file": "cfb-lsu-tigers.png",
+  "image": "LSU_Athletics_logo.svg"
+ },
+ {
+  "key": "cfb-missouri-tigers",
+  "q": "Missouri Tigers football",
+  "title": "Missouri Tigers football",
+  "file": "cfb-missouri-tigers.png",
+  "image": "Mizzou_Athletics_wordmark.svg"
+ },
+ {
+  "key": "cfb-texas-longhorns",
+  "q": "Texas Longhorns football",
+  "title": "Texas Longhorns football",
+  "file": "cfb-texas-longhorns.png",
+  "image": "Texas_Longhorns_logo.svg"
+ },
+ {
+  "key": "cfb-alabama-crimson-tide",
+  "q": "Alabama Crimson Tide football",
+  "title": "Alabama Crimson Tide football",
+  "file": "cfb-alabama-crimson-tide.png",
+  "image": "Alabama_Athletics_logo.svg"
+ },
+ {
+  "key": "cfb-georgia-bulldogs",
+  "q": "Georgia Bulldogs football",
+  "title": "Georgia Bulldogs football",
+  "file": "cfb-georgia-bulldogs.png",
+  "image": "Georgia_Athletics_logo.svg"
+ },
+ {
+  "key": "cfb-ohio-state-buckeyes",
+  "q": "Ohio State Buckeyes football",
+  "title": "Ohio State Buckeyes football",
+  "file": "cfb-ohio-state-buckeyes.png",
+  "image": "Ohio_State_Buckeyes_logo.svg"
+ },
+ {
+  "key": "cfb-michigan-wolverines",
+  "q": "Michigan Wolverines football",
+  "title": "Michigan Wolverines football",
+  "file": "cfb-michigan-wolverines.png",
+  "image": "Michigan_Wolverines_logo.svg"
+ },
+ {
+  "key": "cfb-notre-dame-fighting-irish",
+  "q": "Notre Dame Fighting Irish football",
+  "title": "Notre Dame Fighting Irish football",
+  "file": "cfb-notre-dame-fighting-irish.png",
+  "image": "Nd_athletics_gold_logo_2015.svg"
+ },
+ {
+  "key": "cfb-oregon-ducks",
+  "q": "Oregon Ducks football",
+  "title": "Oregon Ducks football",
+  "file": "cfb-oregon-ducks.png",
+  "image": "Oregon_Ducks_logo.svg"
+ },
+ {
+  "key": "cfb-penn-state-nittany-lions",
+  "q": "Penn State Nittany Lions football",
+  "title": "Penn State Nittany Lions football",
+  "file": "cfb-penn-state-nittany-lions.png",
+  "image": "Penn_lions_football_unif.png"
+ },
+ {
+  "key": "cfb-clemson-tigers",
+  "q": "Clemson Tigers football",
+  "title": "Clemson Tigers football",
+  "file": "cfb-clemson-tigers.png",
+  "image": "Clemson_Tigers_logo.svg"
+ },
+ {
+  "key": "cfb-florida-state-seminoles",
+  "q": "Florida State Seminoles football",
+  "title": "Florida State Seminoles football",
+  "file": "cfb-florida-state-seminoles.png",
+  "image": "Florida_State_Athletics_wordmark.svg"
+ },
+ {
+  "key": "cfb-tennessee-volunteers",
+  "q": "Tennessee Volunteers football",
+  "title": "Tennessee Volunteers football",
+  "file": "cfb-tennessee-volunteers.png",
+  "image": "Tennessee_Volunteers_logo.svg"
+ },
+ {
+  "key": "cfb-oklahoma-sooners",
+  "q": "Oklahoma Sooners football",
+  "title": "Oklahoma Sooners football",
+  "file": "cfb-oklahoma-sooners.png",
+  "image": "Oklahoma_Sooners_logo.svg"
+ },
+ {
+  "key": "cfb-usc-trojans",
+  "q": "USC Trojans football",
+  "title": "USC Trojans football",
+  "file": "cfb-usc-trojans.png",
+  "image": "USC_Trojans_logo.svg"
+ },
+ {
+  "key": "cfb-texas-am-aggies",
+  "q": "Texas A&M Aggies football",
+  "title": "Texas A&M Aggies football",
+  "file": "cfb-texas-am-aggies.png",
+  "image": "Texas_A&M_University_logo.svg"
+ },
+ {
+  "key": "cfb-florida-gators",
+  "q": "Florida Gators football",
+  "title": "Florida Gators football",
+  "file": "cfb-florida-gators.png",
+  "image": "Florida_Gators_football_logo.svg"
+ },
+ {
+  "key": "cfb-auburn-tigers",
+  "q": "Auburn Tigers football",
+  "title": "Auburn Tigers football",
+  "file": "cfb-auburn-tigers.png",
+  "image": "Auburn_Tigers_logo.svg"
+ },
+ {
+  "key": "cfb-ole-miss-rebels",
+  "q": "Ole Miss Rebels football",
+  "title": "Ole Miss Rebels football",
+  "file": "cfb-ole-miss-rebels.png",
+  "image": "Ole-miss_logo_from_NCAA.svg"
+ },
+ {
+  "key": "cfb-miami-hurricanes",
+  "q": "Miami Hurricanes football",
+  "title": "Miami Hurricanes football",
+  "file": "cfb-miami-hurricanes.png",
+  "image": "Miami_Hurricanes_logo.svg"
+ },
+ {
+  "key": "cfb-wisconsin-badgers",
+  "q": "Wisconsin Badgers football",
+  "title": "Wisconsin Badgers football",
+  "file": "cfb-wisconsin-badgers.png",
+  "image": "Wisconsin_Badgers_logo.svg"
+ },
+ {
+  "key": "cfb-iowa-hawkeyes",
+  "q": "Iowa Hawkeyes football",
+  "title": "Iowa Hawkeyes football",
+  "file": "cfb-iowa-hawkeyes.png",
+  "image": "Iowa_Hawkeyes_wordmark.svg"
+ },
+ {
+  "key": "cfb-utah-utes",
+  "q": "Utah Utes football",
+  "title": "Utah Utes football",
+  "file": "cfb-utah-utes.png",
+  "image": "Utah_Utes_primary_logo.svg"
+ },
+ {
+  "key": "cfb-colorado-buffaloes",
+  "q": "Colorado Buffaloes football",
+  "title": "Colorado Buffaloes football",
+  "file": "cfb-colorado-buffaloes.png",
+  "image": "Colorado_Buffaloes_wordmark_black.svg"
+ },
+ {
+  "key": "cfb-nebraska-cornhuskers",
+  "q": "Nebraska Cornhuskers football",
+  "title": "Nebraska Cornhuskers football",
+  "file": "cfb-nebraska-cornhuskers.png",
+  "image": "Nebraska_Cornhuskers_logo.svg"
+ },
+ {
+  "key": "cfb-arkansas-razorbacks",
+  "q": "Arkansas Razorbacks football",
+  "title": "Arkansas Razorbacks football",
+  "file": "cfb-arkansas-razorbacks.png",
+  "image": "Arkansas_wordmark_2014.png"
+ },
+ {
+  "key": "cfb-kentucky-wildcats",
+  "q": "Kentucky Wildcats football",
+  "title": "Kentucky Wildcats football",
+  "file": "cfb-kentucky-wildcats.png",
+  "image": "Kentucky_Wildcats_logo.svg"
+ },
+ {
+  "key": "cfb-south-carolina-gamecocks",
+  "q": "South Carolina Gamecocks football",
+  "title": "South Carolina Gamecocks football",
+  "file": "cfb-south-carolina-gamecocks.png",
+  "image": "South_Carolina_Gamecocks_logo.svg"
+ },
+ {
+  "key": "cfb-vanderbilt-commodores",
+  "q": "Vanderbilt Commodores football",
+  "title": "Vanderbilt Commodores football",
+  "file": "cfb-vanderbilt-commodores.png",
+  "image": "Vanderbilt_Athletics_logo.svg"
+ },
+ {
+  "key": "cfb-mississippi-state-bulldogs",
+  "q": "Mississippi State Bulldogs football",
+  "title": "Mississippi State Bulldogs football",
+  "file": "cfb-mississippi-state-bulldogs.png",
+  "image": "Mississippi_State_Bulldogs_script_logo.svg"
+ },
+ {
+  "key": "cfb-kansas-jayhawks",
+  "q": "Kansas Jayhawks football",
+  "title": "Kansas Jayhawks football",
+  "file": "cfb-kansas-jayhawks.png",
+  "image": "Kansas_Jayhawks_1946_logo.svg"
+ },
+ {
+  "key": "cfb-kansas-state-wildcats",
+  "q": "Kansas State Wildcats football",
+  "title": "Kansas State Wildcats football",
+  "file": "cfb-kansas-state-wildcats.png",
+  "image": "Kansas_State_Wildcats_wordmark.svg"
+ },
+ {
+  "key": "cfb-baylor-bears",
+  "q": "Baylor Bears football",
+  "title": "Baylor Bears football",
+  "file": "cfb-baylor-bears.png",
+  "image": "Baylor_Athletics_logo.svg"
+ },
+ {
+  "key": "cfb-tcu-horned-frogs",
+  "q": "TCU Horned Frogs football",
+  "title": "TCU Horned Frogs football",
+  "file": "cfb-tcu-horned-frogs.png",
+  "image": "TCU_Horned_Frogs_logo.svg"
+ },
+ {
+  "key": "cfb-texas-tech-red-raiders",
+  "q": "Texas Tech Red Raiders football",
+  "title": "Texas Tech Red Raiders football",
+  "file": "cfb-texas-tech-red-raiders.png",
+  "image": "Texas_Tech_Athletics_logo.svg"
+ },
+ {
+  "key": "cfb-byu-cougars",
+  "q": "BYU Cougars football",
+  "title": "BYU Cougars football",
+  "file": "cfb-byu-cougars.png",
+  "image": "BYU_Stretch_Y_Logo.png"
+ },
+ {
+  "key": "cfb-arizona-wildcats",
+  "q": "Arizona Wildcats football",
+  "title": "Arizona Wildcats football",
+  "file": "cfb-arizona-wildcats.png",
+  "image": "Arizona_Wildcats_logo.svg"
+ },
+ {
+  "key": "cfb-arizona-state-sun-devils",
+  "q": "Arizona State Sun Devils football",
+  "title": "Arizona State Sun Devils football",
+  "file": "cfb-arizona-state-sun-devils.png",
+  "image": "Arizona_State_Athletics_wordmark.svg"
+ },
+ {
+  "key": "cfb-washington-huskies",
+  "q": "Washington Huskies football",
+  "title": "Washington Huskies football",
+  "file": "cfb-washington-huskies.png",
+  "image": "Washington_Huskies_logo.svg"
+ },
+ {
+  "key": "cfb-ucla-bruins",
+  "q": "UCLA Bruins football",
+  "title": "UCLA Bruins football",
+  "file": "cfb-ucla-bruins.png",
+  "image": "UCLA_Bruins_primary_logo.svg"
+ },
+ {
+  "key": "cfb-louisville-cardinals",
+  "q": "Louisville Cardinals football",
+  "title": "Louisville Cardinals football",
+  "file": "cfb-louisville-cardinals.png",
+  "image": "Louisville_Wordmark_(2023).svg"
+ },
+ {
+  "key": "cfb-virginia-tech-hokies",
+  "q": "Virginia Tech Hokies football",
+  "title": "Virginia Tech Hokies football",
+  "file": "cfb-virginia-tech-hokies.png",
+  "image": "Virginia_Tech_Hokies_logo.svg"
+ },
+ {
+  "key": "cfb-north-carolina-tar-heels",
+  "q": "North Carolina Tar Heels football",
+  "title": "North Carolina Tar Heels football",
+  "file": "cfb-north-carolina-tar-heels.png",
+  "image": "North_Carolina_Tar_Heels_logo.svg"
+ },
+ {
+  "key": "cfb-nc-state-wolfpack",
+  "q": "NC State Wolfpack football",
+  "title": "NC State Wolfpack football",
+  "file": "cfb-nc-state-wolfpack.png",
+  "image": "North_Carolina_State_University_Athletic_logo.svg"
+ },
+ {
+  "key": "cfb-pittsburgh-panthers",
+  "q": "Pittsburgh Panthers football",
+  "title": "Pittsburgh Panthers football",
+  "file": "cfb-pittsburgh-panthers.png",
+  "image": "Pitt_Panthers_wordmark.svg"
+ },
+ {
+  "key": "cfb-smu-mustangs",
+  "q": "SMU Mustangs football",
+  "title": "SMU Mustangs football",
+  "file": "cfb-smu-mustangs.png",
+  "image": "SMU_Mustang_logo.svg"
+ },
+ {
+  "key": "cfb-boise-state-broncos",
+  "q": "Boise State Broncos football",
+  "title": "Boise State Broncos football",
+  "file": "cfb-boise-state-broncos.png",
+  "image": "Boise_State_Broncos_wordmark.svg"
+ },
+ {
+  "key": "cfb-indiana-hoosiers",
+  "q": "Indiana Hoosiers football",
+  "title": "Indiana Hoosiers football",
+  "file": "cfb-indiana-hoosiers.png",
+  "image": "Indiana_Hoosiers_logo.svg"
+ },
+ {
+  "key": "cfb-illinois-fighting-illini",
+  "q": "Illinois Fighting Illini football",
+  "title": "Illinois Fighting Illini football",
+  "file": "cfb-illinois-fighting-illini.png",
+  "image": "Illinois_Fighting_Illini_logo.svg"
+ },
+ {
+  "key": "cfb-purdue-boilermakers",
+  "q": "Purdue Boilermakers football",
+  "title": "Purdue Boilermakers football",
+  "file": "cfb-purdue-boilermakers.png",
+  "image": "Purdue_Boilermakers_logo.svg"
+ },
+ {
+  "key": "cfb-minnesota-golden-gophers",
+  "q": "Minnesota Golden Gophers football",
+  "title": "Minnesota Golden Gophers football",
+  "file": "cfb-minnesota-golden-gophers.png",
+  "image": "Minnesota_Golden_Gophers_logo.svg"
+ },
+ {
+  "key": "cfb-maryland-terrapins",
+  "q": "Maryland Terrapins football",
+  "title": "Maryland Terrapins football",
+  "file": "cfb-maryland-terrapins.png",
+  "image": "Maryland_Terrapins_logo.svg"
+ },
+ {
+  "key": "cfb-rutgers-scarlet-knights",
+  "q": "Rutgers Scarlet Knights football",
+  "title": "Rutgers Scarlet Knights football",
+  "file": "cfb-rutgers-scarlet-knights.png",
+  "image": "Rutgers_Scarlet_Knights_logo.svg"
+ },
+ {
+  "key": "cfb-northwestern-wildcats",
+  "q": "Northwestern Wildcats football",
+  "title": "Northwestern Wildcats football",
+  "file": "cfb-northwestern-wildcats.png",
+  "image": "Northwestern_Wildcats_logo.svg"
+ },
+ {
+  "key": "cfb-michigan-state-spartans",
+  "q": "Michigan State Spartans football",
+  "title": "Michigan State Spartans football",
+  "file": "cfb-michigan-state-spartans.png",
+  "image": "Michigan_spartans_football_unif.png"
+ },
+ {
+  "key": "cfb-iowa-state-cyclones",
+  "q": "Iowa State Cyclones football",
+  "title": "Iowa State Cyclones football",
+  "file": "cfb-iowa-state-cyclones.png",
+  "image": "Iowa_State_Cyclones_logo.svg"
+ },
+ {
+  "key": "cfb-cincinnati-bearcats",
+  "q": "Cincinnati Bearcats football",
+  "title": "Cincinnati Bearcats football",
+  "file": "cfb-cincinnati-bearcats.png",
+  "image": "Cincinnati_Bearcats_logo.svg"
+ },
+ {
+  "key": "cfb-houston-cougars",
+  "q": "Houston Cougars football",
+  "title": "Houston Cougars football",
+  "file": "cfb-houston-cougars.png",
+  "image": "Houston_Cougars_primary_logo.svg"
+ },
+ {
+  "key": "cfb-ucf-knights",
+  "q": "UCF Knights football",
+  "title": "UCF Knights football",
+  "file": "cfb-ucf-knights.png",
+  "image": "UCF_Knights_logo.svg"
+ },
+ {
+  "key": "cfb-west-virginia-mountaineers",
+  "q": "West Virginia Mountaineers football",
+  "title": "West Virginia Mountaineers football",
+  "file": "cfb-west-virginia-mountaineers.png",
+  "image": "West_Virginia_Mountaineers_logo.svg"
+ },
+ {
+  "key": "cfb-oklahoma-state-cowboys",
+  "q": "Oklahoma State Cowboys football",
+  "title": "Oklahoma State Cowboys football",
+  "file": "cfb-oklahoma-state-cowboys.png",
+  "image": "Oklahoma_State_University_system_logo.svg"
+ },
+ {
+  "key": "cfb-wake-forest-demon-deacons",
+  "q": "Wake Forest Demon Deacons football",
+  "title": "Wake Forest Demon Deacons football",
+  "file": "cfb-wake-forest-demon-deacons.png",
+  "image": "Wake_Forest_University_Athletic_logo.svg"
+ },
+ {
+  "key": "cfb-syracuse-orange",
+  "q": "Syracuse Orange football",
+  "title": "Syracuse Orange football",
+  "file": "cfb-syracuse-orange.png",
+  "image": "Syracuse_Orange_logo.svg"
+ },
+ {
+  "key": "cfb-boston-college-eagles",
+  "q": "Boston College Eagles football",
+  "title": "Boston College Eagles football",
+  "file": "cfb-boston-college-eagles.png",
+  "image": "Boston_College_Eagles_wordmark.svg"
+ },
+ {
+  "key": "cfb-georgia-tech-yellow-jackets",
+  "q": "Georgia Tech Yellow Jackets football",
+  "title": "Georgia Tech Yellow Jackets football",
+  "file": "cfb-georgia-tech-yellow-jackets.png",
+  "image": "Tech2026logo.png"
+ },
+ {
+  "key": "cfb-virginia-cavaliers",
+  "q": "Virginia Cavaliers football",
+  "title": "Virginia Cavaliers football",
+  "file": "cfb-virginia-cavaliers.png",
+  "image": "Virginia_Cavaliers_wordmark.svg"
+ },
+ {
+  "key": "cfb-california-golden-bears",
+  "q": "California Golden Bears football",
+  "title": "California Golden Bears football",
+  "file": "cfb-california-golden-bears.png",
+  "image": "California_Golden_Bears_logo.svg"
+ },
+ {
+  "key": "cfb-stanford-cardinal",
+  "q": "Stanford Cardinal football",
+  "title": "Stanford Cardinal football",
+  "file": "cfb-stanford-cardinal.png",
+  "image": "Stanford_Cardinal_logo.svg"
+ },
+ {
+  "key": "cfb-navy-midshipmen",
+  "q": "Navy Midshipmen football",
+  "title": "Navy Midshipmen football",
+  "file": "cfb-navy-midshipmen.png",
+  "image": "Navy_Athletics_logo.svg"
+ },
+ {
+  "key": "cfb-army-black-knights",
+  "q": "Army Black Knights football",
+  "title": "Army Black Knights football",
+  "file": "cfb-army-black-knights.png",
+  "image": "Army_West_Point_logo.svg"
+ },
+ {
+  "key": "acb-lleida",
+  "q": "Força Lleida CE",
+  "wikiError": "no image on Força Lleida CE"
+ },
+ {
+  "key": "acb-bilbao",
+  "q": "Bilbao Basket",
+  "title": "Bilbao Basket",
+  "file": "acb-bilbao.png",
+  "image": "Surne_Bilbao_Basket.svg"
+ },
+ {
+  "key": "acb-real-madrid",
+  "q": "Real Madrid Baloncesto",
+  "title": "Real Madrid Baloncesto",
+  "file": "acb-real-madrid.png",
+  "image": "Real_Madrid_Baloncesto.png"
+ },
+ {
+  "key": "acb-barcelona",
+  "q": "FC Barcelona Bàsquet",
+  "title": "FC Barcelona Bàsquet",
+  "file": "acb-barcelona.png",
+  "image": "FC_Barcelona_(crest).svg"
+ },
+ {
+  "key": "acb-valencia",
+  "q": "Valencia Basket",
+  "title": "Valencia Basket",
+  "file": "acb-valencia.png",
+  "image": "Valencia_Basket_(40_anys).svg"
+ },
+ {
+  "key": "acb-unicaja",
+  "q": "Baloncesto Málaga",
+  "title": "Baloncesto Málaga",
+  "file": "acb-unicaja.png",
+  "image": "Fundación_Unicaja_Baloncesto.svg"
+ },
+ {
+  "key": "acb-joventut",
+  "q": "Club Joventut Badalona",
+  "title": "Joventut Badalona",
+  "file": "acb-joventut.png",
+  "image": "Asisa_Joventut.svg"
+ },
+ {
+  "key": "acb-gran-canaria",
+  "q": "CB Gran Canaria",
+  "title": "CB Gran Canaria",
+  "file": "acb-gran-canaria.png",
+  "image": "CB_Gran_Canaria_logo.svg"
+ },
+ {
+  "key": "acb-tenerife",
+  "q": "CB Canarias",
+  "title": "CB Canarias",
+  "file": "acb-tenerife.png",
+  "image": "La_Laguna_Tenerife.svg"
+ },
+ {
+  "key": "acb-zaragoza",
+  "q": "Basket Zaragoza",
+  "title": "Basket Zaragoza",
+  "file": "acb-zaragoza.png",
+  "image": "Casademont_Zaragoza.svg"
+ },
+ {
+  "key": "acb-murcia",
+  "q": "CB Murcia",
+  "title": "UCAM Murcia CB",
+  "file": "acb-murcia.png",
+  "image": "CB_Murcia_logo.svg"
+ },
+ {
+  "key": "acb-manresa",
+  "q": "Bàsquet Manresa",
+  "title": "Bàsquet Manresa",
+  "file": "acb-manresa.png",
+  "image": "Kids&Us_Manresa.svg"
+ },
+ {
+  "key": "acb-girona",
+  "q": "Bàsquet Girona",
+  "title": "Bàsquet Girona",
+  "file": "acb-girona.png",
+  "image": "Bàsquet_Girona.svg"
+ },
+ {
+  "key": "acb-breogan",
+  "q": "CB Breogán",
+  "title": "CB Breogán",
+  "file": "acb-breogan.png",
+  "image": "CB_Breogán.svg"
+ },
+ {
+  "key": "acb-granada",
+  "q": "Fundación CB Granada",
+  "title": "Fundación CB Granada",
+  "file": "acb-granada.png",
+  "image": "Coviran_Granada.png"
+ },
+ {
+  "key": "acb-andorra",
+  "q": "MoraBanc Andorra",
+  "title": "BC Andorra",
+  "file": "acb-andorra.png",
+  "image": "BC_Andorra_logo.svg"
+ },
+ {
+  "key": "acb-san-pablo-burgos",
+  "q": "CB San Pablo Burgos",
+  "title": "CB San Pablo Burgos",
+  "file": "acb-san-pablo-burgos.png",
+  "image": "San_Pablo_Burgos.svg"
+ },
+ {
+  "key": "acb-valladolid",
+  "q": "Real Valladolid Baloncesto",
+  "title": "Real Valladolid Baloncesto",
+  "file": "acb-valladolid.png",
+  "image": "Real_Valladolid_Logo.svg"
+ },
+ {
+  "key": "lpb-benfica",
+  "q": "S.L. Benfica (basketball)",
+  "title": "S.L. Benfica (basketball)",
+  "file": "lpb-benfica.png",
+  "image": "SL_Benfica_logo.svg"
+ },
+ {
+  "key": "lpb-porto",
+  "q": "FC Porto (basketball)",
+  "title": "FC Porto (basketball)",
+  "file": "lpb-porto.png",
+  "image": "FC_Porto.svg"
+ },
+ {
+  "key": "lpb-sporting",
+  "q": "Sporting CP (basketball)",
+  "wikiError": "no image on Sporting CP (basketball)"
+ },
+ {
+  "key": "lpb-vitoria",
+  "q": "Vitória S.C. (basketball)",
+  "wikiError": "no image on Vitória S.C. (basketball)"
+ },
+ {
+  "key": "lpb-oliveirense",
+  "q": "UD Oliveirense (basketball)",
+  "title": "U.D. Oliveirense (basketball)",
+  "file": "lpb-oliveirense.png",
+  "image": "UD_Oliveirense.png"
+ },
+ {
+  "key": "lpb-ovarense",
+  "q": "Ovarense Basquetebol",
+  "title": "Ovarense Basquetebol",
+  "file": "lpb-ovarense.png",
+  "image": "Ovarense_Basquetebol_logo.png"
+ },
+ {
+  "key": "lpb-imortal",
+  "q": "Imortal Basket Club",
+  "title": "Imortal D.C.",
+  "file": "lpb-imortal.png",
+  "image": "Imortal_DC.png"
+ },
+ {
+  "key": "lpb-esgueira",
+  "q": "Clube do Povo de Esgueira",
+  "wikiError": "no image on Esgueira"
+ },
+ {
+  "key": "lpb-galitos",
+  "q": "Galitos Barreiro",
+  "wikiError": "no image on Galitos F.C."
+ },
+ {
+  "key": "lpb-illiabum",
+  "q": "Illiabum Clube",
+  "wikiError": "no image on Illiabum Clube"
+ },
+ {
+  "key": "lpb-povoa",
+  "q": "Clube Desportivo da Póvoa",
+  "title": "Póvoa de Varzim",
+  "file": "lpb-povoa.jpg",
+  "image": "Póvoa_de_Varzim.jpg"
+ },
+ {
+  "key": "lpb-lusitania",
+  "q": "Lusitânia Expresso",
+  "title": "Ahmad Yani-class frigate",
+  "file": "lpb-lusitania.jpg",
+  "image": "Presidential_Inspection_empat_Fregat_kelas_Ahmad_Yani,_2025.jpg"
+ },
+ {
+  "key": "lpb-queluz",
+  "q": "Sport Algés e Dafundo",
+  "title": "Algés (Oeiras)",
+  "file": "lpb-queluz.jpg",
+  "image": "Palácio_Anjos_(Algés)_3.jpg"
+ },
+ {
+  "key": "lpb-vasco",
+  "q": "Vasco da Gama (Portugal)",
+  "title": "Vasco da Gama, Goa",
+  "file": "lpb-vasco.jpg",
+  "image": "Goa-Vasco_03-2016_02_Vaddem.jpg"
+ },
+ {
+  "key": "comp-wtcs",
+  "q": "World Triathlon Championship Series",
+  "wikiError": "no image on World Triathlon Championship Series",
+  "site": []
+ },
+ {
+  "key": "comp-t100",
+  "q": "T100 Triathlon World Tour",
+  "wikiError": "no image on T100 Triathlon",
+  "site": [
+   "comp-t100-site1.jpg",
+   "comp-t100-site2.jpg",
+   "comp-t100-site3.jpg",
+   "comp-t100-site4.jpg",
+   "comp-t100-site5.svg",
+   "comp-t100-site6.png"
+  ]
+ },
+ {
+  "key": "comp-e1",
+  "q": "E1 Series",
+  "title": "E1 Series Shinkansen",
+  "file": "comp-e1.jpg",
+  "image": "JReastE1_Omiya_20120918.jpg",
+  "site": [
+   "comp-e1-site1.ico",
+   "comp-e1-site5.png",
+   "comp-e1-site6.png"
+  ]
+ },
+ {
+  "key": "comp-world-skate-games",
+  "q": "World Skate Games",
+  "wikiError": "no image on World Skate Games",
+  "site": [
+   "comp-world-skate-games-site1.jpg",
+   "comp-world-skate-games-site2.ico",
+   "comp-world-skate-games-site3.png",
+   "comp-world-skate-games-site4.png",
+   "comp-world-skate-games-site5.png",
+   "comp-world-skate-games-site6.png"
+  ]
+ },
+ {
+  "key": "comp-rws",
+  "q": "Rajadamnern World Series",
+  "title": "Rajadamnern Stadium",
+  "file": "comp-rws.jpg",
+  "image": "RajInfront.jpg",
+  "site": [
+   "comp-rws-site1.ico",
+   "comp-rws-site2.png",
+   "comp-rws-site3.png",
+   "comp-rws-site5.svg",
+   "comp-rws-site6.svg"
+  ]
+ },
+ {
+  "key": "comp-diski",
+  "q": "DStv Diski Challenge",
+  "wikiError": "no image on PSL Reserve League",
+  "site": [
+   "comp-diski-site1.ico",
+   "comp-diski-site2.png",
+   "comp-diski-site3.png",
+   "comp-diski-site4.png",
+   "comp-diski-site5.png",
+   "comp-diski-site6.png"
+  ]
+ },
+ {
+  "key": "comp-oceanman",
+  "q": "Oceanman",
+  "title": "International Life Saving Federation",
+  "file": "comp-oceanman.png",
+  "image": "International_Life_Saving_Federation_logo.svg",
+  "site": [
+   "comp-oceanman-site1.png"
+  ]
+ },
+ {
+  "key": "comp-total-chess",
+  "q": "Total Chess World Championship Tour",
+  "wikiError": "no image on Total Chess World Championship Tour",
+  "site": [
+   "comp-total-chess-site1.jpg",
+   "comp-total-chess-site2.ico",
+   "comp-total-chess-site3.png",
+   "comp-total-chess-site4.png",
+   "comp-total-chess-site5.png",
+   "comp-total-chess-site6.svg"
+  ]
+ },
+ {
+  "key": "comp-freestyle-friday",
+  "q": "Freestyle Chess",
+  "wikiError": "no image on Chess960",
+  "site": [
+   "comp-freestyle-friday-site1.jpg",
+   "comp-freestyle-friday-site2.png",
+   "comp-freestyle-friday-site3.png",
+   "comp-freestyle-friday-site4.png",
+   "comp-freestyle-friday-site5.png"
+  ]
+ },
+ {
+  "key": "comp-icc-wnt",
+  "q": "ICC Women's Nations Trophy",
+  "title": "ICC Women's Champions Trophy",
+  "file": "comp-icc-wnt.png",
+  "image": "Cricket_pictogram.svg",
+  "site": [
+   "comp-icc-wnt-site1.jpg",
+   "comp-icc-wnt-site2.ico",
+   "comp-icc-wnt-site3.png",
+   "comp-icc-wnt-site4.png",
+   "comp-icc-wnt-site5.png",
+   "comp-icc-wnt-site6.png"
+  ]
+ },
+ {
+  "key": "comp-legends-cup",
+  "q": "Legends Cup football Arsenal Legends",
+  "title": "Arsenal F.C.",
+  "file": "comp-legends-cup.png",
+  "image": "Arsenal_FC.svg",
+  "site": [
+   "comp-legends-cup-site1.ico",
+   "comp-legends-cup-site2.png",
+   "comp-legends-cup-site3.png",
+   "comp-legends-cup-site4.svg",
+   "comp-legends-cup-site5.jpg"
+  ]
+ },
+ {
+  "key": "comp-premier-padel",
+  "q": "Premier Padel",
+  "title": "Premier Padel",
+  "file": "comp-premier-padel.png",
+  "image": "Premier_Padel_logo.png",
+  "site": [
+   "comp-premier-padel-site2.ico"
+  ]
+ },
+ {
+  "key": "comp-icc",
+  "q": "International Cricket Council",
+  "title": "International Cricket Council",
+  "file": "comp-icc.png",
+  "image": "International_Cricket_Council_(logo).svg",
+  "site": [
+   "comp-icc-site1.jpg",
+   "comp-icc-site2.ico",
+   "comp-icc-site3.png",
+   "comp-icc-site4.png",
+   "comp-icc-site5.png",
+   "comp-icc-site6.png"
+  ]
+ },
+ {
+  "key": "comp-one-championship",
+  "q": "ONE Championship",
+  "title": "ONE Championship",
+  "file": "comp-one-championship.png",
+  "image": "ONE_Championship_company_logo.png",
+  "site": [
+   "comp-one-championship-site1.jpg"
+  ]
+ },
+ {
+  "key": "comp-starligue",
+  "q": "Liqui Moly StarLigue",
+  "title": "Liqui Moly",
+  "file": "comp-starligue.png",
+  "image": "Liqui-moly.svg",
+  "site": [
+   "comp-starligue-site1.png",
+   "comp-starligue-site2.svg",
+   "comp-starligue-site3.png",
+   "comp-starligue-site4.png",
+   "comp-starligue-site5.png",
+   "comp-starligue-site6.png"
+  ]
+ },
+ {
+  "key": "comp-lpb",
+  "q": "Liga Portuguesa de Basquetebol",
+  "title": "Liga Portuguesa de Basquetebol",
+  "file": "comp-lpb.png",
+  "image": "Lpb-portugal.png",
+  "site": [
+   "comp-lpb-site1.png",
+   "comp-lpb-site2.png",
+   "comp-lpb-site3.png",
+   "comp-lpb-site4.png",
+   "comp-lpb-site5.png",
+   "comp-lpb-site6.png"
+  ]
+ },
+ {
+  "key": "comp-aflw",
+  "q": "AFL Women's",
+  "title": "AFL Women's",
+  "file": "comp-aflw.png",
+  "image": "AFL_Women's_logo.svg",
+  "site": [
+   "comp-aflw-site1.png",
+   "comp-aflw-site2.png"
+  ]
+ },
+ {
+  "key": "comp-nwsl",
+  "q": "National Women's Soccer League",
+  "title": "National Women's Soccer League",
+  "file": "comp-nwsl.png",
+  "image": "NWSL_logo.svg",
+  "site": [
+   "comp-nwsl-site1.png",
+   "comp-nwsl-site2.ico",
+   "comp-nwsl-site3.svg",
+   "comp-nwsl-site4.png",
+   "comp-nwsl-site5.svg",
+   "comp-nwsl-site6.svg"
+  ]
+ },
+ {
+  "key": "comp-sport24",
+  "q": "Sport 24 (TV channel)",
+  "wikiError": "no image on Sport TV",
+  "site": [
+   "comp-sport24-site1.img",
+   "comp-sport24-site2.img",
+   "comp-sport24-site3.img",
+   "comp-sport24-site4.img",
+   "comp-sport24-site5.svg",
+   "comp-sport24-site6.svg"
+  ]
+ }
+]
