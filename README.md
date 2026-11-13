@@ -17,7 +17,7 @@ The Windows installer is split in two because GitHub limits repository files to 
 
 ## What's new in 2.2.5 (13 Nov 2026)
 
-- **SportyTV** linear channel on DStv (236 South Africa & Nigeria, 237 Kenya & Ghana) and GOtv (58 Kenya & Nigeria, 36 Ghana), launched 10 June 2026 – in both apps and over the air.
+- **SportyTV** linear channel on DStv (236 South Africa & Nigeria, 237 Kenya & Ghana) and GOtv (558 Kenya, 58 Nigeria, 36 Ghana – GOtv Starter and up), launched 10 June 2026 – in both apps and over the air.
 - SuperSport Swahili DStv 216; GOtv and DStv package lists (November 2026).
 
 ## What's new in 2.2.3 (13 Nov 2026)
@@ -82,21 +82,21 @@ Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links g
 
 #### SuperSport on GOtv
 
-Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DTT sheet, Uganda numbering). Kenya carries the same channels in the 500s (e.g. SuperSport Swahili 570, KickOff 561). Packages from 5 November 2026: **Easy · Starter · Select · Sports** – the package shown is the lowest one that includes the channel.
+Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DTT sheet, Uganda numbering) and gotvafrica.com/en-ke. Kenya carries the same channels in the 500s (GOtv Kenya lists Blitz 560, KickOff 561, Africa 562, LaLiga 563). Packages from 5 November 2026: **Easy · Starter · Select · Sports** – the package shown is the lowest one that includes the channel.
 
-| Logo | Channel | GOtv | Package |
-|:---:|---|---|---|
-| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | 360 | GOtv Easy and up |
-| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | 361 | GOtv Starter and up |
-| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | 362 | GOtv Easy and up |
-| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | 363 | GOtv Starter and up |
-| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | 364 | GOtv Sports |
-| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | 365 | GOtv Select and up |
-| <img src="logos/readme/channels/ss-football-plus.png" alt="SuperSport Football Plus" height="28"> | SuperSport Football Plus | 366 | GOtv Sports |
-| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | 367 | GOtv Sports |
-| <img src="logos/readme/channels/ss-extra-1.png" alt="SuperSport Extra" height="28"> | SuperSport Extra | 368 | GOtv Sports |
-| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | 369 | GOtv Select and up |
-| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili | 370 | GOtv Sports |
+| Logo | Channel | GOtv Uganda | GOtv Kenya | Package |
+|:---:|---|---|---|---|
+| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | 360 | 560 | GOtv Easy and up |
+| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | 361 | 561 | GOtv Starter and up |
+| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | 362 | 562 | GOtv Easy and up |
+| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | 363 | 563 | GOtv Starter and up |
+| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | 364 | 564 | GOtv Sports |
+| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | 365 | 565 | GOtv Select and up |
+| <img src="logos/readme/channels/ss-football-plus.png" alt="SuperSport Football Plus" height="28"> | SuperSport Football Plus | 366 | 566 | GOtv Sports |
+| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | 367 | 567 | GOtv Sports |
+| <img src="logos/readme/channels/ss-extra-1.png" alt="SuperSport Extra" height="28"> | SuperSport Extra | 368 | 568 | GOtv Sports |
+| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | 369 | 569 | GOtv Select and up |
+| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili | 370 | 570 | GOtv Sports |
 
 - **Rights tracked:** AFCON PAMOJA 2027 qualifiers – channel TBA; ATP & WTA tennis – SuperSport Tennis; Premier League – SuperSport Premier League; LaLiga (every match) – SuperSport LaLiga
 - Everything SuperSport marks LIVE in its own guide (football, rugby, cricket, golf, motorsport, WWE, schools sport and more) is added automatically.
@@ -300,9 +300,9 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 
 | Logo | Channel | GOtv | Package |
 |:---:|---|---|---|
-| <img src="logos/readme/channels/sportytv.png" alt="SportyTV" height="28"> | SportyTV | 58 (Kenya, Nigeria) · 36 (Ghana) | GOtv Value (Kenya) · Jolli (Nigeria) |
+| <img src="logos/readme/channels/sportytv.png" alt="SportyTV" height="28"> | SportyTV | 558 (Kenya) · 58 (Nigeria) · 36 (Ghana) | GOtv Starter and up |
 
-- 24/7 SportyTV channel on DStv and GOtv since 10 June 2026 (DStv 236 in South Africa and Nigeria, 237 in Kenya and Ghana; GOtv 58 in Kenya and Nigeria, 36 in Ghana), plus live video in the Sporty app. Shows selected Premier League, LaLiga, Bundesliga, Serie A, Carabao Cup and Women's FA Cup matches, Copa Libertadores, Brazil Série A, NBA and combat sports, plus Real Madrid TV, Arsenal TV, Chelsea TV and Man City TV content; in South Africa it carried the 2026 FIFA World Cup. No public TV guide, so matches are listed when announced.
+- 24/7 SportyTV channel on DStv and GOtv since 10 June 2026 (DStv 236 in South Africa and Nigeria, 237 in Kenya and Ghana; GOtv 558 in Kenya from GOtv Starter, 58 in Nigeria, 36 in Ghana), plus live video in the Sporty app. Shows selected Premier League, LaLiga, Bundesliga, Serie A, Carabao Cup and Women's FA Cup matches, Copa Libertadores, Brazil Série A, NBA and combat sports, plus Real Madrid TV, Arsenal TV, Chelsea TV and Man City TV content; in South Africa it carried the 2026 FIFA World Cup. No public TV guide, so matches are listed when announced.
 
 ### ZAP
 
