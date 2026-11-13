@@ -520,7 +520,7 @@ const fx = (await fixtures()).events; log('fixtures', fx.length);
 
 /* 1) live events from guides that mark live sport, merged by match */
 const events = [];
-for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws', 'mlbApple', 'sport24', 'dazn']) for (const e of parts[name].events || []) {
+for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws', 'mlbApple', 'sport24']) for (const e of (parts[name] || {}).events || []) {
   const t = +new Date(e.start);
   /* same match = same two teams within 4 h (guides disagree on kick-off by up to an hour), or same title within 45 min.
      Sources run in trust order, so the first (SuperSport / beIN) keeps its kick-off time. */
