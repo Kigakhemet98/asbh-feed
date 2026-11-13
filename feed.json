@@ -1,61 +1,67 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-13T07:23:02.945Z",
+ "updated": "2026-11-13T08:04:05.357Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 350,
-   "at": "2026-11-13T07:20:27.520Z"
+   "at": "2026-11-13T08:01:37.441Z"
   },
   "bein": {
    "ok": true,
    "count": 100,
-   "at": "2026-11-13T07:20:29.539Z"
+   "at": "2026-11-13T08:01:39.365Z"
   },
   "nws": {
    "ok": true,
-   "count": 57,
-   "at": "2026-11-13T07:20:32.110Z"
+   "count": 59,
+   "at": "2026-11-13T08:01:41.898Z"
   },
   "azam": {
    "ok": true,
    "count": 4,
-   "at": "2026-11-13T07:20:40.017Z"
+   "at": "2026-11-13T08:01:49.551Z"
   },
   "startimes": {
    "ok": true,
-   "count": 175,
-   "at": "2026-11-13T07:21:52.228Z"
+   "count": 170,
+   "at": "2026-11-13T08:03:00.743Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-13T07:22:05.981Z"
+   "at": "2026-11-13T08:03:14.576Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-13T07:22:06.063Z"
+   "at": "2026-11-13T08:03:14.658Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-13T07:22:13.417Z"
+   "at": "2026-11-13T08:03:21.627Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T07:22:13.631Z"
+   "at": "2026-11-13T08:03:21.887Z"
   },
   "sport24": {
    "ok": true,
-   "count": 91,
-   "at": "2026-11-13T07:22:53.303Z"
+   "count": 90,
+   "at": "2026-11-13T08:03:56.123Z"
+  },
+  "dazn": {
+   "ok": false,
+   "error": "403 https://epg.discovery.indazn.com/eu/v5/epgWithDatesRange?country=ke&languageCode=en&openBr",
+   "kept": 0,
+   "at": "2026-11-13T08:03:56.252Z"
   }
  },
  "assignments": [
@@ -3730,6 +3736,20 @@
    "via": "beIN SPORTS guide"
   },
   {
+   "start": "2026-11-19T13:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "FIFA WC U17",
+   "detail": "Corée du Sud v Uganda",
+   "channels": [
+    "nws-1"
+   ],
+   "status": "L",
+   "via": "New World Sport guide (my.t)",
+   "home": "Corée du Sud",
+   "away": "Uganda"
+  },
+  {
    "start": "2026-11-19T14:20:00.000Z",
    "end": "2026-11-19T14:45:00.000Z",
    "sport": "other",
@@ -3740,6 +3760,20 @@
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
+  },
+  {
+   "start": "2026-11-19T15:00:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "FIFA WC U17",
+   "detail": "Mozambique v Denmark",
+   "channels": [
+    "nws-2"
+   ],
+   "status": "L",
+   "via": "New World Sport guide (my.t)",
+   "home": "Mozambique",
+   "away": "Denmark"
   },
   {
    "start": "2026-11-19T17:15:00.000Z",
@@ -6294,7 +6328,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-13T07:23:00.783Z",
+   "checked": "2026-11-13T08:04:03.470Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6322,7 +6356,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-13T07:23:01.889Z",
+   "checked": "2026-11-13T08:04:04.527Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6343,7 +6377,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-13T07:23:02.944Z",
+   "checked": "2026-11-13T08:04:05.357Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
