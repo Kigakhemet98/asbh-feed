@@ -86,7 +86,7 @@
     "flatpak": {
       "runtimeVersion": "23.08",
       "baseVersion": "23.08",
-      "license": "MIT",
+      "license": "LICENSE",
       "finishArgs": [
         "--share=network",
         "--share=ipc",
