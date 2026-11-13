@@ -13,12 +13,16 @@
  *   CANAL+ Rwanda   canalplus.com/rw/programme-tv    best effort (rendered page)     → assignments
  *   ZAP Angola      zap.co.ao/tv/guia-tv             guide data only served inside Angola: checked, logged
  *   Azam TV         azamtv.com/program-guide         currently publishes no channels: checked, logged
+ *   Sport 24        sport24live.com/schedule         live flag (airlines and cruise ships) → events
  *
  * A source that fails keeps its previous results (never wipes good data), and every run writes
  * per-source counts to feed.json → "sources", so problems are visible at a glance. */
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { createRequire } from 'node:module';
+/* same listing clean-up as the apps (web/js/clean.js – keep the two copies identical) */
+const CLEAN = createRequire(import.meta.url)('./clean.js');
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const DAYS = 10;
@@ -333,6 +337,35 @@ async function mlbApple() {
   return { events: out };
 }
 
+/* ---------- Sport 24 / Sport 24 Extra – in-flight and at-sea live sport (sport24live.com/schedule JSON) ---------- */
+const S24_SPORT = { 'football': 'football', 'soccer': 'football', 'ice hockey': 'hockey', 'basketball': 'basketball', 'american football': 'nfl', 'golf': 'golf', 'tennis': 'tennis',
+  'cricket': 'cricket', 'rugby': 'rugby', 'rugby league': 'rugby', 'rugby union': 'rugby', 'baseball': 'mlb', 'motorsport': 'f1', 'formula 1': 'f1', 'motogp': 'motogp', 'aussie rules': 'afl', 'afl': 'afl', 'boxing': 'boxing', 'mma': 'mma', 'cycling': 'cycling', 'athletics': 'athletics' };
+const S24_UP = new Set(['UEFA', 'NFL', 'NBA', 'NHL', 'ATP', 'WTA', 'AFC', 'ICC', 'PGA', 'DP', 'LIV', 'MLB', 'F1', 'UFC', 'AFL', 'NRL', 'BWF', 'HSBC', 'FIFA', 'T20', 'ODI', 'SVNS', 'WSL', 'EFL', 'FA', 'US', 'LPGA']);
+const s24Title = (t) => String(t || '').toLowerCase().replace(/[a-z0-9®'’]+/g, (w) => { const u = w.toUpperCase().replace(/®/g, ''); return S24_UP.has(u) ? u : w.charAt(0).toUpperCase() + w.slice(1); }).replace(/®/g, '').trim();
+async function sport24() {
+  const out = []; const seen = new Map();
+  for (let i = 0; i < DAYS; i++) {
+    const day = new Date(NOW + i * 864e5).toISOString().slice(0, 10);
+    const j = await get(`https://sport24live.com/wp-json/sport24-schedule/v1/schedule/fetch?date=${day}&timezone=Etc%2FUTC`);
+    for (const [feed, list] of Object.entries(j.schedule || {})) for (const x of list || []) {
+      if (x.live !== 'Y' && !x.IsLive) continue;
+      if (x.continues_from_previous_day) continue;
+      const t = Date.parse(`${x.utc_date}T${x.utc_time}:00Z`); if (!inWindow(t)) continue;
+      const sport = S24_SPORT[String(x.genre || '').toLowerCase()] || 'other';
+      let comp = s24Title(x.title1); let detail = String(x.title2 || '').trim();
+      const st = /^(.{2,40}?) - (.+ (?:v|vs|@) .+)$/i.exec(detail); if (st) { comp += ' · ' + st[1]; detail = st[2]; }
+      if (SKIP.test(detail) || SKIP.test(comp)) continue;
+      const ch = x.extra || /extra/i.test(x.supplier || '') ? 's24-extra' : 's24';
+      const where = /sea/i.test(feed) ? 'At sea' : 'In flight';
+      const k = t + '|' + ch + '|' + detail.toLowerCase();
+      if (seen.has(k)) { const e = seen.get(k); if (!e.note.includes(where)) e.note += ' · ' + where; continue; }
+      const e = { start: iso(t), duration: +x.duration || 120, sport, comp, detail: detail.replace(/ @ /, ' @ '), channels: [ch], status: 'L', via: 'Sport 24 guide', note: where };
+      seen.set(k, e); out.push(e);
+    }
+  }
+  return { events: out };
+}
+
 /* ---------- rights watch: African broadcasters on the MLB and AFC "where to watch" pages ----------
  * Known broadcasters map onto the apps' providers; a broadcaster not seen before is added over the air
  * (provider + "channel TBA" + rights rule) and a GitHub issue is opened so it can be checked. */
@@ -412,7 +445,7 @@ const sides = (e) => { if (e.home && e.away) return [e.home, e.away]; const m = 
 const sameMatch = (a, b) => { const s = sides(a), o = sides(b); if (!s || !o) return false; return (sameTeam(s[0], o[0]) && sameTeam(s[1], o[1])) || (sameTeam(s[0], o[1]) && sameTeam(s[1], o[0])); };
 
 /* ---------- run ---------- */
-const SOURCES = { supersport, bein, nws, azam, startimes, canalplus, zap, azamtv, mlbApple };
+const SOURCES = { supersport, bein, nws, azam, startimes, canalplus, zap, azamtv, mlbApple, sport24 };
 const prevParts = read('state/parts.json', {});
 const parts = {}; const status = {};
 for (const [name, fn] of Object.entries(SOURCES)) {
@@ -426,11 +459,16 @@ for (const [name, fn] of Object.entries(SOURCES)) {
   }
 }
 if (browser) await browser.close();
+/* expand guide abbreviations ("LI: MCI v FUL", "B'mouth", "ALE v HOL") and fix sports before matching; drop studio shows */
+for (const name of Object.keys(parts)) if (parts[name].events) parts[name].events = parts[name].events.filter((e) => {
+  try { CLEAN.cleanEvent(e); } catch (err) { log('clean', name, err.message); }
+  return !(CLEAN.SHOW_RE && CLEAN.SHOW_RE.test(`${e.comp || ''} ${e.detail || ''}`) && !e.home);
+});
 const fx = (await fixtures()).events; log('fixtures', fx.length);
 
 /* 1) live events from guides that mark live sport, merged by match */
 const events = [];
-for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws', 'mlbApple']) for (const e of parts[name].events || []) {
+for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws', 'mlbApple', 'sport24']) for (const e of parts[name].events || []) {
   const t = +new Date(e.start);
   /* same match = same two teams within 4 h (guides disagree on kick-off by up to an hour), or same title within 45 min.
      Sources run in trust order, so the first (SuperSport / beIN) keeps its kick-off time. */
@@ -499,12 +537,21 @@ for (const [s, l] of Object.entries(bySport)) fs.writeFileSync(path.join(ROOT, '
 const prevWatch = (read('feed.json', {}) || {}).rightsWatch || {};
 const rw = await rightsWatch(prevWatch);
 const RAW = 'https://raw.githubusercontent.com/' + (process.env.GITHUB_REPOSITORY || 'Kigakhemet98/asbh-feed') + '/main/logos/';
+/* 2.2.2: DStv (Rest of Africa · South Africa), CANAL+ Afrique and beIN MENA channel numbers – edit here to change them over the air */
+const NUMS = [{"id": "ss-wwe", "num": "DStv 128 · ROA 226", "no": 128}, {"id": "ss-events", "num": "DStv 199", "no": 199}, {"id": "ss-extra-2", "num": "DStv 217 (South Africa)", "no": 217}, {"id": "ss-blitz", "num": "DStv 220 · 200", "no": 220}, {"id": "ss-grandstand", "num": "DStv 221 · 201", "no": 221}, {"id": "ss-football-plus", "num": "DStv 222 · 206", "no": 222}, {"id": "ss-premier-league", "num": "DStv 223 · 203", "no": 223}, {"id": "ss-laliga", "num": "DStv 224 · 204", "no": 224}, {"id": "ss-football", "num": "DStv 225 · 205", "no": 225}, {"id": "ss-kickoff", "num": "DStv 227 · 207", "no": 227}, {"id": "ss-africa", "num": "DStv 228 · 208", "no": 228}, {"id": "ss-action", "num": "DStv 229 · 209", "no": 229}, {"id": "ss-extra-1", "num": "DStv 230 · 210", "no": 230}, {"id": "ss-rugby", "num": "DStv 231 · 211", "no": 231}, {"id": "ss-cricket", "num": "DStv 232 · 212", "no": 232}, {"id": "ss-golf", "num": "DStv 233 · 213", "no": 233}, {"id": "ss-tennis", "num": "DStv 234 · 214", "no": 234}, {"id": "ss-motorsport", "num": "DStv 235 · 215", "no": 235}, {"id": "ss-maximo-1", "num": "DStv 241 · Angola/Moz 601", "no": 241}, {"id": "ss-maximo-2", "num": "DStv 242 · Angola/Moz 602", "no": 242}, {"id": "ss-swahili", "num": "DStv / GOtv East Africa", "no": 243}, {"id": "ss-stream-245", "num": "DStv Stream 245", "no": 245}, {"id": "ss-stream-246", "num": "DStv Stream 246", "no": 246}, {"id": "ss-stream-247", "num": "DStv Stream 247", "no": 247}, {"id": "ss-stream-248", "num": "DStv Stream 248", "no": 248}, {"id": "ss-stream-950", "num": "DStv Stream 950", "no": 950}, {"id": "ss-stream-951", "num": "DStv Stream 951", "no": 951}, {"id": "ss-stream-952", "num": "DStv Stream 952", "no": 952}, {"id": "cp-sport-1", "num": "CANAL+ 11", "no": 11}, {"id": "cp-sport-2", "num": "CANAL+ 12", "no": 12}, {"id": "cp-sport-3", "num": "CANAL+ 13", "no": 13}, {"id": "cp-sport-4", "num": "CANAL+ 14", "no": 14}, {"id": "cp-sport-5", "num": "CANAL+ 15", "no": 15}, {"id": "bein-1", "num": "beIN 1", "no": 1}, {"id": "bein-2", "num": "beIN 2", "no": 2}, {"id": "bein-3", "num": "beIN 3", "no": 3}, {"id": "bein-4", "num": "beIN 4", "no": 4}, {"id": "bein-5", "num": "beIN 5", "no": 5}, {"id": "bein-6", "num": "beIN 6", "no": 6}, {"id": "bein-7", "num": "beIN 7", "no": 7}, {"id": "bein-8", "num": "beIN 8", "no": 8}, {"id": "bein-9", "num": "beIN 9", "no": 9}, {"id": "bein-10", "num": "beIN 10", "no": 10}, {"id": "bein-news", "num": "beIN 10", "no": 10}, {"id": "bein-sports", "num": "beIN 11", "no": 11}, {"id": "bein-4k", "num": "beIN 14", "no": 14}, {"id": "bein-english-1", "num": "beIN 21", "no": 21}, {"id": "bein-english-2", "num": "beIN 22", "no": 22}, {"id": "bein-french-1", "num": "beIN 26", "no": 26}, {"id": "bein-french-2", "num": "beIN 27", "no": 27}, {"id": "bein-xtra-1", "num": "beIN 41", "no": 41}, {"id": "bein-xtra-2", "num": "beIN 42", "no": 42}, {"id": "bein-xtra-3", "num": "beIN 43", "no": 43}, {"id": "bein-xtra-4", "num": "beIN 44", "no": 44}, {"id": "bein-xtra-5", "num": "beIN 45", "no": 45}, {"id": "bein-xtra-6", "num": "beIN 46", "no": 46}, {"id": "bein-xtra-7", "num": "beIN 47", "no": 47}, {"id": "bein-xtra-8", "num": "beIN 48", "no": 48}, {"id": "bein-xtra-9", "num": "beIN 49", "no": 49}, {"id": "bein-max-1", "num": "beIN 701", "no": 701}, {"id": "bein-max-2", "num": "beIN 702", "no": 702}, {"id": "bein-max-3", "num": "beIN 703", "no": 703}, {"id": "bein-max-4", "num": "beIN 704", "no": 704}, {"id": "bein-max-5", "num": "beIN 705", "no": 705}, {"id": "bein-max-6", "num": "beIN 706", "no": 706}];
 const OTA = {
   providers: [
+    { id: 'sport24', abbr: '24', name: 'Sport 24', note: 'Live sport on airlines and cruise ships · Sport 24 & Sport 24 Extra (Emirates, Qatar Airways, Turkish Airlines, Etihad, Saudia, British Airways and more)', bg: '#0a0a0a', fg: '#f5e400', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], guide: 'https://sport24live.com/schedule/', url: 'https://sport24live.com/watch/', links: [{ label: 'Where to watch', url: 'https://sport24live.com/watch/' }, { label: 'Schedule', url: 'https://sport24live.com/schedule/' }, { label: 'Rights', url: 'https://sport24live.com/about/' }] },
+    { id: 'supersport', note: 'DStv · GOtv · DStv Stream · channel numbers: Rest of Africa · South Africa' },
     { id: 'appletv', name: 'Apple TV', note: 'Streaming · every MLS match, Friday Night Baseball (in 100+ countries)', stream: true, bg: '#000000', fg: '#ffffff', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], url: 'https://tv.apple.com', links: [{ label: 'Apple TV', url: 'https://tv.apple.com' }, { label: 'MLS – how to watch', url: 'https://www.mlssoccer.com/how-to-watch/' }] },
     { id: 'beinfr', abbr: 'beIN', name: 'beIN SPORTS France', note: 'Madagascar · Mauritius · Réunion · Mayotte', bg: '#5b2c8f', fg: '#ffffff', regions: ['indian'], url: 'https://www.beinsports.com/france/' }
   ].concat(rw.providers),
   channels: [
+    { id: 's24', provider: 'sport24', name: 'Sport 24', short: 'Sport 24', wide: true, num: 'In flight · At sea', logos: { light: RAW + 'sport24-on-light.png', dark: RAW + 'sport24-on-dark.png' } },
+    { id: 's24-extra', provider: 'sport24', name: 'Sport 24 Extra', short: 'Sport 24 Extra', wide: true, num: 'In flight · At sea', logos: { light: RAW + 'sport24-extra-on-light.png', dark: RAW + 'sport24-extra-on-dark.png' } },
+    { id: 'st-beta', wide: true, logos: { light: RAW + 'st-beta-on-light.png', dark: RAW + 'st-beta-on-dark.png' } },
+    { id: 'sportytv', logo: RAW + 'sportytv.png' },
+    ...NUMS,
     { id: 'apple-tv', provider: 'appletv', name: 'Apple TV', short: 'Apple TV', wide: true, logos: { light: RAW + 'apple-tv-on-light.png', dark: RAW + 'apple-tv-on-dark.png' } },
     { id: 'st-tbc', provider: 'startimes', name: 'StarTimes Sports (channel TBA)', short: 'Sports', logo: RAW + 'startimes-star.png' },
     { id: 'beinfr-tbc', provider: 'beinfr', name: 'beIN SPORTS France (channel TBA)', short: 'France', logo: RAW + 'bein-sports.png' }
