@@ -1,0 +1,29 @@
+name: Fetch logos
+# One-off helper (run by hand): downloads crests and competition logos into logos/fetched for review.
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Comma-separated keys (empty = all)'
+        required: false
+        default: ''
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/fetch-logos.mjs
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+      - run: |
+          git config user.name "asbh-feed-bot"
+          git config user.email "asbh-feed-bot@users.noreply.github.com"
+          git add logos/fetched
+          git commit -m "Fetched logos for review" || exit 0
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1

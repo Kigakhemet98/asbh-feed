@@ -1,0 +1,1046 @@
+[
+{
+"key": "hb-psg",
+"q": "Paris Saint-Germain Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-montpellier",
+"q": "Montpellier Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-nantes",
+"q": "HBC Nantes",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-toulouse",
+"q": "Fenix Toulouse Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-nimes",
+"q": "USAM Nîmes Gard",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-chambery",
+"q": "Chambéry Savoie Mont-Blanc Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-aix",
+"q": "Pays d'Aix Université Club handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-saint-raphael",
+"q": "Saint-Raphaël Var Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-dunkerque",
+"q": "Dunkerque Handball Grand Littoral",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-chartres",
+"q": "C' Chartres Métropole handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-limoges",
+"q": "Limoges Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-ivry",
+"q": "US Ivry Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-cesson",
+"q": "Cesson Rennes Métropole Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-istres",
+"q": "Istres Provence Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-selestat",
+"q": "Sélestat Alsace Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-tremblay",
+"q": "Tremblay-en-France Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-saran",
+"q": "Saran Loiret Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "hb-creteil",
+"q": "US Créteil Handball",
+"lang": "fr",
+"site": null
+},
+{
+"key": "afl-adelaide",
+"q": "Adelaide Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-brisbane",
+"q": "Brisbane Lions",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-carlton",
+"q": "Carlton Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-collingwood",
+"q": "Collingwood Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-essendon",
+"q": "Essendon Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-fremantle",
+"q": "Fremantle Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-geelong",
+"q": "Geelong Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-gold-coast",
+"q": "Gold Coast Suns",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-gws",
+"q": "Greater Western Sydney Giants",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-hawthorn",
+"q": "Hawthorn Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-melbourne",
+"q": "Melbourne Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-north-melbourne",
+"q": "North Melbourne Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-port-adelaide",
+"q": "Port Adelaide Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-richmond",
+"q": "Richmond Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-st-kilda",
+"q": "St Kilda Football Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-sydney",
+"q": "Sydney Swans",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-west-coast",
+"q": "West Coast Eagles",
+"lang": "en",
+"site": null
+},
+{
+"key": "afl-western-bulldogs",
+"q": "Western Bulldogs",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-angel-city",
+"q": "Angel City FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-bay",
+"q": "Bay FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-chicago",
+"q": "Chicago Stars FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-houston",
+"q": "Houston Dash",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-kc",
+"q": "Kansas City Current",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-gotham",
+"q": "Gotham FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-nc-courage",
+"q": "North Carolina Courage",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-orlando",
+"q": "Orlando Pride",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-portland",
+"q": "Portland Thorns FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-louisville",
+"q": "Racing Louisville FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-san-diego",
+"q": "San Diego Wave FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-seattle",
+"q": "Seattle Reign FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-utah",
+"q": "Utah Royals",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-washington",
+"q": "Washington Spirit",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-boston",
+"q": "Boston Legacy FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "nwsl-denver",
+"q": "Denver Summit FC",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-duke-blue-devils",
+"q": "Duke Blue Devils football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-lsu-tigers",
+"q": "LSU Tigers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-missouri-tigers",
+"q": "Missouri Tigers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-texas-longhorns",
+"q": "Texas Longhorns football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-alabama-crimson-tide",
+"q": "Alabama Crimson Tide football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-georgia-bulldogs",
+"q": "Georgia Bulldogs football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-ohio-state-buckeyes",
+"q": "Ohio State Buckeyes football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-michigan-wolverines",
+"q": "Michigan Wolverines football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-notre-dame-fighting-irish",
+"q": "Notre Dame Fighting Irish football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-oregon-ducks",
+"q": "Oregon Ducks football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-penn-state-nittany-lions",
+"q": "Penn State Nittany Lions football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-clemson-tigers",
+"q": "Clemson Tigers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-florida-state-seminoles",
+"q": "Florida State Seminoles football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-tennessee-volunteers",
+"q": "Tennessee Volunteers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-oklahoma-sooners",
+"q": "Oklahoma Sooners football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-usc-trojans",
+"q": "USC Trojans football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-texas-am-aggies",
+"q": "Texas A&M Aggies football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-florida-gators",
+"q": "Florida Gators football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-auburn-tigers",
+"q": "Auburn Tigers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-ole-miss-rebels",
+"q": "Ole Miss Rebels football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-miami-hurricanes",
+"q": "Miami Hurricanes football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-wisconsin-badgers",
+"q": "Wisconsin Badgers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-iowa-hawkeyes",
+"q": "Iowa Hawkeyes football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-utah-utes",
+"q": "Utah Utes football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-colorado-buffaloes",
+"q": "Colorado Buffaloes football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-nebraska-cornhuskers",
+"q": "Nebraska Cornhuskers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-arkansas-razorbacks",
+"q": "Arkansas Razorbacks football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-kentucky-wildcats",
+"q": "Kentucky Wildcats football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-south-carolina-gamecocks",
+"q": "South Carolina Gamecocks football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-vanderbilt-commodores",
+"q": "Vanderbilt Commodores football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-mississippi-state-bulldogs",
+"q": "Mississippi State Bulldogs football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-kansas-jayhawks",
+"q": "Kansas Jayhawks football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-kansas-state-wildcats",
+"q": "Kansas State Wildcats football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-baylor-bears",
+"q": "Baylor Bears football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-tcu-horned-frogs",
+"q": "TCU Horned Frogs football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-texas-tech-red-raiders",
+"q": "Texas Tech Red Raiders football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-byu-cougars",
+"q": "BYU Cougars football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-arizona-wildcats",
+"q": "Arizona Wildcats football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-arizona-state-sun-devils",
+"q": "Arizona State Sun Devils football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-washington-huskies",
+"q": "Washington Huskies football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-ucla-bruins",
+"q": "UCLA Bruins football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-louisville-cardinals",
+"q": "Louisville Cardinals football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-virginia-tech-hokies",
+"q": "Virginia Tech Hokies football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-north-carolina-tar-heels",
+"q": "North Carolina Tar Heels football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-nc-state-wolfpack",
+"q": "NC State Wolfpack football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-pittsburgh-panthers",
+"q": "Pittsburgh Panthers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-smu-mustangs",
+"q": "SMU Mustangs football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-boise-state-broncos",
+"q": "Boise State Broncos football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-indiana-hoosiers",
+"q": "Indiana Hoosiers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-illinois-fighting-illini",
+"q": "Illinois Fighting Illini football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-purdue-boilermakers",
+"q": "Purdue Boilermakers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-minnesota-golden-gophers",
+"q": "Minnesota Golden Gophers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-maryland-terrapins",
+"q": "Maryland Terrapins football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-rutgers-scarlet-knights",
+"q": "Rutgers Scarlet Knights football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-northwestern-wildcats",
+"q": "Northwestern Wildcats football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-michigan-state-spartans",
+"q": "Michigan State Spartans football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-iowa-state-cyclones",
+"q": "Iowa State Cyclones football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-cincinnati-bearcats",
+"q": "Cincinnati Bearcats football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-houston-cougars",
+"q": "Houston Cougars football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-ucf-knights",
+"q": "UCF Knights football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-west-virginia-mountaineers",
+"q": "West Virginia Mountaineers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-oklahoma-state-cowboys",
+"q": "Oklahoma State Cowboys football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-wake-forest-demon-deacons",
+"q": "Wake Forest Demon Deacons football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-syracuse-orange",
+"q": "Syracuse Orange football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-boston-college-eagles",
+"q": "Boston College Eagles football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-georgia-tech-yellow-jackets",
+"q": "Georgia Tech Yellow Jackets football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-virginia-cavaliers",
+"q": "Virginia Cavaliers football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-california-golden-bears",
+"q": "California Golden Bears football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-stanford-cardinal",
+"q": "Stanford Cardinal football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-navy-midshipmen",
+"q": "Navy Midshipmen football",
+"lang": "en",
+"site": null
+},
+{
+"key": "cfb-army-black-knights",
+"q": "Army Black Knights football",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-lleida",
+"q": "Força Lleida CE",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-bilbao",
+"q": "Bilbao Basket",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-real-madrid",
+"q": "Real Madrid Baloncesto",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-barcelona",
+"q": "FC Barcelona Bàsquet",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-valencia",
+"q": "Valencia Basket",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-unicaja",
+"q": "Baloncesto Málaga",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-joventut",
+"q": "Club Joventut Badalona",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-gran-canaria",
+"q": "CB Gran Canaria",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-tenerife",
+"q": "CB Canarias",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-zaragoza",
+"q": "Basket Zaragoza",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-murcia",
+"q": "CB Murcia",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-manresa",
+"q": "Bàsquet Manresa",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-girona",
+"q": "Bàsquet Girona",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-breogan",
+"q": "CB Breogán",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-granada",
+"q": "Fundación CB Granada",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-andorra",
+"q": "MoraBanc Andorra",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-san-pablo-burgos",
+"q": "CB San Pablo Burgos",
+"lang": "en",
+"site": null
+},
+{
+"key": "acb-valladolid",
+"q": "Real Valladolid Baloncesto",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-benfica",
+"q": "S.L. Benfica (basketball)",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-porto",
+"q": "FC Porto (basketball)",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-sporting",
+"q": "Sporting CP (basketball)",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-vitoria",
+"q": "Vitória S.C. (basketball)",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-oliveirense",
+"q": "UD Oliveirense (basketball)",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-ovarense",
+"q": "Ovarense Basquetebol",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-imortal",
+"q": "Imortal Basket Club",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-esgueira",
+"q": "Clube do Povo de Esgueira",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-galitos",
+"q": "Galitos Barreiro",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-illiabum",
+"q": "Illiabum Clube",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-povoa",
+"q": "Clube Desportivo da Póvoa",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-lusitania",
+"q": "Lusitânia Expresso",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-queluz",
+"q": "Sport Algés e Dafundo",
+"lang": "en",
+"site": null
+},
+{
+"key": "lpb-vasco",
+"q": "Vasco da Gama (Portugal)",
+"lang": "en",
+"site": null
+},
+{
+"key": "comp-wtcs",
+"q": "World Triathlon Championship Series",
+"lang": "en",
+"site": "https://triathlon.org/series/world_championship_series"
+},
+{
+"key": "comp-t100",
+"q": "T100 Triathlon World Tour",
+"lang": "en",
+"site": "https://www.t100triathlon.com/"
+},
+{
+"key": "comp-e1",
+"q": "E1 Series",
+"lang": "en",
+"site": "https://www.e1series.com/"
+},
+{
+"key": "comp-world-skate-games",
+"q": "World Skate Games",
+"lang": "en",
+"site": "https://www.worldskate.org/"
+},
+{
+"key": "comp-rws",
+"q": "Rajadamnern World Series",
+"lang": "en",
+"site": "https://www.rajadamnern.com/"
+},
+{
+"key": "comp-diski",
+"q": "DStv Diski Challenge",
+"lang": "en",
+"site": "https://www.psl.co.za/"
+},
+{
+"key": "comp-oceanman",
+"q": "Oceanman",
+"lang": "en",
+"site": "https://oceanmanswim.com/"
+},
+{
+"key": "comp-total-chess",
+"q": "Total Chess World Championship Tour",
+"lang": "en",
+"site": "https://www.totalchess.com/"
+},
+{
+"key": "comp-freestyle-friday",
+"q": "Freestyle Chess",
+"lang": "en",
+"site": "https://www.freestyle-chess.com/"
+},
+{
+"key": "comp-icc-wnt",
+"q": "ICC Women's Nations Trophy",
+"lang": "en",
+"site": "https://www.icc-cricket.com/"
+},
+{
+"key": "comp-legends-cup",
+"q": "Legends Cup football Arsenal Legends",
+"lang": "en",
+"site": "https://www.supersport.com/"
+},
+{
+"key": "comp-premier-padel",
+"q": "Premier Padel",
+"lang": "en",
+"site": "https://www.premierpadel.com/"
+},
+{
+"key": "comp-icc",
+"q": "International Cricket Council",
+"lang": "en",
+"site": "https://www.icc-cricket.com/"
+},
+{
+"key": "comp-one-championship",
+"q": "ONE Championship",
+"lang": "en",
+"site": "https://www.onefc.com/"
+},
+{
+"key": "comp-starligue",
+"q": "Liqui Moly StarLigue",
+"lang": "en",
+"site": "https://www.lnh.fr/"
+},
+{
+"key": "comp-lpb",
+"q": "Liga Portuguesa de Basquetebol",
+"lang": "en",
+"site": "https://www.fpb.pt/"
+},
+{
+"key": "comp-aflw",
+"q": "AFL Women's",
+"lang": "en",
+"site": "https://www.womens.afl/"
+},
+{
+"key": "comp-nwsl",
+"q": "National Women's Soccer League",
+"lang": "en",
+"site": "https://www.nwslsoccer.com/"
+},
+{
+"key": "comp-sport24",
+"q": "Sport 24 (TV channel)",
+"lang": "en",
+"site": "https://sport24live.com/"
+}
+]
