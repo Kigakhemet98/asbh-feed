@@ -1,61 +1,61 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-13T09:10:50.671Z",
+ "updated": "2026-11-13T09:13:25.145Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 350,
-   "at": "2026-11-13T09:08:48.136Z"
+   "at": "2026-11-13T09:11:32.924Z"
   },
   "bein": {
    "ok": true,
    "count": 100,
-   "at": "2026-11-13T09:08:49.643Z"
+   "at": "2026-11-13T09:11:35.222Z"
   },
   "nws": {
    "ok": true,
    "count": 59,
-   "at": "2026-11-13T09:08:52.355Z"
+   "at": "2026-11-13T09:11:37.896Z"
   },
   "azam": {
    "ok": true,
    "count": 4,
-   "at": "2026-11-13T09:09:00.532Z"
+   "at": "2026-11-13T09:11:38.400Z"
   },
   "startimes": {
    "ok": true,
    "count": 170,
-   "at": "2026-11-13T09:10:13.981Z"
+   "at": "2026-11-13T09:12:49.176Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-13T09:10:27.658Z"
+   "at": "2026-11-13T09:13:02.901Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-13T09:10:27.699Z"
+   "at": "2026-11-13T09:13:02.967Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-13T09:10:35.405Z"
+   "at": "2026-11-13T09:13:10.572Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T09:10:35.526Z"
+   "at": "2026-11-13T09:13:10.790Z"
   },
   "sport24": {
    "ok": true,
    "count": 90,
-   "at": "2026-11-13T09:10:37.233Z"
+   "at": "2026-11-13T09:13:12.404Z"
   }
  },
  "assignments": [
@@ -113,6 +113,30 @@
     "cp-sport-4"
    ],
    "source": "CANAL+ Afrique · AFCON 2027 qualifiers, group stage matchday 3"
+  },
+  {
+   "start": "2026-11-14T12:50:00.000Z",
+   "date": "2026-11-14",
+   "teams": [
+    "Valladolid",
+    "Castellon"
+   ],
+   "channels": [
+    "st-sports-life"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-14T14:00:00.000Z",
+   "date": "2026-11-14",
+   "teams": [
+    "Nemkov",
+    "Bilostenniy"
+   ],
+   "channels": [
+    "st-sports-arena"
+   ],
+   "source": "StarTimes guide (auto)"
   }
  ],
  "events": [
@@ -999,10 +1023,11 @@
    "comp": "Spanish League - Segunda Division",
    "detail": "Valladolid v Castellon",
    "channels": [
-    "bein-3"
+    "bein-3",
+    "st-sports-life"
    ],
    "status": "L",
-   "via": "beIN SPORTS guide",
+   "via": "beIN SPORTS guide · StarTimes guide",
    "home": "Valladolid",
    "away": "Castellon"
   },
@@ -1100,10 +1125,11 @@
    "comp": "PFL World Tournament",
    "detail": "Nemkov v Bilostenniy",
    "channels": [
-    "ss-action"
+    "ss-action",
+    "st-sports-arena"
    ],
    "status": "L",
-   "via": "SuperSport guide",
+   "via": "SuperSport guide · StarTimes guide",
    "home": "Nemkov",
    "away": "Bilostenniy"
   },
@@ -5885,6 +5911,31 @@
    ]
   },
   {
+   "id": "azam-1",
+   "num": "Azam TV 111",
+   "no": 111
+  },
+  {
+   "id": "azam-2",
+   "num": "Azam TV 112",
+   "no": 112
+  },
+  {
+   "id": "azam-3",
+   "num": "Azam TV 113",
+   "no": 113
+  },
+  {
+   "id": "azam-4",
+   "num": "Azam TV 114",
+   "no": 114
+  },
+  {
+   "id": "azam-5",
+   "num": "Azam TV 115",
+   "no": 115
+  },
+  {
    "id": "ss-swahili",
    "num": "DStv 216",
    "no": 216,
@@ -6295,7 +6346,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-13T09:10:48.945Z",
+   "checked": "2026-11-13T09:13:22.139Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6323,7 +6374,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-13T09:10:49.876Z",
+   "checked": "2026-11-13T09:13:24.277Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6344,7 +6395,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-13T09:10:50.671Z",
+   "checked": "2026-11-13T09:13:25.145Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
