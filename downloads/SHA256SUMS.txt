@@ -1,2 +1,2 @@
-e2ea57328e8c84949a5f2e5fd65c64b1cdee575b7d4df0ab19b06e7a08e20921  AfricanSportsBroadcastHub-2.2.5.apk
-6861c24f65cde964b0ed8d5f8dc128612f78ed36e1adffa5fc6ed68afe4c762f  ASBH-Setup-2.2.5.exe
+e4809f243c861425337c814f2e0b215c6f4ef1dc00f65af66a9001a2ab218497  AfricanSportsBroadcastHub-2.2.6.apk
+3c0e7546f3e9855eb8d6d50a8a86b4c80e3bd1e7450501efca08176f67e471df  ASBH-Setup-2.2.6.exe
