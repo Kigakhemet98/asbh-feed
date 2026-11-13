@@ -15,6 +15,10 @@ Free and non-commercial, with no ads. Please download, test and **send feedback 
 
 The Windows installer is split in two because GitHub limits repository files to 100 MB. Checksums are in [`downloads/SHA256SUMS.txt`](downloads/SHA256SUMS.txt). Matches, channels and numbers update **over the air** from `feed.json`, so a reinstall is only needed for new app features.
 
+## What's new in 2.2.8 (13 Nov 2026)
+
+- **Zuku TV** added (logo, landing page, channel list): new **Punch TV** combat-sports channel (714), Liverpool TV (721), plus ESPN 712/713 and SportyTV 720 on Zuku, with packages.
+
 ## What's new in 2.2.7 (13 Nov 2026)
 
 - ESPN Africa channel numbers on every platform (DStv, Azam, StarTimes, Zuku, ZAP, GOtv) and landing pages, incl. Disney+ South Africa.
@@ -280,7 +284,7 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 | [DStv](https://dstv.stream/#/) (flagship) | 218 | 219 | Across Africa |
 | [Azam TV](https://web.azamtvmax.com) | 120 | 121 | East & Southern Africa |
 | [StarTimes](https://m.startimestv.com/browser/live) | 248 | 249 | Across Africa |
-| [Zuku](https://zuku.co.ke) (Wananchi) | 712 | 713 | Kenya & East Africa |
+| [Zuku](https://zuku.co.ke) (Wananchi) | 712 (Smart and up) | 713 (Smart Plus and up) | Kenya & East Africa |
 | [ZAP](https://www.zap.co.ao) | 31 | 32 | Angola & Mozambique |
 | [GOtv](https://www.gotvafrica.com) | 556 Kenya · 356 Uganda (Starter and up) | 357 Uganda (Sports) | Kenya, Uganda |
 | [Disney+](https://www.disneyplus.com/en-za) | live channel | live channel | South Africa |
@@ -326,7 +330,7 @@ Source: [ESPN Africa](https://africa.espn.com/espn/story/_/id/49791245/espn-chan
 
 | Logo | Channel | Number |
 |:---:|---|---|
-| <img src="logos/readme/channels/sportytv.png" alt="SportyTV" height="28"> | SportyTV (South Africa · Nigeria · Kenya · Ghana) | DStv 237 · 236 |
+| <img src="logos/readme/channels/sportytv.png" alt="SportyTV" height="28"> | SportyTV (South Africa · Nigeria · Kenya · Ghana) | DStv 237 · 236 · Zuku 720 |
 
 **On GOtv**
 
@@ -442,6 +446,31 @@ Source: [ESPN Africa](https://africa.espn.com/espn/story/_/id/49791245/espn-chan
 | <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/sport24-extra-on-dark.png"><img src="logos/readme/channels/sport24-extra-on-light.png" alt="Sport 24 Extra" height="28"></picture> | Sport 24 Extra | In flight · At sea |
 
 - In-flight and at-sea only (no home TV in Africa). Rights (sport24live.com/about): UEFA Champions League, Europa League, Conference League, Nations League, Premier League, Ligue 1, Saudi Pro League, Women's Super League, Copa Libertadores, AFC Asian Cup, FIFA World Cup 26; Australian Open, Roland-Garros, Wimbledon, US Open, ATP Masters 1000 & ATP Finals; the Masters, The Open, PGA Tour, DP World Tour, LIV Golf, Ryder Cup; NFL, NBA, NHL; ICC Men's T20 World Cup, the Ashes, BBL; Rugby League World Cup, NRL, SVNS, Champions Cup; F1, MotoGP, SailGP, EuroLeague, BWF, AFL, horse racing majors. Live slots come from its 10-day schedule.
+
+### Zuku TV
+
+<img src="logos/readme/providers/zuku.png" alt="Zuku TV" height="40">
+
+*Satellite pay-TV · Kenya & East Africa (Wananchi Group) · sports: ESPN, ESPN 2, Punch TV, SportyTV, Liverpool TV*
+
+- **Watch:** [Zuku TV](https://zuku.co.ke) · [Channel list](https://zuku.co.ke/channel-list/)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/zuku-punch-tv-on-dark.png"><img src="logos/readme/channels/zuku-punch-tv-on-light.png" alt="Punch TV" height="28"></picture> | Punch TV | Zuku 714 |
+| <img src="logos/readme/channels/zuku-lfctv.png" alt="Liverpool TV" height="28"> | Liverpool TV | Zuku 721 |
+
+**Sports channels on Zuku** ([channel list](https://zuku.co.ke/channel-list/) – packages: Smart KSh 449 · Smart Plus KSh 600 · Classic KSh 1,099 · Premium KSh 1,549)
+
+| Channel | Zuku | Package |
+|---|---|---|
+| ESPN | 712 | Smart and up |
+| ESPN 2 | 713 | Smart Plus and up |
+| Punch TV | 714 | Smart and up |
+| SportyTV | 720 | Smart and up |
+| Liverpool TV | 721 | Premium |
+
+- Sports rights on Zuku come through its channels: **Punch TV** (new, channel 714) – MMA, boxing, wrestling, kickboxing and other combat sports, live; **ESPN / ESPN 2** – NBA, NFL, MLB, Saudi Pro League, Top 14 and Japan Rugby League One; **SportyTV** – selected Premier League, LaLiga, Bundesliga, Serie A, Carabao Cup, NBA and combat sports; **Liverpool TV** (LFCTV) – Liverpool FC club channel. Zuku publishes no live TV guide, so matches are listed from the channels' own rights.
 
 ### NFL Game Pass
 

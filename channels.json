@@ -760,7 +760,7 @@
   "name": "SportyTV",
   "provider": "sportytv",
   "providerName": "Sporty TV",
-  "num": "DStv 237 · 236"
+  "num": "DStv 237 · 236 · Zuku 720"
  },
  {
   "id": "zsports-1",
@@ -831,5 +831,19 @@
   "provider": "sport24",
   "providerName": "Sport 24",
   "num": "In flight · At sea"
+ },
+ {
+  "id": "zuku-punch",
+  "name": "Punch TV",
+  "provider": "zuku",
+  "providerName": "Zuku TV",
+  "num": "Zuku 714"
+ },
+ {
+  "id": "zuku-lfctv",
+  "name": "Liverpool TV",
+  "provider": "zuku",
+  "providerName": "Zuku TV",
+  "num": "Zuku 721"
  }
 ]
