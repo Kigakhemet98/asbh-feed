@@ -1,7 +1,40 @@
 [
  {
-  "key": "ch-ontime-sports",
-  "q": "ON Time Sports",
-  "wikiError": "no image on Sports Time"
+  "key": "plat-gotv",
+  "q": "GOtv",
+  "title": "Get out the vote",
+  "file": "plat-gotv.jpg",
+  "image": "Campaign_Signs_DSC02551_(1905616979).jpg",
+  "site": [
+   "plat-gotv-site1.png",
+   "plat-gotv-site2.png",
+   "plat-gotv-site3.png",
+   "plat-gotv-site4.png",
+   "plat-gotv-site5.png"
+  ]
+ },
+ {
+  "key": "plat-zap",
+  "q": "ZAP (Angola)",
+  "title": "ZAP (satellite television)",
+  "file": "plat-zap.png",
+  "image": "ZAP_logo.png",
+  "site": [
+   "plat-zap-site1.ico",
+   "plat-zap-site2.png",
+   "plat-zap-site3.png",
+   "plat-zap-site4.png"
+  ]
+ },
+ {
+  "key": "plat-azamtv",
+  "q": "Azam TV",
+  "wikiError": "no image on Azam TV",
+  "site": [
+   "plat-azamtv-site1.png",
+   "plat-azamtv-site2.png",
+   "plat-azamtv-site3.png",
+   "plat-azamtv-site5.png"
+  ]
  }
 ]
