@@ -1,61 +1,61 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-13T09:13:25.145Z",
+ "updated": "2026-11-13T09:19:18.490Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 350,
-   "at": "2026-11-13T09:11:32.924Z"
+   "at": "2026-11-13T09:17:21.527Z"
   },
   "bein": {
    "ok": true,
    "count": 100,
-   "at": "2026-11-13T09:11:35.222Z"
+   "at": "2026-11-13T09:17:23.506Z"
   },
   "nws": {
    "ok": true,
    "count": 59,
-   "at": "2026-11-13T09:11:37.896Z"
+   "at": "2026-11-13T09:17:26.336Z"
   },
   "azam": {
    "ok": true,
    "count": 4,
-   "at": "2026-11-13T09:11:38.400Z"
+   "at": "2026-11-13T09:17:33.583Z"
   },
   "startimes": {
    "ok": true,
    "count": 170,
-   "at": "2026-11-13T09:12:49.176Z"
+   "at": "2026-11-13T09:18:47.355Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-13T09:13:02.901Z"
+   "at": "2026-11-13T09:19:01.037Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-13T09:13:02.967Z"
+   "at": "2026-11-13T09:19:01.131Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-13T09:13:10.572Z"
+   "at": "2026-11-13T09:19:07.552Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T09:13:10.790Z"
+   "at": "2026-11-13T09:19:07.748Z"
   },
   "sport24": {
    "ok": true,
    "count": 90,
-   "at": "2026-11-13T09:13:12.404Z"
+   "at": "2026-11-13T09:19:09.103Z"
   }
  },
  "assignments": [
@@ -5780,6 +5780,52 @@
    ]
   },
   {
+   "id": "espn",
+   "name": "ESPN Africa",
+   "note": "Flagship on DStv, no longer DStv-exclusive · also on GOtv, Azam TV, StarTimes, Zuku, ZAP and Disney+ (South Africa)",
+   "regions": [
+    "east",
+    "south",
+    "west",
+    "luso"
+   ],
+   "url": "https://africa.espn.com",
+   "links": [
+    {
+     "label": "ESPN Africa",
+     "url": "https://africa.espn.com"
+    },
+    {
+     "label": "DStv Stream",
+     "url": "https://dstv.stream/#/"
+    },
+    {
+     "label": "GOtv",
+     "url": "https://www.gotvafrica.com"
+    },
+    {
+     "label": "Azam TV Max",
+     "url": "https://web.azamtvmax.com"
+    },
+    {
+     "label": "StarTimes ON",
+     "url": "https://m.startimestv.com/browser/live"
+    },
+    {
+     "label": "Zuku",
+     "url": "https://zuku.co.ke"
+    },
+    {
+     "label": "ZAP",
+     "url": "https://www.zap.co.ao"
+    },
+    {
+     "label": "Disney+ (South Africa)",
+     "url": "https://www.disneyplus.com/en-za"
+    }
+   ]
+  },
+  {
    "id": "sportytv",
    "name": "Sporty TV",
    "note": "SportyTV channel on DStv & GOtv (since 10 June 2026) · Sporty app",
@@ -5908,6 +5954,24 @@
    "gotv": [
     "558 (Kenya) · 58 (Nigeria) · 36 (Ghana)",
     "GOtv Starter and up"
+   ]
+  },
+  {
+   "id": "espn",
+   "num": "DStv 218 · Azam 120 · StarTimes 248 · Zuku 712 · ZAP 31",
+   "no": 218,
+   "gotv": [
+    "556 (Kenya) · 356 (Uganda)",
+    "GOtv Starter and up"
+   ]
+  },
+  {
+   "id": "espn2",
+   "num": "DStv 219 · Azam 121 · StarTimes 249 · Zuku 713 · ZAP 32",
+   "no": 219,
+   "gotv": [
+    "357 (Uganda)",
+    "GOtv Sports"
    ]
   },
   {
@@ -6346,7 +6410,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-13T09:13:22.139Z",
+   "checked": "2026-11-13T09:19:16.740Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6374,7 +6438,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-13T09:13:24.277Z",
+   "checked": "2026-11-13T09:19:17.706Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6395,7 +6459,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-13T09:13:25.145Z",
+   "checked": "2026-11-13T09:19:18.490Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
