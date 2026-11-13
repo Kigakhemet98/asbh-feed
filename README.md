@@ -4,16 +4,21 @@ The live data feed for **African Sports Broadcast Hub**, the Windows and Android
 
 The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they refresh (about every 15 minutes), so changes reach every installed app over the air, with no reinstall.
 
-## ⬇️ Download the apps (latest: 2.2.4)
+## ⬇️ Download the apps (latest: 2.2.5)
 
 Free and non-commercial, with no ads. Please download, test and **send feedback by opening an [Issue](https://github.com/Kigakhemet98/asbh-feed/issues)**.
 
 | Platform | Download | How to install |
 |---|---|---|
-| **Android** | [AfricanSportsBroadcastHub-2.2.4.apk](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/AfricanSportsBroadcastHub-2.2.4.apk) (48 MB) | Open it on your phone and allow *Install unknown apps* when asked. It installs over older versions and keeps your reminders. |
-| **Windows 10/11** | [part 0](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.4.exe.part0) · [part 1](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.4.exe.part1) · [join-windows-2.2.4.bat](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/join-windows-2.2.4.bat) (128 MB in total) | Put all three files in one folder and double-click **join-windows-2.2.4.bat**. It rebuilds `ASBH-Setup-2.2.4.exe`, checks it and starts the installer. If SmartScreen appears, choose *More info → Run anyway* (the installer isn't code-signed). |
+| **Android** | [AfricanSportsBroadcastHub-2.2.5.apk](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/AfricanSportsBroadcastHub-2.2.5.apk) (48 MB) | Open it on your phone and allow *Install unknown apps* when asked. It installs over older versions and keeps your reminders. |
+| **Windows 10/11** | [part 0](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.5.exe.part0) · [part 1](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.5.exe.part1) · [join-windows-2.2.5.bat](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/join-windows-2.2.5.bat) (128 MB in total) | Put all three files in one folder and double-click **join-windows-2.2.5.bat**. It rebuilds `ASBH-Setup-2.2.5.exe`, checks it and starts the installer. If SmartScreen appears, choose *More info → Run anyway* (the installer isn't code-signed). |
 
 The Windows installer is split in two because GitHub limits repository files to 100 MB. Checksums are in [`downloads/SHA256SUMS.txt`](downloads/SHA256SUMS.txt). Matches, channels and numbers update **over the air** from `feed.json`, so a reinstall is only needed for new app features.
+
+## What's new in 2.2.5 (13 Nov 2026)
+
+- **SportyTV** linear channel on DStv (236 South Africa & Nigeria, 237 Kenya & Ghana) and GOtv (58 Kenya & Nigeria, 36 Ghana), launched 10 June 2026 – in both apps and over the air.
+- SuperSport Swahili DStv 216; GOtv and DStv package lists (November 2026).
 
 ## What's new in 2.2.3 (13 Nov 2026)
 
@@ -283,15 +288,21 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 
 <img src="logos/readme/providers/sportytv.png" alt="Sporty TV" height="40">
 
-*Sporty app (video only)*
+*SportyTV channel on DStv & GOtv (since 10 June 2026) · Sporty app*
 
-- **Watch:** [Sporty TV](https://sporty.com/)
+- **Watch:** [SportyTV on DStv](https://www.dstv.com/en-ke/news/146550/sportytv-is-now-live-on-dstv-watch-live-sports-for-less/) · [DStv Stream](https://dstv.stream/#/) · [Sporty](https://sporty.com/)
 
 | Logo | Channel | Number |
 |:---:|---|---|
-| <img src="logos/readme/channels/sportytv.png" alt="Sporty TV" height="28"> | Sporty TV | — |
+| <img src="logos/readme/channels/sportytv.png" alt="SportyTV" height="28"> | SportyTV (South Africa · Nigeria · Kenya · Ghana) | DStv 237 · 236 |
 
-- Live video in the Sporty app.
+**On GOtv**
+
+| Logo | Channel | GOtv | Package |
+|:---:|---|---|---|
+| <img src="logos/readme/channels/sportytv.png" alt="SportyTV" height="28"> | SportyTV | 58 (Kenya, Nigeria) · 36 (Ghana) | GOtv Value (Kenya) · Jolli (Nigeria) |
+
+- 24/7 SportyTV channel on DStv and GOtv since 10 June 2026 (DStv 236 in South Africa and Nigeria, 237 in Kenya and Ghana; GOtv 58 in Kenya and Nigeria, 36 in Ghana), plus live video in the Sporty app. Shows selected Premier League, LaLiga, Bundesliga, Serie A, Carabao Cup and Women's FA Cup matches, Copa Libertadores, Brazil Série A, NBA and combat sports, plus Real Madrid TV, Arsenal TV, Chelsea TV and Man City TV content; in South Africa it carried the 2026 FIFA World Cup. No public TV guide, so matches are listed when announced.
 
 ### ZAP
 
