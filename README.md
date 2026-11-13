@@ -9,9 +9,9 @@ The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they ref
 Free and non-commercial, with no ads. Please download, test and **send feedback by opening an [Issue](https://github.com/Kigakhemet98/asbh-feed/issues)**.
 
 | Platform | Download | How to install |
-|---|---|---|
-| **Android** | [AfricanSportsBroadcastHub-2.2.8.apk](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/AfricanSportsBroadcastHub-2.2.8.apk) (48 MB) | Open it on your phone and allow *Install unknown apps* when asked. It installs over older versions and keeps your reminders. |
-| **Windows 10/11** | [part 0](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.8.exe.part0) · [part 1](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.8.exe.part1) · [join-windows-2.2.8.bat](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/join-windows-2.2.8.bat) (128 MB in total) | Put all three files in one folder and double-click **join-windows-2.2.8.bat**. It rebuilds `ASBH-Setup-2.2.8.exe`, checks it and starts the installer. If SmartScreen appears, choose *More info → Run anyway* (the installer isn't code-signed). |
+|:---:|---|---|
+| <img src="logos/readme/os/android.svg" alt="Android" height="40"><br>**Android 17** | [AfricanSportsBroadcastHub-2.2.8.apk](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/AfricanSportsBroadcastHub-2.2.8.apk) (48 MB) | Open it on your phone and allow *Install unknown apps* when asked. It installs over older versions and keeps your reminders. |
+| <img src="logos/readme/os/windows.svg" alt="Windows 11" height="40"><br>**Windows 11** | [part 0](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.8.exe.part0) · [part 1](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/ASBH-Setup-2.2.8.exe.part1) · [join-windows-2.2.8.bat](https://github.com/Kigakhemet98/asbh-feed/raw/main/downloads/join-windows-2.2.8.bat) (128 MB in total) | Put all three files in one folder and double-click **join-windows-2.2.8.bat**. It rebuilds `ASBH-Setup-2.2.8.exe`, checks it and starts the installer. If SmartScreen appears, choose *More info → Run anyway* (the installer isn't code-signed). |
 
 The Windows installer is split in two because GitHub limits repository files to 100 MB. Checksums are in [`downloads/SHA256SUMS.txt`](downloads/SHA256SUMS.txt). Matches, channels and numbers update **over the air** from `feed.json`, so a reinstall is only needed for new app features.
 
@@ -137,7 +137,7 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 
 ### StarTimes
 
-<img src="logos/readme/providers/startimes.png" alt="StarTimes" height="40">
+<picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/providers/startimes-dark.png"><img src="logos/readme/providers/startimes.png" alt="StarTimes" height="40"></picture>
 
 *StarTimes ON · DTT · DTH*
 
@@ -449,7 +449,7 @@ Source: [ESPN Africa](https://africa.espn.com/espn/story/_/id/49791245/espn-chan
 
 ### Zuku TV
 
-<img src="logos/readme/providers/zuku.png" alt="Zuku TV" height="40">
+<picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/providers/zuku-dark.png"><img src="logos/readme/providers/zuku.png" alt="Zuku TV" height="40"></picture>
 
 *Satellite pay-TV · Kenya & East Africa (Wananchi Group) · sports: ESPN, ESPN 2, Punch TV, SportyTV, Liverpool TV*
 
@@ -460,15 +460,15 @@ Source: [ESPN Africa](https://africa.espn.com/espn/story/_/id/49791245/espn-chan
 | <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/zuku-punch-tv-on-dark.png"><img src="logos/readme/channels/zuku-punch-tv-on-light.png" alt="Punch TV" height="28"></picture> | Punch TV | Zuku 714 |
 | <img src="logos/readme/channels/zuku-lfctv.png" alt="Liverpool TV" height="28"> | Liverpool TV | Zuku 721 |
 
-**Sports channels on Zuku** ([channel list](https://zuku.co.ke/channel-list/) – packages: Smart KSh 449 · Smart Plus KSh 600 · Classic KSh 1,099 · Premium KSh 1,549)
+**Sports channels on Zuku** ([channel list](https://zuku.co.ke/channel-list/) – packages: Smart · Smart Plus · Classic · Premium)
 
 | Channel | Zuku | Package |
-|---|---|---|
-| ESPN | 712 | Smart and up |
-| ESPN 2 | 713 | Smart Plus and up |
-| Punch TV | 714 | Smart and up |
-| SportyTV | 720 | Smart and up |
-| Liverpool TV | 721 | Premium |
+|:---:|---|---|
+| <img src="logos/readme/channels/espn-africa.png" alt="ESPN" height="28"> | 712 | Smart and up |
+| <img src="logos/readme/channels/espn2-africa.png" alt="ESPN 2" height="28"> | 713 | Smart Plus and up |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/zuku-punch-tv-on-dark.png"><img src="logos/readme/channels/zuku-punch-tv-on-light.png" alt="Punch TV" height="28"></picture> | 714 | Smart and up |
+| <img src="logos/readme/channels/sportytv.png" alt="SportyTV" height="28"> | 720 | Smart and up |
+| <img src="logos/readme/channels/zuku-lfctv.png" alt="Liverpool TV" height="28"> | 721 | Premium |
 
 - Sports rights on Zuku come through its channels: **Punch TV** (new, channel 714) – MMA, boxing, wrestling, kickboxing and other combat sports, live; **ESPN / ESPN 2** – NBA, NFL, MLB, Saudi Pro League, Top 14 and Japan Rugby League One; **SportyTV** – selected Premier League, LaLiga, Bundesliga, Serie A, Carabao Cup, NBA and combat sports; **Liverpool TV** (LFCTV) – Liverpool FC club channel. Zuku publishes no live TV guide, so matches are listed from the channels' own rights.
 
