@@ -8,6 +8,7 @@ The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they ref
 
 - **DAZN schedule** documented here: the apps read DAZN's live 10-day schedule on the device (DAZN blocks requests from GitHub's servers).
 - Broadcaster and channel logos in this README.
+- SuperSport Swahili: **DStv 216 · GOtv 570 or 370** (East Africa – Kenya, Uganda; DStv Select in Tanzania).
 
 - SuperSport's landing page is now **DStv Stream – [dstv.stream](https://dstv.stream/#/)** (DStv and SuperSport.com stay as extra links).
 - EuroLeague 2026-27 club crests (all 20 teams, plus AS Monaco).
@@ -35,6 +36,7 @@ Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links g
 |:---:|---|---|
 | <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | DStv 128 · ROA 226 |
 | <img src="logos/readme/channels/ss-events.png" alt="SuperSport Events" height="28"> | SuperSport Events | DStv 199 |
+| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili (East Africa – Kenya · Uganda · Tanzania) | DStv 216 · GOtv 570 or 370 (East Africa) |
 | <img src="logos/readme/channels/ss-extra-2.png" alt="SuperSport Extra 2" height="28"> | SuperSport Extra 2 | DStv 217 · South Africa only |
 | <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | DStv 220 · 200 |
 | <img src="logos/readme/channels/ss-grandstand.png" alt="SuperSport Grandstand" height="28"> | SuperSport Grandstand | DStv 221 · 201 |
@@ -53,7 +55,6 @@ Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links g
 | <img src="logos/readme/channels/ss-motorsport.png" alt="SuperSport Motorsport" height="28"> | SuperSport Motorsport | DStv 235 · 215 |
 | <img src="logos/readme/channels/ss-maximo-1.png" alt="SuperSport Máximo 1" height="28"> | SuperSport Máximo 1 | DStv 241 · Angola/Moz 601 |
 | <img src="logos/readme/channels/ss-maximo-2.png" alt="SuperSport Máximo 2" height="28"> | SuperSport Máximo 2 | DStv 242 · Angola/Moz 602 |
-| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili (Kenya · Uganda · Tanzania) | DStv / GOtv East Africa |
 | <img src="logos/readme/channels/ss-stream-244.png" alt="SuperSport AWSN" height="28"> | SuperSport AWSN | DStv Stream 244 |
 | <img src="logos/readme/channels/ss-stream-245.png" alt="SuperSport Stream 245" height="28"> | SuperSport Stream 245 | DStv Stream 245 |
 | <img src="logos/readme/channels/ss-stream-246.png" alt="SuperSport Stream 246" height="28"> | SuperSport Stream 246 | DStv Stream 246 |
