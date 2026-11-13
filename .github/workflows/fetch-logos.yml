@@ -15,6 +15,14 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          # the app downloads (downloads/) are not needed to build the feed
+          sparse-checkout: |
+            .github
+            calendars
+            logos
+            scripts
+            state
       - uses: actions/setup-node@v4
         with:
           node-version: 20
