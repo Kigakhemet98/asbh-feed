@@ -1,61 +1,61 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-13T09:32:43.908Z",
+ "updated": "2026-11-13T09:35:08.926Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 350,
-   "at": "2026-11-13T09:30:06.802Z"
+   "at": "2026-11-13T09:33:18.225Z"
   },
   "bein": {
    "ok": true,
    "count": 99,
-   "at": "2026-11-13T09:30:08.320Z"
+   "at": "2026-11-13T09:33:20.504Z"
   },
   "nws": {
    "ok": true,
    "count": 59,
-   "at": "2026-11-13T09:30:10.703Z"
+   "at": "2026-11-13T09:33:22.474Z"
   },
   "azam": {
    "ok": true,
    "count": 4,
-   "at": "2026-11-13T09:30:20.552Z"
+   "at": "2026-11-13T09:33:30.609Z"
   },
   "startimes": {
    "ok": true,
    "count": 170,
-   "at": "2026-11-13T09:31:31.806Z"
+   "at": "2026-11-13T09:34:40.769Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-13T09:31:45.407Z"
+   "at": "2026-11-13T09:34:54.395Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-13T09:31:45.486Z"
+   "at": "2026-11-13T09:34:54.420Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-13T09:31:52.147Z"
+   "at": "2026-11-13T09:35:00.845Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T09:31:52.274Z"
+   "at": "2026-11-13T09:35:00.975Z"
   },
   "sport24": {
    "ok": true,
    "count": 90,
-   "at": "2026-11-13T09:32:32.715Z"
+   "at": "2026-11-13T09:35:02.029Z"
   }
  },
  "assignments": [
@@ -6478,7 +6478,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-13T09:32:42.003Z",
+   "checked": "2026-11-13T09:35:07.003Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6506,7 +6506,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-13T09:32:43.059Z",
+   "checked": "2026-11-13T09:35:08.089Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6527,7 +6527,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-13T09:32:43.907Z",
+   "checked": "2026-11-13T09:35:08.925Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
