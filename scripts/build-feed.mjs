@@ -21,7 +21,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { createRequire } from 'node:module';
-/* same listing clean-up as the apps (web/js/clean.js – keep the two copies identical) */
+/* same listing clean-up as the apps (web/js/clean.js, saved here as clean.cjs – keep the two copies identical) */
 const CLEAN = createRequire(import.meta.url)('./clean.js');
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -342,6 +342,11 @@ const S24_SPORT = { 'football': 'football', 'soccer': 'football', 'ice hockey': 
   'cricket': 'cricket', 'rugby': 'rugby', 'rugby league': 'rugby', 'rugby union': 'rugby', 'baseball': 'mlb', 'motorsport': 'f1', 'formula 1': 'f1', 'motogp': 'motogp', 'aussie rules': 'afl', 'afl': 'afl', 'boxing': 'boxing', 'mma': 'mma', 'cycling': 'cycling', 'athletics': 'athletics' };
 const S24_UP = new Set(['UEFA', 'NFL', 'NBA', 'NHL', 'ATP', 'WTA', 'AFC', 'ICC', 'PGA', 'DP', 'LIV', 'MLB', 'F1', 'UFC', 'AFL', 'NRL', 'BWF', 'HSBC', 'FIFA', 'T20', 'ODI', 'SVNS', 'WSL', 'EFL', 'FA', 'US', 'LPGA']);
 const s24Title = (t) => String(t || '').toLowerCase().replace(/[a-z0-9®'’]+/g, (w) => { const u = w.toUpperCase().replace(/®/g, ''); return S24_UP.has(u) ? u : w.charAt(0).toUpperCase() + w.slice(1); }).replace(/®/g, '').trim();
+const S24_NHL = { 'anaheim': 'Ducks', 'boston': 'Bruins', 'buffalo': 'Sabres', 'calgary': 'Flames', 'carolina': 'Hurricanes', 'chicago': 'Blackhawks', 'colorado': 'Avalanche',
+  'columbus': 'Blue Jackets', 'dallas': 'Stars', 'detroit': 'Red Wings', 'edmonton': 'Oilers', 'florida': 'Panthers', 'la': 'Kings', 'los angeles': 'Kings', 'minnesota': 'Wild',
+  'montreal': 'Canadiens', 'nashville': 'Predators', 'new jersey': 'Devils', 'nj': 'Devils', 'ny islanders': 'Islanders', 'ny rangers': 'Rangers', 'ottawa': 'Senators',
+  'philadelphia': 'Flyers', 'pittsburgh': 'Penguins', 'san jose': 'Sharks', 'seattle': 'Kraken', 'st louis': 'Blues', 'st. louis': 'Blues', 'tampa bay': 'Lightning', 'tampa': 'Lightning',
+  'toronto': 'Maple Leafs', 'utah': 'Mammoth', 'vancouver': 'Canucks', 'vegas': 'Golden Knights', 'washington': 'Capitals', 'winnipeg': 'Jets' };
 async function sport24() {
   const out = []; const seen = new Map();
   for (let i = 0; i < DAYS; i++) {
@@ -355,6 +360,7 @@ async function sport24() {
       let comp = s24Title(x.title1); let detail = String(x.title2 || '').trim();
       const st = /^(.{2,40}?) - (.+ (?:v|vs|@) .+)$/i.exec(detail); if (st) { comp += ' · ' + st[1]; detail = st[2]; }
       if (SKIP.test(detail) || SKIP.test(comp)) continue;
+      if (sport === 'hockey') detail = detail.split(' @ ').map((t) => S24_NHL[t.trim().toLowerCase()] || t.trim()).join(' @ ');
       const ch = x.extra || /extra/i.test(x.supplier || '') ? 's24-extra' : 's24';
       const where = /sea/i.test(feed) ? 'At sea' : 'In flight';
       const k = t + '|' + ch + '|' + detail.toLowerCase();
@@ -441,7 +447,10 @@ const slug = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCa
 const norm = (s) => { let x = slug(s); x = ALIAS[x] || x; return x.split(' ').filter((w) => w && !DROP.test(w)).join(' '); };
 const sameTeam = (a, b) => { const x = norm(a), y = norm(b); if (!x || !y) return false; if (x === y) return true;
   const short = x.length < y.length ? x : y, long = x.length < y.length ? y : x; return short.length >= 4 && (long.includes(short) || short.split(' ').every((w) => w.length >= 4 && long.split(' ').includes(w))); };
-const sides = (e) => { if (e.home && e.away) return [e.home, e.away]; const m = / v(?:s\.?)? /i.exec(e.detail || ''); return m ? [e.detail.slice(0, m.index), e.detail.slice(m.index + m[0].length)] : null; };
+const sides = (e) => { if (e.home && e.away) return [e.home, e.away]; const d = e.detail || '';
+  const at = / @ /.exec(d); if (at) return [d.slice(at.index + 3), d.slice(0, at.index)];   // US style "Away @ Home"
+  const m = / v(?:s\.?)? /i.exec(d); return m ? [d.slice(0, m.index), d.slice(m.index + m[0].length)] : null; };
+const NO_TEAMS = new Set(['golf', 'tennis', 'f1', 'motogp', 'wec', 'wrc', 'nascar', 'supercars', 'superbikes', 'cycling', 'athletics', 'aquatics', 'other']);
 const sameMatch = (a, b) => { const s = sides(a), o = sides(b); if (!s || !o) return false; return (sameTeam(s[0], o[0]) && sameTeam(s[1], o[1])) || (sameTeam(s[0], o[1]) && sameTeam(s[1], o[0])); };
 
 /* ---------- run ---------- */
@@ -474,7 +483,7 @@ for (const name of ['supersport', 'bein', 'azam', 'azamtv', 'nws', 'mlbApple', '
      Sources run in trust order, so the first (SuperSport / beIN) keeps its kick-off time. */
   const twin = events.find((x) => x.sport === e.sport && ((sides(e) && Math.abs(+new Date(x.start) - t) <= 4 * 3600e3 && sameMatch(x, e)) || (!sides(e) && Math.abs(+new Date(x.start) - t) <= 45 * 60e3 && x.detail === e.detail)
     /* a generic session block ("WTA Finals - Indian Wells") joins the real session of that event starting within 90 min */
-    || (!sides(e) && !sides(x) && Math.abs(+new Date(x.start) - t) <= 90 * 60e3 && slug(x.comp || '').split(' ')[0] && slug(x.comp || '').split(' ')[0] === slug(e.comp || '').split(' ')[0])));
+    || (NO_TEAMS.has(e.sport) && !sides(e) && !sides(x) && Math.abs(+new Date(x.start) - t) <= 90 * 60e3 && slug(x.comp || '').split(' ')[0] && slug(x.comp || '').split(' ')[0] === slug(e.comp || '').split(' ')[0])));
   if (twin) { twin.channels = [...new Set(twin.channels.concat(e.channels))]; if (!twin.comp && e.comp) twin.comp = e.comp; twin.via = [...new Set(String(twin.via).split(' · ').concat(e.via))].join(' · '); continue; }
   events.push({ ...e });
 }
