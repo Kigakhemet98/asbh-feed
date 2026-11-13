@@ -19,6 +19,7 @@ The Windows installer is split in two because GitHub limits repository files to 
 
 - SportyTV on GOtv from **Starter** up in every GOtv region (Kenya 558, Nigeria 58, Ghana 36).
 - Azam Sports 1–5 HD numbered 111–115.
+- ESPN Africa is no longer DStv-exclusive: ESPN / ESPN 2 numbers on DStv, Azam, StarTimes, Zuku, ZAP and GOtv, plus Disney+ (South Africa), with landing pages for each.
 
 ## What's new in 2.2.5 (13 Nov 2026)
 
@@ -259,14 +260,35 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 
 <img src="logos/readme/providers/espn.png" alt="ESPN Africa" height="40">
 
-*DStv · StarSat · Disney+ (SA)*
+*Flagship on DStv, no longer DStv-exclusive · also on GOtv, Azam TV, StarTimes, Zuku, ZAP and Disney+ (South Africa)*
 
-- **Watch:** [ESPN Africa](https://africa.espn.com) · [Disney+](https://www.disneyplus.com/en-za) · [DStv](https://www.dstv.com)
+- **Watch:** [ESPN Africa](https://africa.espn.com) · [DStv Stream](https://dstv.stream/#/) · [GOtv](https://www.gotvafrica.com) · [Azam TV Max](https://web.azamtvmax.com) · [StarTimes ON](https://m.startimestv.com/browser/live) · [Zuku](https://zuku.co.ke) · [ZAP](https://www.zap.co.ao) · [Disney+ (South Africa)](https://www.disneyplus.com/en-za)
 
 | Logo | Channel | Number |
 |:---:|---|---|
-| <img src="logos/readme/channels/espn-africa.png" alt="ESPN" height="28"> | ESPN | DStv 218 |
-| <img src="logos/readme/channels/espn2-africa.png" alt="ESPN 2" height="28"> | ESPN 2 | DStv 219 |
+| <img src="logos/readme/channels/espn-africa.png" alt="ESPN" height="28"> | ESPN | DStv 218 · Azam 120 · StarTimes 248 · Zuku 712 · ZAP 31 |
+| <img src="logos/readme/channels/espn2-africa.png" alt="ESPN 2" height="28"> | ESPN 2 | DStv 219 · Azam 121 · StarTimes 249 · Zuku 713 · ZAP 32 |
+
+**Where to find ESPN and ESPN 2**
+
+| Platform | ESPN | ESPN 2 | Where |
+|---|---|---|---|
+| [DStv](https://dstv.stream/#/) (flagship) | 218 | 219 | Across Africa |
+| [Azam TV](https://web.azamtvmax.com) | 120 | 121 | East & Southern Africa |
+| [StarTimes](https://m.startimestv.com/browser/live) | 248 | 249 | Across Africa |
+| [Zuku](https://zuku.co.ke) (Wananchi) | 712 | 713 | Kenya & East Africa |
+| [ZAP](https://www.zap.co.ao) | 31 | 32 | Angola & Mozambique |
+| [GOtv](https://www.gotvafrica.com) | 556 Kenya · 356 Uganda (Starter and up) | 357 Uganda (Sports) | Kenya, Uganda |
+| [Disney+](https://www.disneyplus.com/en-za) | live channel | live channel | South Africa |
+
+Source: [ESPN Africa](https://africa.espn.com/espn/story/_/id/49791245/espn-channels-africa-disney+-south-africa-air-new-nfl-season) and MultiChoice's November 2026 GOtv channel list.
+
+**On GOtv**
+
+| Logo | Channel | GOtv | Package |
+|:---:|---|---|---|
+| <img src="logos/readme/channels/espn-africa.png" alt="ESPN" height="28"> | ESPN | 556 (Kenya) · 356 (Uganda) | GOtv Starter and up |
+| <img src="logos/readme/channels/espn2-africa.png" alt="ESPN 2" height="28"> | ESPN 2 | 357 (Uganda) | GOtv Sports |
 
 - **Rights tracked:** Top 14 – ESPN, ESPN 2; Japan Rugby League One – ESPN, ESPN 2; Saudi Pro League – ESPN, ESPN 2; NBA – ESPN, ESPN 2; NFL – ESPN, ESPN 2; MLB (selected games, Pan-Africa) – ESPN, ESPN 2
 
