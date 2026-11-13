@@ -1,61 +1,61 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-13T08:50:48.025Z",
+ "updated": "2026-11-13T08:58:52.684Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 350,
-   "at": "2026-11-13T08:48:47.313Z"
+   "at": "2026-11-13T08:56:28.822Z"
   },
   "bein": {
    "ok": true,
    "count": 100,
-   "at": "2026-11-13T08:48:49.796Z"
+   "at": "2026-11-13T08:56:30.109Z"
   },
   "nws": {
    "ok": true,
    "count": 59,
-   "at": "2026-11-13T08:48:52.646Z"
+   "at": "2026-11-13T08:56:31.729Z"
   },
   "azam": {
    "ok": true,
    "count": 4,
-   "at": "2026-11-13T08:49:01.680Z"
+   "at": "2026-11-13T08:56:42.127Z"
   },
   "startimes": {
    "ok": true,
    "count": 170,
-   "at": "2026-11-13T08:50:12.300Z"
+   "at": "2026-11-13T08:57:54.051Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-13T08:50:26.146Z"
+   "at": "2026-11-13T08:58:07.707Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-13T08:50:26.203Z"
+   "at": "2026-11-13T08:58:07.758Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-13T08:50:33.585Z"
+   "at": "2026-11-13T08:58:14.024Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T08:50:33.828Z"
+   "at": "2026-11-13T08:58:14.117Z"
   },
   "sport24": {
    "ok": true,
    "count": 90,
-   "at": "2026-11-13T08:50:35.423Z"
+   "at": "2026-11-13T08:58:46.115Z"
   }
  },
  "assignments": [
@@ -140,34 +140,6 @@
   }
  ],
  "events": [
-  {
-   "start": "2026-11-13T04:50:00.000Z",
-   "end": "2026-11-13T09:00:00.000Z",
-   "sport": "cricket",
-   "comp": "ICC (W) Nations Trophy",
-   "detail": "UAE v Ireland",
-   "channels": [
-    "ss-stream-246"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "UAE",
-   "away": "Ireland"
-  },
-  {
-   "start": "2026-11-13T04:50:00.000Z",
-   "end": "2026-11-13T09:00:00.000Z",
-   "sport": "cricket",
-   "comp": "ICC (W) Nations Trophy",
-   "detail": "Scotland v Sri Lanka",
-   "channels": [
-    "ss-stream-245"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Scotland",
-   "away": "Sri Lanka"
-  },
   {
    "start": "2026-11-13T07:00:00.000Z",
    "end": "2026-11-13T13:00:00.000Z",
@@ -5804,6 +5776,31 @@
    ]
   },
   {
+   "id": "sportytv",
+   "name": "Sporty TV",
+   "note": "SportyTV channel on DStv & GOtv (since 10 June 2026) · Sporty app",
+   "regions": [
+    "east",
+    "south",
+    "west"
+   ],
+   "url": "https://www.dstv.com/en-ke/news/146550/sportytv-is-now-live-on-dstv-watch-live-sports-for-less/",
+   "links": [
+    {
+     "label": "SportyTV on DStv",
+     "url": "https://www.dstv.com/en-ke/news/146550/sportytv-is-now-live-on-dstv-watch-live-sports-for-less/"
+    },
+    {
+     "label": "DStv Stream",
+     "url": "https://dstv.stream/#/"
+    },
+    {
+     "label": "Sporty",
+     "url": "https://sporty.com/"
+    }
+   ]
+  },
+  {
    "id": "supersport",
    "note": "DStv · GOtv · DStv Stream · channel numbers: Rest of Africa · South Africa",
    "url": "https://dstv.stream/#/",
@@ -5898,7 +5895,16 @@
   },
   {
    "id": "sportytv",
-   "logo": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/sportytv.png"
+   "name": "SportyTV",
+   "short": "SportyTV",
+   "logo": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/sportytv.png",
+   "num": "DStv 237 · 236",
+   "no": 237,
+   "countries": "South Africa · Nigeria · Kenya · Ghana",
+   "gotv": [
+    "58 (Kenya, Nigeria) · 36 (Ghana)",
+    "GOtv Value (Kenya) · Jolli (Nigeria)"
+   ]
   },
   {
    "id": "ss-swahili",
@@ -6311,7 +6317,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-13T08:50:46.249Z",
+   "checked": "2026-11-13T08:58:50.656Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6339,7 +6345,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-13T08:50:47.263Z",
+   "checked": "2026-11-13T08:58:51.767Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6360,7 +6366,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-13T08:50:48.025Z",
+   "checked": "2026-11-13T08:58:52.684Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
