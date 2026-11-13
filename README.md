@@ -4,6 +4,13 @@ The live data feed for **African Sports Broadcast Hub**, the Windows and Android
 
 The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they refresh (about every 15 minutes), so changes reach every installed app over the air, with no reinstall.
 
+## What's new in 2.2.2 (13 Nov 2026)
+
+- **Sport 24 & Sport 24 Extra** (live sport on airlines and cruise ships) – new broadcaster; its 10-day live schedule is read every run.
+- **Channel numbers:** SuperSport as *Rest of Africa · South Africa* (e.g. Rugby DStv 231 · 211; LaLiga DStv 224 · 204), CANAL+ SPORT 1–5 = 11–15, beIN SPORTS MENA (1–9, XTRA 41–49, MAX 701–706, English 21–22, French 26–27).
+- **Logos:** French handball, AFL/AFLW, NWSL, college football, Liga ACB, LPB clubs; U21/women's national sides (flags); ICC (dark mode), Total Chess, Freestyle Friday, E1, WTCS, OCEANMAN, T100, World Skate, Legends Cup, Boxing and more; Beta Sports and Sporty TV.
+- Guide shorthand ("LI: MCI v FUL", Diski club codes, "Ottowa") is expanded the same way in the feed and in the apps.
+
 ## Broadcasters, rights and where to watch
 
 Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links go to the broadcaster's stream or decoder page. SuperSport numbers read *Rest of Africa · South Africa* (e.g. SuperSport Rugby **DStv 231 · 211**).
