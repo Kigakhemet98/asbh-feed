@@ -1,61 +1,61 @@
 {
  "version": 2,
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-13T09:19:18.490Z",
+ "updated": "2026-11-13T09:32:43.908Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 350,
-   "at": "2026-11-13T09:17:21.527Z"
+   "at": "2026-11-13T09:30:06.802Z"
   },
   "bein": {
    "ok": true,
-   "count": 100,
-   "at": "2026-11-13T09:17:23.506Z"
+   "count": 99,
+   "at": "2026-11-13T09:30:08.320Z"
   },
   "nws": {
    "ok": true,
    "count": 59,
-   "at": "2026-11-13T09:17:26.336Z"
+   "at": "2026-11-13T09:30:10.703Z"
   },
   "azam": {
    "ok": true,
    "count": 4,
-   "at": "2026-11-13T09:17:33.583Z"
+   "at": "2026-11-13T09:30:20.552Z"
   },
   "startimes": {
    "ok": true,
    "count": 170,
-   "at": "2026-11-13T09:18:47.355Z"
+   "at": "2026-11-13T09:31:31.806Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-13T09:19:01.037Z"
+   "at": "2026-11-13T09:31:45.407Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-13T09:19:01.131Z"
+   "at": "2026-11-13T09:31:45.486Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-13T09:19:07.552Z"
+   "at": "2026-11-13T09:31:52.147Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T09:19:07.748Z"
+   "at": "2026-11-13T09:31:52.274Z"
   },
   "sport24": {
    "ok": true,
    "count": 90,
-   "at": "2026-11-13T09:19:09.103Z"
+   "at": "2026-11-13T09:32:32.715Z"
   }
  },
  "assignments": [
@@ -152,18 +152,6 @@
    ],
    "status": "L",
    "via": "SuperSport guide · Sport 24 guide"
-  },
-  {
-   "start": "2026-11-13T08:00:00.000Z",
-   "end": "2026-11-13T09:30:00.000Z",
-   "sport": "padel",
-   "comp": "Premier Padel",
-   "detail": "Day sessions",
-   "channels": [
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
   },
   {
    "start": "2026-11-13T09:00:00.000Z",
@@ -5780,6 +5768,28 @@
    ]
   },
   {
+   "id": "zuku",
+   "name": "Zuku TV",
+   "note": "Satellite pay-TV · Kenya & East Africa (Wananchi Group) · sports: ESPN, ESPN 2, Punch TV, SportyTV, Liverpool TV",
+   "bg": "#ffffff",
+   "fg": "#1a1a1a",
+   "accent": "#6cb33f",
+   "regions": [
+    "east"
+   ],
+   "url": "https://zuku.co.ke",
+   "links": [
+    {
+     "label": "Zuku TV",
+     "url": "https://zuku.co.ke"
+    },
+    {
+     "label": "Channel list",
+     "url": "https://zuku.co.ke/channel-list/"
+    }
+   ]
+  },
+  {
    "id": "espn",
    "name": "ESPN Africa",
    "note": "Flagship on DStv, no longer DStv-exclusive · also on GOtv, Azam TV, StarTimes, Zuku, ZAP and Disney+ (South Africa)",
@@ -5944,11 +5954,35 @@
    }
   },
   {
+   "id": "zuku-punch",
+   "provider": "zuku",
+   "name": "Punch TV",
+   "short": "Punch TV",
+   "wide": true,
+   "num": "Zuku 714",
+   "no": 714,
+   "pkg": "Zuku Smart and up",
+   "logos": {
+    "light": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/zuku-punch-tv-on-light.png",
+    "dark": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/zuku-punch-tv-on-dark.png"
+   }
+  },
+  {
+   "id": "zuku-lfctv",
+   "provider": "zuku",
+   "name": "Liverpool TV",
+   "short": "LFC TV",
+   "num": "Zuku 721",
+   "no": 721,
+   "pkg": "Zuku Premium",
+   "logo": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/zuku-lfctv.png"
+  },
+  {
    "id": "sportytv",
    "name": "SportyTV",
    "short": "SportyTV",
    "logo": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/sportytv.png",
-   "num": "DStv 237 · 236",
+   "num": "DStv 237 · 236 · Zuku 720",
    "no": 237,
    "countries": "South Africa · Nigeria · Kenya · Ghana",
    "gotv": [
@@ -6354,7 +6388,41 @@
  "platforms": [
   {
    "id": "dstv-stream",
-   "url": "https://dstv.stream/#/"
+   "url": "https://dstv.stream/#/",
+   "providers": [
+    "supersport",
+    "espn",
+    "awsn",
+    "sportytv"
+   ]
+  },
+  {
+   "id": "dstv",
+   "providers": [
+    "supersport",
+    "espn",
+    "awsn",
+    "sportytv"
+   ]
+  },
+  {
+   "id": "zuku-tv",
+   "name": "Zuku",
+   "kind": "tv",
+   "providers": [
+    "zuku",
+    "espn",
+    "sportytv"
+   ],
+   "logos": {
+    "light": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/zuku-on-light.png",
+    "dark": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/zuku-on-dark.png"
+   },
+   "regions": [
+    "east"
+   ],
+   "countries": "Kenya · Uganda · Tanzania",
+   "url": "https://zuku.co.ke"
   }
  ],
  "rights": [
@@ -6410,7 +6478,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-13T09:19:16.740Z",
+   "checked": "2026-11-13T09:32:42.003Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6438,7 +6506,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-13T09:19:17.706Z",
+   "checked": "2026-11-13T09:32:43.059Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6459,7 +6527,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-13T09:19:18.490Z",
+   "checked": "2026-11-13T09:32:43.907Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
