@@ -1,40 +1,51 @@
 [
  {
-  "key": "plat-gotv",
-  "q": "GOtv",
-  "title": "Get out the vote",
-  "file": "plat-gotv.jpg",
-  "image": "Campaign_Signs_DSC02551_(1905616979).jpg",
-  "site": [
-   "plat-gotv-site1.png",
-   "plat-gotv-site2.png",
-   "plat-gotv-site3.png",
-   "plat-gotv-site4.png",
-   "plat-gotv-site5.png"
-  ]
+  "key": "os-debian",
+  "q": "Debian",
+  "title": "Debian",
+  "file": "os-debian.png",
+  "image": "Debian_13_(Trixie)_screenshot_-_using_GNOME_desktop.png"
  },
  {
-  "key": "plat-zap",
-  "q": "ZAP (Angola)",
-  "title": "ZAP (satellite television)",
-  "file": "plat-zap.png",
-  "image": "ZAP_logo.png",
-  "site": [
-   "plat-zap-site1.ico",
-   "plat-zap-site2.png",
-   "plat-zap-site3.png",
-   "plat-zap-site4.png"
-  ]
+  "key": "os-ubuntu",
+  "q": "Ubuntu",
+  "title": "Ubuntu",
+  "file": "os-ubuntu.png",
+  "image": "Ubuntu-logo-2022.svg"
  },
  {
-  "key": "plat-azamtv",
-  "q": "Azam TV",
-  "wikiError": "no image on Azam TV",
-  "site": [
-   "plat-azamtv-site1.png",
-   "plat-azamtv-site2.png",
-   "plat-azamtv-site3.png",
-   "plat-azamtv-site5.png"
-  ]
+  "key": "os-fedora",
+  "q": "Fedora Linux",
+  "title": "Fedora Linux",
+  "file": "os-fedora.png",
+  "image": "Fedora_44_Workstation.png"
+ },
+ {
+  "key": "os-opensuse",
+  "q": "openSUSE",
+  "title": "OpenSUSE",
+  "file": "os-opensuse.png",
+  "image": "OpenSUSE_Logo.svg"
+ },
+ {
+  "key": "os-arch",
+  "q": "Arch Linux",
+  "title": "Arch Linux",
+  "file": "os-arch.png",
+  "image": "Arch_Linux_screenshot,_12.06.2024.png"
+ },
+ {
+  "key": "os-snap",
+  "q": "Snap (software)",
+  "title": "Snap (software)",
+  "file": "os-snap.png",
+  "image": "Snapcraft-logo-bird.svg"
+ },
+ {
+  "key": "os-flatpak",
+  "q": "Flatpak",
+  "title": "Flatpak",
+  "file": "os-flatpak.png",
+  "image": "Flatpak_Logo.svg"
  }
 ]
