@@ -603,7 +603,7 @@ const OTA = {
     { id: 's24', provider: 'sport24', name: 'Sport 24', short: 'Sport 24', wide: true, num: 'In flight · At sea', logos: { light: RAW + 'sport24-on-light.png', dark: RAW + 'sport24-on-dark.png' } },
     { id: 's24-extra', provider: 'sport24', name: 'Sport 24 Extra', short: 'Sport 24 Extra', wide: true, num: 'In flight · At sea', logos: { light: RAW + 'sport24-extra-on-light.png', dark: RAW + 'sport24-extra-on-dark.png' } },
     { id: 'st-beta', wide: true, logos: { light: RAW + 'st-beta-on-light.png', dark: RAW + 'st-beta-on-dark.png' } },
-    { id: 'sportytv', name: 'SportyTV', short: 'SportyTV', logo: RAW + 'sportytv.png', num: 'DStv 237 · 236', no: 237, countries: 'South Africa · Nigeria · Kenya · Ghana', gotv: ['58 (Kenya, Nigeria) · 36 (Ghana)', 'GOtv Value (Kenya) · Jolli (Nigeria)'] },
+    { id: 'sportytv', name: 'SportyTV', short: 'SportyTV', logo: RAW + 'sportytv.png', num: 'DStv 237 · 236', no: 237, countries: 'South Africa · Nigeria · Kenya · Ghana', gotv: ['558 (Kenya) · 58 (Nigeria) · 36 (Ghana)', 'GOtv Starter and up (Kenya) · Jolli (Nigeria)'] },
     ...NUMS,
     { id: 'apple-tv', provider: 'appletv', name: 'Apple TV', short: 'Apple TV', wide: true, logos: { light: RAW + 'apple-tv-on-light.png', dark: RAW + 'apple-tv-on-dark.png' } },
     { id: 'st-tbc', provider: 'startimes', name: 'StarTimes Sports (channel TBA)', short: 'Sports', logo: RAW + 'startimes-star.png' },
