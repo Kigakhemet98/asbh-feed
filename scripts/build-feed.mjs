@@ -22,7 +22,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { createRequire } from 'node:module';
 /* same listing clean-up as the apps (web/js/clean.js, saved here as clean.cjs – keep the two copies identical) */
-const CLEAN = createRequire(import.meta.url)('./clean.js');
+const CLEAN = createRequire(import.meta.url)('./clean.cjs');
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const DAYS = 10;
