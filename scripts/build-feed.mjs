@@ -552,7 +552,7 @@ const NUMS = [{"id": "ss-wwe", "num": "DStv 128 · ROA 226", "no": 128}, {"id": 
 const OTA = {
   providers: [
     { id: 'sport24', abbr: '24', name: 'Sport 24', note: 'Live sport on airlines and cruise ships · Sport 24 & Sport 24 Extra (Emirates, Qatar Airways, Turkish Airlines, Etihad, Saudia, British Airways and more)', bg: '#0a0a0a', fg: '#f5e400', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], guide: 'https://sport24live.com/schedule/', url: 'https://sport24live.com/watch/', links: [{ label: 'Where to watch', url: 'https://sport24live.com/watch/' }, { label: 'Schedule', url: 'https://sport24live.com/schedule/' }, { label: 'Rights', url: 'https://sport24live.com/about/' }] },
-    { id: 'supersport', note: 'DStv · GOtv · DStv Stream · channel numbers: Rest of Africa · South Africa' },
+    { id: 'supersport', note: 'DStv · GOtv · DStv Stream · channel numbers: Rest of Africa · South Africa', url: 'https://dstv.stream/#/', links: [{ label: 'DStv Stream', url: 'https://dstv.stream/#/' }, { label: 'DStv', url: 'https://www.dstv.com' }, { label: 'SuperSport', url: 'https://supersport.com' }] },
     { id: 'appletv', name: 'Apple TV', note: 'Streaming · every MLS match, Friday Night Baseball (in 100+ countries)', stream: true, bg: '#000000', fg: '#ffffff', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], url: 'https://tv.apple.com', links: [{ label: 'Apple TV', url: 'https://tv.apple.com' }, { label: 'MLS – how to watch', url: 'https://www.mlssoccer.com/how-to-watch/' }] },
     { id: 'beinfr', abbr: 'beIN', name: 'beIN SPORTS France', note: 'Madagascar · Mauritius · Réunion · Mayotte', bg: '#5b2c8f', fg: '#ffffff', regions: ['indian'], url: 'https://www.beinsports.com/france/' }
   ].concat(rw.providers),
@@ -588,6 +588,8 @@ const feed = {
   overrides: manual.overrides || [],
   providers: OTA.providers.concat(manual.providers || []),
   channels: OTA.channels.concat(manual.channels || []),
+  /* 2.2.3: DStv Stream moved to dstv.stream */
+  platforms: [{ id: 'dstv-stream', url: 'https://dstv.stream/#/' }].concat(manual.platforms || []),
   rights: OTA.rights.concat(manual.rights || []),
   compLogos: OTA.compLogos.concat(manual.compLogos || []),
   rightsWatch: rw.watch

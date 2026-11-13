@@ -4,6 +4,10 @@ The live data feed for **African Sports Broadcast Hub**, the Windows and Android
 
 The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they refresh (about every 15 minutes), so changes reach every installed app over the air, with no reinstall.
 
+## What's new in 2.2.3 (13 Nov 2026)
+
+- SuperSport's landing page is now **DStv Stream – [dstv.stream](https://dstv.stream/#/)** (DStv and SuperSport.com stay as extra links).
+
 ## What's new in 2.2.2 (13 Nov 2026)
 
 - **Sport 24 & Sport 24 Extra** (live sport on airlines and cruise ships) – new broadcaster; its 10-day live schedule is read every run.
@@ -18,7 +22,7 @@ Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links g
 ### SuperSport
 *DStv · GOtv · DStv Stream · channel numbers: Rest of Africa · South Africa*
 
-- **Watch:** [SuperSport](https://supersport.com) · [DStv](https://www.dstv.com) · [DStv Stream](https://now.dstv.com)
+- **Watch:** [DStv Stream](https://dstv.stream/#/) · [DStv](https://www.dstv.com) · [SuperSport](https://supersport.com)
 - **Channels:** SuperSport WWE (DStv 128 · ROA 226) · SuperSport Events (DStv 199) · SuperSport Extra 2 (DStv 217 · South Africa only) · SuperSport Blitz (DStv 220 · 200) · SuperSport Grandstand (DStv 221 · 201) · SuperSport Football Plus (DStv 222 · 206) · SuperSport Premier League (DStv 223 · 203) · SuperSport LaLiga (DStv 224 · 204) · SuperSport Football (DStv 225 · 205) · SuperSport KickOff (DStv 227 · 207) · SuperSport Africa (DStv 228 · 208) · SuperSport Action (DStv 229 · 209) · SuperSport Extra (DStv 230 · 210) · SuperSport Rugby (DStv 231 · 211) · SuperSport Cricket (DStv 232 · 212) · SuperSport Golf (DStv 233 · 213) · SuperSport Tennis (DStv 234 · 214) · SuperSport Motorsport (DStv 235 · 215) · SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport Máximo 2 (DStv 242 · Angola/Moz 602) · SuperSport Swahili (DStv / GOtv East Africa) · SuperSport AWSN (DStv Stream 244) · SuperSport Stream 245 (DStv Stream 245) · SuperSport Stream 246 (DStv Stream 246) · SuperSport Stream 247 (DStv Stream 247) · SuperSport Stream 248 (DStv Stream 248) · SuperSport Stream 950 (DStv Stream 950) · SuperSport Stream 951 (DStv Stream 951) · SuperSport Stream 952 (DStv Stream 952)
 - **Rights tracked:** AFCON PAMOJA 2027 qualifiers – channel TBA; ATP & WTA tennis – SuperSport Tennis; Premier League – SuperSport Premier League; LaLiga (every match) – SuperSport LaLiga
 - Everything SuperSport marks LIVE in its own guide (football, rugby, cricket, golf, motorsport, WWE, schools sport and more) is added automatically.
