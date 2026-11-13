@@ -1174,5 +1174,47 @@
   "q": "Azam TV",
   "lang": "en",
   "site": "https://azamtv.co.tz"
+ },
+ {
+  "key": "os-debian",
+  "q": "Debian",
+  "lang": "en",
+  "site": null
+ },
+ {
+  "key": "os-ubuntu",
+  "q": "Ubuntu",
+  "lang": "en",
+  "site": null
+ },
+ {
+  "key": "os-fedora",
+  "q": "Fedora Linux",
+  "lang": "en",
+  "site": null
+ },
+ {
+  "key": "os-opensuse",
+  "q": "openSUSE",
+  "lang": "en",
+  "site": null
+ },
+ {
+  "key": "os-arch",
+  "q": "Arch Linux",
+  "lang": "en",
+  "site": null
+ },
+ {
+  "key": "os-snap",
+  "q": "Snap (software)",
+  "lang": "en",
+  "site": null
+ },
+ {
+  "key": "os-flatpak",
+  "q": "Flatpak",
+  "lang": "en",
+  "site": null
  }
 ]
