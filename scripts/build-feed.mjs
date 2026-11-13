@@ -78,7 +78,8 @@ const FIFA = { GHA: 'Ghana', SOM: 'Somalia', CMR: 'Cameroon', NAM: 'Namibia', ZA
   SVN: 'Slovenia', SUI: 'Switzerland', NIR: 'Northern Ireland', UKR: 'Ukraine', ITA: 'Italy', SCO: 'Scotland', GEO: 'Georgia', ALB: 'Albania', MKD: 'North Macedonia', HUN: 'Hungary',
   POL: 'Poland', ARM: 'Armenia', BLR: 'Belarus', EST: 'Estonia', BUL: 'Bulgaria', FRA: 'France', FRO: 'Faroe Islands', AUT: 'Austria', IRL: 'Republic of Ireland', LIE: 'Liechtenstein',
   AZE: 'Azerbaijan', NZL: 'New Zealand', IND: 'India', AUS: 'Australia', BAN: 'Bangladesh', ARG: 'Argentina', JPN: 'Japan', FIJ: 'Fiji', IRE: 'Ireland', PAK: 'Pakistan', SRI: 'Sri Lanka', WIN: 'West Indies' };
-const expand = (d) => d.replace(/\b([A-Z]{3})\b(?= v )|(?<= v )\b([A-Z]{3})\b/g, (x) => FIFA[x] || x).replace(/^D(\d) M(\d)$/, 'Day $1 · Singles $2').replace(/^D(\d) Dbls (\d)$/, 'Day $1 · Doubles $2');   // same as the apps
+const CLUB_LEAGUE = /^(li|le|la|lf|pl|premier league|serie a|ligue ?1|la ?liga|nba|bundesliga)\b/i;   // club codes there: ANG = Angers, not Angola
+const expand = (d, c = '') => (CLUB_LEAGUE.test(c) ? d : d.replace(/\b([A-Z]{3})\b(?= v )|(?<= v )\b([A-Z]{3})\b/g, (x) => FIFA[x] || x)).replace(/^D(\d) M(\d)$/, 'Day $1 · Singles $2').replace(/^D(\d) Dbls (\d)$/, 'Day $1 · Doubles $2');   // same as the apps
 
 /* French (myt.mu / CANAL+) country names → the English names the apps use */
 const FR = { 'rd congo': 'DR Congo', 'rdc': 'DR Congo', 'gambie': 'The Gambia', 'guinée-bissau': 'Guinea-Bissau', 'guinee-bissau': 'Guinea-Bissau', 'cameroun': 'Cameroon', 'namibie': 'Namibia',
@@ -109,7 +110,7 @@ async function supersport() {
     const i = p.title.indexOf(':'); const comp = i > 0 ? p.title.slice(0, i).trim() : p.title; const detail = i > 0 ? p.title.slice(i + 1).trim() : p.title;
     const k = p.utcStart + '|' + detail.toLowerCase(); const prev = map.get(k);
     if (prev) { prev.channels = [...new Set(prev.channels.concat(chs))]; continue; }
-    map.set(k, { start: iso(p.utcStart), end: iso(p.utcEnd), sport: SPORT(p.sport, p.title), comp: cleanComp(comp), detail: expand(detail), channels: chs.length ? chs : ['ss-tbc'], status: 'L', via: 'SuperSport guide' });
+    map.set(k, { start: iso(p.utcStart), end: iso(p.utcEnd), sport: SPORT(p.sport, p.title), comp: cleanComp(comp), detail: expand(detail, comp), channels: chs.length ? chs : ['ss-tbc'], status: 'L', via: 'SuperSport guide' });
   }
   return { events: [...map.values()] };
 }
@@ -344,7 +345,7 @@ const S24_UP = new Set(['UEFA', 'NFL', 'NBA', 'NHL', 'ATP', 'WTA', 'AFC', 'ICC',
 const s24Title = (t) => String(t || '').toLowerCase().replace(/[a-z0-9®'’]+/g, (w) => { const u = w.toUpperCase().replace(/®/g, ''); return S24_UP.has(u) ? u : w.charAt(0).toUpperCase() + w.slice(1); }).replace(/®/g, '').trim();
 const S24_NHL = { 'anaheim': 'Ducks', 'boston': 'Bruins', 'buffalo': 'Sabres', 'calgary': 'Flames', 'carolina': 'Hurricanes', 'chicago': 'Blackhawks', 'colorado': 'Avalanche',
   'columbus': 'Blue Jackets', 'dallas': 'Stars', 'detroit': 'Red Wings', 'edmonton': 'Oilers', 'florida': 'Panthers', 'la': 'Kings', 'los angeles': 'Kings', 'minnesota': 'Wild',
-  'montreal': 'Canadiens', 'nashville': 'Predators', 'new jersey': 'Devils', 'nj': 'Devils', 'ny islanders': 'Islanders', 'ny rangers': 'Rangers', 'ottawa': 'Senators',
+  'montreal': 'Canadiens', 'nashville': 'Predators', 'new jersey': 'Devils', 'nj': 'Devils', 'ny islanders': 'Islanders', 'ny rangers': 'Rangers', 'ottawa': 'Senators', 'ottowa': 'Senators',
   'philadelphia': 'Flyers', 'pittsburgh': 'Penguins', 'san jose': 'Sharks', 'seattle': 'Kraken', 'st louis': 'Blues', 'st. louis': 'Blues', 'tampa bay': 'Lightning', 'tampa': 'Lightning',
   'toronto': 'Maple Leafs', 'utah': 'Mammoth', 'vancouver': 'Canucks', 'vegas': 'Golden Knights', 'washington': 'Capitals', 'winnipeg': 'Jets' };
 async function sport24() {
