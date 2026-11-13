@@ -6,6 +6,9 @@ The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they ref
 
 ## What's new in 2.2.3 (13 Nov 2026)
 
+- **DAZN schedule** added to the feed: its live events for the next 10 days reach both apps over the air.
+- Broadcaster and channel logos in this README.
+
 - SuperSport's landing page is now **DStv Stream – [dstv.stream](https://dstv.stream/#/)** (DStv and SuperSport.com stay as extra links).
 - EuroLeague 2026-27 club crests (all 20 teams, plus AS Monaco).
 
@@ -21,137 +24,363 @@ The apps (2.1.8 and later) download [`feed.json`](feed.json) every time they ref
 Generated from the apps' own data (`web/js/data-channels.js`). **Watch** links go to the broadcaster's stream or decoder page. SuperSport numbers read *Rest of Africa · South Africa* (e.g. SuperSport Rugby **DStv 231 · 211**).
 
 ### SuperSport
+
+<img src="logos/readme/providers/supersport.png" alt="SuperSport" height="40">
+
 *DStv · GOtv · DStv Stream · channel numbers: Rest of Africa · South Africa*
 
 - **Watch:** [DStv Stream](https://dstv.stream/#/) · [DStv](https://www.dstv.com) · [SuperSport](https://supersport.com)
-- **Channels:** SuperSport WWE (DStv 128 · ROA 226) · SuperSport Events (DStv 199) · SuperSport Extra 2 (DStv 217 · South Africa only) · SuperSport Blitz (DStv 220 · 200) · SuperSport Grandstand (DStv 221 · 201) · SuperSport Football Plus (DStv 222 · 206) · SuperSport Premier League (DStv 223 · 203) · SuperSport LaLiga (DStv 224 · 204) · SuperSport Football (DStv 225 · 205) · SuperSport KickOff (DStv 227 · 207) · SuperSport Africa (DStv 228 · 208) · SuperSport Action (DStv 229 · 209) · SuperSport Extra (DStv 230 · 210) · SuperSport Rugby (DStv 231 · 211) · SuperSport Cricket (DStv 232 · 212) · SuperSport Golf (DStv 233 · 213) · SuperSport Tennis (DStv 234 · 214) · SuperSport Motorsport (DStv 235 · 215) · SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport Máximo 2 (DStv 242 · Angola/Moz 602) · SuperSport Swahili (DStv / GOtv East Africa) · SuperSport AWSN (DStv Stream 244) · SuperSport Stream 245 (DStv Stream 245) · SuperSport Stream 246 (DStv Stream 246) · SuperSport Stream 247 (DStv Stream 247) · SuperSport Stream 248 (DStv Stream 248) · SuperSport Stream 950 (DStv Stream 950) · SuperSport Stream 951 (DStv Stream 951) · SuperSport Stream 952 (DStv Stream 952)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <img src="logos/readme/channels/ss-wwe.png" alt="SuperSport WWE" height="28"> | SuperSport WWE | DStv 128 · ROA 226 |
+| <img src="logos/readme/channels/ss-events.png" alt="SuperSport Events" height="28"> | SuperSport Events | DStv 199 |
+| <img src="logos/readme/channels/ss-extra-2.png" alt="SuperSport Extra 2" height="28"> | SuperSport Extra 2 | DStv 217 · South Africa only |
+| <img src="logos/readme/channels/ss-blitz.png" alt="SuperSport Blitz" height="28"> | SuperSport Blitz | DStv 220 · 200 |
+| <img src="logos/readme/channels/ss-grandstand.png" alt="SuperSport Grandstand" height="28"> | SuperSport Grandstand | DStv 221 · 201 |
+| <img src="logos/readme/channels/ss-football-plus.png" alt="SuperSport Football Plus" height="28"> | SuperSport Football Plus | DStv 222 · 206 |
+| <img src="logos/readme/channels/ss-premier-league.png" alt="SuperSport Premier League" height="28"> | SuperSport Premier League | DStv 223 · 203 |
+| <img src="logos/readme/channels/ss-laliga.png" alt="SuperSport LaLiga" height="28"> | SuperSport LaLiga | DStv 224 · 204 |
+| <img src="logos/readme/channels/ss-football.png" alt="SuperSport Football" height="28"> | SuperSport Football | DStv 225 · 205 |
+| <img src="logos/readme/channels/ss-kickoff.png" alt="SuperSport KickOff" height="28"> | SuperSport KickOff | DStv 227 · 207 |
+| <img src="logos/readme/channels/ss-africa.png" alt="SuperSport Africa" height="28"> | SuperSport Africa | DStv 228 · 208 |
+| <img src="logos/readme/channels/ss-action.png" alt="SuperSport Action" height="28"> | SuperSport Action | DStv 229 · 209 |
+| <img src="logos/readme/channels/ss-extra-1.png" alt="SuperSport Extra" height="28"> | SuperSport Extra | DStv 230 · 210 |
+| <img src="logos/readme/channels/ss-rugby.png" alt="SuperSport Rugby" height="28"> | SuperSport Rugby | DStv 231 · 211 |
+| <img src="logos/readme/channels/ss-cricket.png" alt="SuperSport Cricket" height="28"> | SuperSport Cricket | DStv 232 · 212 |
+| <img src="logos/readme/channels/ss-golf.png" alt="SuperSport Golf" height="28"> | SuperSport Golf | DStv 233 · 213 |
+| <img src="logos/readme/channels/ss-tennis.png" alt="SuperSport Tennis" height="28"> | SuperSport Tennis | DStv 234 · 214 |
+| <img src="logos/readme/channels/ss-motorsport.png" alt="SuperSport Motorsport" height="28"> | SuperSport Motorsport | DStv 235 · 215 |
+| <img src="logos/readme/channels/ss-maximo-1.png" alt="SuperSport Máximo 1" height="28"> | SuperSport Máximo 1 | DStv 241 · Angola/Moz 601 |
+| <img src="logos/readme/channels/ss-maximo-2.png" alt="SuperSport Máximo 2" height="28"> | SuperSport Máximo 2 | DStv 242 · Angola/Moz 602 |
+| <img src="logos/readme/channels/ss-swahili.png" alt="SuperSport Swahili" height="28"> | SuperSport Swahili (Kenya · Uganda · Tanzania) | DStv / GOtv East Africa |
+| <img src="logos/readme/channels/ss-stream-244.png" alt="SuperSport AWSN" height="28"> | SuperSport AWSN | DStv Stream 244 |
+| <img src="logos/readme/channels/ss-stream-245.png" alt="SuperSport Stream 245" height="28"> | SuperSport Stream 245 | DStv Stream 245 |
+| <img src="logos/readme/channels/ss-stream-246.png" alt="SuperSport Stream 246" height="28"> | SuperSport Stream 246 | DStv Stream 246 |
+| <img src="logos/readme/channels/ss-stream-247.png" alt="SuperSport Stream 247" height="28"> | SuperSport Stream 247 | DStv Stream 247 |
+| <img src="logos/readme/channels/ss-stream-248.png" alt="SuperSport Stream 248" height="28"> | SuperSport Stream 248 | DStv Stream 248 |
+| <img src="logos/readme/channels/ss-stream-950.png" alt="SuperSport Stream 950" height="28"> | SuperSport Stream 950 | DStv Stream 950 |
+| <img src="logos/readme/channels/ss-stream-951.png" alt="SuperSport Stream 951" height="28"> | SuperSport Stream 951 | DStv Stream 951 |
+| <img src="logos/readme/channels/ss-stream-952.png" alt="SuperSport Stream 952" height="28"> | SuperSport Stream 952 | DStv Stream 952 |
+
 - **Rights tracked:** AFCON PAMOJA 2027 qualifiers – channel TBA; ATP & WTA tennis – SuperSport Tennis; Premier League – SuperSport Premier League; LaLiga (every match) – SuperSport LaLiga
 - Everything SuperSport marks LIVE in its own guide (football, rugby, cricket, golf, motorsport, WWE, schools sport and more) is added automatically.
 
 ### CANAL+ Afrique
+
+<img src="logos/readme/providers/canalplus.png" alt="CANAL+ Afrique" height="40">
+
 *CANAL+ · myCANAL Afrique*
 
 - **Watch:** [CANAL+ Afrique](https://www.canalplus-afrique.com) · [myCANAL Afrique](https://www.canalplus.com/)
-- **Channels:** CANAL+ SPORT 1 (CANAL+ 11) · CANAL+ SPORT 2 (CANAL+ 12) · CANAL+ SPORT 3 (CANAL+ 13) · CANAL+ SPORT 4 (CANAL+ 14) · CANAL+ SPORT 5 (CANAL+ 15)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <img src="logos/readme/channels/cplus-sport-1.svg" alt="CANAL+ SPORT 1" height="28"> | CANAL+ SPORT 1 | CANAL+ 11 |
+| <img src="logos/readme/channels/cplus-sport-2.svg" alt="CANAL+ SPORT 2" height="28"> | CANAL+ SPORT 2 | CANAL+ 12 |
+| <img src="logos/readme/channels/cplus-sport-3.svg" alt="CANAL+ SPORT 3" height="28"> | CANAL+ SPORT 3 | CANAL+ 13 |
+| <img src="logos/readme/channels/cplus-sport-4.svg" alt="CANAL+ SPORT 4" height="28"> | CANAL+ SPORT 4 | CANAL+ 14 |
+| <img src="logos/readme/channels/cplus-sport-5.svg" alt="CANAL+ SPORT 5" height="28"> | CANAL+ SPORT 5 | CANAL+ 15 |
+
 - **Rights tracked:** AFCON PAMOJA 2027 qualifiers (French) – CANAL+ Sport (chaîne à confirmer); ATP tennis – CANAL+ SPORT 5; WTA tennis – CANAL+ SPORT 5; UEFA Champions League – CANAL+ SPORT 2; Premier League – CANAL+ SPORT 3; LaLiga – CANAL+ SPORT 4; Ligue 1 – CANAL+ SPORT 1; Bundesliga – CANAL+ SPORT 1; NBA – CANAL+ SPORT 4; Formula 1 – CANAL+ SPORT 4; MotoGP – CANAL+ SPORT 1; Top 14 – CANAL+ SPORT 1
 - CANAL+ SPORT 1–5 (channels 11–15 on CANAL+ Afrique). Its guide blocks automated reads, so matches come from announcements.
 
 ### StarTimes
+
+<img src="logos/readme/providers/startimes.png" alt="StarTimes" height="40">
+
 *StarTimes ON · DTT · DTH*
 
 - **Watch:** [StarTimes](https://www.startimestv.com) · [StarTimes ON](https://m.startimestv.com/browser/live)
-- **Channels:** StarTimes Sports Focus (DTH 240 · DTT 256) · StarTimes Sports Arena (DTH 241 · DTT 257) · StarTimes Sports Life (DTH 243 · DTT 253) · StarTimes Beta Sports (DTH 244 · Nigeria) · StarTimes World Football (DTH 245 · DTT 260) · StarTimes Sports Premium (DTH 246 · DTT 259)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/st-sports-focus-on-dark.png"><img src="logos/readme/channels/st-sports-focus-on-light.png" alt="StarTimes Sports Focus" height="28"></picture> | StarTimes Sports Focus | DTH 240 · DTT 256 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/st-sports-arena-on-dark.png"><img src="logos/readme/channels/st-sports-arena-on-light.png" alt="StarTimes Sports Arena" height="28"></picture> | StarTimes Sports Arena | DTH 241 · DTT 257 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/st-sports-life-on-dark.png"><img src="logos/readme/channels/st-sports-life-on-light.png" alt="StarTimes Sports Life" height="28"></picture> | StarTimes Sports Life | DTH 243 · DTT 253 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/st-beta-on-dark.png"><img src="logos/readme/channels/st-beta-on-light.png" alt="StarTimes Beta Sports" height="28"></picture> | StarTimes Beta Sports (Nigeria) | DTH 244 · Nigeria |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/st-world-football-on-dark.png"><img src="logos/readme/channels/st-world-football-on-light.png" alt="StarTimes World Football" height="28"></picture> | StarTimes World Football | DTH 245 · DTT 260 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/st-sports-premium-on-dark.png"><img src="logos/readme/channels/st-sports-premium-on-light.png" alt="StarTimes Sports Premium" height="28"></picture> | StarTimes Sports Premium | DTH 246 · DTT 259 |
+
 - **Rights tracked:** LaLiga – StarTimes Sports Premium; Bundesliga – StarTimes World Football; Carabao Cup – StarTimes World Football; Saudi Pro League – StarTimes Sports Premium; Uganda Premier League – Sanyuka Prime; AEW Wrestling – StarTimes Sports Arena; AFC Asian Cup – channel TBA
 - StarTimes slots are confirmed automatically when they line up with a real kick-off. Beta Sports (DTH 244) is Nigeria only.
 
 ### Azam Sports
+
+<img src="logos/readme/providers/azam.png" alt="Azam Sports" height="40">
+
 *Azam TV · Azam TV Max*
 
 - **Watch:** [Azam TV](https://azamtv.com) · [Azam TV Max](https://web.azamtvmax.com)
-- **Channels:** Azam Sports 1 HD · Azam Sports 2 HD · Azam Sports 3 HD · Azam Sports 4 HD · Azam Sports 5 HD
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <img src="logos/readme/channels/azam-sports-1.png" alt="Azam Sports 1 HD" height="28"> | Azam Sports 1 HD | — |
+| <img src="logos/readme/channels/azam-sports-2.png" alt="Azam Sports 2 HD" height="28"> | Azam Sports 2 HD | — |
+| <img src="logos/readme/channels/azam-sports-3.png" alt="Azam Sports 3 HD" height="28"> | Azam Sports 3 HD | — |
+| <img src="logos/readme/channels/azam-sports-4.png" alt="Azam Sports 4 HD" height="28"> | Azam Sports 4 HD | — |
+| <img src="logos/readme/channels/azam-sports-5.png" alt="Azam Sports 5 HD" height="28"> | Azam Sports 5 HD | — |
+
 - **Rights tracked:** LaLiga – Azam Sports 4 HD; Bundesliga – Azam Sports 2 HD; Serie A – Azam Sports 3 HD; Carabao Cup – Azam Sports 1 HD; Women's Super League – Azam Sports 1 HD; CAF Women's Champions League – Azam Sports 1 HD; AFCON 2027 Qualifiers – Azam Sports 2 HD; AFC Asian Cup – channel TBA
 - Live matches from the Azam TV Max guide (titles marked LIVE).
 
 ### ZBC (Zanzibar)
+
+<img src="logos/readme/providers/zbc.png" alt="ZBC (Zanzibar)" height="40">
+
 *On Azam TV*
 
 - **Watch:** [Azam TV (ZBC)](https://azamtv.com)
-- **Channels:** ZBC 2
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/zbc2-on-dark.png"><img src="logos/readme/channels/zbc2-on-light.png" alt="ZBC 2" height="28"></picture> | ZBC 2 | — |
+
 - ZBC 2 shows selected Azam football in Zanzibar.
 
 ### Free-to-air (national TV)
+
+<img src="logos/readme/providers/fta.png" alt="Free-to-air (national TV)" height="40">
+
 *Selected matches*
 
 - **Watch:** —
-- **Channels:** Sanyuka Prime (DTT 251 · DTH 238) · SABC Sport · Botswana TV · RTI · RTNC · CRTV · SNRT Arryadia · ON Time Sports · RBA
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <img src="logos/readme/channels/st-sanyuka.png" alt="Sanyuka Prime" height="28"> | Sanyuka Prime | DTT 251 · DTH 238 |
+| <img src="logos/readme/channels/fta-sabc.png" alt="SABC Sport" height="28"> | SABC Sport (South Africa) | — |
+| <img src="logos/readme/channels/fta-btv.png" alt="Botswana TV" height="28"> | Botswana TV (Botswana) | — |
+| <img src="logos/readme/channels/fta-rti.png" alt="RTI" height="28"> | RTI (Côte d'Ivoire) | — |
+| <img src="logos/readme/channels/fta-rtnc.png" alt="RTNC" height="28"> | RTNC (DR Congo) | — |
+| <img src="logos/readme/channels/fta-crtv.png" alt="CRTV" height="28"> | CRTV (Cameroon) | — |
+| <img src="logos/readme/channels/fta-snrt.png" alt="SNRT Arryadia" height="28"> | SNRT Arryadia (Morocco) | — |
+|  | ON Time Sports (Egypt) | — |
+| <img src="logos/readme/channels/fta-rba.png" alt="RBA" height="28"> | RBA (Rwanda) | — |
+
 - National broadcasters (e.g. Sanyuka Prime in Uganda).
 
 ### beIN SPORTS MENA
+
+<img src="logos/readme/providers/bein.png" alt="beIN SPORTS MENA" height="40">
+
 *beIN · TOD*
 
 - **Watch:** [beIN SPORTS MENA](https://www.beinsports.com/en-mena/) · [TOD](https://www.tod.tv) · [beIN SPORTS CONNECT](https://connect.beinsports.com)
-- **Channels:** beIN SPORTS 1 (beIN 1) · beIN SPORTS 2 (beIN 2) · beIN SPORTS 3 (beIN 3) · beIN SPORTS 4 (beIN 4) · beIN SPORTS 5 (beIN 5) · beIN SPORTS 6 (beIN 6) · beIN SPORTS 7 (beIN 7) · beIN SPORTS 8 (beIN 8) · beIN SPORTS 9 (beIN 9) · beIN SPORTS 10 (beIN 10) · beIN SPORTS News (beIN 10) · beIN SPORTS (beIN 11) · beIN 4K (beIN 14) · beIN SPORTS English 1 (beIN 21) · beIN SPORTS English 2 (beIN 22) · beIN SPORTS French 1 (beIN 26) · beIN SPORTS French 2 (beIN 27) · beIN SPORTS XTRA 1 (beIN 41) · beIN SPORTS XTRA 2 (beIN 42) · beIN SPORTS XTRA 3 (beIN 43) · beIN SPORTS XTRA 4 (beIN 44) · beIN SPORTS XTRA 5 (beIN 45) · beIN SPORTS XTRA 6 (beIN 46) · beIN SPORTS XTRA 7 (beIN 47) · beIN SPORTS XTRA 8 (beIN 48) · beIN SPORTS XTRA 9 (beIN 49) · beIN SPORTS AFC · beIN SPORTS AFC 1 · beIN SPORTS AFC 2 · beIN SPORTS AFC 3 · beIN SPORTS AFC 4 · beIN SPORTS AFC 5 · beIN SPORTS AFC 6 · beIN NBA · beIN SPORTS MAX 1 (beIN 701) · beIN SPORTS MAX 2 (beIN 702) · beIN SPORTS MAX 3 (beIN 703) · beIN SPORTS MAX 4 (beIN 704) · beIN SPORTS MAX 5 (beIN 705) · beIN SPORTS MAX 6 (beIN 706)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <img src="logos/readme/channels/bein-1.png" alt="beIN SPORTS 1" height="28"> | beIN SPORTS 1 | beIN 1 |
+| <img src="logos/readme/channels/bein-2.png" alt="beIN SPORTS 2" height="28"> | beIN SPORTS 2 | beIN 2 |
+| <img src="logos/readme/channels/bein-3.png" alt="beIN SPORTS 3" height="28"> | beIN SPORTS 3 | beIN 3 |
+| <img src="logos/readme/channels/bein-4.png" alt="beIN SPORTS 4" height="28"> | beIN SPORTS 4 | beIN 4 |
+| <img src="logos/readme/channels/bein-5.png" alt="beIN SPORTS 5" height="28"> | beIN SPORTS 5 | beIN 5 |
+| <img src="logos/readme/channels/bein-6.png" alt="beIN SPORTS 6" height="28"> | beIN SPORTS 6 | beIN 6 |
+| <img src="logos/readme/channels/bein-7.png" alt="beIN SPORTS 7" height="28"> | beIN SPORTS 7 | beIN 7 |
+| <img src="logos/readme/channels/bein-8.png" alt="beIN SPORTS 8" height="28"> | beIN SPORTS 8 | beIN 8 |
+| <img src="logos/readme/channels/bein-9.png" alt="beIN SPORTS 9" height="28"> | beIN SPORTS 9 | beIN 9 |
+| <img src="logos/readme/channels/bein-10.png" alt="beIN SPORTS 10" height="28"> | beIN SPORTS 10 | beIN 10 |
+| <img src="logos/readme/channels/bein-news.png" alt="beIN SPORTS News" height="28"> | beIN SPORTS News | beIN 10 |
+| <img src="logos/readme/channels/bein-sports.png" alt="beIN SPORTS" height="28"> | beIN SPORTS | beIN 11 |
+| <img src="logos/readme/channels/bein-4k.png" alt="beIN 4K" height="28"> | beIN 4K | beIN 14 |
+| <img src="logos/readme/channels/bein-english-1.png" alt="beIN SPORTS English 1" height="28"> | beIN SPORTS English 1 | beIN 21 |
+| <img src="logos/readme/channels/bein-english-2.png" alt="beIN SPORTS English 2" height="28"> | beIN SPORTS English 2 | beIN 22 |
+| <img src="logos/readme/channels/bein-french-1.png" alt="beIN SPORTS French 1" height="28"> | beIN SPORTS French 1 | beIN 26 |
+| <img src="logos/readme/channels/bein-french-2.png" alt="beIN SPORTS French 2" height="28"> | beIN SPORTS French 2 | beIN 27 |
+| <img src="logos/readme/channels/bein-xtra-1.png" alt="beIN SPORTS XTRA 1" height="28"> | beIN SPORTS XTRA 1 | beIN 41 |
+| <img src="logos/readme/channels/bein-xtra-2.png" alt="beIN SPORTS XTRA 2" height="28"> | beIN SPORTS XTRA 2 | beIN 42 |
+| <img src="logos/readme/channels/bein-xtra-3.png" alt="beIN SPORTS XTRA 3" height="28"> | beIN SPORTS XTRA 3 | beIN 43 |
+| <img src="logos/readme/channels/bein-xtra-4.png" alt="beIN SPORTS XTRA 4" height="28"> | beIN SPORTS XTRA 4 | beIN 44 |
+| <img src="logos/readme/channels/bein-xtra-5.png" alt="beIN SPORTS XTRA 5" height="28"> | beIN SPORTS XTRA 5 | beIN 45 |
+| <img src="logos/readme/channels/bein-xtra-6.png" alt="beIN SPORTS XTRA 6" height="28"> | beIN SPORTS XTRA 6 | beIN 46 |
+| <img src="logos/readme/channels/bein-xtra-7.png" alt="beIN SPORTS XTRA 7" height="28"> | beIN SPORTS XTRA 7 | beIN 47 |
+| <img src="logos/readme/channels/bein-xtra-8.png" alt="beIN SPORTS XTRA 8" height="28"> | beIN SPORTS XTRA 8 | beIN 48 |
+| <img src="logos/readme/channels/bein-xtra-9.png" alt="beIN SPORTS XTRA 9" height="28"> | beIN SPORTS XTRA 9 | beIN 49 |
+| <img src="logos/readme/channels/bein-afc.png" alt="beIN SPORTS AFC" height="28"> | beIN SPORTS AFC | — |
+| <img src="logos/readme/channels/bein-afc-1.png" alt="beIN SPORTS AFC 1" height="28"> | beIN SPORTS AFC 1 | — |
+| <img src="logos/readme/channels/bein-afc-2.png" alt="beIN SPORTS AFC 2" height="28"> | beIN SPORTS AFC 2 | — |
+| <img src="logos/readme/channels/bein-afc-3.png" alt="beIN SPORTS AFC 3" height="28"> | beIN SPORTS AFC 3 | — |
+| <img src="logos/readme/channels/bein-afc-4.png" alt="beIN SPORTS AFC 4" height="28"> | beIN SPORTS AFC 4 | — |
+| <img src="logos/readme/channels/bein-afc-5.png" alt="beIN SPORTS AFC 5" height="28"> | beIN SPORTS AFC 5 | — |
+| <img src="logos/readme/channels/bein-afc-6.png" alt="beIN SPORTS AFC 6" height="28"> | beIN SPORTS AFC 6 | — |
+| <img src="logos/readme/channels/bein-nba.png" alt="beIN NBA" height="28"> | beIN NBA | — |
+| <img src="logos/readme/channels/bein-max-1.png" alt="beIN SPORTS MAX 1" height="28"> | beIN SPORTS MAX 1 | beIN 701 |
+| <img src="logos/readme/channels/bein-max-2.png" alt="beIN SPORTS MAX 2" height="28"> | beIN SPORTS MAX 2 | beIN 702 |
+| <img src="logos/readme/channels/bein-max-3.png" alt="beIN SPORTS MAX 3" height="28"> | beIN SPORTS MAX 3 | beIN 703 |
+| <img src="logos/readme/channels/bein-max-4.png" alt="beIN SPORTS MAX 4" height="28"> | beIN SPORTS MAX 4 | beIN 704 |
+| <img src="logos/readme/channels/bein-max-5.png" alt="beIN SPORTS MAX 5" height="28"> | beIN SPORTS MAX 5 | beIN 705 |
+| <img src="logos/readme/channels/bein-max-6.png" alt="beIN SPORTS MAX 6" height="28"> | beIN SPORTS MAX 6 | beIN 706 |
+
 - **Rights tracked:** Premier League – beIN SPORTS 1, beIN SPORTS English 1, beIN 4K; AFCON PAMOJA 2027 qualifiers – channel TBA; AFC Asian Cup – channel TBA; ATP tennis – channel TBA; LaLiga – beIN SPORTS 1, beIN SPORTS English 1; Carabao Cup – beIN SPORTS 1, beIN SPORTS English 1; Formula 1 – beIN SPORTS 8, beIN SPORTS English 1, beIN 4K; MotoGP – beIN SPORTS 8, beIN SPORTS English 1; NBA – beIN SPORTS 7, beIN SPORTS English 1; NFL – beIN SPORTS 8, beIN SPORTS English 2
 - Everything beIN marks live in its MENA guide.
 
 ### ESPN Africa
+
+<img src="logos/readme/providers/espn.png" alt="ESPN Africa" height="40">
+
 *DStv · StarSat · Disney+ (SA)*
 
 - **Watch:** [ESPN Africa](https://africa.espn.com) · [Disney+](https://www.disneyplus.com/en-za) · [DStv](https://www.dstv.com)
-- **Channels:** ESPN (DStv 218) · ESPN 2 (DStv 219)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <img src="logos/readme/channels/espn-africa.png" alt="ESPN" height="28"> | ESPN | DStv 218 |
+| <img src="logos/readme/channels/espn2-africa.png" alt="ESPN 2" height="28"> | ESPN 2 | DStv 219 |
+
 - **Rights tracked:** Top 14 – ESPN, ESPN 2; Japan Rugby League One – ESPN, ESPN 2; Saudi Pro League – ESPN, ESPN 2; NBA – ESPN, ESPN 2; NFL – ESPN, ESPN 2; MLB (selected games, Pan-Africa) – ESPN, ESPN 2
 
 ### New World Sport
+
+<img src="logos/readme/providers/nws.png" alt="New World Sport" height="40">
+
 *NW TV · my.t (Mauritius)*
 
 - **Watch:** [New World Sport (my.t)](https://www.myt.mu/home/new-world-sport-guide) · [New World TV app (Android)](https://play.google.com/store/apps/details?id=com.newworldtvapp) · [New World TV app (iPhone)](https://apps.apple.com/app/id1250251639)
-- **Channels:** NW Sport 1 · NW Sport 2 · NW Sport 3 · NW Sport 4 · NW Sport 5 · NW Sport 6 · NW Sport 7
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <img src="logos/readme/channels/nws-sport-1.png" alt="NW Sport 1" height="28"> | NW Sport 1 | — |
+| <img src="logos/readme/channels/nws-sport-2.png" alt="NW Sport 2" height="28"> | NW Sport 2 | — |
+| <img src="logos/readme/channels/nws-sport-3.png" alt="NW Sport 3" height="28"> | NW Sport 3 | — |
+| <img src="logos/readme/channels/nws-sport-4.png" alt="NW Sport 4" height="28"> | NW Sport 4 | — |
+| <img src="logos/readme/channels/nws-sport-5.png" alt="NW Sport 5" height="28"> | NW Sport 5 | — |
+| <img src="logos/readme/channels/nws-sport-6.png" alt="NW Sport 6" height="28"> | NW Sport 6 | — |
+| <img src="logos/readme/channels/nws-sport-7.png" alt="NW Sport 7" height="28"> | NW Sport 7 | — |
+
 - Everything in the New World Sport live-events guide (my.t, Mauritius).
 
 ### Sporty TV
+
+<img src="logos/readme/providers/sportytv.png" alt="Sporty TV" height="40">
+
 *Sporty app (video only)*
 
 - **Watch:** [Sporty TV](https://sporty.com/)
-- **Channels:** Sporty TV
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <img src="logos/readme/channels/sportytv.png" alt="Sporty TV" height="28"> | Sporty TV | — |
+
 - Live video in the Sporty app.
 
 ### ZAP
+
+<img src="logos/readme/providers/zap.png" alt="ZAP" height="40">
+
 *Angola · Moçambique · Cabo Verde*
 
 - **Watch:** [ZAP](https://www.zap.co.ao)
-- **Channels:** Z Sports (ZAP 21) · Z Sports 2 (ZAP 22) · Z Sports LaLiga (ZAP 23)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/zsports-1-on-dark.png"><img src="logos/readme/channels/zsports-1-on-light.png" alt="Z Sports" height="28"></picture> | Z Sports | ZAP 21 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/zsports-2-on-dark.png"><img src="logos/readme/channels/zsports-2-on-light.png" alt="Z Sports 2" height="28"></picture> | Z Sports 2 | ZAP 22 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/zsports-laliga-on-dark.png"><img src="logos/readme/channels/zsports-laliga-on-light.png" alt="Z Sports LaLiga" height="28"></picture> | Z Sports LaLiga | ZAP 23 |
+
 - **Rights tracked:** LaLiga – Z Sports LaLiga; Bundesliga & DFB-Pokal – Z Sports 2; Serie A & Coppa Italia – Z Sports 2; Girabola – Z Sports; FIFA World Cup 2026 – Z Sports; African MMA Championship (FAMMA) – Z Sports, Z Sports 2; Basketball – Z Sports
 
 ### DAZN
+
+<img src="logos/readme/providers/dazn.png" alt="DAZN" height="40">
+
 *Streaming (Africa)*
 
 - **Watch:** [DAZN](https://www.dazn.com)
-- **Channels:** DAZN
-- Streaming; DAZN events and NFL Game Pass.
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/dazn-on-dark.png"><img src="logos/readme/channels/dazn-on-light.png" alt="DAZN" height="28"></picture> | DAZN | — |
+
+- Streaming in Africa. Every live event on its schedule (dazn.com/en-KE/schedule – boxing, NHL, college sports, National League, LPB, T100, E1, OCEANMAN, Total Chess, RWS Muay Thai and more) is added automatically.
 
 ### NBA League Pass
+
+<img src="logos/readme/providers/nba.png" alt="NBA League Pass" height="40">
+
 *Direct-to-consumer streaming* · streaming
 
 - **Watch:** [NBA League Pass](https://www.nba.com/watch/league-pass-stream)
-- **Channels:** NBA League Pass
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/nba-league-pass-on-dark.png"><img src="logos/readme/channels/nba-league-pass-on-light.png" alt="NBA League Pass" height="28"></picture> | NBA League Pass | — |
+
 
 ### F1 TV
+
+<img src="logos/readme/providers/f1tv.png" alt="F1 TV" height="40">
+
 *Direct-to-consumer streaming* · streaming
 
 - **Watch:** [F1 TV](https://f1tv.formula1.com)
-- **Channels:** F1 TV
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/f1tv-on-dark.png"><img src="logos/readme/channels/f1tv-on-light.png" alt="F1 TV" height="28"></picture> | F1 TV | — |
+
 
 ### MotoGP VideoPass
+
+<img src="logos/readme/providers/videopass.png" alt="MotoGP VideoPass" height="40">
+
 *Direct-to-consumer streaming* · streaming
 
 - **Watch:** [MotoGP VideoPass](https://www.motogp.com/en/videopass)
-- **Channels:** MotoGP VideoPass
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/motogp-videopass-on-dark.png"><img src="logos/readme/channels/motogp-videopass-on-light.png" alt="MotoGP VideoPass" height="28"></picture> | MotoGP VideoPass | — |
+
 
 ### Apple TV
+
+<img src="logos/readme/providers/appletv.png" alt="Apple TV" height="40">
+
 *Streaming · every MLS match, Friday Night Baseball (in 100+ countries)* · streaming
 
 - **Watch:** [Apple TV](https://tv.apple.com) · [MLS – how to watch](https://www.mlssoccer.com/how-to-watch/)
-- **Channels:** Apple TV
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/apple-tv-on-dark.png"><img src="logos/readme/channels/apple-tv-on-light.png" alt="Apple TV" height="28"></picture> | Apple TV | — |
+
 - Every MLS match (MLS Season Pass is included in Apple TV) and MLB Friday Night Baseball.
 
 ### beIN SPORTS France
+
+<img src="logos/readme/providers/beinfr.png" alt="beIN SPORTS France" height="40">
+
 *Madagascar · Mauritius · Réunion · Mayotte*
 
 - **Watch:** [beIN SPORTS France](https://www.beinsports.com/france/)
 - Indian Ocean islands; AFC Asian Cup rights (channel to be announced).
 
 ### Sport 24
+
+<img src="logos/readme/providers/sport24.png" alt="Sport 24" height="40">
+
 *Live sport on airlines and cruise ships · Sport 24 & Sport 24 Extra (Emirates, Qatar Airways, Turkish Airlines, Etihad, Saudia, British Airways and more)*
 
 - **Watch:** [Where to watch](https://sport24live.com/watch/) · [Schedule](https://sport24live.com/schedule/) · [Rights](https://sport24live.com/about/)
-- **Channels:** Sport 24 (In flight · At sea) · Sport 24 Extra (In flight · At sea)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/sport24-on-dark.png"><img src="logos/readme/channels/sport24-on-light.png" alt="Sport 24" height="28"></picture> | Sport 24 | In flight · At sea |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/sport24-extra-on-dark.png"><img src="logos/readme/channels/sport24-extra-on-light.png" alt="Sport 24 Extra" height="28"></picture> | Sport 24 Extra | In flight · At sea |
+
 - In-flight and at-sea only (no home TV in Africa). Rights (sport24live.com/about): UEFA Champions League, Europa League, Conference League, Nations League, Premier League, Ligue 1, Saudi Pro League, Women's Super League, Copa Libertadores, AFC Asian Cup, FIFA World Cup 26; Australian Open, Roland-Garros, Wimbledon, US Open, ATP Masters 1000 & ATP Finals; the Masters, The Open, PGA Tour, DP World Tour, LIV Golf, Ryder Cup; NFL, NBA, NHL; ICC Men's T20 World Cup, the Ashes, BBL; Rugby League World Cup, NRL, SVNS, Champions Cup; F1, MotoGP, SailGP, EuroLeague, BWF, AFL, horse racing majors. Live slots come from its 10-day schedule.
 
 ### NFL Game Pass
+
+<img src="logos/readme/providers/gamepass.png" alt="NFL Game Pass" height="40">
+
 *Direct-to-consumer streaming (DAZN)* · streaming
 
 - **Watch:** [NFL Game Pass](https://www.dazn.com)
-- **Channels:** NFL Game Pass
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/nfl-gamepass-on-dark.png"><img src="logos/readme/channels/nfl-gamepass-on-light.png" alt="NFL Game Pass" height="28"></picture> | NFL Game Pass | — |
 
 ## How it updates itself
 
@@ -165,6 +394,7 @@ A GitHub job ([`.github/workflows/update-feed.yml`](.github/workflows/update-fee
 | Azam TV Max – web.azamtvmax.com/tv-guide | "LIVE" in the programme title | ✅ (Azam publishes one day at a time) |
 | StarTimes – m.startimestv.com | no live flag: a slot counts only if it starts within 30 minutes of the real kick-off (so replays never count) | ✅ |
 | Sport 24 / Sport 24 Extra – sport24live.com/schedule (airlines & cruise ships) | the schedule's own live flag | ✅ |
+| DAZN – dazn.com/en-KE/schedule (streaming, Africa) | every scheduled event is live; programmes and the Live TV channel are left out | ✅ |
 | Azam TV – azamtv.com/program-guide | checked every run; its sports section currently lists ESPN only | ⚠️ |
 | CANAL+ Rwanda – canalplus.com/rw/programme-tv | blocks automated visits from cloud servers | ⚠️ use announcements |
 | ZAP Angola – zap.co.ao/tv/guia-tv | guide server only answers inside Angola | ⚠️ use announcements |
