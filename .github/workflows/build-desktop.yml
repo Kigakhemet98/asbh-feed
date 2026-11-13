@@ -1,0 +1,92 @@
+# Builds the Mac (Apple Silicon) and Linux apps from the app-src branch and publishes them on the
+# "downloads" branch (one commit, newest version only – keeps the repository small).
+# Windows and Android builds are made elsewhere and also live on the downloads branch.
+name: Build Mac and Linux apps
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: build-desktop, cancel-in-progress: false }
+jobs:
+  mac:
+    runs-on: macos-14            # Apple Silicon runner
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: app-src }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm ci
+      - name: Build the app (arm64)
+        run: npx electron-builder --mac dir --arm64 --publish never
+        env: { CSC_IDENTITY_AUTO_DISCOVERY: 'false' }
+      - name: Ad-hoc sign (required on Apple Silicon) and make the DMG
+        run: |
+          set -e
+          APP="$(ls -d dist/mac-arm64/*.app)"
+          codesign --force --deep --sign - "$APP"
+          codesign --verify --deep --strict "$APP"
+          VER=$(node -p "require('./package.json').version")
+          mkdir -p dmg && cp -R "$APP" dmg/ && ln -s /Applications dmg/Applications
+          hdiutil create -volname "African Sports Broadcast Hub" -srcfolder dmg -ov -format ULMO "out/ASBH-$VER-mac-arm64.dmg" || { mkdir -p out; hdiutil create -volname "African Sports Broadcast Hub" -srcfolder dmg -ov -format ULMO "out/ASBH-$VER-mac-arm64.dmg"; }
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        with: { name: mac, path: out/*.dmg }
+
+  linux:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: app-src }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Packaging tools (rpm, pacman, snap, flatpak)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rpm libarchive-tools squashfs-tools flatpak flatpak-builder
+          sudo snap install snapcraft --classic || true
+          flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          flatpak install --user -y --noninteractive flathub org.freedesktop.Platform//23.08 org.freedesktop.Sdk//23.08 org.electronjs.Electron2.BaseApp//23.08
+      - run: npm ci
+      - name: deb, rpm, Arch (pkg.tar.zst) and tar.xz – x64 and arm64
+        run: npx electron-builder --linux deb rpm pacman tar.xz --x64 --arm64 --publish never
+      - name: snap (x64)
+        continue-on-error: true
+        run: npx electron-builder --linux snap --x64 --publish never
+      - name: flatpak (x64)
+        continue-on-error: true
+        run: npx electron-builder --linux flatpak --x64 --publish never
+      - run: mkdir -p out && cp dist/*.deb dist/*.rpm dist/*.pacman dist/*.tar.xz dist/*.snap dist/*.flatpak out/ 2>/dev/null; ls -la out
+      - uses: actions/upload-artifact@v4
+        with: { name: linux, path: out/* }
+
+  publish:
+    needs: [mac, linux]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { path: new }
+      - name: Put the new Mac and Linux files on the downloads branch
+        env: { GH_REPO: '${{ github.repository }}', TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+        run: |
+          set -e
+          git clone --depth 1 --branch downloads "https://x-access-token:${TOKEN}@github.com/${GH_REPO}.git" dl
+          cd dl
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          shopt -s nullglob
+          [ -d ../new/mac ]   && git rm -q --ignore-unmatch 'mac/*'   && mkdir -p mac
+          [ -d ../new/linux ] && git rm -q --ignore-unmatch 'linux/*' && mkdir -p linux
+          for kind in mac linux; do
+            for f in ../new/$kind/*; do
+              b=$(basename "$f"); s=$(stat -c %s "$f")
+              if [ "$s" -gt 95000000 ]; then        # GitHub's 100 MB file limit: split, with a join script
+                split -b 90M -d -a 1 "$f" "$kind/$b.part"
+                printf '#!/bin/sh\n# Rebuilds %s from its parts and checks it\ncd "$(dirname "$0")"\ncat %s.part* > %s\necho "%s  %s" | shasum -a 256 -c - 2>/dev/null || echo "%s  %s" | sha256sum -c -\n' "$b" "$b" "$b" "$(sha256sum "$f" | cut -d' ' -f1)" "$b" "$(sha256sum "$f" | cut -d' ' -f1)" "$b" > "$kind/join-$b.sh"
+                chmod +x "$kind/join-$b.sh"
+              else cp "$f" "$kind/"; fi
+              echo "$(sha256sum "$f" | cut -d' ' -f1)  $b" >> "$kind/SHA256SUMS.txt"
+            done
+          done
+          git add -A
+          git commit --amend -q -m "App downloads (newest version only)" || true
+          git push -q --force origin downloads
