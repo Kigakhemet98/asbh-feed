@@ -27,7 +27,8 @@ jobs:
           codesign --verify --deep --strict "$APP"
           VER=$(node -p "require('./package.json').version")
           mkdir -p dmg && cp -R "$APP" dmg/ && ln -s /Applications dmg/Applications
-          hdiutil create -volname "African Sports Broadcast Hub" -srcfolder dmg -ov -format ULMO "out/ASBH-$VER-mac-arm64.dmg" || { mkdir -p out; hdiutil create -volname "African Sports Broadcast Hub" -srcfolder dmg -ov -format ULMO "out/ASBH-$VER-mac-arm64.dmg"; }
+          mkdir -p out
+          hdiutil create -volname "African Sports Broadcast Hub" -srcfolder dmg -ov -format ULMO "out/ASBH-$VER-mac-arm64.dmg"
           ls -la out
       - uses: actions/upload-artifact@v4
         with: { name: mac, path: out/*.dmg }
