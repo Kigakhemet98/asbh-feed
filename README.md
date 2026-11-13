@@ -281,13 +281,13 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 
 | Platform | ESPN | ESPN 2 | Where |
 |---|---|---|---|
-| [DStv](https://dstv.stream/#/) (flagship) | 218 | 219 | Across Africa |
-| [Azam TV](https://web.azamtvmax.com) | 120 | 121 | East & Southern Africa |
-| [StarTimes](https://m.startimestv.com/browser/live) | 248 | 249 | Across Africa |
-| [Zuku](https://zuku.co.ke) (Wananchi) | 712 (Smart and up) | 713 (Smart Plus and up) | Kenya & East Africa |
-| [ZAP](https://www.zap.co.ao) | 31 | 32 | Angola & Mozambique |
-| [GOtv](https://www.gotvafrica.com) | 556 Kenya · 356 Uganda (Starter and up) | 357 Uganda (Sports) | Kenya, Uganda |
-| [Disney+](https://www.disneyplus.com/en-za) | live channel | live channel | South Africa |
+| <a href="https://dstv.stream/#/"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/dstv-dark.png"><img src="logos/readme/platforms/dstv.png" alt="DStv" height="26"></picture></a><br>DStv (flagship) | 218 | 219 | Across Africa |
+| <a href="https://web.azamtvmax.com"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/azamtv-dark.png"><img src="logos/readme/platforms/azamtv.png" alt="Azam TV" height="26"></picture></a><br>Azam TV | 120 | 121 | East & Southern Africa |
+| <a href="https://m.startimestv.com/browser/live"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/startimes-dark.png"><img src="logos/readme/platforms/startimes.png" alt="StarTimes" height="26"></picture></a><br>StarTimes | 248 | 249 | Across Africa |
+| <a href="https://zuku.co.ke"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/zuku-dark.png"><img src="logos/readme/platforms/zuku.png" alt="Zuku" height="26"></picture></a><br>Zuku (Wananchi) | 712 (Smart and up) | 713 (Smart Plus and up) | Kenya & East Africa |
+| <a href="https://www.zap.co.ao"><img src="logos/readme/platforms/zap.png" alt="ZAP" height="26"></a><br>ZAP | 31 | 32 | Angola & Mozambique |
+| <a href="https://www.gotvafrica.com"><img src="logos/readme/platforms/gotv.png" alt="GOtv" height="26"></a><br>GOtv | 556 Kenya · 356 Uganda (Starter and up) | 357 Uganda (Sports) | Kenya, Uganda |
+| <a href="https://www.disneyplus.com/en-za"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/disney-plus-dark.png"><img src="logos/readme/platforms/disney-plus.png" alt="Disney+" height="26"></picture></a><br>Disney+ | live channel | live channel | South Africa |
 
 Source: [ESPN Africa](https://africa.espn.com/espn/story/_/id/49791245/espn-channels-africa-disney+-south-africa-air-new-nfl-season) and MultiChoice's November 2026 GOtv channel list.
 
@@ -490,16 +490,16 @@ A GitHub job ([`.github/workflows/update-feed.yml`](.github/workflows/update-fee
 
 | Guide | How live sport is recognised | Status |
 |---|---|---|
-| SuperSport – supersport.com/tv-guide | the guide's own "live" flag | ✅ |
-| beIN SPORTS MENA – beinsports.com/en-mena/tv-guide | the guide's own "live" flag | ✅ |
-| New World Sport – myt.mu/home/new-world-sport-guide | the guide lists only live events | ✅ |
-| Azam TV Max – web.azamtvmax.com/tv-guide | "LIVE" in the programme title | ✅ (Azam publishes one day at a time) |
-| StarTimes – m.startimestv.com | no live flag: a slot counts only if it starts within 30 minutes of the real kick-off (so replays never count) | ✅ |
-| Sport 24 / Sport 24 Extra – sport24live.com/schedule (airlines & cruise ships) | the schedule's own live flag | ✅ |
-| DAZN – dazn.com/en-KE/schedule (streaming, Africa) | every scheduled event is live; programmes, the Live TV channel and add-on passes (NFL Game Pass, NHL.TV) are left out. DAZN refuses requests from servers outside Africa, so **the apps read its 10-day schedule directly on your phone or PC** each refresh | ✅ in the apps |
-| Azam TV – azamtv.com/program-guide | checked every run; its sports section currently lists ESPN only | ⚠️ |
-| CANAL+ Rwanda – canalplus.com/rw/programme-tv | blocks automated visits from cloud servers | ⚠️ use announcements |
-| ZAP Angola – zap.co.ao/tv/guia-tv | guide server only answers inside Angola | ⚠️ use announcements |
+| <a href="https://supersport.com/tv-guide"><img src="logos/readme/platforms/supersport.png" alt="SuperSport" height="26"></a><br>**SuperSport** – supersport.com/tv-guide | the guide's own "live" flag | ✅ |
+| <a href="https://www.beinsports.com/en-mena/tv-guide"><img src="logos/readme/platforms/bein.png" alt="beIN SPORTS MENA" height="26"></a><br>**beIN SPORTS MENA** – beinsports.com/en-mena/tv-guide | the guide's own "live" flag | ✅ |
+| <a href="https://www.myt.mu/home/new-world-sport-guide"><img src="logos/readme/platforms/nws.png" alt="New World Sport" height="26"></a><br>**New World Sport** – myt.mu/home/new-world-sport-guide | the guide lists only live events | ✅ |
+| <a href="https://web.azamtvmax.com/tv-guide"><img src="logos/readme/platforms/azam-max.png" alt="Azam TV Max" height="26"></a><br>**Azam TV Max** – web.azamtvmax.com/tv-guide | "LIVE" in the programme title | ✅ (Azam publishes one day at a time) |
+| <a href="https://m.startimestv.com"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/startimes-dark.png"><img src="logos/readme/platforms/startimes.png" alt="StarTimes" height="26"></picture></a><br>**StarTimes** – m.startimestv.com | no live flag: a slot counts only if it starts within 30 minutes of the real kick-off (so replays never count) | ✅ |
+| <a href="https://sport24live.com/schedule/"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/sport24-dark.png"><img src="logos/readme/platforms/sport24.png" alt="Sport 24" height="26"></picture></a><br>**Sport 24 / Sport 24 Extra** – sport24live.com/schedule (airlines & cruise ships) | the schedule's own live flag | ✅ |
+| <a href="https://www.dazn.com/en-KE/schedule"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/dazn-dark.png"><img src="logos/readme/platforms/dazn.png" alt="DAZN" height="26"></picture></a><br>**DAZN** – dazn.com/en-KE/schedule (streaming, Africa) | every scheduled event is live; programmes, the Live TV channel and add-on passes (NFL Game Pass, NHL.TV) are left out. DAZN refuses requests from servers outside Africa, so **the apps read its 10-day schedule directly on your phone or PC** each refresh | ✅ in the apps |
+| <a href="https://www.azamtv.com/program-guide"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/azamtv-dark.png"><img src="logos/readme/platforms/azamtv.png" alt="Azam TV" height="26"></picture></a><br>**Azam TV** – azamtv.com/program-guide | checked every run; its sports section currently lists ESPN only | ⚠️ |
+| <a href="https://www.canalplus.com/rw/programme-tv/"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/canalplus-dark.png"><img src="logos/readme/platforms/canalplus.png" alt="CANAL+" height="26"></picture></a><br>**CANAL+ Rwanda** – canalplus.com/rw/programme-tv | blocks automated visits from cloud servers | ⚠️ use announcements |
+| <a href="https://www.zap.co.ao/tv/guia-tv"><img src="logos/readme/platforms/zap.png" alt="ZAP" height="26"></a><br>**ZAP Angola** – zap.co.ao/tv/guia-tv | guide server only answers inside Angola | ⚠️ use announcements |
 
 Each run's result per guide is in `feed.json → sources`. A guide that fails keeps its last good data instead of wiping it.
 
