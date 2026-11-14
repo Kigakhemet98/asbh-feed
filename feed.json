@@ -3,69 +3,69 @@
  "app": {
   "latest": "2.3.0",
   "downloads": "https://github.com/Kigakhemet98/asbh-feed#download-the-apps",
-  "notes": "NBA broadcasters for Africa and the Middle East, read live from nba.com"
+  "notes": "NBA broadcasters for Africa and the Middle East (incl. Prime Video), read live from nba.com"
  },
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-14T00:19:39.792Z",
+ "updated": "2026-11-14T00:22:38.300Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 337,
-   "at": "2026-11-14T00:17:42.158Z"
+   "at": "2026-11-14T00:20:11.082Z"
   },
   "bein": {
    "ok": true,
    "count": 103,
-   "at": "2026-11-14T00:17:43.916Z"
+   "at": "2026-11-14T00:20:13.447Z"
   },
   "nws": {
    "ok": true,
    "count": 45,
-   "at": "2026-11-14T00:17:46.393Z"
+   "at": "2026-11-14T00:20:16.143Z"
   },
   "azam": {
    "ok": true,
    "count": 3,
-   "at": "2026-11-14T00:17:55.231Z"
+   "at": "2026-11-14T00:20:16.844Z"
   },
   "startimes": {
    "ok": true,
    "count": 190,
-   "at": "2026-11-14T00:19:05.757Z"
+   "at": "2026-11-14T00:21:27.472Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-14T00:19:19.539Z"
+   "at": "2026-11-14T00:21:41.214Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-14T00:19:19.625Z"
+   "at": "2026-11-14T00:21:41.324Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-14T00:19:25.716Z"
+   "at": "2026-11-14T00:21:47.513Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-14T00:19:25.854Z"
+   "at": "2026-11-14T00:21:47.729Z"
   },
   "sport24": {
    "ok": true,
    "count": 90,
-   "at": "2026-11-14T00:19:27.036Z"
+   "at": "2026-11-14T00:22:26.617Z"
   },
   "nbaIntl": {
    "ok": true,
-   "count": 12,
-   "at": "2026-11-14T00:19:29.146Z"
+   "count": 16,
+   "at": "2026-11-14T00:22:28.399Z"
   }
  },
  "assignments": [
@@ -190,6 +190,20 @@
    "via": "SuperSport guide"
   },
   {
+   "start": "2026-11-14T00:00:00.000Z",
+   "duration": 150,
+   "sport": "basketball",
+   "comp": "NBA · Emirates NBA Cup",
+   "detail": "New York Knicks @ Indiana Pacers",
+   "home": "Indiana Pacers",
+   "away": "New York Knicks",
+   "channels": [
+    "prime-video"
+   ],
+   "status": "L",
+   "via": "NBA.com schedule (Pan-Africa / Pan-Middle East)"
+  },
+  {
    "start": "2026-11-14T02:00:00.000Z",
    "end": "2026-11-14T04:00:00.000Z",
    "sport": "tennis",
@@ -228,6 +242,20 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
+  },
+  {
+   "start": "2026-11-14T02:30:00.000Z",
+   "duration": 150,
+   "sport": "basketball",
+   "comp": "NBA · Emirates NBA Cup",
+   "detail": "Golden State Warriors @ San Antonio Spurs",
+   "home": "San Antonio Spurs",
+   "away": "Golden State Warriors",
+   "channels": [
+    "prime-video"
+   ],
+   "status": "L",
+   "via": "NBA.com schedule (Pan-Africa / Pan-Middle East)"
   },
   {
    "start": "2026-11-14T03:00:00.000Z",
@@ -3808,6 +3836,20 @@
    "via": "SuperSport guide · Sport 24 guide"
   },
   {
+   "start": "2026-11-21T00:30:00.000Z",
+   "duration": 150,
+   "sport": "basketball",
+   "comp": "NBA · Emirates NBA Cup",
+   "detail": "Toronto Raptors @ Detroit Pistons",
+   "home": "Detroit Pistons",
+   "away": "Toronto Raptors",
+   "channels": [
+    "prime-video"
+   ],
+   "status": "L",
+   "via": "NBA.com schedule (Pan-Africa / Pan-Middle East)"
+  },
+  {
    "start": "2026-11-21T00:55:00.000Z",
    "end": "2026-11-21T04:25:00.000Z",
    "sport": "cricket",
@@ -3834,6 +3876,20 @@
    "via": "beIN SPORTS guide",
    "home": "Japan",
    "away": "Argentina"
+  },
+  {
+   "start": "2026-11-21T03:00:00.000Z",
+   "duration": 150,
+   "sport": "basketball",
+   "comp": "NBA · Emirates NBA Cup",
+   "detail": "Houston Rockets @ Denver Nuggets",
+   "home": "Denver Nuggets",
+   "away": "Houston Rockets",
+   "channels": [
+    "prime-video"
+   ],
+   "status": "L",
+   "via": "NBA.com schedule (Pan-Africa / Pan-Middle East)"
   },
   {
    "start": "2026-11-21T03:55:00.000Z",
@@ -5671,6 +5727,34 @@
    ]
   },
   {
+   "id": "primevideo",
+   "name": "Prime Video",
+   "note": "Streaming · NBA games in South Africa and North Africa / Middle East (NBA on Prime, 11-year global deal from 2025-26)",
+   "bg": "#0f171e",
+   "fg": "#ffffff",
+   "accent": "#1a98ff",
+   "regions": [
+    "south",
+    "mena"
+   ],
+   "stream": true,
+   "url": "https://www.primevideo.com",
+   "links": [
+    {
+     "label": "Prime Video",
+     "url": "https://www.primevideo.com"
+    },
+    {
+     "label": "NBA schedule (South Africa)",
+     "url": "https://www.nba.com/schedule?cal=all&region=40"
+    },
+    {
+     "label": "NBA schedule (Middle East & North Africa)",
+     "url": "https://www.nba.com/schedule?cal=all&region=25"
+    }
+   ]
+  },
+  {
    "id": "zuku",
    "name": "Zuku TV",
    "note": "Satellite pay-TV · Kenya & East Africa (Wananchi Group) · sports: ESPN, ESPN 2, Punch TV, SportyTV, Liverpool TV",
@@ -5854,6 +5938,18 @@
    "logos": {
     "light": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/st-beta-on-light.png",
     "dark": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/st-beta-on-dark.png"
+   }
+  },
+  {
+   "id": "prime-video",
+   "provider": "primevideo",
+   "name": "Prime Video",
+   "short": "Prime Video",
+   "wide": true,
+   "num": "Streaming · South Africa, North Africa & Middle East",
+   "logos": {
+    "light": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/prime-video-on-light.png",
+    "dark": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/prime-video-on-dark.png"
    }
   },
   {
@@ -6309,6 +6405,24 @@
    ]
   },
   {
+   "id": "prime-video",
+   "name": "Prime Video",
+   "kind": "stream",
+   "providers": [
+    "primevideo"
+   ],
+   "logos": {
+    "light": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/prime-video-on-light.png",
+    "dark": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/logos/prime-video-on-dark.png"
+   },
+   "regions": [
+    "south",
+    "mena"
+   ],
+   "countries": "South Africa · North Africa · Middle East",
+   "url": "https://www.primevideo.com"
+  },
+  {
    "id": "zuku-tv",
    "name": "Zuku",
    "kind": "tv",
@@ -6381,7 +6495,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-14T00:19:37.989Z",
+   "checked": "2026-11-14T00:22:36.341Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6409,7 +6523,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-14T00:19:39.006Z",
+   "checked": "2026-11-14T00:22:37.359Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6430,7 +6544,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-14T00:19:39.792Z",
+   "checked": "2026-11-14T00:22:38.300Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
