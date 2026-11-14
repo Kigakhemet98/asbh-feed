@@ -6,67 +6,66 @@
   "notes": "now on Mac (Apple Silicon), Linux and Windows on ARM"
  },
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-13T23:57:14.730Z",
+ "updated": "2026-11-14T00:01:52.644Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
    "count": 330,
-   "at": "2026-11-13T23:54:49.624Z"
+   "at": "2026-11-13T23:59:48.547Z"
   },
   "bein": {
    "ok": true,
    "count": 96,
-   "at": "2026-11-13T23:54:51.276Z"
+   "at": "2026-11-13T23:59:51.015Z"
   },
   "nws": {
    "ok": true,
    "count": 45,
-   "at": "2026-11-13T23:54:53.374Z"
+   "at": "2026-11-13T23:59:53.451Z"
   },
   "azam": {
    "ok": true,
    "count": 3,
-   "at": "2026-11-13T23:55:03.458Z"
+   "at": "2026-11-14T00:00:02.975Z"
   },
   "startimes": {
    "ok": true,
    "count": 190,
-   "at": "2026-11-13T23:56:12.917Z"
+   "at": "2026-11-14T00:01:14.626Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-13T23:56:26.570Z"
+   "at": "2026-11-14T00:01:28.373Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-13T23:56:26.619Z"
+   "at": "2026-11-14T00:01:28.441Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-13T23:56:32.460Z"
+   "at": "2026-11-14T00:01:35.062Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T23:56:32.660Z"
+   "at": "2026-11-14T00:01:35.288Z"
   },
   "sport24": {
    "ok": true,
    "count": 85,
-   "at": "2026-11-13T23:57:08.406Z"
+   "at": "2026-11-14T00:01:36.890Z"
   },
   "nbaIntl": {
-   "ok": false,
-   "error": "403 https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_24.json",
-   "kept": 0,
-   "at": "2026-11-13T23:57:08.593Z"
+   "ok": true,
+   "count": 12,
+   "at": "2026-11-14T00:01:39.006Z"
   }
  },
  "assignments": [
@@ -1046,30 +1045,18 @@
    "end": "2026-11-15T03:00:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "Dallas v Cleveland",
+   "detail": "Dallas Mavericks v Cleveland Cavaliers",
    "channels": [
     "bein-8",
-    "bein-english-1"
+    "bein-english-1",
+    "s24",
+    "cp-tbc",
+    "sportytv"
    ],
    "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Dallas",
-   "away": "Cleveland"
-  },
-  {
-   "start": "2026-11-15T00:30:00.000Z",
-   "duration": 150,
-   "sport": "basketball",
-   "comp": "NBA",
-   "detail": "Mavericks @ Cavaliers",
-   "channels": [
-    "s24"
-   ],
-   "status": "L",
-   "via": "Sport 24 guide",
-   "note": "In flight · At sea",
-   "home": "Cavaliers",
-   "away": "Mavericks"
+   "via": "beIN SPORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
+   "home": "Dallas Mavericks",
+   "away": "Cleveland Cavaliers"
   },
   {
    "start": "2026-11-15T01:55:00.000Z",
@@ -1520,6 +1507,20 @@
    "via": "beIN SPORTS guide"
   },
   {
+   "start": "2026-11-15T18:00:00.000Z",
+   "duration": 150,
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Indiana Pacers @ Philadelphia 76ers",
+   "home": "Philadelphia 76ers",
+   "away": "Indiana Pacers",
+   "channels": [
+    "cp-tbc"
+   ],
+   "status": "L",
+   "via": "NBA.com schedule (Pan-Africa / Pan-Middle East)"
+  },
+  {
    "start": "2026-11-15T18:30:00.000Z",
    "end": "2026-11-15T21:30:00.000Z",
    "sport": "golf",
@@ -1663,14 +1664,15 @@
    "end": "2026-11-15T23:30:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "Los Angeles Lakers v Phoenix",
+   "detail": "Los Angeles Lakers v Phoenix Suns",
    "channels": [
-    "bein-9"
+    "bein-9",
+    "cp-tbc"
    ],
    "status": "L",
-   "via": "beIN SPORTS guide",
+   "via": "beIN SPORTS guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
    "home": "Los Angeles Lakers",
-   "away": "Phoenix"
+   "away": "Phoenix Suns"
   },
   {
    "start": "2026-11-15T21:21:00.000Z",
@@ -2154,33 +2156,20 @@
    "end": "2026-11-17T02:40:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "Celtics v Magic",
+   "detail": "Boston Celtics v Orlando Magic",
    "channels": [
     "ss-grandstand",
     "ss-action",
     "ss-maximo-1",
+    "bein-english-1",
+    "bein-8",
     "s24-extra",
     "s24"
    ],
    "status": "L",
-   "via": "SuperSport guide · Sport 24 guide",
-   "home": "Celtics",
-   "away": "Magic"
-  },
-  {
-   "start": "2026-11-17T00:00:00.000Z",
-   "end": "2026-11-17T02:30:00.000Z",
-   "sport": "basketball",
-   "comp": "NBA",
-   "detail": "Orlando v Boston",
-   "channels": [
-    "bein-english-1",
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Orlando",
-   "away": "Boston"
+   "via": "SuperSport guide · beIN SPORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
+   "home": "Boston Celtics",
+   "away": "Orlando Magic"
   },
   {
    "start": "2026-11-17T01:00:00.000Z",
@@ -2710,30 +2699,18 @@
    "end": "2026-11-18T03:40:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "Spurs v Pistons",
+   "detail": "San Antonio Spurs v Detroit Pistons",
    "channels": [
     "ss-grandstand",
     "ss-action",
-    "s24-extra"
-   ],
-   "status": "L",
-   "via": "SuperSport guide · Sport 24 guide",
-   "home": "Spurs",
-   "away": "Pistons"
-  },
-  {
-   "start": "2026-11-18T00:55:00.000Z",
-   "end": "2026-11-18T03:40:00.000Z",
-   "sport": "basketball",
-   "comp": "NBA",
-   "detail": "San Antonio Spurs v Detroit Pistons",
-   "channels": [
     "ss-maximo-1",
     "bein-english-1",
-    "bein-8"
+    "bein-8",
+    "s24-extra",
+    "cp-tbc"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
+   "via": "SuperSport guide · beIN SPORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
    "home": "San Antonio Spurs",
    "away": "Detroit Pistons"
   },
@@ -2772,30 +2749,17 @@
    "end": "2026-11-18T06:40:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "Lakers v Hornets",
+   "detail": "Los Angeles Lakers v Charlotte Hornets",
    "channels": [
     "ss-action",
-    "ss-maximo-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Lakers",
-   "away": "Hornets"
-  },
-  {
-   "start": "2026-11-18T04:00:00.000Z",
-   "end": "2026-11-18T06:30:00.000Z",
-   "sport": "basketball",
-   "comp": "NBA",
-   "detail": "Charlotte v Los Angeles Lakers",
-   "channels": [
+    "ss-maximo-1",
     "bein-english-1",
     "bein-8"
    ],
    "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Charlotte",
-   "away": "Los Angeles Lakers"
+   "via": "SuperSport guide · beIN SPORTS guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
+   "home": "Los Angeles Lakers",
+   "away": "Charlotte Hornets"
   },
   {
    "start": "2026-11-18T04:50:00.000Z",
@@ -3008,34 +2972,21 @@
    "away": "India"
   },
   {
-   "start": "2026-11-19T00:00:00.000Z",
-   "end": "2026-11-19T02:30:00.000Z",
-   "sport": "basketball",
-   "comp": "NBA",
-   "detail": "Milwaukee v Miami",
-   "channels": [
-    "bein-7",
-    "bein-english-1"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Milwaukee",
-   "away": "Miami"
-  },
-  {
    "start": "2026-11-19T00:12:00.000Z",
    "end": "2026-11-19T02:35:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "Bucks @ Heat",
+   "detail": "Milwaukee Bucks @ Miami Heat",
    "channels": [
     "espn",
+    "bein-7",
+    "bein-english-1",
     "s24"
    ],
    "status": "L",
-   "via": "SuperSport guide · Sport 24 guide",
-   "home": "Heat",
-   "away": "Bucks"
+   "via": "SuperSport guide · beIN SPORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
+   "home": "Miami Heat",
+   "away": "Milwaukee Bucks"
   },
   {
    "start": "2026-11-19T00:30:00.000Z",
@@ -3053,34 +3004,21 @@
    "away": "Canadiens"
   },
   {
-   "start": "2026-11-19T02:00:00.000Z",
-   "end": "2026-11-19T05:00:00.000Z",
-   "sport": "basketball",
-   "comp": "NBA",
-   "detail": "Golden State v Dallas",
-   "channels": [
-    "bein-english-2",
-    "bein-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Golden State",
-   "away": "Dallas"
-  },
-  {
    "start": "2026-11-19T02:35:00.000Z",
    "end": "2026-11-19T04:30:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "Warriors @ Mavericks",
+   "detail": "Golden State Warriors @ Dallas Mavericks",
    "channels": [
     "espn",
+    "bein-english-2",
+    "bein-8",
     "s24"
    ],
    "status": "L",
-   "via": "SuperSport guide · Sport 24 guide",
-   "home": "Mavericks",
-   "away": "Warriors"
+   "via": "SuperSport guide · beIN SPORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
+   "home": "Dallas Mavericks",
+   "away": "Golden State Warriors"
   },
   {
    "start": "2026-11-19T04:30:00.000Z",
@@ -3414,30 +3352,17 @@
    "end": "2026-11-20T03:30:00.000Z",
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "LA Clippers v San Antonio",
+   "detail": "LA Clippers v San Antonio Spurs",
    "channels": [
     "bein-english-1",
-    "bein-7"
+    "bein-7",
+    "s24",
+    "cp-tbc"
    ],
    "status": "L",
-   "via": "beIN SPORTS guide",
+   "via": "beIN SPORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
    "home": "LA Clippers",
-   "away": "San Antonio"
-  },
-  {
-   "start": "2026-11-20T01:00:00.000Z",
-   "duration": 150,
-   "sport": "basketball",
-   "comp": "NBA",
-   "detail": "Clippers @ Spurs",
-   "channels": [
-    "s24"
-   ],
-   "status": "L",
-   "via": "Sport 24 guide",
-   "note": "At sea",
-   "home": "Spurs",
-   "away": "Clippers"
+   "away": "San Antonio Spurs"
   },
   {
    "start": "2026-11-20T01:15:00.000Z",
@@ -4452,6 +4377,22 @@
    "via": "SuperSport guide"
   },
   {
+   "start": "2026-11-21T18:00:00.000Z",
+   "duration": 150,
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Milwaukee Bucks @ Philadelphia 76ers",
+   "home": "Philadelphia 76ers",
+   "away": "Milwaukee Bucks",
+   "channels": [
+    "cp-tbc",
+    "sportytv",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "via": "NBA.com schedule (Pan-Africa / Pan-Middle East)"
+  },
+  {
    "start": "2026-11-21T19:00:00.000Z",
    "duration": 115,
    "sport": "football",
@@ -5181,16 +5122,18 @@
    "duration": 150,
    "sport": "basketball",
    "comp": "NBA",
-   "detail": "Pistons @ Hawks",
+   "detail": "Detroit Pistons @ Atlanta Hawks",
    "channels": [
     "s24-extra",
-    "s24"
+    "s24",
+    "espn",
+    "cp-tbc"
    ],
    "status": "L",
-   "via": "Sport 24 guide",
+   "via": "Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
    "note": "In flight",
-   "home": "Hawks",
-   "away": "Pistons"
+   "home": "Atlanta Hawks",
+   "away": "Detroit Pistons"
   },
   {
    "start": "2026-11-22T21:21:00.000Z",
@@ -5232,6 +5175,21 @@
    "via": "SuperSport guide",
    "home": "New Zealand",
    "away": "India"
+  },
+  {
+   "start": "2026-11-22T23:00:00.000Z",
+   "duration": 150,
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Oklahoma City Thunder @ Miami Heat",
+   "home": "Miami Heat",
+   "away": "Oklahoma City Thunder",
+   "channels": [
+    "cp-tbc",
+    "bein-tbc"
+   ],
+   "status": "L",
+   "via": "NBA.com schedule (Pan-Africa / Pan-Middle East)"
   },
   {
    "start": "2026-11-22T23:30:00.000Z",
@@ -6095,7 +6053,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-13T23:57:12.673Z",
+   "checked": "2026-11-14T00:01:50.929Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -6123,7 +6081,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-13T23:57:13.860Z",
+   "checked": "2026-11-14T00:01:51.912Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -6144,7 +6102,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-13T23:57:14.730Z",
+   "checked": "2026-11-14T00:01:52.644Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
