@@ -1,0 +1,10 @@
+cfd143a2f62ba9fcef2c1114c96bf3d691f2d5cdca8ea91247008a2b341844b1  african-sports-broadcast-hub-2.3.1-aarch64.pkg.tar.zst
+fee39fc5facb17af4d807368b9f861883335b73ce2b47a24917eabee81d66e9c  african-sports-broadcast-hub-2.3.1-aarch64.rpm
+77947e0aa9a64e1a325e0ec29465aa3bb264c206a7243f3d2f441401e929ace1  african-sports-broadcast-hub-2.3.1-amd64.deb
+54ecd37dcd4e7aee51fc632095055e0209c8d01a4d48e471c9644171069a5d64  african-sports-broadcast-hub-2.3.1-amd64.snap
+4f76186041f2830fe844b4bcf9e6d454fc93cf03a7960df76b7e84382df19d83  african-sports-broadcast-hub-2.3.1-arm64.deb
+f50ff4390d5f8d3182cee334dd77821d0c92787157e900f9e96b9ab144c6c189  african-sports-broadcast-hub-2.3.1-arm64.tar.xz
+b27358aa8b03ec242789911bc34480fb194730a747a627cb7dc87a8978718cf1  african-sports-broadcast-hub-2.3.1-x64.pkg.tar.zst
+c5f84fbf3a06b4bccbc58f4421c1b64ad188c05a73ac985519d9ab92b6c5f51e  african-sports-broadcast-hub-2.3.1-x64.tar.xz
+9c6c8373bc24c3a513a09401407da413263b9a9f115dc58f83c17934078993ee  african-sports-broadcast-hub-2.3.1-x86_64.flatpak
+43b63ce47705b11efa374c5e50e72222d9bc537f00279cb881d1c7c36ad66bab  african-sports-broadcast-hub-2.3.1-x86_64.rpm
