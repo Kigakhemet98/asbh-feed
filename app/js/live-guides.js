@@ -119,6 +119,31 @@
     return out;
   }
 
+  /* ---------- NBA – official international broadcasters (nba.com/schedule, Broadcaster region
+   *            Pan-Africa = 24, Pan-Middle East = 25). Read on the device: NBA blocks GitHub's servers. ---------- */
+  const NBA_CH = [[/^canal\+? ?afrique/i, 'cp-tbc'], [/^supersport action/i, 'ss-action'], [/^espn 2$/i, 'espn2'], [/^espn$/i, 'espn'], [/^sporty ?tv/i, 'sportytv'], [/^bein/i, 'bein-tbc']];
+  async function nba() {
+    const out = new Map(); const now = Date.now(); const end = now + DAYS * 864e5;
+    for (const region of [24, 25]) {
+      const j = await A.netFetch(`https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_${region}.json`);
+      for (const d of (j.leagueSchedule && j.leagueSchedule.gameDates) || []) for (const g of d.games || []) {
+        const t = Date.parse(g.gameDateTimeUTC); if (!(t > now - 3 * 3600e3 && t < end)) continue;
+        const b = g.broadcasters || {}; const ch = [];
+        for (const x of [...(b.intlTvBroadcasters || []), ...(b.intlOttBroadcasters || [])]) {
+          if (x.regionId && x.regionId !== region) continue;
+          const hit = NBA_CH.find(([re]) => re.test(String(x.broadcasterDisplay || '').trim())); if (hit && !ch.includes(hit[1])) ch.push(hit[1]);
+        }
+        if (!ch.length) continue;
+        const home = `${g.homeTeam.teamCity} ${g.homeTeam.teamName}`.trim(), away = `${g.awayTeam.teamCity} ${g.awayTeam.teamName}`.trim();
+        const cup = /nba cup/i.test(`${g.gameLabel || ''} ${g.gameSubLabel || ''}`);
+        const e = out.get(g.gameId) || { start: iso(t), duration: 150, sport: 'basketball', comp: cup ? 'NBA · Emirates NBA Cup' : 'NBA', detail: `${away} @ ${home}`, home, away, channels: [], status: 'L', src: 'guide:nba' };
+        for (const c of ch) if (!e.channels.includes(c)) e.channels.push(c);
+        out.set(g.gameId, e);
+      }
+    }
+    return [...out.values()];
+  }
+
   /* ---------- Fixtures (FotMob) for leagues whose African rights holders publish no guide:
    *            Azam TV, StarTimes, CANAL+ Afrique and ZAP. Channels are added by the rights plugin. */
   const LEAGUES = [[47, 'Premier League'], [87, 'LaLiga'], [55, 'Serie A'], [54, 'Bundesliga'], [53, 'Ligue 1'], [42, 'UEFA Champions League'],
@@ -140,7 +165,7 @@
     return out;
   }
 
-  const SOURCES = { supersport, bein, dazn, fixtures };
+  const SOURCES = { supersport, bein, dazn, nba, fixtures };
   let running = null;
   A.refreshGuides = async (force) => {
     if (!A.netAvailable()) return null;
@@ -163,7 +188,7 @@
   /* ---------- plugin: guide events into the schedule ---------- */
   A.plugins.register({
     id: 'live-guides', builtin: true, name: 'Live TV guides (auto-update)', version: A.version,
-    description: `Fetches the SuperSport 10-day guide, beIN SPORTS MENA, DAZN and league fixtures every ${HOURS} hours in the background (Windows and Android apps). New World Sport, Azam TV Max and StarTimes arrive through the live feed on GitHub (rebuilt from their guides every 3 hours). Kick-off changes and postponements replace the old listing automatically.`,
+    description: `Fetches the SuperSport 10-day guide, beIN SPORTS MENA, DAZN, the NBA's Pan-Africa / Pan-Middle East broadcast schedule and league fixtures every ${HOURS} hours in the background (Windows and Android apps). New World Sport, Azam TV Max and StarTimes arrive through the live feed on GitHub (rebuilt from their guides every 3 hours). Kick-off changes and postponements replace the old listing automatically.`,
     source: async () => {
       const g = A.store.get(KEY, null);
       // stale or missing: fetch in the background, then redraw – never block the first paint

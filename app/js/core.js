@@ -11,7 +11,7 @@
     try { g.caches && g.caches.keys().then((ks) => ks.forEach((k) => g.caches.delete(k))); } catch (e) { /* ignore */ }
     try { g.history.replaceState(null, '', g.location.pathname); } catch (e) { /* ignore */ }
   }
-  ASBH.version = '2.2.9';
+  ASBH.version = '2.3.0';
 
   /* ---------- tiny event bus ---------- */
   const listeners = {};

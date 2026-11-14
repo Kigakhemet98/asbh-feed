@@ -65,10 +65,10 @@ ipcMain.handle('asbh:rem-cancel', (_e, id) => { reminders = reminders.filter((x)
 ipcMain.handle('asbh:rem-list', () => pending().map((r) => r.id).join(','));
 
 /* TV-guide fetches for the in-app auto-update (live-guides.js). Allow-listed hosts only. */
-const GUIDE_HOSTS = /(^|\.)(supersport\.com|beinsports\.com|indazn\.com|dazn\.com|fotmob\.com|github\.io|githubusercontent\.com)$/i;
+const GUIDE_HOSTS = /(^|\.)(supersport\.com|beinsports\.com|indazn\.com|dazn\.com|fotmob\.com|nba\.com|github\.io|githubusercontent\.com)$/i;
 ipcMain.handle('asbh:fetch', async (_e, url) => {
   const u = new URL(url); if (u.protocol !== 'https:' || !GUIDE_HOSTS.test(u.hostname)) throw new Error('host not allowed: ' + u.hostname);
-  const r = await net.fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36 ASBH/2.0', Referer: u.origin + '/', Accept: 'application/json,text/html;q=0.9,*/*;q=0.8' } });
+  const r = await net.fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36 ASBH/2.0', Referer: /(^|\.)nba\.com$/.test(u.hostname) ? 'https://www.nba.com/' : u.origin + '/', Accept: 'application/json,text/html;q=0.9,*/*;q=0.8' } });
   if (!r.ok) throw new Error(r.status + ' ' + u.hostname);
   return await r.text();
 });

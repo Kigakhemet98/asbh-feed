@@ -1,5 +1,5 @@
 /* Service worker: app shell offline, schedule feed network-first so updates arrive quickly. */
-const CACHE = 'asbh-v21';
+const CACHE = 'asbh-v22';
 const SHELL = ['./', 'index.html', 'css/app.css', 'fonts/fonts.css', 'js/core.js', 'js/data-channels.js', 'js/data-sports.js', 'js/data-seed.js',
   'js/logos.js', 'js/data-teams.js', 'js/plugins.js', 'js/live-guides.js', 'js/views.js', 'js/export.js', 'js/export-highlights.js', 'js/platform.js', 'js/data-countries.js', 'js/clean.js', 'js/calendar-reminders.js', 'js/app.js', 'js/mobile.js', 'plugins/index.js', 'icons/icon.svg', 'manifest.webmanifest'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
