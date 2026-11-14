@@ -29,6 +29,7 @@
     { id: 'beinfr', abbr: 'beIN', name: 'beIN SPORTS France', note: 'Madagascar · Mauritius · Réunion · Mayotte', bg: '#5b2c8f', fg: '#ffffff', regions: ['indian'], url: 'https://www.beinsports.com/france/' },
     { id: 'sport24', abbr: '24', name: 'Sport 24', note: 'Live sport on airlines and cruise ships · Sport 24 & Sport 24 Extra (Emirates, Qatar Airways, Turkish Airlines, Etihad, Saudia, British Airways and more)', bg: '#0a0a0a', fg: '#f5e400', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], guide: 'https://sport24live.com/schedule/', url: 'https://sport24live.com/watch/', links: [{ label: 'Where to watch', url: 'https://sport24live.com/watch/' }, { label: 'Schedule', url: 'https://sport24live.com/schedule/' }, { label: 'Rights', url: 'https://sport24live.com/about/' }] },
     { id: 'zuku', name: 'Zuku TV', note: 'Satellite pay-TV · Kenya & East Africa (Wananchi Group) · sports: ESPN, ESPN 2, Punch TV, SportyTV, Liverpool TV', bg: '#ffffff', fg: '#1a1a1a', accent: '#6cb33f', regions: ['east'], url: 'https://zuku.co.ke', links: [{ label: 'Zuku TV', url: 'https://zuku.co.ke' }, { label: 'Channel list', url: 'https://zuku.co.ke/channel-list/' }] },
+    { id: 'primevideo', name: 'Prime Video', note: 'Streaming · NBA games in South Africa and North Africa / Middle East (NBA on Prime, 11-year global deal from 2025-26)', bg: '#0f171e', fg: '#ffffff', accent: '#1a98ff', regions: ['south', 'mena'], stream: true, url: 'https://www.primevideo.com', links: [{ label: 'Prime Video', url: 'https://www.primevideo.com' }, { label: 'NBA schedule (South Africa)', url: 'https://www.nba.com/schedule?cal=all&region=40' }, { label: 'NBA schedule (Middle East & North Africa)', url: 'https://www.nba.com/schedule?cal=all&region=25' }] },
     { id: 'gamepass', name: 'NFL Game Pass', note: 'Direct-to-consumer streaming (DAZN)', stream: true, bg: '#013369', fg: '#ffffff', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], url: 'https://www.dazn.com' }
   ];
 
@@ -103,6 +104,7 @@
     { id: 's24-extra', provider: 'sport24', name: 'Sport 24 Extra', short: 'Sport 24 Extra', wide: true, num: 'In flight · At sea', logos: { light: L('sport24-extra-on-light.png'), dark: L('sport24-extra-on-dark.png') } },
     { id: 'zuku-punch', provider: 'zuku', name: 'Punch TV', short: 'Punch TV', wide: true, num: 'Zuku 714', no: 714, pkg: 'Zuku Smart and up', logos: { light: L('zuku-punch-tv-on-light.png'), dark: L('zuku-punch-tv-on-dark.png') } },
     { id: 'zuku-lfctv', provider: 'zuku', name: 'Liverpool TV', short: 'LFC TV', num: 'Zuku 721', no: 721, pkg: 'Zuku Premium', logo: L('zuku-lfctv.png') },
+    { id: 'prime-video', provider: 'primevideo', name: 'Prime Video', short: 'Prime Video', wide: true, num: 'Streaming · South Africa, North Africa & Middle East', logos: { light: L('prime-video-on-light.png'), dark: L('prime-video-on-dark.png') } },
     { id: 'sportytv', provider: 'sportytv', name: 'SportyTV', short: 'SportyTV', logo: L('sportytv.png'), num: 'DStv 237 · 236 · Zuku 720', no: 237, countries: 'South Africa · Nigeria · Kenya · Ghana', gotv: ['558 (Kenya) · 58 (Nigeria) · 36 (Ghana)', 'GOtv Starter and up'] },
     { id: 'dazn', provider: 'dazn', name: 'DAZN', short: 'DAZN', logos: { light: L('dazn-on-light.png'), dark: L('dazn-on-dark.png') } },
     { id: 'apple-tv', provider: 'appletv', name: 'Apple TV', short: 'Apple TV', wide: true, logos: { light: L('apple-tv-on-light.png'), dark: L('apple-tv-on-dark.png') } },
@@ -247,6 +249,7 @@
     { id: 'startimes-on', name: 'StarTimes ON', kind: 'stream', providers: ['startimes'], logos: { light: L('startimes-on-on-light.png'), dark: L('startimes-on-on-dark.png') }, regions: ['east', 'west', 'south', 'franco'], url: 'https://m.startimestv.com/browser/live' },
     { id: 'bein-connect', name: 'beIN SPORTS CONNECT', kind: 'stream', providers: ['bein'], logos: { light: L('bein-connect-on-light.svg'), dark: L('bein-connect-on-dark.svg') }, regions: ['mena'], url: 'https://connect.beinsports.com' },
     { id: 'zuku-tv', name: 'Zuku', kind: 'tv', providers: ['zuku', 'espn', 'sportytv'], logos: { light: L('zuku-on-light.png'), dark: L('zuku-on-dark.png') }, regions: ['east'], countries: 'Kenya · Uganda · Tanzania', url: 'https://zuku.co.ke' },
+    { id: 'prime-video', name: 'Prime Video', kind: 'stream', providers: ['primevideo'], logos: { light: L('prime-video-on-light.png'), dark: L('prime-video-on-dark.png') }, regions: ['south', 'mena'], countries: 'South Africa · North Africa · Middle East', url: 'https://www.primevideo.com' },
   ];
   A.streamingPlatform = (id) => A.PLATFORMS.find((p) => p.id === id);
   /* platforms that stream at least one of these channels */

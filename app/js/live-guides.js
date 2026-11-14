@@ -120,11 +120,11 @@
   }
 
   /* ---------- NBA – official international broadcasters (nba.com/schedule, Broadcaster region
-   *            Pan-Africa = 24, Pan-Middle East = 25). Read on the device: NBA blocks GitHub's servers. ---------- */
-  const NBA_CH = [[/^canal\+? ?afrique/i, 'cp-tbc'], [/^supersport action/i, 'ss-action'], [/^espn 2$/i, 'espn2'], [/^espn$/i, 'espn'], [/^sporty ?tv/i, 'sportytv'], [/^bein/i, 'bein-tbc']];
+   *            Pan-Africa = 24, Pan-Middle East = 25, South Africa = 40). Read on the device: NBA blocks GitHub's servers. ---------- */
+  const NBA_CH = [[/^canal\+? ?afrique/i, 'cp-tbc'], [/^supersport action/i, 'ss-action'], [/^espn 2$/i, 'espn2'], [/^espn$/i, 'espn'], [/^sporty ?tv/i, 'sportytv'], [/^bein/i, 'bein-tbc'], [/^prime/i, 'prime-video']];
   async function nba() {
     const out = new Map(); const now = Date.now(); const end = now + DAYS * 864e5;
-    for (const region of [24, 25]) {
+    for (const region of [24, 25, 40]) {   // Pan-Africa, Pan-Middle East (incl. North Africa), South Africa
       const j = await A.netFetch(`https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_${region}.json`);
       for (const d of (j.leagueSchedule && j.leagueSchedule.gameDates) || []) for (const g of d.games || []) {
         const t = Date.parse(g.gameDateTimeUTC); if (!(t > now - 3 * 3600e3 && t < end)) continue;
