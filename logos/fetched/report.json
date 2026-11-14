@@ -1,51 +1,14 @@
 [
  {
-  "key": "os-debian",
-  "q": "Debian",
-  "title": "Debian",
-  "file": "os-debian.png",
-  "image": "Debian_13_(Trixie)_screenshot_-_using_GNOME_desktop.png"
- },
- {
-  "key": "os-ubuntu",
-  "q": "Ubuntu",
-  "title": "Ubuntu",
-  "file": "os-ubuntu.png",
-  "image": "Ubuntu-logo-2022.svg"
- },
- {
-  "key": "os-fedora",
-  "q": "Fedora Linux",
-  "title": "Fedora Linux",
-  "file": "os-fedora.png",
-  "image": "Fedora_44_Workstation.png"
- },
- {
-  "key": "os-opensuse",
-  "q": "openSUSE",
-  "title": "OpenSUSE",
-  "file": "os-opensuse.png",
-  "image": "OpenSUSE_Logo.svg"
- },
- {
-  "key": "os-arch",
-  "q": "Arch Linux",
-  "title": "Arch Linux",
-  "file": "os-arch.png",
-  "image": "Arch_Linux_screenshot,_12.06.2024.png"
- },
- {
-  "key": "os-snap",
-  "q": "Snap (software)",
-  "title": "Snap (software)",
-  "file": "os-snap.png",
-  "image": "Snapcraft-logo-bird.svg"
- },
- {
-  "key": "os-flatpak",
-  "q": "Flatpak",
-  "title": "Flatpak",
-  "file": "os-flatpak.png",
-  "image": "Flatpak_Logo.svg"
+  "key": "plat-primevideo",
+  "q": "Amazon Prime Video",
+  "title": "Amazon Prime Video",
+  "file": "plat-primevideo.png",
+  "image": "Amazon_Prime_Video_example_screenshot.png",
+  "site": [
+   "plat-primevideo-site1.png",
+   "plat-primevideo-site2.png",
+   "plat-primevideo-site3.png"
+  ]
  }
 ]
