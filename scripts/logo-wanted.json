@@ -1216,5 +1216,11 @@
   "q": "Flatpak",
   "lang": "en",
   "site": null
+ },
+ {
+  "key": "plat-primevideo",
+  "q": "Amazon Prime Video",
+  "lang": "en",
+  "site": "https://www.primevideo.com"
  }
 ]
