@@ -845,5 +845,12 @@
   "provider": "zuku",
   "providerName": "Zuku TV",
   "num": "Zuku 721"
+ },
+ {
+  "id": "prime-video",
+  "name": "Prime Video",
+  "provider": "primevideo",
+  "providerName": "Prime Video",
+  "num": "Streaming · South Africa, North Africa & Middle East"
  }
 ]

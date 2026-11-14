@@ -421,11 +421,11 @@ async function dazn() {
    those regions shows live becomes an event; the same game in a TV guide (SuperSport, beIN, Sport 24 …) merges into it. */
 const NBA_CH = [
   [/^canal\+? ?afrique/i, 'cp-tbc'], [/^supersport action/i, 'ss-action'], [/^espn 2$/i, 'espn2'], [/^espn$/i, 'espn'],
-  [/^sporty ?tv/i, 'sportytv'], [/^bein/i, 'bein-tbc'],
+  [/^sporty ?tv/i, 'sportytv'], [/^bein/i, 'bein-tbc'], [/^prime/i, 'prime-video'],
 ];
 async function nbaIntl() {
   const out = new Map();
-  for (const region of [24, 25]) {
+  for (const region of [24, 25, 40]) {   // Pan-Africa, Pan-Middle East (incl. North Africa), South Africa
     const j = await get(`https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_${region}.json`, { headers: { origin: 'https://www.nba.com', referer: 'https://www.nba.com/', 'accept-language': 'en-GB,en;q=0.9' } });   // NBA may refuse GitHub's servers: the apps also read this on the device
     for (const d of (j.leagueSchedule && j.leagueSchedule.gameDates) || []) for (const g of d.games || []) {
       const t = Date.parse(g.gameDateTimeUTC); if (!t || !inWindow(t)) continue;
@@ -626,6 +626,7 @@ const NUMS = [{"id": "espn", "num": "DStv 218 · Azam 120 · StarTimes 248 · Zu
 const OTA = {
   providers: [
     { id: 'sport24', abbr: '24', name: 'Sport 24', note: 'Live sport on airlines and cruise ships · Sport 24 & Sport 24 Extra (Emirates, Qatar Airways, Turkish Airlines, Etihad, Saudia, British Airways and more)', bg: '#0a0a0a', fg: '#f5e400', regions: ['east', 'south', 'west', 'franco', 'luso', 'mena', 'indian'], guide: 'https://sport24live.com/schedule/', url: 'https://sport24live.com/watch/', links: [{ label: 'Where to watch', url: 'https://sport24live.com/watch/' }, { label: 'Schedule', url: 'https://sport24live.com/schedule/' }, { label: 'Rights', url: 'https://sport24live.com/about/' }] },
+    { id: 'primevideo', name: 'Prime Video', note: 'Streaming · NBA games in South Africa and North Africa / Middle East (NBA on Prime, 11-year global deal from 2025-26)', bg: '#0f171e', fg: '#ffffff', accent: '#1a98ff', regions: ['south', 'mena'], stream: true, url: 'https://www.primevideo.com', links: [{ label: 'Prime Video', url: 'https://www.primevideo.com' }, { label: 'NBA schedule (South Africa)', url: 'https://www.nba.com/schedule?cal=all&region=40' }, { label: 'NBA schedule (Middle East & North Africa)', url: 'https://www.nba.com/schedule?cal=all&region=25' }] },
     { id: 'zuku', name: 'Zuku TV', note: 'Satellite pay-TV · Kenya & East Africa (Wananchi Group) · sports: ESPN, ESPN 2, Punch TV, SportyTV, Liverpool TV', bg: '#ffffff', fg: '#1a1a1a', accent: '#6cb33f', regions: ['east'], url: 'https://zuku.co.ke', links: [{ label: 'Zuku TV', url: 'https://zuku.co.ke' }, { label: 'Channel list', url: 'https://zuku.co.ke/channel-list/' }] },
     { id: 'espn', name: 'ESPN Africa', note: 'Flagship on DStv, no longer DStv-exclusive · also on GOtv, Azam TV, StarTimes, Zuku, ZAP and Disney+ (South Africa)', regions: ['east', 'south', 'west', 'luso'], url: 'https://africa.espn.com', links: [{ label: 'ESPN Africa', url: 'https://africa.espn.com' }, { label: 'DStv Stream', url: 'https://dstv.stream/#/' }, { label: 'GOtv', url: 'https://www.gotvafrica.com' }, { label: 'Azam TV Max', url: 'https://web.azamtvmax.com' }, { label: 'StarTimes ON', url: 'https://m.startimestv.com/browser/live' }, { label: 'Zuku', url: 'https://zuku.co.ke' }, { label: 'ZAP', url: 'https://www.zap.co.ao' }, { label: 'Disney+ (South Africa)', url: 'https://www.disneyplus.com/en-za' }] },
     { id: 'sportytv', name: 'Sporty TV', note: 'SportyTV channel on DStv & GOtv (since 10 June 2026) · Sporty app', regions: ['east', 'south', 'west'], url: 'https://www.dstv.com/en-ke/news/146550/sportytv-is-now-live-on-dstv-watch-live-sports-for-less/', links: [{ label: 'SportyTV on DStv', url: 'https://www.dstv.com/en-ke/news/146550/sportytv-is-now-live-on-dstv-watch-live-sports-for-less/' }, { label: 'DStv Stream', url: 'https://dstv.stream/#/' }, { label: 'Sporty', url: 'https://sporty.com/' }] },
@@ -637,6 +638,7 @@ const OTA = {
     { id: 's24', provider: 'sport24', name: 'Sport 24', short: 'Sport 24', wide: true, num: 'In flight · At sea', logos: { light: RAW + 'sport24-on-light.png', dark: RAW + 'sport24-on-dark.png' } },
     { id: 's24-extra', provider: 'sport24', name: 'Sport 24 Extra', short: 'Sport 24 Extra', wide: true, num: 'In flight · At sea', logos: { light: RAW + 'sport24-extra-on-light.png', dark: RAW + 'sport24-extra-on-dark.png' } },
     { id: 'st-beta', wide: true, logos: { light: RAW + 'st-beta-on-light.png', dark: RAW + 'st-beta-on-dark.png' } },
+    { id: 'prime-video', provider: 'primevideo', name: 'Prime Video', short: 'Prime Video', wide: true, num: 'Streaming · South Africa, North Africa & Middle East', logos: { light: RAW + 'prime-video-on-light.png', dark: RAW + 'prime-video-on-dark.png' } },
     { id: 'zuku-punch', provider: 'zuku', name: 'Punch TV', short: 'Punch TV', wide: true, num: 'Zuku 714', no: 714, pkg: 'Zuku Smart and up', logos: { light: RAW + 'zuku-punch-tv-on-light.png', dark: RAW + 'zuku-punch-tv-on-dark.png' } },
     { id: 'zuku-lfctv', provider: 'zuku', name: 'Liverpool TV', short: 'LFC TV', num: 'Zuku 721', no: 721, pkg: 'Zuku Premium', logo: RAW + 'zuku-lfctv.png' },
     { id: 'sportytv', name: 'SportyTV', short: 'SportyTV', logo: RAW + 'sportytv.png', num: 'DStv 237 · 236 · Zuku 720', no: 237, countries: 'South Africa · Nigeria · Kenya · Ghana', gotv: ['558 (Kenya) · 58 (Nigeria) · 36 (Ghana)', 'GOtv Starter and up'] },
@@ -657,7 +659,7 @@ const OTA = {
   ]
 };
 /* newest app version – apps from 2.2.9 show a "New version available" banner (once a day) when this is newer than them */
-const APP = { latest: '2.3.0', downloads: 'https://github.com/Kigakhemet98/asbh-feed#download-the-apps', notes: 'NBA broadcasters for Africa and the Middle East, read live from nba.com' };
+const APP = { latest: '2.3.0', downloads: 'https://github.com/Kigakhemet98/asbh-feed#download-the-apps', notes: 'NBA broadcasters for Africa and the Middle East (incl. Prime Video), read live from nba.com' };
 const feed = {
   version: 2,
   app: APP,
@@ -672,6 +674,7 @@ const feed = {
   channels: OTA.channels.concat(manual.channels || []),
   /* 2.2.3: DStv Stream moved to dstv.stream */
   platforms: [{ id: 'dstv-stream', url: 'https://dstv.stream/#/', providers: ['supersport', 'espn', 'awsn', 'sportytv'] }, { id: 'dstv', providers: ['supersport', 'espn', 'awsn', 'sportytv'] },
+    { id: 'prime-video', name: 'Prime Video', kind: 'stream', providers: ['primevideo'], logos: { light: RAW + 'prime-video-on-light.png', dark: RAW + 'prime-video-on-dark.png' }, regions: ['south', 'mena'], countries: 'South Africa · North Africa · Middle East', url: 'https://www.primevideo.com' },
     { id: 'zuku-tv', name: 'Zuku', kind: 'tv', providers: ['zuku', 'espn', 'sportytv'], logos: { light: RAW + 'zuku-on-light.png', dark: RAW + 'zuku-on-dark.png' }, regions: ['east'], countries: 'Kenya · Uganda · Tanzania', url: 'https://zuku.co.ke' }].concat(manual.platforms || []),
   rights: OTA.rights.concat(manual.rights || []),
   compLogos: OTA.compLogos.concat(manual.compLogos || []),

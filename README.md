@@ -35,7 +35,7 @@ Matches, channels and numbers update **over the air** from `feed.json`; from ver
 
 ## What's new in 2.3.0 (14 Nov 2026)
 
-- **NBA:** live games with their African and Middle East broadcasters straight from nba.com's schedule (Pan-Africa: CANAL+ Afrique, SuperSport Action, ESPN, SportyTV; Pan-Middle East: beIN SPORTS), merged with SuperSport, beIN and Sport 24's own guides. Updated every 3 hours in the feed and every 2 hours in the apps.
+- **NBA:** live games with their African and Middle East broadcasters straight from nba.com's schedule (Pan-Africa: CANAL+ Afrique, SuperSport Action, ESPN, SportyTV; Pan-Middle East incl. North Africa: beIN SPORTS and Prime Video; South Africa: ESPN and Prime Video), merged with SuperSport, beIN and Sport 24's own guides. Updated every 3 hours in the feed and every 2 hours in the apps.
 - NBA team names unified ("Dallas", "Mavericks", "DAL" → Dallas Mavericks) so the same game is listed once.
 
 ## What's new in 2.2.9 (13 Nov 2026)
@@ -497,6 +497,20 @@ Source: [ESPN Africa](https://africa.espn.com/espn/story/_/id/49791245/espn-chan
 
 - Sports rights on Zuku come through its channels: **Punch TV** (new, channel 714) – MMA, boxing, wrestling, kickboxing and other combat sports, live; **ESPN / ESPN 2** – NBA, NFL, MLB, Saudi Pro League, Top 14 and Japan Rugby League One; **SportyTV** – selected Premier League, LaLiga, Bundesliga, Serie A, Carabao Cup, NBA and combat sports; **Liverpool TV** (LFCTV) – Liverpool FC club channel. Zuku publishes no live TV guide, so matches are listed from the channels' own rights.
 
+### Prime Video
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/providers/primevideo-dark.png"><img src="logos/readme/providers/primevideo.png" alt="Prime Video" height="40"></picture>
+
+*Streaming · NBA games in South Africa and North Africa / Middle East (NBA on Prime, 11-year global deal from 2025-26)* · streaming
+
+- **Watch:** [Prime Video](https://www.primevideo.com) · [NBA schedule (South Africa)](https://www.nba.com/schedule?cal=all&region=40) · [NBA schedule (Middle East & North Africa)](https://www.nba.com/schedule?cal=all&region=25)
+
+| Logo | Channel | Number |
+|:---:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/prime-video-on-dark.png"><img src="logos/readme/channels/prime-video-on-light.png" alt="Prime Video" height="28"></picture> | Prime Video | Streaming · South Africa, North Africa & Middle East |
+
+- **NBA on Prime Video** – part of the NBA's 11-year global media deal; Prime Video carries live NBA games in more than 200 countries. In Africa, nba.com lists Prime Video for about 60 games in **South Africa** and in the **Pan-Middle East** region, which includes North Africa (Egypt, Morocco, Algeria, Tunisia, Libya). Each game's Prime Video listing comes straight from nba.com's schedule.
+
 ### NFL Game Pass
 
 <img src="logos/readme/providers/gamepass.png" alt="NFL Game Pass" height="40">
@@ -521,7 +535,7 @@ A GitHub job ([`.github/workflows/update-feed.yml`](.github/workflows/update-fee
 | <a href="https://web.azamtvmax.com/tv-guide"><img src="logos/readme/platforms/azam-max.png" alt="Azam TV Max" height="26"></a><br>**Azam TV Max** – web.azamtvmax.com/tv-guide | "LIVE" in the programme title | ✅ (Azam publishes one day at a time) |
 | <a href="https://m.startimestv.com"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/startimes-dark.png"><img src="logos/readme/platforms/startimes.png" alt="StarTimes" height="26"></picture></a><br>**StarTimes** – m.startimestv.com | no live flag: a slot counts only if it starts within 30 minutes of the real kick-off (so replays never count) | ✅ |
 | <a href="https://sport24live.com/schedule/"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/sport24-dark.png"><img src="logos/readme/platforms/sport24.png" alt="Sport 24" height="26"></picture></a><br>**Sport 24 / Sport 24 Extra** – sport24live.com/schedule (airlines & cruise ships) | the schedule's own live flag | ✅ |
-| <a href="https://www.nba.com/schedule?cal=all&region=24"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/nba-league-pass-on-dark.png"><img src="logos/readme/channels/nba-league-pass-on-light.png" alt="NBA" height="26"></picture></a><br>**NBA** – nba.com/schedule (Broadcaster region: Pan-Africa and Pan-Middle East) | the official list of each game's international TV broadcasters (CANAL+ Afrique, SuperSport Action, ESPN, SportyTV, beIN SPORTS); merged with the TV guides and Sport 24 | ✅ (feed every 3 h, apps every 2 h) |
+| <a href="https://www.nba.com/schedule?cal=all&region=24"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/nba-league-pass-on-dark.png"><img src="logos/readme/channels/nba-league-pass-on-light.png" alt="NBA" height="26"></picture></a><br>**NBA** – nba.com/schedule (Broadcaster region: Pan-Africa, Pan-Middle East and South Africa) | the official list of each game's international broadcasters (CANAL+ Afrique, SuperSport Action, ESPN, SportyTV, beIN SPORTS, Prime Video); merged with the TV guides and Sport 24 | ✅ (feed every 3 h, apps every 2 h) |
 | <a href="https://www.dazn.com/en-KE/schedule"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/dazn-dark.png"><img src="logos/readme/platforms/dazn.png" alt="DAZN" height="26"></picture></a><br>**DAZN** – dazn.com/en-KE/schedule (streaming, Africa) | every scheduled event is live; programmes, the Live TV channel and add-on passes (NFL Game Pass, NHL.TV) are left out. DAZN refuses requests from servers outside Africa, so **the apps read its 10-day schedule directly on your phone or PC** each refresh | ✅ in the apps |
 | <a href="https://www.azamtv.com/program-guide"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/azamtv-dark.png"><img src="logos/readme/platforms/azamtv.png" alt="Azam TV" height="26"></picture></a><br>**Azam TV** – azamtv.com/program-guide | checked every run; its sports section currently lists ESPN only | ⚠️ |
 | <a href="https://www.canalplus.com/rw/programme-tv/"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/canalplus-dark.png"><img src="logos/readme/platforms/canalplus.png" alt="CANAL+" height="26"></picture></a><br>**CANAL+ Rwanda** – canalplus.com/rw/programme-tv | blocks automated visits from cloud servers | ⚠️ use announcements |
