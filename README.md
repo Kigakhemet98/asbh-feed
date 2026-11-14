@@ -33,6 +33,11 @@ Matches, channels and numbers update **over the air** from `feed.json`; from ver
 
 - **Zuku TV** added (logo, landing page, channel list): new **Punch TV** combat-sports channel (714), Liverpool TV (721), plus ESPN 712/713 and SportyTV 720 on Zuku, with packages.
 
+## What's new in 2.3.0 (14 Nov 2026)
+
+- **NBA:** live games with their African and Middle East broadcasters straight from nba.com's schedule (Pan-Africa: CANAL+ Afrique, SuperSport Action, ESPN, SportyTV; Pan-Middle East: beIN SPORTS), merged with SuperSport, beIN and Sport 24's own guides. Updated every 3 hours in the feed and every 2 hours in the apps.
+- NBA team names unified ("Dallas", "Mavericks", "DAL" → Dallas Mavericks) so the same game is listed once.
+
 ## What's new in 2.2.9 (13 Nov 2026)
 
 - **New platforms:** macOS (Apple Silicon DMG), Linux (deb, rpm, pkg.tar.zst, tar.xz, snap, flatpak – x64, plus ARM64 for deb/rpm/Arch/tar) and Windows on ARM64.
@@ -516,6 +521,7 @@ A GitHub job ([`.github/workflows/update-feed.yml`](.github/workflows/update-fee
 | <a href="https://web.azamtvmax.com/tv-guide"><img src="logos/readme/platforms/azam-max.png" alt="Azam TV Max" height="26"></a><br>**Azam TV Max** – web.azamtvmax.com/tv-guide | "LIVE" in the programme title | ✅ (Azam publishes one day at a time) |
 | <a href="https://m.startimestv.com"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/startimes-dark.png"><img src="logos/readme/platforms/startimes.png" alt="StarTimes" height="26"></picture></a><br>**StarTimes** – m.startimestv.com | no live flag: a slot counts only if it starts within 30 minutes of the real kick-off (so replays never count) | ✅ |
 | <a href="https://sport24live.com/schedule/"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/sport24-dark.png"><img src="logos/readme/platforms/sport24.png" alt="Sport 24" height="26"></picture></a><br>**Sport 24 / Sport 24 Extra** – sport24live.com/schedule (airlines & cruise ships) | the schedule's own live flag | ✅ |
+| <a href="https://www.nba.com/schedule?cal=all&region=24"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/nba-league-pass-on-dark.png"><img src="logos/readme/channels/nba-league-pass-on-light.png" alt="NBA" height="26"></picture></a><br>**NBA** – nba.com/schedule (Broadcaster region: Pan-Africa and Pan-Middle East) | the official list of each game's international TV broadcasters (CANAL+ Afrique, SuperSport Action, ESPN, SportyTV, beIN SPORTS); merged with the TV guides and Sport 24 | ✅ (feed every 3 h, apps every 2 h) |
 | <a href="https://www.dazn.com/en-KE/schedule"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/dazn-dark.png"><img src="logos/readme/platforms/dazn.png" alt="DAZN" height="26"></picture></a><br>**DAZN** – dazn.com/en-KE/schedule (streaming, Africa) | every scheduled event is live; programmes, the Live TV channel and add-on passes (NFL Game Pass, NHL.TV) are left out. DAZN refuses requests from servers outside Africa, so **the apps read its 10-day schedule directly on your phone or PC** each refresh | ✅ in the apps |
 | <a href="https://www.azamtv.com/program-guide"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/azamtv-dark.png"><img src="logos/readme/platforms/azamtv.png" alt="Azam TV" height="26"></picture></a><br>**Azam TV** – azamtv.com/program-guide | checked every run; its sports section currently lists ESPN only | ⚠️ |
 | <a href="https://www.canalplus.com/rw/programme-tv/"><picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/platforms/canalplus-dark.png"><img src="logos/readme/platforms/canalplus.png" alt="CANAL+" height="26"></picture></a><br>**CANAL+ Rwanda** – canalplus.com/rw/programme-tv | blocks automated visits from cloud servers | ⚠️ use announcements |

@@ -657,7 +657,7 @@ const OTA = {
   ]
 };
 /* newest app version – apps from 2.2.9 show a "New version available" banner (once a day) when this is newer than them */
-const APP = { latest: '2.2.9', downloads: 'https://github.com/Kigakhemet98/asbh-feed#download-the-apps', notes: 'now on Mac (Apple Silicon), Linux and Windows on ARM' };
+const APP = { latest: '2.3.0', downloads: 'https://github.com/Kigakhemet98/asbh-feed#download-the-apps', notes: 'NBA broadcasters for Africa and the Middle East, read live from nba.com' };
 const feed = {
   version: 2,
   app: APP,
