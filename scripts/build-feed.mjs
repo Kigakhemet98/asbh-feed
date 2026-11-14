@@ -642,6 +642,16 @@ const OTA = {
     { id: 'zuku-punch', provider: 'zuku', name: 'Punch TV', short: 'Punch TV', wide: true, num: 'Zuku 714', no: 714, pkg: 'Zuku Smart and up', logos: { light: RAW + 'zuku-punch-tv-on-light.png', dark: RAW + 'zuku-punch-tv-on-dark.png' } },
     { id: 'zuku-lfctv', provider: 'zuku', name: 'Liverpool TV', short: 'LFC TV', num: 'Zuku 721', no: 721, pkg: 'Zuku Premium', logo: RAW + 'zuku-lfctv.png' },
     { id: 'sportytv', name: 'SportyTV', short: 'SportyTV', logo: RAW + 'sportytv.png', num: 'DStv 237 · 236 · Zuku 720', no: 237, countries: 'South Africa · Nigeria · Kenya · Ghana', gotv: ['558 (Kenya) · 58 (Nigeria) · 36 (Ghana)', 'GOtv Starter and up'] },
+    { id: 'st-sanyuka', provider: 'fta', name: "Sanyuka Prime", short: "Sanyuka Prime", countries: "Uganda", num: 'StarTimes DTT 251 · DTH 238', logo: RAW + 'st-sanyuka.png' },
+    { id: 'fta-ubc', provider: 'fta', name: "UBC", short: "UBC", countries: "Uganda", num: 'DStv 282 · StarTimes DTT 201 · DTH 447 · Azam 350 · Zuku 20', logos: { light: RAW + 'fta-ubc-on-light.png', dark: RAW + 'fta-ubc-on-dark.png' } },
+    { id: 'fta-sabc', provider: 'fta', name: "SABC Sport", short: "SABC Sport", countries: "South Africa", num: 'SABC DTT 4 · Openview 124', logo: RAW + 'fta-sabc.png' },
+    { id: 'fta-btv', provider: 'fta', name: "Botswana TV", short: "Botswana TV", countries: "Botswana", num: 'DStv 290 (Btv 1) · 289 (Btv News)', logo: RAW + 'fta-btv.png' },
+    { id: 'fta-rti', provider: 'fta', name: "RTI", short: "RTI", countries: "Côte d'Ivoire", num: 'CANAL+ 1 · StarTimes 1', logo: RAW + 'fta-rti.png' },
+    { id: 'fta-rtnc', provider: 'fta', name: "RTNC", short: "RTNC", countries: "DR Congo", num: 'CANAL+ EasyTV · free satellite', logo: RAW + 'fta-rtnc.png' },
+    { id: 'fta-crtv', provider: 'fta', name: "CRTV", short: "CRTV", countries: "Cameroon", num: 'CANAL+ · StarTimes (free)', logo: RAW + 'fta-crtv.png' },
+    { id: 'fta-snrt', provider: 'fta', name: "SNRT Arryadia", short: "SNRT Arryadia", countries: "Morocco", num: 'Free satellite · TNT', logo: RAW + 'fta-snrt.png' },
+    { id: 'fta-ontime', provider: 'fta', name: "ON Time Sports", short: "ON Time Sports", countries: "Egypt", num: 'Free satellite · Nilesat 11977 V', logo: RAW + 'fta-ontime.png' },
+    { id: 'fta-rba', provider: 'fta', name: "RBA", short: "RBA", countries: "Rwanda", num: 'DStv 299 · CANAL+ 380 · StarTimes (free)', logo: RAW + 'fta-rba.png' },
     ...NUMS,
     { id: 'apple-tv', provider: 'appletv', name: 'Apple TV', short: 'Apple TV', wide: true, logos: { light: RAW + 'apple-tv-on-light.png', dark: RAW + 'apple-tv-on-dark.png' } },
     { id: 'st-tbc', provider: 'startimes', name: 'StarTimes Sports (channel TBA)', short: 'Sports', logo: RAW + 'startimes-star.png' },
@@ -659,7 +669,7 @@ const OTA = {
   ]
 };
 /* newest app version – apps from 2.2.9 show a "New version available" banner (once a day) when this is newer than them */
-const APP = { latest: '2.3.0', downloads: 'https://github.com/Kigakhemet98/asbh-feed#download-the-apps', notes: 'NBA broadcasters for Africa and the Middle East (incl. Prime Video), read live from nba.com' };
+const APP = { latest: '2.3.1', downloads: 'https://github.com/Kigakhemet98/asbh-feed#download-the-apps', notes: 'Free-to-air channels: UBC added, plus DStv, CANAL+, StarTimes, Azam and Zuku numbers for every national channel' };
 const feed = {
   version: 2,
   app: APP,

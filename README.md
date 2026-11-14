@@ -223,17 +223,18 @@ Source: MultiChoice *New DStv & GOtv Package Channel List – November 2026* (DT
 
 | Logo | Channel | Number |
 |:---:|---|---|
-| <img src="logos/readme/channels/st-sanyuka.png" alt="Sanyuka Prime" height="28"> | Sanyuka Prime | DTT 251 · DTH 238 |
-| <img src="logos/readme/channels/fta-sabc.png" alt="SABC Sport" height="28"> | SABC Sport (South Africa) | — |
-| <img src="logos/readme/channels/fta-btv.png" alt="Botswana TV" height="28"> | Botswana TV (Botswana) | — |
-| <img src="logos/readme/channels/fta-rti.png" alt="RTI" height="28"> | RTI (Côte d'Ivoire) | — |
-| <img src="logos/readme/channels/fta-rtnc.png" alt="RTNC" height="28"> | RTNC (DR Congo) | — |
-| <img src="logos/readme/channels/fta-crtv.png" alt="CRTV" height="28"> | CRTV (Cameroon) | — |
-| <img src="logos/readme/channels/fta-snrt.png" alt="SNRT Arryadia" height="28"> | SNRT Arryadia (Morocco) | — |
-|  | ON Time Sports (Egypt) | — |
-| <img src="logos/readme/channels/fta-rba.png" alt="RBA" height="28"> | RBA (Rwanda) | — |
+| <img src="logos/readme/channels/st-sanyuka.png" alt="Sanyuka Prime" height="28"> | Sanyuka Prime (Uganda) | StarTimes DTT 251 · DTH 238 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="logos/readme/channels/fta-ubc-on-dark.png"><img src="logos/readme/channels/fta-ubc-on-light.png" alt="UBC" height="28"></picture> | UBC (Uganda) | DStv 282 · StarTimes DTT 201 · DTH 447 · Azam 350 · Zuku 20 |
+| <img src="logos/readme/channels/fta-sabc.png" alt="SABC Sport" height="28"> | SABC Sport (South Africa) | SABC DTT 4 · Openview 124 |
+| <img src="logos/readme/channels/fta-btv.png" alt="Botswana TV" height="28"> | Botswana TV (Botswana) | DStv 290 (Btv 1) · 289 (Btv News) |
+| <img src="logos/readme/channels/fta-rti.png" alt="RTI" height="28"> | RTI (Côte d'Ivoire) | CANAL+ 1 · StarTimes 1 |
+| <img src="logos/readme/channels/fta-rtnc.png" alt="RTNC" height="28"> | RTNC (DR Congo) | CANAL+ EasyTV · free satellite |
+| <img src="logos/readme/channels/fta-crtv.png" alt="CRTV" height="28"> | CRTV (Cameroon) | CANAL+ · StarTimes (free) |
+| <img src="logos/readme/channels/fta-snrt.png" alt="SNRT Arryadia" height="28"> | SNRT Arryadia (Morocco) | Free satellite · TNT |
+| <img src="logos/readme/channels/fta-ontime.png" alt="ON Time Sports" height="28"> | ON Time Sports (Egypt) | Free satellite · Nilesat 11977 V |
+| <img src="logos/readme/channels/fta-rba.png" alt="RBA" height="28"> | RBA (Rwanda) | DStv 299 · CANAL+ 380 · StarTimes (free) |
 
-- National broadcasters (e.g. Sanyuka Prime in Uganda).
+- National broadcasters that show selected matches free – e.g. **UBC** and **Sanyuka Prime** in Uganda (AFCON and FIFA World Cup games at times). Numbers show where each channel sits on DStv, CANAL+, StarTimes, Azam and Zuku; none of these channels is on beIN. Channels marked free satellite need no pay-TV package.
 
 ### beIN SPORTS MENA
 

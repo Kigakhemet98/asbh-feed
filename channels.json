@@ -347,63 +347,80 @@
   "name": "Sanyuka Prime",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": "DTT 251 · DTH 238"
+  "num": "StarTimes DTT 251 · DTH 238",
+  "countries": "Uganda"
+ },
+ {
+  "id": "fta-ubc",
+  "name": "UBC",
+  "provider": "fta",
+  "providerName": "Free-to-air (national TV)",
+  "num": "DStv 282 · StarTimes DTT 201 · DTH 447 · Azam 350 · Zuku 20",
+  "countries": "Uganda"
  },
  {
   "id": "fta-sabc",
   "name": "SABC Sport",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": ""
+  "num": "SABC DTT 4 · Openview 124",
+  "countries": "South Africa"
  },
  {
   "id": "fta-btv",
   "name": "Botswana TV",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": ""
+  "num": "DStv 290 (Btv 1) · 289 (Btv News)",
+  "countries": "Botswana"
  },
  {
   "id": "fta-rti",
   "name": "RTI",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": ""
+  "num": "CANAL+ 1 · StarTimes 1",
+  "countries": "Côte d'Ivoire"
  },
  {
   "id": "fta-rtnc",
   "name": "RTNC",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": ""
+  "num": "CANAL+ EasyTV · free satellite",
+  "countries": "DR Congo"
  },
  {
   "id": "fta-crtv",
   "name": "CRTV",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": ""
+  "num": "CANAL+ · StarTimes (free)",
+  "countries": "Cameroon"
  },
  {
   "id": "fta-snrt",
   "name": "SNRT Arryadia",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": ""
+  "num": "Free satellite · TNT",
+  "countries": "Morocco"
  },
  {
   "id": "fta-ontime",
   "name": "ON Time Sports",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": ""
+  "num": "Free satellite · Nilesat 11977 V",
+  "countries": "Egypt"
  },
  {
   "id": "fta-rba",
   "name": "RBA",
   "provider": "fta",
   "providerName": "Free-to-air (national TV)",
-  "num": ""
+  "num": "DStv 299 · CANAL+ 380 · StarTimes (free)",
+  "countries": "Rwanda"
  },
  {
   "id": "bein-1",
