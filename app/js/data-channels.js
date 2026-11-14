@@ -71,7 +71,7 @@
     { id: 'st-sports-life', provider: 'startimes', name: 'StarTimes Sports Life', short: 'Sports Life', wide: true, num: 'DTH 243 · DTT 253', no: 243, logos: { light: L('st-sports-life-on-light.png'), dark: L('st-sports-life-on-dark.png') } },
     { id: 'st-sports-focus', provider: 'startimes', name: 'StarTimes Sports Focus', short: 'Sports Focus', wide: true, num: 'DTH 240 · DTT 256', no: 240, logos: { light: L('st-sports-focus-on-light.png'), dark: L('st-sports-focus-on-dark.png') } },
     { id: 'st-beta', provider: 'startimes', name: 'StarTimes Beta Sports', short: 'Beta Sports', wide: true, num: 'DTH 244 · Nigeria', no: 244, countries: 'Nigeria', logos: { light: L('st-beta-on-light.png'), dark: L('st-beta-on-dark.png') } },
-    { id: 'st-sanyuka', provider: 'fta', name: 'Sanyuka Prime', short: 'Sanyuka', num: 'DTT 251 · DTH 238', logo: L('st-sanyuka.png') },
+    { id: 'st-sanyuka', provider: 'fta', name: 'Sanyuka Prime', short: 'Sanyuka', num: 'StarTimes DTT 251 · DTH 238', countries: 'Uganda', logo: L('st-sanyuka.png') },
 
     ...[1, 2, 3, 4, 5].map((n) => ({ id: 'azam-' + n, provider: 'azam', name: 'Azam Sports ' + n + ' HD', short: 'Sports ' + n, num: 'Azam TV ' + (110 + n), no: 110 + n, logo: L(`azam-sports-${n}.png`) })),
     { id: 'bein-sports', provider: 'bein', num: 'beIN 11', no: 11,  name: 'beIN SPORTS', short: 'Sports', logo: L('bein-sports.png') },
@@ -80,9 +80,9 @@
     { id: 'bein-tbc', provider: 'bein', name: 'beIN SPORTS (channel TBA)', short: 'SPORTS', logo: L('bein-sports.png') },
     { id: 'st-tbc', provider: 'startimes', name: 'StarTimes Sports (channel TBA)', short: 'Sports', logo: L('startimes-star.png') },
     { id: 'azam-tbc', provider: 'azam', name: 'Azam Sports (channel TBA)', short: 'Sports', logo: L('azam-generic.png') },
-    ...[['sabc', 'SABC Sport', 'South Africa'], ['btv', 'Botswana TV', 'Botswana'], ['rti', 'RTI', "Côte d'Ivoire"], ['rtnc', 'RTNC', 'DR Congo'], ['crtv', 'CRTV', 'Cameroon'],
-        ['snrt', 'SNRT Arryadia', 'Morocco'], ['ontime', 'ON Time Sports', 'Egypt'], ['rba', 'RBA', 'Rwanda']]
-      .map(([id, name, c]) => ({ id: 'fta-' + id, provider: 'fta', name, short: name, countries: c, logo: {"sabc": "logos/channels/fta-sabc.png", "btv": "logos/channels/fta-btv.png", "rtnc": "logos/channels/fta-rtnc.png", "crtv": "logos/channels/fta-crtv.png", "snrt": "logos/channels/fta-snrt.png", "rti": "logos/channels/fta-rti.png", "rba": "logos/channels/fta-rba.png"}[id] || null })),
+    { id: 'fta-ubc', provider: 'fta', name: 'UBC', short: 'UBC', countries: 'Uganda', num: 'DStv 282 · StarTimes DTT 201 · DTH 447 · Azam 350 · Zuku 20', logos: { light: L('fta-ubc-on-light.png'), dark: L('fta-ubc-on-dark.png') } },
+    ...[['sabc','SABC Sport','South Africa','SABC DTT 4 · Openview 124'],['btv','Botswana TV','Botswana','DStv 290 (Btv 1) · 289 (Btv News)'],['rti','RTI',"Côte d'Ivoire",'CANAL+ 1 · StarTimes 1'],['rtnc','RTNC','DR Congo','CANAL+ EasyTV · free satellite'],['crtv','CRTV','Cameroon','CANAL+ · StarTimes (free)'],['snrt','SNRT Arryadia','Morocco','Free satellite · TNT'],['ontime','ON Time Sports','Egypt','Free satellite · Nilesat 11977 V'],['rba','RBA','Rwanda','DStv 299 · CANAL+ 380 · StarTimes (free)']]
+      .map(([id, name, c, num]) => ({ id: 'fta-' + id, provider: 'fta', name, short: name, countries: c, num, logo: 'logos/channels/fta-' + id + '.png' })),
     { id: 'zsports-1', provider: 'zap', name: 'Z Sports', short: 'Z Sports', num: 'ZAP 21', no: 21, langs: ['pt'], wide: true, logos: { light: L('zsports-1-on-light.png'), dark: L('zsports-1-on-dark.png') } },
     { id: 'zsports-2', provider: 'zap', name: 'Z Sports 2', short: 'Z Sports 2', num: 'ZAP 22', no: 22, langs: ['pt'], wide: true, logos: { light: L('zsports-2-on-light.png'), dark: L('zsports-2-on-dark.png') } },
     { id: 'zsports-laliga', provider: 'zap', name: 'Z Sports LaLiga', short: 'Z Sports LaLiga', num: 'ZAP 23', no: 23, langs: ['pt'], wide: true, logos: { light: L('zsports-laliga-on-light.png'), dark: L('zsports-laliga-on-dark.png') } },
