@@ -9,22 +9,18 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:712c1630617671dab048@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261120T002500Z
 DTEND:20261120T020000Z
 SUMMARY:Las Vegas GP Practice 1 · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241 · Angola/M
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Motorsport (DStv 235 · 215)\, 
  
- oz 601)\, SuperSport Motorsport (DStv 235 · 215)\, beIN SPORTS 8 (beI
- N 8
- )\, Sport 24 Extra (In flight · At sea)\nSource: SuperSport guide 
- · beI
- N SPORTS guide · Sport 24 guide
-LOCATION:SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport M
+ beIN SPORTS 8 (beIN 8)\, Sport 24 Extra (In flight · At sea)\nSource:
+  Su
+ perSport guide · beIN SPORTS guide · Sport 24 guide
+LOCATION:SuperSport Motorsport (DStv 235 · 215) · beIN SPORTS 8 (beIN 8)
  
- otorsport (DStv 235 · 215) · beIN SPORTS 8 (beIN 8) · Sport 24 Extr
- a (
- In flight · At sea)
+  · Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -34,22 +30,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9adf069b29c04f505a05@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261120T034500Z
 DTEND:20261120T052500Z
 SUMMARY:Las Vegas GP Practice 2 · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241 · Angola/M
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Motorsport (DStv 235 · 215)\, 
  
- oz 601)\, SuperSport Motorsport (DStv 235 · 215)\, beIN SPORTS 8 (beI
- N 8
- )\, Sport 24 Extra (In flight · At sea)\nSource: SuperSport guide 
- · beI
- N SPORTS guide · Sport 24 guide
-LOCATION:SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport M
+ beIN SPORTS 8 (beIN 8)\, Sport 24 Extra (In flight · At sea)\nSource:
+  Su
+ perSport guide · beIN SPORTS guide · Sport 24 guide
+LOCATION:SuperSport Motorsport (DStv 235 · 215) · beIN SPORTS 8 (beIN 8)
  
- otorsport (DStv 235 · 215) · beIN SPORTS 8 (beIN 8) · Sport 24 Extr
- a (
- In flight · At sea)
+  · Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -59,14 +51,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9ab28ee30878b25559de@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261120T053000Z
-DTEND:20261120T070000Z
+DTEND:20261120T063000Z
 SUMMARY:Las Vegas Round · MotorSports
-DESCRIPTION:MotorSports\nLIVE on: beIN SPORTS 8 (beIN 8)\, beIN SPORTS Eng
+DESCRIPTION:MotorSports\nLIVE on: beIN SPORTS English 2 (beIN 22)\, beIN S
  
- lish 2 (beIN 22)\nSource: beIN SPORTS guide
-LOCATION:beIN SPORTS 8 (beIN 8) · beIN SPORTS English 2 (beIN 22)
+ PORTS 8 (beIN 8)\nSource: beIN SPORTS guide
+LOCATION:beIN SPORTS English 2 (beIN 22) · beIN SPORTS 8 (beIN 8)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -76,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6e212faff10dbbcb29a0@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261120T150000Z
 DTEND:20261120T160000Z
 SUMMARY:Portugal Practice · Motogp
@@ -93,22 +85,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:54ced0dccd76ff792844@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261121T001500Z
 DTEND:20261121T020000Z
 SUMMARY:Las Vegas GP Practice 3 · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241 · Angola/M
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Motorsport (DStv 235 · 215)\, 
  
- oz 601)\, SuperSport Motorsport (DStv 235 · 215)\, beIN SPORTS 8 (beI
- N 8
- )\, Sport 24 Extra (In flight · At sea)\nSource: SuperSport guide 
- · beI
- N SPORTS guide · Sport 24 guide
-LOCATION:SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport M
+ beIN SPORTS 8 (beIN 8)\, Sport 24 Extra (In flight · At sea)\nSource:
+  Su
+ perSport guide · beIN SPORTS guide · Sport 24 guide
+LOCATION:SuperSport Motorsport (DStv 235 · 215) · beIN SPORTS 8 (beIN 8)
  
- otorsport (DStv 235 · 215) · beIN SPORTS 8 (beIN 8) · Sport 24 Extr
- a (
- In flight · At sea)
+  · Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -118,7 +106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a6f1ad325d2ac38d66f9@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261121T021500Z
 DTEND:20261121T040000Z
 SUMMARY:Las Vegas Round · MotorSports
@@ -135,22 +123,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9354f727e13dcd3519ad@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261121T035500Z
 DTEND:20261121T060000Z
 SUMMARY:Las Vegas GP Qualifying · Formula 1
-DESCRIPTION:Formula 1\nLIVE on: SuperSport Máximo 1 (DStv 241 · Angola/M
+DESCRIPTION:Formula 1\nLIVE on: SuperSport Motorsport (DStv 235 · 215)\, 
  
- oz 601)\, SuperSport Motorsport (DStv 235 · 215)\, beIN SPORTS 8 (beI
- N 8
- )\, Sport 24 Extra (In flight · At sea)\nSource: SuperSport guide 
- · beI
- N SPORTS guide · Sport 24 guide
-LOCATION:SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · SuperSport M
+ beIN SPORTS 8 (beIN 8)\, Sport 24 Extra (In flight · At sea)\nSource:
+  Su
+ perSport guide · beIN SPORTS guide · Sport 24 guide
+LOCATION:SuperSport Motorsport (DStv 235 · 215) · beIN SPORTS 8 (beIN 8)
  
- otorsport (DStv 235 · 215) · beIN SPORTS 8 (beIN 8) · Sport 24 Extr
- a (
- In flight · At sea)
+  · Sport 24 Extra (In flight · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -160,24 +144,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e96df40d5c0a06182b91@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261122T023000Z
 DTEND:20261122T035500Z
 SUMMARY:Las Vegas · Formula 1
 DESCRIPTION:Formula 1\nLIVE on: SuperSport Grandstand (DStv 221 · 201)\, 
  
- SuperSport Motorsport (DStv 235 · 215)\, SuperSport Máximo 1 (DStv 2
- 41 
- · Angola/Moz 601)\, beIN SPORTS 8 (beIN 8)\, Sport 24 Extra (In fl
- ight 
- · At sea)\nSource: SuperSport guide · beIN SPORTS guide · Spor
- t 24 gui
- de
+ SuperSport Motorsport (DStv 235 · 215)\, beIN SPORTS 8 (beIN 8)\, Spo
+ rt 
+ 24 Extra (In flight · At sea)\nSource: SuperSport guide · beIN SP
+ ORTS g
+ uide · Sport 24 guide
 LOCATION:SuperSport Grandstand (DStv 221 · 201) · SuperSport Motorsport 
  
- (DStv 235 · 215) · SuperSport Máximo 1 (DStv 241 · Angola/Moz 601)
-  ·
-  beIN SPORTS 8 (beIN 8) · Sport 24 Extra (In flight · At sea)
+ (DStv 235 · 215) · beIN SPORTS 8 (beIN 8) · Sport 24 Extra (In flig
+ ht 
+ · At sea)
 CATEGORIES:f1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -187,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c8ac7923c24754e79acf@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261122T060000Z
 DTEND:20261122T070000Z
 SUMMARY:F1 - Chequered Flag · Formula 1
@@ -206,7 +188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:78a29d1b86c9f964da39@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261122T121500Z
 DTEND:20261122T140000Z
 SUMMARY:Las Vegas Round · MotorSports
@@ -223,7 +205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8d395e190caf8fed34@asbh
-DTSTAMP:20261116T063109Z
+DTSTAMP:20261116T193719Z
 DTSTART:20261122T130000Z
 DTEND:20261122T143000Z
 SUMMARY:Portugal GP · Motogp
