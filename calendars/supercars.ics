@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//African Sports Broadcast Hub//Live sport//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Live supercars · African TV
+X-WR-TIMEZONE:Africa/Nairobi
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:4996c4f679de5fa0de95@asbh
+DTSTAMP:20261117T035447Z
+DTSTART:20261127T054500Z
+DTEND:20261127T070000Z
+SUMMARY:Supercars '26 Adelaide Grand Final R35 · Supercars Adelaide Grand
+ 
+  Final R35
+DESCRIPTION:Supercars Adelaide Grand Final R35\nLIVE on: SuperSport Grands
+ 
+ tand (DStv 221 · 201)\, SuperSport Motorsport (DStv 235 · 215)\nSour
+ ce:
+  SuperSport guide
+LOCATION:SuperSport Grandstand (DStv 221 · 201) · SuperSport Motorsport 
+ 
+ (DStv 235 · 215)
+CATEGORIES:supercars
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Supercars '26 Adelaide Grand Final R35 starts in 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
