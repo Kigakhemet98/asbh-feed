@@ -8,42 +8,8 @@ X-WR-TIMEZONE:Africa/Nairobi
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:a30aae0c274b85619812@asbh
-DTSTAMP:20261117T160050Z
-DTSTART:20261117T160000Z
-DTEND:20261117T180000Z
-SUMMARY:Dubai Basketball v Anadolu Efes · Euroleague Basketball
-DESCRIPTION:Euroleague Basketball\nLIVE on: Sport 24 (In flight · At sea)
- 
- \nSource: Sport 24 guide
-LOCATION:Sport 24 (In flight · At sea)
-CATEGORIES:basketball
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Dubai Basketball v Anadolu Efes starts in 10 minutes
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:06ecf49d703ecdac7a2c@asbh
-DTSTAMP:20261117T160050Z
-DTSTART:20261117T170000Z
-DTEND:20261117T190000Z
-SUMMARY:Maccabi Tel Aviv v Olympiacos · Euroleague Basketball
-DESCRIPTION:Euroleague Basketball\nLIVE on: Sport 24 Extra (In flight · A
- 
- t sea)\nSource: Sport 24 guide
-LOCATION:Sport 24 Extra (In flight · At sea)
-CATEGORIES:basketball
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Maccabi Tel Aviv v Olympiacos starts in 10 minutes
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:2d98f56cd55799f93613@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261118T005500Z
 DTEND:20261118T034000Z
 SUMMARY:San Antonio Spurs v Detroit Pistons · NBA
@@ -51,20 +17,20 @@ DESCRIPTION:NBA\nLIVE on: SuperSport Grandstand (DStv 221 · 201)\, SuperS
  
  port Action (DStv 229 · 209)\, SuperSport Máximo 1 (DStv 241 · Ango
  la/
- Moz 601)\, beIN SPORTS 8 (beIN 8)\, beIN SPORTS English 1 (beIN 21)
- \, Spo
- rt 24 Extra (In flight · At sea)\nSource: SuperSport guide · b
- eIN SPORT
- S guide · Sport 24 guide · NBA.com schedule (Pan-Africa / P
- an-Middle Ea
- st)
+ Moz 601)\, beIN SPORTS 1 (beIN 1)\, beIN SPORTS English 1 (beIN 21)
+ \, beI
+ N SPORTS 8 (beIN 8)\, Sport 24 Extra (In flight · At sea)\nSour
+ ce: Super
+ Sport guide · beIN SPORTS guide · Sport 24 guide · NBA.com
+  schedule (P
+ an-Africa / Pan-Middle East)
 LOCATION:SuperSport Grandstand (DStv 221 · 201) · SuperSport Action (DSt
  
  v 229 · 209) · SuperSport Máximo 1 (DStv 241 · Angola/Moz 601) · 
  beI
- N SPORTS 8 (beIN 8) · beIN SPORTS English 1 (beIN 21) · Sport 24 
- Extra 
- (In flight · At sea)
+ N SPORTS 1 (beIN 1) · beIN SPORTS English 1 (beIN 21) · beIN SPOR
+ TS 8 (
+ beIN 8) · Sport 24 Extra (In flight · At sea)
 CATEGORIES:basketball
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -74,7 +40,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1a2b84621347985bee7a@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261118T035500Z
 DTEND:20261118T064000Z
 SUMMARY:Los Angeles Lakers v Charlotte Hornets · NBA
@@ -82,14 +48,16 @@ DESCRIPTION:NBA\nLIVE on: SuperSport Action (DStv 229 · 209)\, SuperSport
  
   Máximo 1 (DStv 241 · Angola/Moz 601)\, beIN SPORTS English 1 (beIN 
  21)
- \, beIN SPORTS 8 (beIN 8)\nSource: SuperSport guide · beIN SPORTS 
- guide 
- · NBA.com schedule (Pan-Africa / Pan-Middle East)
+ \, beIN SPORTS 8 (beIN 8)\, beIN SPORTS 1 (beIN 1)\nSource: SuperSp
+ ort gu
+ ide · beIN SPORTS guide · NBA.com schedule (Pan-Africa / Pan-M
+ iddle Eas
+ t)
 LOCATION:SuperSport Action (DStv 229 · 209) · SuperSport Máximo 1 (DStv
  
   241 · Angola/Moz 601) · beIN SPORTS English 1 (beIN 21) · beIN SPO
  RTS
-  8 (beIN 8)
+  8 (beIN 8) · beIN SPORTS 1 (beIN 1)
 CATEGORIES:basketball
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -99,7 +67,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5bc3a9d7cb328e573cf3@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:Besiktas v Real Madrid · Euroleague Basketball
@@ -116,24 +84,20 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e31ba0821cc6a1ffa875@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261119T001200Z
 DTEND:20261119T023500Z
 SUMMARY:Milwaukee Bucks @ Miami Heat · NBA
 DESCRIPTION:NBA\nLIVE on: ESPN (DStv 218 · Azam 120 · StarTimes 248 · Z
  
- uku 712 · ZAP 31)\, beIN SPORTS 7 (beIN 7)\, beIN SPORTS English 1 (b
- eIN
-  21)\, Sport 24 (In flight · At sea)\nSource: SuperSport guide · 
- beIN S
- PORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / 
- Pan-Middl
- e East)
+ uku 712 · ZAP 31)\, beIN SPORTS English 1 (beIN 21)\, Sport 24 (In fl
+ igh
+ t · At sea)\nSource: SuperSport guide · beIN SPORTS guide · Spor
+ t 24 g
+ uide · NBA.com schedule (Pan-Africa / Pan-Middle East)
 LOCATION:ESPN (DStv 218 · Azam 120 · StarTimes 248 · Zuku 712 · ZAP 31
  
- ) · beIN SPORTS 7 (beIN 7) · beIN SPORTS English 1 (beIN 21) · Spor
- t 2
- 4 (In flight · At sea)
+ ) · beIN SPORTS English 1 (beIN 21) · Sport 24 (In flight · At sea)
 CATEGORIES:basketball
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -143,22 +107,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:16054da54d911cacd511@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261119T023500Z
 DTEND:20261119T043500Z
 SUMMARY:Boston Celtics @ Denver Nuggets · NBA
 DESCRIPTION:NBA\nLIVE on: ESPN (DStv 218 · Azam 120 · StarTimes 248 · Z
  
- uku 712 · ZAP 31)\, beIN SPORTS English 2 (beIN 22)\, beIN SPORTS 8 (
- beI
- N 8)\, Sport 24 (In flight · At sea)\nSource: SuperSport guide · 
+ uku 712 · ZAP 31)\, beIN SPORTS 8 (beIN 8)\, beIN SPORTS English 2 (b
+ eIN
+  22)\, Sport 24 (In flight · At sea)\nSource: SuperSport guide · 
  beIN S
  PORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / 
  Pan-Middl
  e East)
 LOCATION:ESPN (DStv 218 · Azam 120 · StarTimes 248 · Zuku 712 · ZAP 31
  
- ) · beIN SPORTS English 2 (beIN 22) · beIN SPORTS 8 (beIN 8) · Spor
+ ) · beIN SPORTS 8 (beIN 8) · beIN SPORTS English 2 (beIN 22) · Spor
  t 2
  4 (In flight · At sea)
 CATEGORIES:basketball
@@ -170,7 +134,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5358a63a8e5f162dca14@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261119T171500Z
 DTEND:20261119T191500Z
 SUMMARY:Maccabi Tel Aviv v Dubai Baketball · Euroleague Basketball
@@ -189,18 +153,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:abef3399040cd4a89762@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261120T010000Z
 DTEND:20261120T033000Z
 SUMMARY:LA Clippers v San Antonio Spurs · NBA
-DESCRIPTION:NBA\nLIVE on: beIN SPORTS 7 (beIN 7)\, beIN SPORTS English 1 (
+DESCRIPTION:NBA\nLIVE on: beIN SPORTS English 1 (beIN 21)\, Sport 24 (In f
  
- beIN 21)\, Sport 24 (In flight · At sea)\nSource: beIN SPORTS guide 
- · S
- port 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)
-LOCATION:beIN SPORTS 7 (beIN 7) · beIN SPORTS English 1 (beIN 21) · Spor
- 
- t 24 (In flight · At sea)
+ light · At sea)\nSource: beIN SPORTS guide · Sport 24 guide · NBA.c
+ om 
+ schedule (Pan-Africa / Pan-Middle East)
+LOCATION:beIN SPORTS English 1 (beIN 21) · Sport 24 (In flight · At sea)
 CATEGORIES:basketball
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -210,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f6eab42da3470ebfac87@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261120T040000Z
 DTEND:20261120T060000Z
 SUMMARY:Players Era 8 Championship Game · NCAA Basketball
@@ -227,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2c75500e88b3c483247e@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261120T173000Z
 DTEND:20261120T193000Z
 SUMMARY:Anadolu Efes v Villuerbanne · Euroleague Basketball
@@ -244,7 +206,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c025ef6d48107971f7cd@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261121T003000Z
 DTEND:20261121T030000Z
 SUMMARY:Toronto Raptors @ Detroit Pistons · NBA · Emirates NBA Cup
@@ -265,7 +227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8adb8e33286d9b473fbb@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261121T030000Z
 DTEND:20261121T053000Z
 SUMMARY:Houston Rockets @ Denver Nuggets · NBA · Emirates NBA Cup
@@ -286,7 +248,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:30eded2e143ae890c260@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261121T180000Z
 DTEND:20261121T203000Z
 SUMMARY:Milwaukee Bucks @ Philadelphia 76ers · NBA
@@ -303,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:706f77cceb81363f7296@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261122T180000Z
 DTEND:20261122T203000Z
 SUMMARY:Milwaukee Bucks v Philadelphia 76ers · NBA
@@ -320,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d471a0913b6b959423b0@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261122T203000Z
 DTEND:20261122T230000Z
 SUMMARY:Detroit Pistons @ Atlanta Hawks · NBA
@@ -345,16 +307,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3c0f9b55f47ac3daf7e0@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261122T230000Z
-DTEND:20261123T133500Z
+DTEND:20261123T013000Z
 SUMMARY:Oklahoma City Thunder v Miami Heat · NBA
-DESCRIPTION:NBA\nLIVE on: beIN SPORTS English 1 (beIN 21)\, beIN SPORTS 7 
+DESCRIPTION:NBA\nLIVE on: beIN SPORTS 7 (beIN 7)\, beIN SPORTS English 1 (
  
- (beIN 7)\nSource: beIN SPORTS guide · NBA.com schedule (Pan-Africa / 
+ beIN 21)\nSource: beIN SPORTS guide · NBA.com schedule (Pan-Africa / 
  Pan
  -Middle East)
-LOCATION:beIN SPORTS English 1 (beIN 21) · beIN SPORTS 7 (beIN 7)
+LOCATION:beIN SPORTS 7 (beIN 7) · beIN SPORTS English 1 (beIN 21)
 CATEGORIES:basketball
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -364,7 +326,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ae5f45cc98b4bf8e2a6e@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261124T002500Z
 DTEND:20261124T031000Z
 SUMMARY:Minnesota Timberwolves v Brooklyn Nets · NBA
@@ -387,7 +349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c6a394d5457a5f42d22f@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261125T005500Z
 DTEND:20261125T025500Z
 SUMMARY:Washington Wizards v Boston Celtics · NBA
@@ -412,7 +374,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:89e6469b3a77e3ac6064@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261125T025500Z
 DTEND:20261125T054000Z
 SUMMARY:Denver Nuggets v Dallas Mavericks · NBA
@@ -435,7 +397,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9ec203cf1d86ee75517b@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Dubai Basketball v Partizan Belgrade · Euroleague Basketball
@@ -452,7 +414,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a10b3abef9d7cbfc9805@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261125T193000Z
 DTEND:20261125T211000Z
 SUMMARY:Maui Invitational Championship Ga · NCAA Basketball
@@ -469,7 +431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c1772e08780c77411e5d@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261125T221200Z
 DTEND:20261126T003500Z
 SUMMARY:Miami Heat @ Philadelphia 76ers · NBA
@@ -490,7 +452,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ae7ab69652ce295bb6ed@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261126T003500Z
 DTEND:20261126T030500Z
 SUMMARY:Minnesota Timberwolves @ Oklahoma City Thunder · NBA
@@ -514,7 +476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a07605aed7e30b5ffd89@asbh
-DTSTAMP:20261117T160050Z
+DTSTAMP:20261118T005809Z
 DTSTART:20261126T030500Z
 DTEND:20261126T053500Z
 SUMMARY:San Antonio Spurs @ Portland Trail Blazers · NBA
@@ -533,6 +495,65 @@ ACTION:DISPLAY
 DESCRIPTION:San Antonio Spurs @ Portland Trail Blazers starts in 10 minute
  
  s
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fa8a0ebfb2f54a950f1e@asbh
+DTSTAMP:20261118T005809Z
+DTSTART:20261128T000000Z
+DTEND:20261128T023000Z
+SUMMARY:Miami Heat @ New York Knicks · NBA · Emirates NBA Cup
+DESCRIPTION:NBA · Emirates NBA Cup\nLIVE on: Prime Video (Streaming · So
+ 
+ uth Africa\, North Africa & Middle East)\nSource: NBA.com schedule (Pa
+ n-A
+ frica / Pan-Middle East)
+LOCATION:Prime Video (Streaming · South Africa\, North Africa & Middle Ea
+ 
+ st)
+CATEGORIES:basketball
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Miami Heat @ New York Knicks starts in 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:391e424a6a6ddf6a9e8d@asbh
+DTSTAMP:20261118T005809Z
+DTSTART:20261128T020000Z
+DTEND:20261128T040000Z
+SUMMARY:Players Era 16 Championship Game · NCAA Basketball
+DESCRIPTION:NCAA Basketball\nLIVE on: ESPN (DStv 218 · Azam 120 · StarTi
+ 
+ mes 248 · Zuku 712 · ZAP 31)\nSource: SuperSport guide
+LOCATION:ESPN (DStv 218 · Azam 120 · StarTimes 248 · Zuku 712 · ZAP 31
+ 
+ )
+CATEGORIES:basketball
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Players Era 16 Championship Game starts in 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:391e424a6a6ddf6a9e8d@asbh
+DTSTAMP:20261118T005809Z
+DTSTART:20261128T040000Z
+DTEND:20261128T060000Z
+SUMMARY:Players Era 16 Championship Game · NCAA Basketball
+DESCRIPTION:NCAA Basketball\nLIVE on: ESPN (DStv 218 · Azam 120 · StarTi
+ 
+ mes 248 · Zuku 712 · ZAP 31)\nSource: SuperSport guide
+LOCATION:ESPN (DStv 218 · Azam 120 · StarTimes 248 · Zuku 712 · ZAP 31
+ 
+ )
+CATEGORIES:basketball
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Players Era 16 Championship Game starts in 10 minutes
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
