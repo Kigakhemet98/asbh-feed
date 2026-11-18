@@ -6,66 +6,66 @@
   "notes": "Free-to-air channels: UBC added, plus DStv, CANAL+, StarTimes, Azam and Zuku numbers for every national channel"
  },
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-18T11:49:47.434Z",
+ "updated": "2026-11-18T20:35:14.273Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
-   "count": 356,
-   "at": "2026-11-18T11:47:07.262Z"
+   "count": 349,
+   "at": "2026-11-18T20:32:40.534Z"
   },
   "bein": {
    "ok": true,
-   "count": 154,
-   "at": "2026-11-18T11:47:09.328Z"
+   "count": 151,
+   "at": "2026-11-18T20:32:42.378Z"
   },
   "nws": {
    "ok": true,
    "count": 23,
-   "at": "2026-11-18T11:47:11.219Z"
+   "at": "2026-11-18T20:32:44.716Z"
   },
   "azam": {
    "ok": true,
-   "count": 1,
-   "at": "2026-11-18T11:47:20.679Z"
+   "count": 0,
+   "at": "2026-11-18T20:32:55.328Z"
   },
   "startimes": {
    "ok": true,
-   "count": 180,
-   "at": "2026-11-18T11:48:37.169Z"
+   "count": 167,
+   "at": "2026-11-18T20:34:06.466Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-18T11:48:50.817Z"
+   "at": "2026-11-18T20:34:20.169Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-18T11:48:50.889Z"
+   "at": "2026-11-18T20:34:20.242Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-18T11:48:58.562Z"
+   "at": "2026-11-18T20:34:26.846Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-18T11:48:58.733Z"
+   "at": "2026-11-18T20:34:27.002Z"
   },
   "sport24": {
    "ok": true,
-   "count": 77,
-   "at": "2026-11-18T11:49:33.004Z"
+   "count": 76,
+   "at": "2026-11-18T20:35:05.290Z"
   },
   "nbaIntl": {
    "ok": true,
    "count": 16,
-   "at": "2026-11-18T11:49:35.645Z"
+   "at": "2026-11-18T20:35:06.872Z"
   }
  },
  "assignments": [
@@ -343,87 +343,6 @@
  ],
  "events": [
   {
-   "start": "2026-11-18T07:50:00.000Z",
-   "end": "2026-11-18T16:00:00.000Z",
-   "sport": "cricket",
-   "comp": "International Cricket · 1st Test Day 4",
-   "detail": "South Africa v Bangladesh",
-   "channels": [
-    "ss-grandstand"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "South Africa",
-   "away": "Bangladesh"
-  },
-  {
-   "start": "2026-11-18T09:00:00.000Z",
-   "end": "2026-11-18T13:00:00.000Z",
-   "sport": "cricket",
-   "comp": "ICC (W) Nations Trophy",
-   "detail": "Bangladesh v Thailand",
-   "channels": [
-    "ss-stream-246"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Bangladesh",
-   "away": "Thailand"
-  },
-  {
-   "start": "2026-11-18T09:00:00.000Z",
-   "end": "2026-11-18T13:00:00.000Z",
-   "sport": "cricket",
-   "comp": "ICC (W) Nations Trophy",
-   "detail": "Netherlands v Zimbabwe",
-   "channels": [
-    "ss-stream-245"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Netherlands",
-   "away": "Zimbabwe"
-  },
-  {
-   "start": "2026-11-18T13:00:00.000Z",
-   "end": "2026-11-18T15:00:00.000Z",
-   "sport": "tennis",
-   "comp": "ATP Finals",
-   "detail": "Day 4 · Singles 1",
-   "channels": [
-    "ss-tennis",
-    "s24"
-   ],
-   "status": "L",
-   "via": "SuperSport guide · Sport 24 guide"
-  },
-  {
-   "start": "2026-11-18T13:00:00.000Z",
-   "end": "2026-11-18T15:00:00.000Z",
-   "sport": "tennis",
-   "comp": "Tennis",
-   "detail": "Match 1",
-   "channels": [
-    "bein-7"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
-   "start": "2026-11-18T13:00:00.000Z",
-   "end": "2026-11-18T15:00:00.000Z",
-   "sport": "football",
-   "comp": "Football",
-   "detail": "Simba Queens v Ceasiaa Queens",
-   "channels": [
-    "azam-1"
-   ],
-   "status": "L",
-   "via": "Azam TV Max guide",
-   "home": "Simba Queens",
-   "away": "Ceasiaa Queens"
-  },
-  {
    "start": "2026-11-18T17:00:00.000Z",
    "duration": 120,
    "sport": "basketball",
@@ -439,32 +358,16 @@
    "away": "Real Madrid"
   },
   {
-   "start": "2026-11-18T17:35:00.000Z",
-   "end": "2026-11-18T19:50:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Champions League",
-   "detail": "Hacken v Manchester City",
-   "channels": [
-    "bein-english-2"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Hacken",
-   "away": "Manchester City"
-  },
-  {
    "start": "2026-11-18T17:40:00.000Z",
-   "end": "2026-11-18T19:40:00.000Z",
+   "end": "2026-11-18T19:55:00.000Z",
    "sport": "football",
    "comp": "UEFA Women's Champions League",
    "detail": "Real Madrid v Inter",
    "channels": [
-    "espn",
-    "bein-english-1",
-    "bein-1"
+    "espn"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
+   "via": "SuperSport guide",
    "home": "Real Madrid",
    "away": "Inter"
   },
@@ -888,7 +791,7 @@
   },
   {
    "start": "2026-11-20T00:00:00.000Z",
-   "end": "2026-11-20T02:30:00.000Z",
+   "end": "2026-11-20T02:35:00.000Z",
    "sport": "hockey",
    "comp": "NHL",
    "detail": "Flyers @ Senators",
@@ -2205,7 +2108,7 @@
   },
   {
    "start": "2026-11-21T15:20:00.000Z",
-   "end": "2026-11-21T17:35:00.000Z",
+   "end": "2026-11-21T17:25:00.000Z",
    "sport": "football",
    "comp": "ERE",
    "detail": "NEC vs PSV",
@@ -2218,7 +2121,7 @@
    "away": "PSV"
   },
   {
-   "start": "2026-11-21T15:55:00.000Z",
+   "start": "2026-11-21T15:56:00.000Z",
    "end": "2026-11-21T17:55:00.000Z",
    "sport": "football",
    "comp": "TSL",
@@ -2236,12 +2139,14 @@
    "end": "2026-11-21T18:00:00.000Z",
    "sport": "ufc",
    "comp": "UFC FN Prelim",
-   "detail": "UFC Prelims",
+   "detail": "Topuria v Luna",
    "channels": [
     "ss-action"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide",
+   "home": "Topuria",
+   "away": "Luna"
   },
   {
    "start": "2026-11-21T16:00:00.000Z",
@@ -2394,7 +2299,7 @@
   },
   {
    "start": "2026-11-21T17:35:00.000Z",
-   "end": "2026-11-21T19:55:00.000Z",
+   "end": "2026-11-21T19:45:00.000Z",
    "sport": "football",
    "comp": "ERE",
    "detail": "Feyenoord vs Excelsior",
@@ -2788,7 +2693,7 @@
   },
   {
    "start": "2026-11-22T01:00:00.000Z",
-   "end": "2026-11-22T03:15:00.000Z",
+   "end": "2026-11-22T03:20:00.000Z",
    "sport": "football",
    "comp": "NWSL",
    "detail": "Kansas City @ Washington",
@@ -3018,7 +2923,7 @@
   },
   {
    "start": "2026-11-22T11:10:00.000Z",
-   "end": "2026-11-22T13:20:00.000Z",
+   "end": "2026-11-22T13:10:00.000Z",
    "sport": "football",
    "comp": "ERE",
    "detail": "FC Twente vs Willem II",
@@ -3533,7 +3438,7 @@
   },
   {
    "start": "2026-11-22T17:55:00.000Z",
-   "end": "2026-11-22T20:00:00.000Z",
+   "end": "2026-11-22T20:15:00.000Z",
    "sport": "hockey",
    "comp": "NHL",
    "detail": "Hurricanes @ Rangers",
@@ -3798,7 +3703,7 @@
   },
   {
    "start": "2026-11-23T01:20:00.000Z",
-   "end": "2026-11-23T04:00:00.000Z",
+   "end": "2026-11-23T04:20:00.000Z",
    "sport": "nfl",
    "comp": "NFL · Mexico Game",
    "detail": "49ers v Vikings",
@@ -3829,7 +3734,7 @@
   },
   {
    "start": "2026-11-23T03:00:00.000Z",
-   "end": "2026-11-23T06:00:00.000Z",
+   "end": "2026-11-23T05:50:00.000Z",
    "sport": "other",
    "comp": "World Skate Games",
    "detail": "Women's & Men's Str",
@@ -4210,32 +4115,19 @@
    "away": "Buriram United"
   },
   {
-   "start": "2026-11-24T12:50:00.000Z",
-   "end": "2026-11-24T19:30:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Youth League",
-   "detail": "Arsenal FC v Borussia Dortmund",
-   "channels": [
-    "bein-5"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Arsenal FC",
-   "away": "Borussia Dortmund"
-  },
-  {
    "start": "2026-11-24T12:55:00.000Z",
    "end": "2026-11-24T14:55:00.000Z",
    "sport": "football",
    "comp": "UYL",
-   "detail": "Como v AEK",
+   "detail": "Arsenal v Dortmund",
    "channels": [
-    "ss-kickoff"
+    "ss-kickoff",
+    "bein-5"
    ],
    "status": "L",
-   "via": "SuperSport guide",
-   "home": "Como",
-   "away": "AEK"
+   "via": "SuperSport guide · beIN SPORTS guide",
+   "home": "Arsenal",
+   "away": "Dortmund"
   },
   {
    "start": "2026-11-24T14:55:00.000Z",
@@ -5133,12 +5025,14 @@
    "end": "2026-11-26T20:00:00.000Z",
    "sport": "boxing",
    "comp": "Boxing",
-   "detail": "Feature Bout",
+   "detail": "(W) Promnick v Mkhathala",
    "channels": [
     "ss-tbc"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide",
+   "home": "(W) Promnick",
+   "away": "Mkhathala"
   },
   {
    "start": "2026-11-26T16:00:00.000Z",
@@ -6372,6 +6266,20 @@
    "away": "Atletico Madrid"
   },
   {
+   "start": "2026-11-28T17:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "MLS",
+   "detail": "Charlotte FC v Chicago Fire FC",
+   "home": "Charlotte FC",
+   "away": "Chicago Fire FC",
+   "channels": [
+    "apple-tv"
+   ],
+   "status": "L",
+   "via": "MLS fixtures (Apple TV)"
+  },
+  {
    "start": "2026-11-28T17:40:00.000Z",
    "end": "2026-11-28T19:52:00.000Z",
    "sport": "football",
@@ -6397,6 +6305,20 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
+  },
+  {
+   "start": "2026-11-28T19:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "MLS",
+   "detail": "Houston Dynamo FC v San Jose Earthquakes",
+   "home": "Houston Dynamo FC",
+   "away": "San Jose Earthquakes",
+   "channels": [
+    "apple-tv"
+   ],
+   "status": "L",
+   "via": "MLS fixtures (Apple TV)"
   },
   {
    "start": "2026-11-28T20:00:00.000Z",
@@ -7309,7 +7231,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-18T11:49:45.247Z",
+   "checked": "2026-11-18T20:35:12.015Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -7337,7 +7259,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-18T11:49:46.394Z",
+   "checked": "2026-11-18T20:35:13.240Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -7358,7 +7280,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-18T11:49:47.433Z",
+   "checked": "2026-11-18T20:35:14.273Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
