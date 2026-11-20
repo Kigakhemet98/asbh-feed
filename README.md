@@ -4,7 +4,7 @@ Installers for **F1 Data Hub** (newest version only). Release info and over-the-
 
 | Platform | File |
 |---|---|
-| Android 10+ | [F1DataHub-3.1.0.apk](F1DataHub-3.1.0.apk) |
-| Windows 11 | [F1DataHub-3.1.0.exe](F1DataHub-3.1.0.exe) |
+| Android 10+ | [F1DataHub-3.2.0.apk](F1DataHub-3.2.0.apk) |
+| Windows 11 | [F1DataHub-3.2.0.exe](F1DataHub-3.2.0.exe) |
 
 Checksums: [SHA256SUMS.txt](SHA256SUMS.txt)
