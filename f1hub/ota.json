@@ -1,27 +1,27 @@
 {
   "name": "F1 Data Hub",
-  "published": "2026-11-20T09:52:13.427Z",
-  "notes": "Official 2026 car renders (side & top-down) for all 11 teams",
+  "published": "2026-11-20T10:46:06.557Z",
+  "notes": "Phone layout fixed (system font size no longer breaks it), logos for Sky, Channel 4, RTL, ServusTV and 30 more broadcasters, team badges and car renders in analytics tables",
   "bundle": {
-    "version": "3.1.3",
+    "version": "3.2.0",
     "minShell": 3,
-    "url": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/f1hub/bundle-3.1.3.js",
-    "sha256": "0d7f12b1e9899d1e8976ad3c47f889a3fde83840a5eabf27a31dd26972e92d15",
-    "sig": "/gucPidOv335Vw/TxzBcBSNRDO6au5VKEh3TIXMMH7+Ds6PiswZEJOcbmVz4s4ChridQDMTYl+awgAopXh/EQQ==",
-    "size": 409365,
-    "notes": "Official 2026 car renders (side & top-down) for all 11 teams"
+    "url": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/f1hub/bundle-3.2.0.js",
+    "sha256": "f7fc0785fcc7224020c567bc148ba2d3d450a18a9bf72671a15a9d5eda81da67",
+    "sig": "AlxEaupH0XXsnD5QH78bQQiYj9Lbb3dJv7WWo3BeNs3hHHmtJsr6orxCzvo3LeQXbX0QDjvyynOOaAx84m87IA==",
+    "size": 513014,
+    "notes": "Phone layout fixed (system font size no longer breaks it), logos for Sky, Channel 4, RTL, ServusTV and 30 more broadcasters, team badges and car renders in analytics tables"
   },
   "apk": {
-    "version": "3.1.0",
-    "url": "https://github.com/Kigakhemet98/asbh-feed/raw/f1hub-downloads/F1DataHub-3.1.0.apk",
-    "sha256": "5fa13366558ea2b5487a21b415c33ae0a167154ae8a86855554cb71cb51104e0",
-    "size": 1309814
+    "version": "3.2.0",
+    "url": "https://github.com/Kigakhemet98/asbh-feed/raw/f1hub-downloads/F1DataHub-3.2.0.apk",
+    "sha256": "cb1484fd9033dd47b5fc4c92d2f5d0e9c62029e355412055f849780c59051d0a",
+    "size": 1445187
   },
   "exe": {
-    "version": "3.1.0",
-    "url": "https://github.com/Kigakhemet98/asbh-feed/raw/f1hub-downloads/F1DataHub-3.1.0.exe",
-    "sha256": "932e92ef8cdf3e37c032a793da80e598049142edd2fb3de42fefbad4be374e96",
-    "size": 9447936
+    "version": "3.2.0",
+    "url": "https://github.com/Kigakhemet98/asbh-feed/raw/f1hub-downloads/F1DataHub-3.2.0.exe",
+    "sha256": "45cac2bf6736d80768fff73652b2c43531b19ad54b0731783b75937c944333f9",
+    "size": 9689088
   },
   "page": "https://github.com/Kigakhemet98/asbh-feed/tree/main/f1hub"
 }
