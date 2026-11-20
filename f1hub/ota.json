@@ -1,0 +1,27 @@
+{
+  "name": "F1 Data Hub",
+  "published": "2026-11-20T08:59:01.195Z",
+  "notes": "Live TV guide times & broadcaster logos; over-the-air updates",
+  "bundle": {
+    "version": "3.1.0",
+    "minShell": 3,
+    "url": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/f1hub/bundle-3.1.0.js",
+    "sha256": "4e472a09446941afb4e56c6e129a50cafee4a4cc2b1efabf5966937d9571dc81",
+    "sig": "Jv3GEhH14mCgwzMa99WwGeTVNgLTXV2WlNNOFFhZJIM4T6uuuVHThzaSZhtyAoQunN62JEUoJ+DIFElptgNEHw==",
+    "size": 292309,
+    "notes": "Live TV guide times & broadcaster logos; over-the-air updates"
+  },
+  "apk": {
+    "version": "3.1.0",
+    "url": "https://github.com/Kigakhemet98/asbh-feed/raw/f1hub-downloads/F1DataHub-3.1.0.apk",
+    "sha256": "5fa13366558ea2b5487a21b415c33ae0a167154ae8a86855554cb71cb51104e0",
+    "size": 1309814
+  },
+  "exe": {
+    "version": "3.1.0",
+    "url": "https://github.com/Kigakhemet98/asbh-feed/raw/f1hub-downloads/F1DataHub-3.1.0.exe",
+    "sha256": "932e92ef8cdf3e37c032a793da80e598049142edd2fb3de42fefbad4be374e96",
+    "size": 9447936
+  },
+  "page": "https://github.com/Kigakhemet98/asbh-feed/tree/main/f1hub"
+}
