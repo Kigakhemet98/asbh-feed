@@ -1,9 +1,9 @@
-2026-11-20T02:21:52.711Z
+2026-11-20T11:42:31.926Z
 https://www.canalplus.com/rw/programme-tv/
 json responses: https://www.canalplus.com/rw/programme-tv/
 
 {
      "message": "Unexpected Request",
-     "ref": "0.b6291eb8.1795141299.f82249b",
-     "ip": "52.240.183.66"
+     "ref": "0.44c83017.1795174938.fb7c206b",
+     "ip": "172.206.93.196"
 }
