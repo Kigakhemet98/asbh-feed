@@ -30,6 +30,14 @@ Public key (built into the apps):
 3. Copy both files into this folder and push to `main`. Every installed app picks it up within 6 hours (or *Settings → Check for updates*).
 4. Only when the Android/Windows shell itself changes: rebuild the APK/EXE, put them on the `f1hub-downloads` branch, then run step 2 with `--shell <new version>` so `ota.json` points to them.
 
+## What's new in 3.1.1 (20 Nov 2026) – over-the-air
+
+- **2026 car renders**: official formula1.com car images (side view) where available, otherwise drawn 2026 liveries; add your own renders in [`cars/`](cars/README.md) (top-down renders for the grid).
+- **F1 logo** below the date on session cards and in the grid / race results graphics.
+- **Channel numbers** under every channel logo (DStv 235 · 215, DStv 241 · Angola/Moz 601, beIN 8, CANAL+ 14…) – from `channels.json`.
+- **CANAL+ SPORT 4 (CANAL+ 14)** as Canal+ Afrique's F1 channel (per the ASBH rights list), with its logo.
+- **Race results line-up** graphic after the race, with DNF / DNS / DSQ; **Championship battle** card.
+
 ## What's new in 3.1.0 (20 Nov 2026)
 
 - **Live TV guide times**: SuperSport (Motorsport, Máximo 1, Grandstand), beIN SPORTS (8, 4K) and Sport 24 Extra times and channels come straight from `feed.json`, refreshed every 15 minutes, in the schedule, timers, calendar files and graphics. Canal+ times stay estimates (Canal+ blocks automated guide reading).

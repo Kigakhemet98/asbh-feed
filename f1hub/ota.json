@@ -1,15 +1,15 @@
 {
   "name": "F1 Data Hub",
-  "published": "2026-11-20T08:59:01.195Z",
-  "notes": "Live TV guide times & broadcaster logos; over-the-air updates",
+  "published": "2026-11-20T09:17:43.355Z",
+  "notes": "2026 car renders, F1 logo on graphics, channel numbers, CANAL+ SPORT 4, race results line-up",
   "bundle": {
-    "version": "3.1.0",
+    "version": "3.1.1",
     "minShell": 3,
-    "url": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/f1hub/bundle-3.1.0.js",
-    "sha256": "4e472a09446941afb4e56c6e129a50cafee4a4cc2b1efabf5966937d9571dc81",
-    "sig": "Jv3GEhH14mCgwzMa99WwGeTVNgLTXV2WlNNOFFhZJIM4T6uuuVHThzaSZhtyAoQunN62JEUoJ+DIFElptgNEHw==",
-    "size": 292309,
-    "notes": "Live TV guide times & broadcaster logos; over-the-air updates"
+    "url": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/f1hub/bundle-3.1.1.js",
+    "sha256": "59c2b5360c22d25e2ab496e2267449db2b83d1405e5860937ed904bcc5677797",
+    "sig": "ioHFOCx9YPI573xnR1KqjRwf65IeLRD9tS2/D563+mrzyFA7425nuBrXhlXOemkOTB+8Ek5TALCWx874qjOvFA==",
+    "size": 349773,
+    "notes": "2026 car renders, F1 logo on graphics, channel numbers, CANAL+ SPORT 4, race results line-up"
   },
   "apk": {
     "version": "3.1.0",
