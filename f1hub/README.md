@@ -30,6 +30,11 @@ Public key (built into the apps):
 3. Copy both files into this folder and push to `main`. Every installed app picks it up within 6 hours (or *Settings → Check for updates*).
 4. Only when the Android/Windows shell itself changes: rebuild the APK/EXE, put them on the `f1hub-downloads` branch, then run step 2 with `--shell <new version>` so `ota.json` points to them.
 
+## What's new in 3.1.3 (20 Nov 2026) – over-the-air
+
+- **2026 car renders for all 11 teams** in [`cars/2026/`](cars/2026/): side views (10 teams; Haas keeps its Silverstone livery photo) and top-down views (all 11, nose up) – backgrounds removed, sponsor text kept readable. Used in the Grid line-up / Race results graphics, results rows, previous winners, team cards and the Championship battle.
+- Devices re-check for renders straight away after updating.
+
 ## What's new in 3.1.2 (20 Nov 2026) – over-the-air
 
 - **2026 team badges** (Alpine, Aston Martin, Audi, Cadillac, Ferrari, Haas, McLaren, Mercedes, Racing Bulls, Red Bull, Williams) next to every driver and team: standings, results, race updates, previous winners, team & driver cards, Championship battle, and the grid / race-results graphics.

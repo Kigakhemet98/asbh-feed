@@ -1,15 +1,15 @@
 {
   "name": "F1 Data Hub",
-  "published": "2026-11-20T09:28:47.270Z",
-  "notes": "2026 team badges, 2026 livery photos (Silverstone)",
+  "published": "2026-11-20T09:52:13.427Z",
+  "notes": "Official 2026 car renders (side & top-down) for all 11 teams",
   "bundle": {
-    "version": "3.1.2",
+    "version": "3.1.3",
     "minShell": 3,
-    "url": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/f1hub/bundle-3.1.2.js",
-    "sha256": "91f77a2ceca5819d2eb061f06c7d93c2b753d4369887b7ce2a26ac8e208c811c",
-    "sig": "EHdwtwUB9iQU1g3ezzhfvrzjeIMLt3tAtgl4Tqlrd6buw76aRZDSKunlCqh0/qjwqCr/rVcl4wWJp7qF/Kzs8w==",
-    "size": 408685,
-    "notes": "2026 team badges, 2026 livery photos (Silverstone)"
+    "url": "https://raw.githubusercontent.com/Kigakhemet98/asbh-feed/main/f1hub/bundle-3.1.3.js",
+    "sha256": "0d7f12b1e9899d1e8976ad3c47f889a3fde83840a5eabf27a31dd26972e92d15",
+    "sig": "/gucPidOv335Vw/TxzBcBSNRDO6au5VKEh3TIXMMH7+Ds6PiswZEJOcbmVz4s4ChridQDMTYl+awgAopXh/EQQ==",
+    "size": 409365,
+    "notes": "Official 2026 car renders (side & top-down) for all 11 teams"
   },
   "apk": {
     "version": "3.1.0",
