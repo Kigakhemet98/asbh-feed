@@ -6,67 +6,67 @@
   "notes": "Free-to-air channels: UBC added, plus DStv, CANAL+, StarTimes, Azam and Zuku numbers for every national channel"
  },
  "name": "African Sports Broadcast Hub – live feed",
- "updated": "2026-11-24T13:48:52.740Z",
+ "updated": "2026-11-24T23:57:06.483Z",
  "notes": "Built automatically from the broadcasters' live TV guides several times a day (only live sport, next 10 days). Hand-entered announcements live in manual.json. Calendar files: calendar.ics (all) and calendars/<sport>.ics.",
  "sources": {
   "supersport": {
    "ok": true,
-   "count": 349,
-   "at": "2026-11-24T13:44:46.744Z"
+   "count": 335,
+   "at": "2026-11-24T23:54:33.819Z"
   },
   "bein": {
    "ok": true,
-   "count": 179,
-   "at": "2026-11-24T13:44:48.691Z"
+   "count": 165,
+   "at": "2026-11-24T23:54:35.293Z"
   },
   "nws": {
    "ok": true,
-   "count": 50,
-   "at": "2026-11-24T13:44:51.289Z"
+   "count": 40,
+   "at": "2026-11-24T23:54:37.761Z"
   },
   "azam": {
    "ok": true,
-   "count": 6,
-   "at": "2026-11-24T13:45:03.235Z"
+   "count": 0,
+   "at": "2026-11-24T23:54:48.851Z"
   },
   "startimes": {
    "ok": true,
-   "count": 42,
-   "at": "2026-11-24T13:47:44.680Z"
+   "count": 201,
+   "at": "2026-11-24T23:56:00.492Z"
   },
   "canalplus": {
    "ok": false,
    "error": "CANAL+ blocks automated visits from cloud servers (\"Unexpected Request\") - CANAL+ channels come from broadcaster announcements (manual.json) and the rights list",
    "kept": 0,
-   "at": "2026-11-24T13:47:58.515Z"
+   "at": "2026-11-24T23:56:14.189Z"
   },
   "zap": {
    "ok": false,
    "error": "guide server only answers inside Angola (fetch failed)",
    "kept": 0,
-   "at": "2026-11-24T13:47:58.604Z"
+   "at": "2026-11-24T23:56:14.263Z"
   },
   "azamtv": {
    "ok": false,
    "error": "azamtv.com lists 20 channels but no Azam Sports channel (sports there = ESPN / ESPN 2 only) – the Azam TV Max guide covers Azam Sports",
    "kept": 0,
-   "at": "2026-11-24T13:48:06.306Z"
+   "at": "2026-11-24T23:56:20.969Z"
   },
   "mlbApple": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-24T13:48:06.609Z"
+   "at": "2026-11-24T23:56:21.103Z"
   },
   "sport24": {
    "ok": true,
-   "count": 74,
-   "at": "2026-11-24T13:48:39.357Z"
+   "count": 71,
+   "at": "2026-11-24T23:56:55.483Z"
   },
   "nbaIntl": {
    "ok": false,
    "error": "403 https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_24.json",
    "kept": 15,
-   "at": "2026-11-24T13:48:39.492Z"
+   "at": "2026-11-24T23:56:55.566Z"
   }
  },
  "assignments": [
@@ -136,329 +136,261 @@
     "st-sports-focus"
    ],
    "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-27T19:55:00.000Z",
+   "date": "2026-11-27",
+   "teams": [
+    "Levante",
+    "Racing"
+   ],
+   "channels": [
+    "st-sports-premium"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T12:55:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Betis",
+    "Rayo"
+   ],
+   "channels": [
+    "st-sports-premium"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T17:25:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Elche",
+    "Atletico Madrid"
+   ],
+   "channels": [
+    "st-sports-premium"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T19:55:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Real Madrid",
+    "Alaves"
+   ],
+   "channels": [
+    "st-sports-premium"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-29T12:55:00.000Z",
+   "date": "2026-11-29",
+   "teams": [
+    "Valencia",
+    "Osasuna"
+   ],
+   "channels": [
+    "st-sports-premium"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-29T15:10:00.000Z",
+   "date": "2026-11-29",
+   "teams": [
+    "Deportivo",
+    "Barcelona"
+   ],
+   "channels": [
+    "st-sports-premium"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-29T19:55:00.000Z",
+   "date": "2026-11-29",
+   "teams": [
+    "Real Sociedad",
+    "Sevilla"
+   ],
+   "channels": [
+    "st-sports-premium"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-27T19:55:00.000Z",
+   "date": "2026-11-27",
+   "teams": [
+    "Levante",
+    "Racing"
+   ],
+   "channels": [
+    "st-sports-life"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T15:10:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Malaga",
+    "Athletic Club"
+   ],
+   "channels": [
+    "st-sports-life"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T17:25:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Elche",
+    "Atletico Madrid"
+   ],
+   "channels": [
+    "st-sports-life"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T19:55:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Real Madrid",
+    "Alaves"
+   ],
+   "channels": [
+    "st-sports-life"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-29T17:25:00.000Z",
+   "date": "2026-11-29",
+   "teams": [
+    "Celta Vigo",
+    "Villarreal"
+   ],
+   "channels": [
+    "st-sports-life"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-29T19:50:00.000Z",
+   "date": "2026-11-29",
+   "teams": [
+    "Almeria",
+    "Sporting"
+   ],
+   "channels": [
+    "st-sports-life"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-27T19:30:00.000Z",
+   "date": "2026-11-27",
+   "teams": [
+    "Werder Bremen",
+    "Borussia Mönchengladbach"
+   ],
+   "channels": [
+    "st-world-football"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T12:00:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Al Hazem",
+    "Al Nassr"
+   ],
+   "channels": [
+    "st-world-football"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T14:30:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Hamburger SV",
+    "Bayern München"
+   ],
+   "channels": [
+    "st-world-football"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T17:30:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "VfB Stuttgart",
+    "Eintracht Frankfurt"
+   ],
+   "channels": [
+    "st-world-football"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-29T14:30:00.000Z",
+   "date": "2026-11-29",
+   "teams": [
+    "Freiburg",
+    "RB Leipzig"
+   ],
+   "channels": [
+    "st-world-football"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-29T16:30:00.000Z",
+   "date": "2026-11-29",
+   "teams": [
+    "Hoffenheim",
+    "Augsburg"
+   ],
+   "channels": [
+    "st-world-football"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-29T18:30:00.000Z",
+   "date": "2026-11-29",
+   "teams": [
+    "Borussia Dortmund",
+    "Bayer Leverkusen"
+   ],
+   "channels": [
+    "st-world-football"
+   ],
+   "source": "StarTimes guide (auto)"
+  },
+  {
+   "start": "2026-11-28T14:05:00.000Z",
+   "date": "2026-11-28",
+   "teams": [
+    "Al Ettifaq",
+    "Al Hilal"
+   ],
+   "channels": [
+    "st-sports-arena"
+   ],
+   "source": "StarTimes guide (auto)"
   }
  ],
  "events": [
-  {
-   "start": "2026-11-24T10:00:00.000Z",
-   "end": "2026-11-24T12:00:00.000Z",
-   "sport": "football",
-   "comp": "Football",
-   "detail": "Kyoto Sanga v FC Pohang",
-   "channels": [
-    "azam-2"
-   ],
-   "status": "L",
-   "via": "Azam TV Max guide",
-   "home": "Kyoto Sanga",
-   "away": "FC Pohang"
-  },
-  {
-   "start": "2026-11-24T12:15:00.000Z",
-   "end": "2026-11-24T14:15:00.000Z",
-   "sport": "football",
-   "comp": "Football",
-   "detail": "Cong An Ha Noi v Vissel Kobe",
-   "channels": [
-    "azam-2"
-   ],
-   "status": "L",
-   "via": "Azam TV Max guide",
-   "home": "Cong An Ha Noi",
-   "away": "Vissel Kobe"
-  },
-  {
-   "start": "2026-11-24T12:15:00.000Z",
-   "duration": 120,
-   "sport": "football",
-   "comp": "AFC Champions League",
-   "detail": "Shanghai Port v Buriram United",
-   "channels": [
-    "s24"
-   ],
-   "status": "L",
-   "via": "Sport 24 guide",
-   "note": "In flight · At sea",
-   "home": "Shanghai Port",
-   "away": "Buriram United"
-  },
-  {
-   "start": "2026-11-24T12:55:00.000Z",
-   "end": "2026-11-24T14:55:00.000Z",
-   "sport": "football",
-   "comp": "UYL",
-   "detail": "Arsenal v Dortmund",
-   "channels": [
-    "ss-kickoff"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Arsenal",
-   "away": "Dortmund"
-  },
-  {
-   "start": "2026-11-24T13:30:00.000Z",
-   "duration": 115,
-   "sport": "football",
-   "comp": "FIFA WC U17",
-   "detail": "Mexique v Cameroon",
-   "channels": [
-    "nws-1"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)",
-   "home": "Mexique",
-   "away": "Cameroon"
-  },
-  {
-   "start": "2026-11-24T13:45:00.000Z",
-   "end": "2026-11-24T15:45:00.000Z",
-   "sport": "boxing",
-   "comp": "",
-   "detail": "East Bengal FC v Al Hussein",
-   "channels": [
-    "azam-5"
-   ],
-   "status": "L",
-   "via": "Azam TV Max guide",
-   "home": "East Bengal FC",
-   "away": "Al Hussein"
-  },
-  {
-   "start": "2026-11-24T14:55:00.000Z",
-   "end": "2026-11-24T17:00:00.000Z",
-   "sport": "football",
-   "comp": "UYL",
-   "detail": "Feyernoord v Porto",
-   "channels": [
-    "ss-kickoff"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Feyernoord",
-   "away": "Porto"
-  },
-  {
-   "start": "2026-11-24T15:00:00.000Z",
-   "end": "2026-11-24T17:00:00.000Z",
-   "sport": "football",
-   "comp": "Football",
-   "detail": "Brazil v Tanzania",
-   "channels": [
-    "azam-4"
-   ],
-   "status": "L",
-   "via": "Azam TV Max guide",
-   "home": "Brazil",
-   "away": "Tanzania"
-  },
-  {
-   "start": "2026-11-24T15:00:00.000Z",
-   "duration": 115,
-   "sport": "football",
-   "comp": "FIFA WC U17",
-   "detail": "Brésil v Tanzania",
-   "channels": [
-    "nws-2"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)",
-   "home": "Brésil",
-   "away": "Tanzania"
-  },
-  {
-   "start": "2026-11-24T16:00:00.000Z",
-   "end": "2026-11-24T17:40:00.000Z",
-   "sport": "tennis",
-   "comp": "Davis Cup Finals D1 QF1",
-   "detail": "Czechia v CAN",
-   "channels": [
-    "ss-grandstand",
-    "ss-tennis"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Czechia",
-   "away": "CAN"
-  },
-  {
-   "start": "2026-11-24T16:00:00.000Z",
-   "end": "2026-11-24T18:00:00.000Z",
-   "sport": "football",
-   "comp": "AFC Champions League",
-   "detail": "Shabab Al Ahli v Al Qadsiah Club",
-   "channels": [
-    "azam-2",
-    "s24-extra"
-   ],
-   "status": "L",
-   "via": "Azam TV Max guide · Sport 24 guide",
-   "home": "Shabab Al Ahli",
-   "away": "Al Qadsiah Club"
-  },
-  {
-   "start": "2026-11-24T17:00:00.000Z",
-   "end": "2026-11-24T17:40:00.000Z",
-   "sport": "football",
-   "comp": "Hora do Jogo",
-   "detail": "Hora do Jogo",
-   "channels": [
-    "ss-maximo-1",
-    "ss-maximo-2"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-24T17:25:00.000Z",
-   "end": "2026-11-24T19:30:00.000Z",
-   "sport": "football",
-   "comp": "Betway Prem Pirates v Arrows",
-   "detail": "Betway Prem 26/27 Pirates v Arrows",
-   "channels": [
-    "ss-africa"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Betway Prem 26/27 Pirates",
-   "away": "Arrows"
-  },
-  {
-   "start": "2026-11-24T17:25:00.000Z",
-   "end": "2026-11-24T19:30:00.000Z",
-   "sport": "football",
-   "comp": "Betway Prem DBN City v Polokwane",
-   "detail": "Betway Prem 26/27 DBN City v Polokwane",
-   "channels": [
-    "ss-stream-245"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "Betway Prem 26/27 DBN City",
-   "away": "Polokwane"
-  },
-  {
-   "start": "2026-11-24T17:40:00.000Z",
-   "end": "2026-11-24T19:45:00.000Z",
-   "sport": "football",
-   "comp": "UCL",
-   "detail": "Galatasaray v Aston Villa",
-   "channels": [
-    "ss-football-plus",
-    "ss-grandstand",
-    "bein-english-1",
-    "bein-3",
-    "nws-2",
-    "s24"
-   ],
-   "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t) · Sport 24 guide",
-   "home": "Galatasaray",
-   "away": "Aston Villa"
-  },
-  {
-   "start": "2026-11-24T17:40:00.000Z",
-   "end": "2026-11-24T19:45:00.000Z",
-   "sport": "football",
-   "comp": "UCL",
-   "detail": "Bodø/Glimt v LASK",
-   "channels": [
-    "ss-premier-league",
-    "bein-4",
-    "bein-english-2",
-    "nws-3"
-   ],
-   "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
-   "home": "Bodø/Glimt",
-   "away": "LASK"
-  },
-  {
-   "start": "2026-11-24T17:40:00.000Z",
-   "end": "2026-11-24T19:45:00.000Z",
-   "sport": "football",
-   "comp": "UCL",
-   "detail": "GAL v AVL",
-   "channels": [
-    "ss-maximo-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "GAL",
-   "away": "AVL"
-  },
-  {
-   "start": "2026-11-24T17:40:00.000Z",
-   "end": "2026-11-24T19:45:00.000Z",
-   "sport": "football",
-   "comp": "UCL",
-   "detail": "BOD v LASK",
-   "channels": [
-    "ss-maximo-2"
-   ],
-   "status": "L",
-   "via": "SuperSport guide",
-   "home": "BOD",
-   "away": "LASK"
-  },
-  {
-   "start": "2026-11-24T18:15:00.000Z",
-   "end": "2026-11-24T20:15:00.000Z",
-   "sport": "football",
-   "comp": "Football",
-   "detail": "Al Nassr Club v Al Sadd SC",
-   "channels": [
-    "azam-2"
-   ],
-   "status": "L",
-   "via": "Azam TV Max guide",
-   "home": "Al Nassr Club",
-   "away": "Al Sadd SC"
-  },
-  {
-   "start": "2026-11-24T19:00:00.000Z",
-   "end": "2026-11-24T22:30:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Champions League",
-   "detail": "Real Madrid v PSV Eindhoven",
-   "channels": [
-    "bein-1",
-    "bein-english-1"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Real Madrid",
-   "away": "PSV Eindhoven"
-  },
-  {
-   "start": "2026-11-24T19:30:00.000Z",
-   "end": "2026-11-24T22:15:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Champions League",
-   "detail": "Como v Aek Athens",
-   "channels": [
-    "bein-5"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Como",
-   "away": "Aek Athens"
-  },
-  {
-   "start": "2026-11-24T19:52:00.000Z",
-   "end": "2026-11-24T22:00:00.000Z",
-   "sport": "football",
-   "comp": "EFL",
-   "detail": "Wolverhampton Wanderers vs Derby",
-   "channels": [
-    "espn",
-    "bein-xtra-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
-   "home": "Wolverhampton Wanderers",
-   "away": "Derby"
-  },
   {
    "start": "2026-11-24T19:55:00.000Z",
    "end": "2026-11-24T22:00:00.000Z",
@@ -480,17 +412,16 @@
    "channels": [
     "ss-grandstand",
     "ss-action",
-    "nws-3",
     "s24"
    ],
    "status": "L",
-   "via": "SuperSport guide · New World Sport guide (my.t) · Sport 24 guide",
+   "via": "SuperSport guide · Sport 24 guide",
    "home": "Real Madrid",
    "away": "PSV"
   },
   {
    "start": "2026-11-24T19:55:00.000Z",
-   "end": "2026-11-24T22:00:00.000Z",
+   "end": "2026-11-24T21:57:00.000Z",
    "sport": "football",
    "comp": "SPFL",
    "detail": "Rangers vs Aberdeen",
@@ -510,12 +441,10 @@
    "detail": "Arsenal v Dortmund",
    "channels": [
     "ss-football-plus",
-    "bein-4",
-    "nws-1",
     "s24-extra"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t) · Sport 24 guide",
+   "via": "SuperSport guide · Sport 24 guide",
    "home": "Arsenal",
    "away": "Dortmund"
   },
@@ -526,12 +455,10 @@
    "comp": "UCL",
    "detail": "Manchester City v Napoli",
    "channels": [
-    "ss-premier-league",
-    "bein-english-2",
-    "bein-3"
+    "ss-premier-league"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
+   "via": "SuperSport guide",
    "home": "Manchester City",
    "away": "Napoli"
   },
@@ -542,11 +469,10 @@
    "comp": "UCL",
    "detail": "Leipzig v Lens",
    "channels": [
-    "ss-laliga",
-    "bein-8"
+    "ss-laliga"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
+   "via": "SuperSport guide",
    "home": "Leipzig",
    "away": "Lens"
   },
@@ -571,12 +497,10 @@
    "comp": "UCL",
    "detail": "Feyenoord v Porto",
    "channels": [
-    "ss-kickoff",
-    "bein-6",
-    "nws-4"
+    "ss-kickoff"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide",
    "home": "Feyenoord",
    "away": "Porto"
   },
@@ -587,11 +511,10 @@
    "comp": "UCL",
    "detail": "S Bratislava v Betis",
    "channels": [
-    "ss-extra-1",
-    "bein-9"
+    "ss-extra-1"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
+   "via": "SuperSport guide",
    "home": "S Bratislava",
    "away": "Betis"
   },
@@ -624,81 +547,14 @@
    "away": "NAP"
   },
   {
-   "start": "2026-11-24T19:55:00.000Z",
-   "duration": 115,
-   "sport": "football",
-   "comp": "UEFA Champions League",
-   "detail": "Manchester City v Naples",
-   "channels": [
-    "nws-2"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)",
-   "home": "Manchester City",
-   "away": "Naples"
-  },
-  {
-   "start": "2026-11-24T19:55:00.000Z",
-   "duration": 115,
-   "sport": "football",
-   "comp": "UEFA Champions League",
-   "detail": "Come v AEK Athènes",
-   "channels": [
-    "nws-6"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)",
-   "home": "Come",
-   "away": "AEK Athènes"
-  },
-  {
-   "start": "2026-11-24T19:55:00.000Z",
-   "duration": 115,
-   "sport": "football",
-   "comp": "UEFA Champions League",
-   "detail": "Slovan Bratislava v Real Betis",
-   "channels": [
-    "nws-7"
-   ],
-   "status": "L",
-   "via": "New World Sport guide (my.t)",
-   "home": "Slovan Bratislava",
-   "away": "Real Betis"
-  },
-  {
-   "start": "2026-11-24T22:00:00.000Z",
-   "end": "2026-11-24T23:30:00.000Z",
-   "sport": "padel",
-   "comp": "Premier Padel",
-   "detail": "Day sessions",
-   "channels": [
-    "bein-english-2",
-    "bein-9"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
-   "start": "2026-11-24T22:30:00.000Z",
-   "end": "2026-11-24T23:30:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Champions League",
-   "detail": "beIN Champions",
-   "channels": [
-    "bein-1"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide"
-  },
-  {
    "start": "2026-11-24T23:30:00.000Z",
    "end": "2026-11-25T01:00:00.000Z",
    "sport": "padel",
    "comp": "Premier Padel",
    "detail": "Day sessions",
    "channels": [
-    "bein-english-2",
-    "bein-9"
+    "bein-9",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -723,7 +579,7 @@
   },
   {
    "start": "2026-11-25T01:00:00.000Z",
-   "end": "2026-11-25T03:30:00.000Z",
+   "end": "2026-11-25T03:31:00.000Z",
    "sport": "hockey",
    "comp": "NHL",
    "detail": "Golden Knights @ Oilers",
@@ -796,15 +652,17 @@
   },
   {
    "start": "2026-11-25T04:50:00.000Z",
-   "end": "2026-11-25T09:00:00.000Z",
+   "end": "2026-11-25T09:30:00.000Z",
    "sport": "cricket",
-   "comp": "ICC (W) Nations Trophy",
-   "detail": "Final",
+   "comp": "ICC W Nations Trophy Final",
+   "detail": "Sri Lanka v Ireland",
    "channels": [
-    "ss-stream-245"
+    "ss-stream-246"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide",
+   "home": "Sri Lanka",
+   "away": "Ireland"
   },
   {
    "start": "2026-11-25T07:50:00.000Z",
@@ -870,10 +728,12 @@
    "comp": "UYL",
    "detail": "Sporting v Manchester United",
    "channels": [
-    "ss-kickoff"
+    "ss-kickoff",
+    "bein-4",
+    "bein-english-2"
    ],
    "status": "L",
-   "via": "SuperSport guide",
+   "via": "SuperSport guide · beIN SPORTS guide",
    "home": "Sporting",
    "away": "Manchester United"
   },
@@ -885,10 +745,11 @@
    "detail": "PSG v AS Roma",
    "channels": [
     "ss-kickoff",
+    "bein-3",
     "nws-1"
    ],
    "status": "L",
-   "via": "SuperSport guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
    "home": "PSG",
    "away": "AS Roma"
   },
@@ -1293,8 +1154,8 @@
    "comp": "Premier Padel",
    "detail": "Day sessions",
    "channels": [
-    "bein-9",
-    "bein-english-2"
+    "bein-english-2",
+    "bein-9"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -1307,8 +1168,8 @@
    "detail": "Minnesota Timberwolves @ Oklahoma City Thunder",
    "channels": [
     "espn",
-    "bein-english-1",
     "bein-1",
+    "bein-english-1",
     "s24"
    ],
    "status": "L",
@@ -1512,17 +1373,15 @@
   },
   {
    "start": "2026-11-26T16:00:00.000Z",
-   "end": "2026-11-26T20:00:00.000Z",
+   "end": "2026-11-26T20:30:00.000Z",
    "sport": "boxing",
    "comp": "Boxing",
-   "detail": "(W) Promnick v Mkhathala",
+   "detail": "International Catchweight",
    "channels": [
     "ss-tbc"
    ],
    "status": "L",
-   "via": "SuperSport guide",
-   "home": "(W) Promnick",
-   "away": "Mkhathala"
+   "via": "SuperSport guide"
   },
   {
    "start": "2026-11-26T16:00:00.000Z",
@@ -1550,6 +1409,50 @@
    ],
    "status": "L",
    "via": "SuperSport guide"
+  },
+  {
+   "start": "2026-11-26T17:35:00.000Z",
+   "end": "2026-11-26T19:50:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Kauno Žalgiris v Riga",
+   "channels": [
+    "bein-xtra-6"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "Kauno Žalgiris",
+   "away": "Riga"
+  },
+  {
+   "start": "2026-11-26T17:35:00.000Z",
+   "end": "2026-11-26T19:50:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "GNK Dinamo v Leverkusen",
+   "channels": [
+    "bein-6",
+    "nws-4"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide · New World Sport guide (my.t)",
+   "home": "GNK Dinamo",
+   "away": "Leverkusen"
+  },
+  {
+   "start": "2026-11-26T17:35:00.000Z",
+   "end": "2026-11-26T19:50:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Brighton v Universitatea Craiova",
+   "channels": [
+    "bein-2",
+    "nws-7"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide · New World Sport guide (my.t)",
+   "home": "Brighton",
+   "away": "Universitatea Craiova"
   },
   {
    "start": "2026-11-26T17:35:00.000Z",
@@ -1598,42 +1501,14 @@
    "end": "2026-11-26T19:50:00.000Z",
    "sport": "football",
    "comp": "UEFA Europa League",
-   "detail": "Egnatia v Lincoln Red Imps",
+   "detail": "Iberia Tbilisi v Getafe",
    "channels": [
-    "bein-xtra-7"
+    "bein-xtra-1"
    ],
    "status": "L",
    "via": "beIN SPORTS guide",
-   "home": "Egnatia",
-   "away": "Lincoln Red Imps"
-  },
-  {
-   "start": "2026-11-26T17:35:00.000Z",
-   "end": "2026-11-26T19:50:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Kauno Žalgiris v Riga",
-   "channels": [
-    "bein-xtra-6"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Kauno Žalgiris",
-   "away": "Riga"
-  },
-  {
-   "start": "2026-11-26T17:35:00.000Z",
-   "end": "2026-11-26T19:50:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Brann v Aarhus",
-   "channels": [
-    "bein-xtra-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Brann",
-   "away": "Aarhus"
+   "home": "Iberia Tbilisi",
+   "away": "Getafe"
   },
   {
    "start": "2026-11-26T17:35:00.000Z",
@@ -1654,44 +1529,28 @@
    "end": "2026-11-26T19:50:00.000Z",
    "sport": "football",
    "comp": "UEFA Europa League",
-   "detail": "GNK Dinamo v Leverkusen",
+   "detail": "Egnatia v Lincoln Red Imps",
    "channels": [
-    "bein-6",
-    "nws-4"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · New World Sport guide (my.t)",
-   "home": "GNK Dinamo",
-   "away": "Leverkusen"
-  },
-  {
-   "start": "2026-11-26T17:35:00.000Z",
-   "end": "2026-11-26T19:50:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Brighton v Universitatea Craiova",
-   "channels": [
-    "bein-2",
-    "nws-7"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · New World Sport guide (my.t)",
-   "home": "Brighton",
-   "away": "Universitatea Craiova"
-  },
-  {
-   "start": "2026-11-26T17:35:00.000Z",
-   "end": "2026-11-26T19:50:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Iberia Tbilisi v Getafe",
-   "channels": [
-    "bein-xtra-1"
+    "bein-xtra-7"
    ],
    "status": "L",
    "via": "beIN SPORTS guide",
-   "home": "Iberia Tbilisi",
-   "away": "Getafe"
+   "home": "Egnatia",
+   "away": "Lincoln Red Imps"
+  },
+  {
+   "start": "2026-11-26T17:35:00.000Z",
+   "end": "2026-11-26T19:50:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Brann v Aarhus",
+   "channels": [
+    "bein-xtra-8"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "Brann",
+   "away": "Aarhus"
   },
   {
    "start": "2026-11-26T17:40:00.000Z",
@@ -1862,17 +1721,79 @@
   },
   {
    "start": "2026-11-26T19:50:00.000Z",
+   "end": "2026-11-26T22:00:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Sunderland v Jagiellonia",
+   "channels": [
+    "bein-4",
+    "nws-4"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide · New World Sport guide (my.t)",
+   "home": "Sunderland",
+   "away": "Jagiellonia"
+  },
+  {
+   "start": "2026-11-26T19:50:00.000Z",
    "end": "2026-11-26T21:00:00.000Z",
    "sport": "football",
    "comp": "UEFA Europa League",
-   "detail": "Inter Escaldes v Copenhagen",
+   "detail": "Braga KuPS v Kuopio",
    "channels": [
-    "bein-xtra-6"
+    "bein-xtra-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide",
-   "home": "Inter Escaldes",
-   "away": "Copenhagen"
+   "home": "Braga KuPS",
+   "away": "Kuopio"
+  },
+  {
+   "start": "2026-11-26T19:50:00.000Z",
+   "end": "2026-11-26T22:15:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Crystal Palace v Real Sociedad",
+   "channels": [
+    "bein-3",
+    "bein-english-1",
+    "nws-1",
+    "s24-extra",
+    "s24"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide · New World Sport guide (my.t) · Sport 24 guide",
+   "home": "Crystal Palace",
+   "away": "Real Sociedad"
+  },
+  {
+   "start": "2026-11-26T19:50:00.000Z",
+   "end": "2026-11-26T22:00:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Borac v Atalanta",
+   "channels": [
+    "bein-8",
+    "nws-7"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide · New World Sport guide (my.t)",
+   "home": "Borac",
+   "away": "Atalanta"
+  },
+  {
+   "start": "2026-11-26T19:50:00.000Z",
+   "end": "2026-11-26T21:00:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Freiburg v Twente",
+   "channels": [
+    "bein-xtra-8"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "Freiburg",
+   "away": "Twente"
   },
   {
    "start": "2026-11-26T19:50:00.000Z",
@@ -1893,47 +1814,14 @@
    "end": "2026-11-26T22:00:00.000Z",
    "sport": "football",
    "comp": "UEFA Europa League",
-   "detail": "Borac v Atalanta",
+   "detail": "N.E.C. Nijmegen v Rennes",
    "channels": [
-    "bein-8",
-    "nws-7"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · New World Sport guide (my.t)",
-   "home": "Borac",
-   "away": "Atalanta"
-  },
-  {
-   "start": "2026-11-26T19:50:00.000Z",
-   "end": "2026-11-26T22:00:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Crystal Palace v Real Sociedad",
-   "channels": [
-    "bein-english-1",
-    "bein-3",
-    "nws-1",
-    "s24-extra",
-    "s24"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · New World Sport guide (my.t) · Sport 24 guide",
-   "home": "Crystal Palace",
-   "away": "Real Sociedad"
-  },
-  {
-   "start": "2026-11-26T19:50:00.000Z",
-   "end": "2026-11-26T21:00:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Braga KuPS v Kuopio",
-   "channels": [
-    "bein-xtra-2"
+    "bein-6"
    ],
    "status": "L",
    "via": "beIN SPORTS guide",
-   "home": "Braga KuPS",
-   "away": "Kuopio"
+   "home": "N.E.C. Nijmegen",
+   "away": "Rennes"
   },
   {
    "start": "2026-11-26T19:50:00.000Z",
@@ -1948,6 +1836,34 @@
    "via": "beIN SPORTS guide",
    "home": "OFI Crete",
    "away": "Anderlecht"
+  },
+  {
+   "start": "2026-11-26T19:50:00.000Z",
+   "end": "2026-11-26T21:00:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Sparta Praha v AZ Alkmaar",
+   "channels": [
+    "bein-xtra-1"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "Sparta Praha",
+   "away": "AZ Alkmaar"
+  },
+  {
+   "start": "2026-11-26T19:50:00.000Z",
+   "end": "2026-11-26T21:00:00.000Z",
+   "sport": "football",
+   "comp": "UEFA Europa League",
+   "detail": "Inter Escaldes v Copenhagen",
+   "channels": [
+    "bein-xtra-6"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "Inter Escaldes",
+   "away": "Copenhagen"
   },
   {
    "start": "2026-11-26T19:50:00.000Z",
@@ -1976,63 +1892,6 @@
    "via": "beIN SPORTS guide",
    "home": "Gent Crvena",
    "away": "Zvezda"
-  },
-  {
-   "start": "2026-11-26T19:50:00.000Z",
-   "end": "2026-11-26T22:00:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "N.E.C. Nijmegen v Rennes",
-   "channels": [
-    "bein-6"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "N.E.C. Nijmegen",
-   "away": "Rennes"
-  },
-  {
-   "start": "2026-11-26T19:50:00.000Z",
-   "end": "2026-11-26T21:00:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Sparta Praha v AZ Alkmaar",
-   "channels": [
-    "bein-xtra-1"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Sparta Praha",
-   "away": "AZ Alkmaar"
-  },
-  {
-   "start": "2026-11-26T19:50:00.000Z",
-   "end": "2026-11-26T21:00:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Freiburg v Twente",
-   "channels": [
-    "bein-xtra-8"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Freiburg",
-   "away": "Twente"
-  },
-  {
-   "start": "2026-11-26T19:50:00.000Z",
-   "end": "2026-11-26T22:00:00.000Z",
-   "sport": "football",
-   "comp": "UEFA Europa League",
-   "detail": "Sunderland v Jagiellonia",
-   "channels": [
-    "bein-4",
-    "nws-4"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · New World Sport guide (my.t)",
-   "home": "Sunderland",
-   "away": "Jagiellonia"
   },
   {
    "start": "2026-11-26T19:55:00.000Z",
@@ -2153,7 +2012,7 @@
   },
   {
    "start": "2026-11-26T21:30:00.000Z",
-   "end": "2026-11-27T00:30:00.000Z",
+   "end": "2026-11-27T01:15:00.000Z",
    "sport": "nfl",
    "comp": "NFL",
    "detail": "Eagles @ Cowboys (Thanksgiving)",
@@ -2219,18 +2078,6 @@
    "via": "beIN SPORTS guide"
   },
   {
-   "start": "2026-11-27T00:30:00.000Z",
-   "end": "2026-11-27T01:15:00.000Z",
-   "sport": "nfl",
-   "comp": "NFL Blitz",
-   "detail": "NFL Blitz",
-   "channels": [
-    "espn"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
    "start": "2026-11-27T01:00:00.000Z",
    "end": "2026-11-27T02:30:00.000Z",
    "sport": "padel",
@@ -2259,13 +2106,13 @@
   },
   {
    "start": "2026-11-27T01:20:00.000Z",
-   "end": "2026-11-27T04:20:00.000Z",
+   "end": "2026-11-27T04:30:00.000Z",
    "sport": "nfl",
    "comp": "NFL- National Football League",
    "detail": "Kansas City Chiefs @ Buffalo Bills",
    "channels": [
-    "bein-english-1",
-    "bein-8"
+    "bein-8",
+    "bein-english-1"
    ],
    "status": "L",
    "via": "beIN SPORTS guide",
@@ -2381,12 +2228,14 @@
    "end": "2026-11-27T10:45:00.000Z",
    "sport": "afl",
    "comp": "AFLW",
-   "detail": "Grand Final",
+   "detail": "North Melbourne vs Melbourne",
    "channels": [
     "espn"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide",
+   "home": "North Melbourne",
+   "away": "Melbourne"
   },
   {
    "start": "2026-11-27T09:40:00.000Z",
@@ -2600,13 +2449,13 @@
   },
   {
    "start": "2026-11-27T15:00:00.000Z",
-   "end": "2026-11-27T15:45:00.000Z",
+   "end": "2026-11-27T16:00:00.000Z",
    "sport": "football",
    "comp": "MotorSports",
    "detail": "Qualifying",
    "channels": [
-    "bein-english-2",
-    "bein-8"
+    "bein-8",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -2657,7 +2506,7 @@
   },
   {
    "start": "2026-11-27T16:56:00.000Z",
-   "end": "2026-11-27T19:20:00.000Z",
+   "end": "2026-11-27T19:00:00.000Z",
    "sport": "football",
    "comp": "TSL",
    "detail": "Alanyaspor vs Konyaspor",
@@ -2708,6 +2557,20 @@
    "via": "beIN SPORTS guide",
    "home": "Chambéry",
    "away": "Limoges"
+  },
+  {
+   "start": "2026-11-27T19:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Werder Bremen v Borussia Mönchengladbach",
+   "home": "Werder Bremen",
+   "away": "Borussia Mönchengladbach",
+   "channels": [
+    "st-world-football"
+   ],
+   "status": "L",
+   "via": "StarTimes guide"
   },
   {
    "start": "2026-11-27T19:40:00.000Z",
@@ -2782,10 +2645,12 @@
    "channels": [
     "ss-football",
     "bein-3",
-    "nws-3"
+    "nws-3",
+    "st-sports-premium",
+    "st-sports-life"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t) · StarTimes guide",
    "home": "Levante",
    "away": "Racing"
   },
@@ -2805,13 +2670,13 @@
   },
   {
    "start": "2026-11-27T20:00:00.000Z",
-   "end": "2026-11-27T23:30:00.000Z",
+   "end": "2026-11-27T23:00:00.000Z",
    "sport": "nfl",
    "comp": "NFL- National Football League",
    "detail": "Denver Broncos @ Pittsburgh Steelers",
    "channels": [
-    "bein-english-2",
-    "bein-8"
+    "bein-8",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide",
@@ -2866,8 +2731,8 @@
    "comp": "Premier Padel",
    "detail": "Day sessions",
    "channels": [
-    "bein-9",
-    "bein-english-2"
+    "bein-english-2",
+    "bein-9"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -2944,8 +2809,8 @@
    "comp": "Premier Padel",
    "detail": "Day sessions",
    "channels": [
-    "bein-english-2",
-    "bein-9"
+    "bein-9",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -3058,13 +2923,13 @@
   },
   {
    "start": "2026-11-28T09:50:00.000Z",
-   "end": "2026-11-28T12:20:00.000Z",
+   "end": "2026-11-28T11:45:00.000Z",
    "sport": "football",
    "comp": "Moto GP - World Championship",
    "detail": "Moto GP",
    "channels": [
-    "bein-english-2",
-    "bein-9"
+    "bein-9",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -3139,10 +3004,11 @@
    "channels": [
     "espn",
     "nws-1",
-    "s24-extra"
+    "s24-extra",
+    "st-world-football"
    ],
    "status": "L",
-   "via": "SuperSport guide · New World Sport guide (my.t) · Sport 24 guide",
+   "via": "SuperSport guide · New World Sport guide (my.t) · Sport 24 guide · StarTimes guide",
    "home": "Al Hazem",
    "away": "Al Nassr"
   },
@@ -3223,10 +3089,11 @@
     "ss-football",
     "ss-maximo-1",
     "bein-5",
-    "nws-3"
+    "nws-3",
+    "st-sports-premium"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t) · StarTimes guide",
    "home": "Betis",
    "away": "Rayo"
   },
@@ -3332,10 +3199,11 @@
    "detail": "Al Ettifaq vs Al Hilal",
    "channels": [
     "espn",
-    "nws-2"
+    "nws-2",
+    "st-sports-arena"
    ],
    "status": "L",
-   "via": "SuperSport guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide · New World Sport guide (my.t) · StarTimes guide",
    "home": "Al Ettifaq",
    "away": "Al Hilal"
   },
@@ -3364,6 +3232,20 @@
    "away": "Elversberg",
    "channels": [
     "st-sports-focus"
+   ],
+   "status": "L",
+   "via": "StarTimes guide"
+  },
+  {
+   "start": "2026-11-28T14:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Hamburger SV v Bayern München",
+   "home": "Hamburger SV",
+   "away": "Bayern München",
+   "channels": [
+    "st-world-football"
    ],
    "status": "L",
    "via": "StarTimes guide"
@@ -3452,10 +3334,11 @@
    "channels": [
     "ss-football",
     "bein-5",
-    "nws-3"
+    "nws-3",
+    "st-sports-life"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t) · StarTimes guide",
    "home": "Malaga",
    "away": "Athletic Club"
   },
@@ -3489,20 +3372,6 @@
   },
   {
    "start": "2026-11-28T15:50:00.000Z",
-   "end": "2026-11-28T18:50:00.000Z",
-   "sport": "football",
-   "comp": "CAF Champions league",
-   "detail": "EST v Wiliete",
-   "channels": [
-    "bein-4"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "EST",
-   "away": "Wiliete"
-  },
-  {
-   "start": "2026-11-28T15:50:00.000Z",
    "end": "2026-11-28T18:00:00.000Z",
    "sport": "football",
    "comp": "CAF Champions league",
@@ -3514,6 +3383,20 @@
    "via": "beIN SPORTS guide",
    "home": "Pyramids",
    "away": "MAS De Fes"
+  },
+  {
+   "start": "2026-11-28T15:50:00.000Z",
+   "end": "2026-11-28T18:50:00.000Z",
+   "sport": "football",
+   "comp": "CAF Champions league",
+   "detail": "EST v Wiliete",
+   "channels": [
+    "bein-4"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "EST",
+   "away": "Wiliete"
   },
   {
    "start": "2026-11-28T15:55:00.000Z",
@@ -3585,13 +3468,13 @@
   },
   {
    "start": "2026-11-28T16:40:00.000Z",
-   "end": "2026-11-28T18:00:00.000Z",
+   "end": "2026-11-28T19:35:00.000Z",
    "sport": "other",
    "comp": "MotorSports",
    "detail": "Sprint Race",
    "channels": [
-    "bein-english-2",
-    "bein-9"
+    "bein-9",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -3652,10 +3535,12 @@
    "channels": [
     "ss-football",
     "bein-5",
-    "nws-3"
+    "nws-3",
+    "st-sports-premium",
+    "st-sports-life"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t) · StarTimes guide",
    "home": "Elche",
    "away": "Atletico Madrid"
   },
@@ -3686,6 +3571,20 @@
    ],
    "status": "L",
    "via": "MLS fixtures (Apple TV)"
+  },
+  {
+   "start": "2026-11-28T17:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "VfB Stuttgart v Eintracht Frankfurt",
+   "home": "VfB Stuttgart",
+   "away": "Eintracht Frankfurt",
+   "channels": [
+    "st-world-football"
+   ],
+   "status": "L",
+   "via": "StarTimes guide"
   },
   {
    "start": "2026-11-28T17:40:00.000Z",
@@ -3789,20 +3688,6 @@
   },
   {
    "start": "2026-11-28T19:35:00.000Z",
-   "end": "2026-11-28T21:45:00.000Z",
-   "sport": "football",
-   "comp": "French League - Ligue 1",
-   "detail": "Nice v Troyes",
-   "channels": [
-    "bein-7"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Nice",
-   "away": "Troyes"
-  },
-  {
-   "start": "2026-11-28T19:35:00.000Z",
    "end": "2026-11-28T22:00:00.000Z",
    "sport": "football",
    "comp": "French League - Ligue 1",
@@ -3814,6 +3699,20 @@
    "via": "beIN SPORTS guide",
    "home": "Havre AC",
    "away": "Strasbourg"
+  },
+  {
+   "start": "2026-11-28T19:35:00.000Z",
+   "end": "2026-11-28T21:45:00.000Z",
+   "sport": "football",
+   "comp": "French League - Ligue 1",
+   "detail": "Nice v Troyes",
+   "channels": [
+    "bein-7"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "Nice",
+   "away": "Troyes"
   },
   {
    "start": "2026-11-28T19:40:00.000Z",
@@ -3911,12 +3810,14 @@
    "channels": [
     "ss-football",
     "ss-maximo-1",
-    "bein-english-1",
     "bein-1",
-    "nws-3"
+    "bein-english-1",
+    "nws-3",
+    "st-sports-premium",
+    "st-sports-life"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t) · StarTimes guide",
    "home": "Real Madrid",
    "away": "Alaves"
   },
@@ -3979,31 +3880,15 @@
    "start": "2026-11-28T21:58:00.000Z",
    "end": "2026-11-28T23:30:00.000Z",
    "sport": "nfl",
-   "comp": "Cfb",
-   "detail": "@",
+   "comp": "CFB",
+   "detail": "Georgia Tech  @ Georgia",
    "channels": [
     "ss-tbc"
    ],
    "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-28T22:00:00.000Z",
-   "end": "2026-11-29T00:30:00.000Z",
-   "sport": "basketball",
-   "comp": "NBA",
-   "detail": "Orlando Magic v Washington Wizards",
-   "channels": [
-    "bein-2",
-    "bein-english-1",
-    "s24-extra",
-    "cp-tbc",
-    "sportytv"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
-   "home": "Orlando Magic",
-   "away": "Washington Wizards"
+   "via": "SuperSport guide",
+   "home": "Georgia",
+   "away": "Georgia Tech"
   },
   {
    "start": "2026-11-28T22:00:00.000Z",
@@ -4019,14 +3904,32 @@
    "via": "beIN SPORTS guide"
   },
   {
+   "start": "2026-11-28T22:00:00.000Z",
+   "end": "2026-11-29T11:30:00.000Z",
+   "sport": "basketball",
+   "comp": "NBA",
+   "detail": "Orlando Magic v Washington Wizards",
+   "channels": [
+    "bein-english-1",
+    "bein-2",
+    "s24-extra",
+    "cp-tbc",
+    "sportytv"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide · Sport 24 guide · NBA.com schedule (Pan-Africa / Pan-Middle East)",
+   "home": "Orlando Magic",
+   "away": "Washington Wizards"
+  },
+  {
    "start": "2026-11-28T23:30:00.000Z",
    "end": "2026-11-29T01:00:00.000Z",
    "sport": "padel",
    "comp": "Premier Padel",
    "detail": "Day sessions",
    "channels": [
-    "bein-english-2",
-    "bein-9"
+    "bein-9",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -4064,13 +3967,15 @@
    "start": "2026-11-29T00:30:00.000Z",
    "end": "2026-11-29T03:30:00.000Z",
    "sport": "nfl",
-   "comp": "Cfb",
-   "detail": "@",
+   "comp": "CFB",
+   "detail": "Auburn @ Alabama",
    "channels": [
     "ss-tbc"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide",
+   "home": "Alabama",
+   "away": "Auburn"
   },
   {
    "start": "2026-11-29T00:55:00.000Z",
@@ -4093,8 +3998,8 @@
    "comp": "Premier Padel",
    "detail": "Day sessions",
    "channels": [
-    "bein-9",
-    "bein-english-2"
+    "bein-english-2",
+    "bein-9"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -4345,9 +4250,9 @@
    "channels": [
     "ss-premier-league",
     "ss-maximo-2",
+    "bein-4k",
     "bein-1",
     "bein-english-1",
-    "bein-4k",
     "s24"
    ],
    "status": "L",
@@ -4375,8 +4280,8 @@
    "detail": "Swansea v Cardiff",
    "channels": [
     "ss-football-plus",
-    "bein-english-2",
-    "bein-xtra-2"
+    "bein-xtra-2",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "SuperSport guide · beIN SPORTS guide",
@@ -4445,10 +4350,11 @@
    "detail": "Valencia v Osasuna",
    "channels": [
     "ss-football",
-    "bein-3"
+    "bein-3",
+    "st-sports-premium"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
+   "via": "SuperSport guide · beIN SPORTS guide · StarTimes guide",
    "home": "Valencia",
    "away": "Osasuna"
   },
@@ -4568,8 +4474,8 @@
    "channels": [
     "ss-premier-league",
     "ss-maximo-2",
-    "bein-english-1",
     "bein-1",
+    "bein-english-1",
     "s24"
    ],
    "status": "L",
@@ -4677,16 +4583,30 @@
   },
   {
    "start": "2026-11-29T14:00:00.000Z",
-   "end": "2026-11-29T19:50:00.000Z",
+   "end": "2026-11-30T16:30:00.000Z",
    "sport": "f1",
    "comp": "Formula One World Championship",
    "detail": "F1 Qatar Grand Prix",
    "channels": [
-    "bein-8",
-    "bein-4k"
+    "bein-4k",
+    "bein-8"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
+  },
+  {
+   "start": "2026-11-29T14:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Freiburg v RB Leipzig",
+   "home": "Freiburg",
+   "away": "RB Leipzig",
+   "channels": [
+    "st-world-football"
+   ],
+   "status": "L",
+   "via": "StarTimes guide"
   },
   {
    "start": "2026-11-29T14:50:00.000Z",
@@ -4724,10 +4644,11 @@
    "detail": "Deportivo v Barcelona",
    "channels": [
     "ss-football",
-    "bein-2"
+    "bein-2",
+    "st-sports-premium"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
+   "via": "SuperSport guide · beIN SPORTS guide · StarTimes guide",
    "home": "Deportivo",
    "away": "Barcelona"
   },
@@ -4777,20 +4698,6 @@
    "start": "2026-11-29T15:50:00.000Z",
    "end": "2026-11-29T18:00:00.000Z",
    "sport": "football",
-   "comp": "Football",
-   "detail": "CS Sfaxien v Black Bulls",
-   "channels": [
-    "bein-xtra-1"
-   ],
-   "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "CS Sfaxien",
-   "away": "Black Bulls"
-  },
-  {
-   "start": "2026-11-29T15:50:00.000Z",
-   "end": "2026-11-29T18:00:00.000Z",
-   "sport": "football",
    "comp": "CAF Champions league",
    "detail": "APL v Nouadhibou",
    "channels": [
@@ -4800,6 +4707,20 @@
    "via": "beIN SPORTS guide",
    "home": "APL",
    "away": "Nouadhibou"
+  },
+  {
+   "start": "2026-11-29T15:50:00.000Z",
+   "end": "2026-11-29T18:00:00.000Z",
+   "sport": "football",
+   "comp": "Football",
+   "detail": "CS Sfaxien v Black Bulls",
+   "channels": [
+    "bein-xtra-1"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "CS Sfaxien",
+   "away": "Black Bulls"
   },
   {
    "start": "2026-11-29T15:55:00.000Z",
@@ -4920,6 +4841,20 @@
    "away": "South Africa"
   },
   {
+   "start": "2026-11-29T16:30:00.000Z",
+   "duration": 115,
+   "sport": "football",
+   "comp": "Bundesliga",
+   "detail": "Hoffenheim v Augsburg",
+   "home": "Hoffenheim",
+   "away": "Augsburg",
+   "channels": [
+    "st-world-football"
+   ],
+   "status": "L",
+   "via": "StarTimes guide"
+  },
+  {
    "start": "2026-11-29T16:55:00.000Z",
    "end": "2026-11-29T19:00:00.000Z",
    "sport": "football",
@@ -4942,10 +4877,11 @@
    "channels": [
     "ss-football",
     "bein-6",
-    "nws-3"
+    "nws-3",
+    "st-sports-life"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t)",
+   "via": "SuperSport guide · beIN SPORTS guide · New World Sport guide (my.t) · StarTimes guide",
    "home": "Celta Vigo",
    "away": "Villarreal"
   },
@@ -4953,13 +4889,15 @@
    "start": "2026-11-29T18:00:00.000Z",
    "end": "2026-11-29T21:21:00.000Z",
    "sport": "nfl",
-   "comp": "Nfl",
-   "detail": "@",
+   "comp": "NFL",
+   "detail": "Saints @ Bengals",
    "channels": [
     "espn"
    ],
    "status": "L",
-   "via": "SuperSport guide"
+   "via": "SuperSport guide",
+   "home": "Bengals",
+   "away": "Saints"
   },
   {
    "start": "2026-11-29T18:00:00.000Z",
@@ -5003,18 +4941,18 @@
    "away": "Falcons"
   },
   {
-   "start": "2026-11-29T18:50:00.000Z",
-   "end": "2026-11-29T21:15:00.000Z",
+   "start": "2026-11-29T18:30:00.000Z",
+   "duration": 115,
    "sport": "football",
-   "comp": "CAF Champions league",
-   "detail": "Hilal v Horoya",
+   "comp": "Bundesliga",
+   "detail": "Borussia Dortmund v Bayer Leverkusen",
+   "home": "Borussia Dortmund",
+   "away": "Bayer Leverkusen",
    "channels": [
-    "bein-5"
+    "st-world-football"
    ],
    "status": "L",
-   "via": "beIN SPORTS guide",
-   "home": "Hilal",
-   "away": "Horoya"
+   "via": "StarTimes guide"
   },
   {
    "start": "2026-11-29T18:50:00.000Z",
@@ -5029,6 +4967,20 @@
    "via": "beIN SPORTS guide",
    "home": "AS FAR",
    "away": "Durban City FC"
+  },
+  {
+   "start": "2026-11-29T18:50:00.000Z",
+   "end": "2026-11-29T21:15:00.000Z",
+   "sport": "football",
+   "comp": "CAF Champions league",
+   "detail": "Hilal v Horoya",
+   "channels": [
+    "bein-5"
+   ],
+   "status": "L",
+   "via": "beIN SPORTS guide",
+   "home": "Hilal",
+   "away": "Horoya"
   },
   {
    "start": "2026-11-29T19:00:00.000Z",
@@ -5079,10 +5031,11 @@
    "comp": "Spanish League - Segunda Division",
    "detail": "Almeria v Sporting",
    "channels": [
-    "bein-8"
+    "bein-8",
+    "st-sports-life"
    ],
    "status": "L",
-   "via": "beIN SPORTS guide",
+   "via": "beIN SPORTS guide · StarTimes guide",
    "home": "Almeria",
    "away": "Sporting"
   },
@@ -5094,11 +5047,12 @@
    "detail": "Real Sociedad v Sevilla",
    "channels": [
     "ss-football",
+    "bein-6",
     "bein-english-1",
-    "bein-6"
+    "st-sports-premium"
    ],
    "status": "L",
-   "via": "SuperSport guide · beIN SPORTS guide",
+   "via": "SuperSport guide · beIN SPORTS guide · StarTimes guide",
    "home": "Real Sociedad",
    "away": "Sevilla"
   },
@@ -5151,26 +5105,14 @@
    "start": "2026-11-29T21:21:00.000Z",
    "end": "2026-11-30T00:30:00.000Z",
    "sport": "nfl",
-   "comp": "Nfl",
-   "detail": "@",
-   "channels": [
-    "espn"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-11-29T21:25:00.000Z",
-   "duration": 235,
-   "sport": "nfl",
    "comp": "NFL",
    "detail": "Seahawks @ 49ers",
    "channels": [
+    "espn",
     "s24"
    ],
    "status": "L",
-   "via": "Sport 24 guide",
-   "note": "In flight",
+   "via": "SuperSport guide · Sport 24 guide",
    "home": "49ers",
    "away": "Seahawks"
   },
@@ -5215,13 +5157,13 @@
   },
   {
    "start": "2026-11-30T01:00:00.000Z",
-   "end": "2026-11-30T18:00:00.000Z",
+   "end": "2026-11-30T20:59:59.000Z",
    "sport": "padel",
    "comp": "Premier Padel",
    "detail": "Day sessions",
    "channels": [
-    "bein-english-2",
-    "bein-9"
+    "bein-9",
+    "bein-english-2"
    ],
    "status": "L",
    "via": "beIN SPORTS guide"
@@ -5390,8 +5332,8 @@
    "detail": "Espanyol v Getafe",
    "channels": [
     "ss-football",
-    "bein-2",
     "bein-english-1",
+    "bein-2",
     "nws-3"
    ],
    "status": "L",
@@ -5500,6 +5442,18 @@
    "away": "Newcastle Jets"
   },
   {
+   "start": "2026-12-01T10:50:00.000Z",
+   "end": "2026-12-01T11:30:00.000Z",
+   "sport": "other",
+   "comp": "WAS Champs",
+   "detail": "D1 SFs & Finals",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "via": "SuperSport guide"
+  },
+  {
    "start": "2026-12-01T11:50:00.000Z",
    "end": "2026-12-01T13:30:00.000Z",
    "sport": "football",
@@ -5555,18 +5509,6 @@
    "via": "SuperSport guide",
    "home": "Mauritania",
    "away": "Malawi"
-  },
-  {
-   "start": "2026-12-01T15:00:00.000Z",
-   "end": "2026-12-01T16:00:00.000Z",
-   "sport": "other",
-   "comp": "WAS Champs",
-   "detail": "Opening Ceremony",
-   "channels": [
-    "ss-extra-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
   },
   {
    "start": "2026-12-01T16:30:00.000Z",
@@ -5808,6 +5750,18 @@
    "away": "Gamba Osaka"
   },
   {
+   "start": "2026-12-02T10:50:00.000Z",
+   "end": "2026-12-02T11:00:00.000Z",
+   "sport": "other",
+   "comp": "WAS Champs",
+   "detail": "D2 SFs & Finals",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "via": "SuperSport guide"
+  },
+  {
    "start": "2026-12-02T11:50:00.000Z",
    "end": "2026-12-02T13:30:00.000Z",
    "sport": "football",
@@ -5866,19 +5820,6 @@
    "via": "SuperSport guide",
    "home": "Mauritania",
    "away": "MOR"
-  },
-  {
-   "start": "2026-12-02T15:45:00.000Z",
-   "end": "2026-12-02T18:00:00.000Z",
-   "sport": "other",
-   "comp": "WAS Champs",
-   "detail": "D2 SFs & Finals",
-   "channels": [
-    "ss-grandstand",
-    "ss-extra-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
   },
   {
    "start": "2026-12-02T16:30:00.000Z",
@@ -6217,6 +6158,18 @@
    "via": "SuperSport guide"
   },
   {
+   "start": "2026-12-03T10:50:00.000Z",
+   "end": "2026-12-03T11:30:00.000Z",
+   "sport": "other",
+   "comp": "WAS Champs",
+   "detail": "D3 SFs & Finals",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "via": "SuperSport guide"
+  },
+  {
    "start": "2026-12-03T14:30:00.000Z",
    "end": "2026-12-03T19:50:00.000Z",
    "sport": "golf",
@@ -6224,18 +6177,6 @@
    "detail": "PGA Champions '26 World Champ Cup D1",
    "channels": [
     "ss-grandstand"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
-  },
-  {
-   "start": "2026-12-03T15:45:00.000Z",
-   "end": "2026-12-03T18:00:00.000Z",
-   "sport": "other",
-   "comp": "WAS Champs",
-   "detail": "D3 SFs & Finals",
-   "channels": [
-    "ss-extra-1"
    ],
    "status": "L",
    "via": "SuperSport guide"
@@ -6282,7 +6223,7 @@
    "away": "Diriyah Club"
   },
   {
-   "start": "2026-12-03T18:30:00.000Z",
+   "start": "2026-12-03T17:30:00.000Z",
    "end": "2026-12-03T21:30:00.000Z",
    "sport": "golf",
    "comp": "PGA World Challenge D1",
@@ -6403,6 +6344,18 @@
    "via": "SuperSport guide"
   },
   {
+   "start": "2026-12-04T10:50:00.000Z",
+   "end": "2026-12-04T12:00:00.000Z",
+   "sport": "other",
+   "comp": "WAS Champs",
+   "detail": "D4 SFs & Finals",
+   "channels": [
+    "ss-extra-1"
+   ],
+   "status": "L",
+   "via": "SuperSport guide"
+  },
+  {
    "start": "2026-12-04T10:55:00.000Z",
    "end": "2026-12-04T12:00:00.000Z",
    "sport": "football",
@@ -6503,18 +6456,6 @@
    "via": "SuperSport guide",
    "home": "Al Ahli",
    "away": "Al Faisaly"
-  },
-  {
-   "start": "2026-12-04T15:45:00.000Z",
-   "end": "2026-12-04T18:00:00.000Z",
-   "sport": "other",
-   "comp": "WAS Champs",
-   "detail": "D4 SFs & Finals",
-   "channels": [
-    "ss-extra-1"
-   ],
-   "status": "L",
-   "via": "SuperSport guide"
   },
   {
    "start": "2026-12-04T16:30:00.000Z",
@@ -7469,7 +7410,7 @@
  "rightsWatch": {
   "mlb": {
    "ok": true,
-   "checked": "2026-11-24T13:48:50.039Z",
+   "checked": "2026-11-24T23:57:02.939Z",
    "url": "https://www.mlb.com/postseason/international-broadcasters",
    "rows": [
     {
@@ -7497,7 +7438,7 @@
   },
   "afc": {
    "ok": true,
-   "checked": "2026-11-24T13:48:51.373Z",
+   "checked": "2026-11-24T23:57:04.418Z",
    "url": "https://www.the-afc.com/en/more/content/2903007.html",
    "rows": [
     {
@@ -7518,7 +7459,7 @@
   },
   "afc-asian-cup": {
    "ok": true,
-   "checked": "2026-11-24T13:48:52.740Z",
+   "checked": "2026-11-24T23:57:06.483Z",
    "url": "https://www.the-afc.com/en/national/afc_asian_cup/afc_asian_cup_-_where_to_watch.html",
    "rows": []
   }
